@@ -14,59 +14,54 @@ const Navbar: React.FC = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const navLinks = [
-        { name: 'About', href: '#about' },
-        { name: 'Features', href: '#features' },
-        { name: 'Tokenomics', href: '#tokenomics' },
-        { name: 'Roadmap', href: '#roadmap' },
-        { name: 'Team', href: '#team' },
-    ];
-
     return (
         <motion.nav
             initial={{ y: -100 }}
             animate={{ y: 0 }}
-            className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-dark/90 backdrop-blur-md border-b border-white/10' : 'bg-transparent'
+            className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#060612]/90 backdrop-blur-md border-b border-white/5' : 'bg-transparent'
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
-                    <div className="flex-shrink-0">
-                        <a href="#" className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                            ZexAi
-                        </a>
-                    </div>
-
-                    <div className="hidden md:block">
-                        <div className="ml-10 flex items-baseline space-x-8">
-                            {navLinks.map((link) => (
-                                <a
-                                    key={link.name}
-                                    href={link.href}
-                                    className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                                >
-                                    {link.name}
-                                </a>
-                            ))}
+                    <div className="flex items-center gap-3">
+                        <div className="relative flex items-center justify-center w-10 h-10 group cursor-pointer">
+                            <div className="absolute inset-1 bg-gradient-to-tr from-purple-500 to-cyan-500 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity" />
+                            <img src="/logo192.png" alt="ZexAi" className="relative w-10 h-10 object-contain drop-shadow-lg" />
                         </div>
+                        <span className="text-2xl font-black tracking-tighter bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+                            ZexAi
+                        </span>
                     </div>
 
-                    <div className="hidden md:block">
+                    <div className="flex items-center gap-4">
+                        {/* Language Switcher Placeholder */}
+                        <div className="hidden md:flex items-center gap-2 text-sm text-gray-400">
+                            <span>🌐</span>
+                            <span>Türkçe</span>
+                        </div>
+
+                        {/* Wallet Connect Button */}
+                        <button className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white text-sm transition-all">
+                            🔗 Cüzdan Bağla
+                        </button>
+
+                        {/* App Login */}
                         <a
                             href="https://app.zexai.io"
-                            className="bg-primary hover:bg-primary-hover text-white px-6 py-2 rounded-full font-medium transition-all flex items-center gap-2"
+                            className="hidden md:block px-5 py-2.5 rounded-xl font-medium bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-sm text-white"
                         >
-                            Uygulamaya Git
+                            App Login
                         </a>
-                    </div>
 
-                    <div className="-mr-2 flex md:hidden">
-                        <button
-                            onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-400 hover:text-white p-2"
-                        >
-                            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-                        </button>
+                        {/* Mobile Menu Toggle */}
+                        <div className="-mr-2 flex md:hidden">
+                            <button
+                                onClick={() => setIsOpen(!isOpen)}
+                                className="text-gray-400 hover:text-white p-2"
+                            >
+                                {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,24 +71,17 @@ const Navbar: React.FC = () => {
                 <motion.div
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: 'auto' }}
-                    className="md:hidden bg-dark-lighter border-b border-white/10"
+                    className="md:hidden bg-[#0A0A1F] border-b border-white/10"
                 >
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        {navLinks.map((link) => (
-                            <a
-                                key={link.name}
-                                href={link.href}
-                                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                onClick={() => setIsOpen(false)}
-                            >
-                                {link.name}
-                            </a>
-                        ))}
+                    <div className="px-4 pt-4 pb-6 space-y-3">
+                        <button className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-medium bg-gradient-to-r from-purple-600 to-cyan-600 text-white text-sm transition-all">
+                            🔗 Cüzdan Bağla
+                        </button>
                         <a
                             href="https://app.zexai.io"
-                            className="w-full mt-4 bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg font-medium transition-all flex items-center justify-center gap-2"
+                            className="w-full block text-center px-5 py-3 rounded-xl font-medium bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-sm text-white"
                         >
-                            Uygulamaya Git
+                            App Login
                         </a>
                     </div>
                 </motion.div>

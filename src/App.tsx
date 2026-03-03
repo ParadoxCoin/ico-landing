@@ -1,25 +1,30 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import RobotStore from './components/RobotStore';
 
 function App() {
   return (
-    <div className="bg-dark min-h-screen text-white selection:bg-primary selection:text-white">
+    <div className="min-h-screen bg-[#060612] text-white selection:bg-purple-500/30 overflow-hidden font-sans">
       <Navbar />
       <main>
         <Hero />
-        <RobotStore />
-        {/* Placeholder for other sections */}
-        <section id="about" className="h-screen flex items-center justify-center bg-dark-lighter">
-          <h2 className="text-4xl font-bold text-gray-700">About Section Placeholder</h2>
-        </section>
-        <section id="features" className="h-screen flex items-center justify-center bg-dark">
-          <h2 className="text-4xl font-bold text-gray-700">Features Section Placeholder</h2>
-        </section>
-        <section id="tokenomics" className="h-screen flex items-center justify-center bg-dark-lighter">
-          <h2 className="text-4xl font-bold text-gray-700">Tokenomics Section Placeholder</h2>
-        </section>
       </main>
+
+      {/* Footer */}
+      <footer className="border-t border-white/5 bg-[#03030A] py-12 px-6">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-2">
+            <img src="/logo192.png" alt="ZexAi" className="w-6 h-6 grayscale opacity-70" />
+            <span className="text-gray-500 font-medium">© 2026 ZexAi. All rights reserved.</span>
+          </div>
+          <div className="flex gap-6 text-sm text-gray-400">
+            <a href="/whitepaper" className="hover:text-white transition-colors">Whitepaper</a>
+            <a href="#" className="hover:text-white transition-colors">Terms</a>
+            <a href="#" className="hover:text-white transition-colors">Privacy</a>
+            <a href="#" className="hover:text-white transition-colors">Twitter</a>
+            <a href="#" className="hover:text-white transition-colors">Discord</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
