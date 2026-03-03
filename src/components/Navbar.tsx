@@ -41,16 +41,16 @@ const Navbar: React.FC = () => {
                         </div>
 
                         {/* Wallet Connect Button */}
-                        <button className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white text-sm transition-all">
-                            🔗 Cüzdan Bağla
-                        </button>
+                        <div className="hidden md:flex items-center">
+                            <w3m-button />
+                        </div>
 
                         {/* App Login */}
                         <a
                             href="https://app.zexai.io"
                             className="hidden md:block px-5 py-2.5 rounded-xl font-medium bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-sm text-white"
                         >
-                            App Login
+                            Uygulamaya Git
                         </a>
 
                         {/* Mobile Menu Toggle */}
@@ -74,14 +74,14 @@ const Navbar: React.FC = () => {
                     className="md:hidden bg-[#0A0A1F] border-b border-white/10"
                 >
                     <div className="px-4 pt-4 pb-6 space-y-3">
-                        <button className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-medium bg-gradient-to-r from-purple-600 to-cyan-600 text-white text-sm transition-all">
-                            🔗 Cüzdan Bağla
-                        </button>
+                        <div className="flex justify-center w-full">
+                            <w3m-button />
+                        </div>
                         <a
                             href="https://app.zexai.io"
                             className="w-full block text-center px-5 py-3 rounded-xl font-medium bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-sm text-white"
                         >
-                            App Login
+                            Uygulamaya Git
                         </a>
                     </div>
                 </motion.div>
