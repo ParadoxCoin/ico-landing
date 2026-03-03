@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import RobotStore from './components/RobotStore';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <RobotStore />
         {/* Placeholder for other sections */}
         <section id="about" className="h-screen flex items-center justify-center bg-dark-lighter">
           <h2 className="text-4xl font-bold text-gray-700">About Section Placeholder</h2>
