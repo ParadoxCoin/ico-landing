@@ -5,11 +5,11 @@ import { useTranslation } from 'react-i18next';
 
 const languages = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'zh', name: '中文', flag: '🇨🇳' },
+    { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
     { code: 'su', name: 'Sumerian', flag: '🗿' }
 ];
 
