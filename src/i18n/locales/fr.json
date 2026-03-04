@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "language": "Français",
+        "goToApp": "Aller à l'Application"
+    },
+    "hero": {
+        "visionBadge": "La Vision d'un Père, La Toile du Monde",
+        "mainTitleLine1": "La Nouvelle Évolution de",
+        "mainTitleLine2": "l'Art IA et Web3",
+        "description": "Transformez vos émotions en chefs-d'œuvre numériques avec plus de 40 modèles d'IA d'élite. Muntez-les en NFT sur OpenSea et Zora en un seul clic. Construit non seulement pour le profit, mais pour l'avenir illimité de la créativité.",
+        "joinPresale": "Rejoindre la Prévente",
+        "tryApp": "Essayer l'App",
+        "stats": {
+            "aiModels": "Modèles d'IA",
+            "emotions": "Émotions Capturées",
+            "communityShare": "Part de la Communauté",
+            "status": "État de la Plateforme",
+            "statusLive": "En Ligne"
+        }
+    },
+    "story": {
+        "title": "Un Avenir Codé avec Amour",
+        "p1": "Chaque grande innovation commence par une étincelle intérieure. Alors que la plupart des projets technologiques naissent avec des marges bénéficiaires en tête, la fondation de ZexAI repose sur un pouvoir beaucoup plus inébranlable : <1>L'amour sans limites et l'espoir d'un père pour sa fille.</1>",
+        "p2": "Savez-vous ce que c'est pour un père dont la fille est malade de passer des jours sans dormir ? Ce corps épuisé ne permet jamais à son esprit d'abandonner. Parce que cette attente n'est pas pour une récompense, mais simplement pour que cette âme innocente retrouve la santé.",
+        "p3": "C'est exactement cette énergie inépuisable et sans attente dont est né l'esprit de ZexAI. Ce n'est pas seulement une entreprise ; c'est une <1>usine d'art colossale qui lève les barrières à la créativité, à l'espoir et à la création de valeur.</1>",
+        "p4": "Nous avons conçu cette plateforme avec une approche \"IA et NFT\" pour offrir au monde entier ce terrain de jeu sûr qu'un père offre à son enfant, et pour intégrer des millions de personnes qui n'arrêtent jamais de rêver dans l'économie Web3.",
+        "readWhitepaper": "Lire le Livre Blanc Complet"
+    },
+    "campaign": {
+        "title": "Écosystème ZexAI & Opportunités",
+        "subtitle": "Une plateforme décentralisée construite sur la transparence, l'amour et une utilité visionnaire. Générez, muntez en NFT, gagnez et faites partie de l'avenir physique.",
+        "tabVision": "Écosystème NFT",
+        "tabTokenomics": "Économie $ZEX",
+        "tabRobot": "Robot Édition Fondateur 🚀"
+    },
+    "vision": {
+        "agentTitle": "Agent IA Synapse",
+        "agentDesc": "Tapez simplement \"Espoir\" et laissez l'Agent Synapse créer le prompt parfait pour une œuvre d'art époustouflante. Aucune ingénierie de prompt requise.",
+        "mintBadge": "INTÉGRATION CONTINUE",
+        "mintTitle": "Muntez directement sur OpenSea & Zora",
+        "mintDesc": "ZexAI vous permet de devenir un artiste reconnu mondialement en quelques secondes. Générez des images ou des vidéos avec l'IA et muntez-les comme NFT sur les plus grands marchés du monde en un seul clic.",
+        "whyWinTitle": "Pourquoi les Créateurs de ZexAI Gagnent :",
+        "whyWin1": "Droits commerciaux complets et libres de redevances pour toutes les générations",
+        "whyWin2": "Mintage optimisé en gas directement depuis le tableau de bord",
+        "whyWin3": "Réductions de commission alimentées par les jetons $ZEX",
+        "startCreating": "Commencer à Créer & Minter"
+    },
+    "tokenomics": {
+        "supplyBadge": "OFFRE TOTALE : 1.000.000.000",
+        "title": "Plan de Distribution $ZEX",
+        "desc": "Un modèle de distribution équitable, à long terme et axé sur la communauté. Conçu pour la durabilité, pas pour la spéculation à court terme. Les jetons de l'équipe sont entièrement bloqués pendant 1 an.",
+        "tiers": [
+            {
+                "name": "35% - Prévente / ICO",
+                "desc": "Phase Communautaire 1"
+            },
+            {
+                "name": "25% - Écosystème & Staking",
+                "desc": "Récompenses pour les Utilisateurs et les Créateurs"
+            },
+            {
+                "name": "15% - Liquidité CEX / DEX",
+                "desc": "Bloqué pour la stabilité"
+            },
+            {
+                "name": "10% - Marketing & Partenariats",
+                "desc": "OpenSea, Zora, Croissance Mondiale"
+            },
+            {
+                "name": "10% - Équipe & Fondateurs",
+                "desc": "Verrouillage Complet 1 An (Nous sommes là pour rester)"
+            },
+            {
+                "name": "5% - Conseillers",
+                "desc": "Verrouillés 6 Mois"
+            }
+        ],
+        "utilityTitle": "Utilité et Stabilité de $ZEX",
+        "utilityDesc": "Les détenteurs de jetons gagnent un revenu passif sur le partage des revenus de la plateforme, bénéficient de réductions sur la génération et participent à des événements réguliers de \"Rachat et Destruction\".",
+        "burnTitle": "Déflationniste (Destruction)",
+        "burnDesc": ": le $ZEX est racheté sur le marché grâce aux revenus de l'écosystème et détruit.",
+        "yieldTitle": "Rendement Réel (Real Yield)",
+        "yieldDesc": ": Les stakers gagnent une partie des revenus d'abonnement et de génération."
+    },
+    "robot": {
+        "badgeLimited": "Édition Limitée",
+        "badgeAi": "IA Intégrée",
+        "title": "Robot Humanoïde ZexAI (Édition Fondateur)",
+        "desc": "Transcendez les limites des logiciels ! Possédez un robot humanoïde construit sur mesure, intégré à 100% dans l'écosystème ZexAI. Le premier lot est strictement limité à <1>seulement 80 unités</1> et ne sera plus jamais produit.",
+        "buyTitle": "Achat Direct (80 Unités)",
+        "buyPrice": "Prix (Avec Portefeuille)",
+        "buyLeft": "Il ne reste que {{count}} unités!",
+        "raffleTitle": "Grand Tirage au Sort ICO (20 Unités)",
+        "raffleDesc": "Gagnez votre billet de tombola en achetant <1>au moins 10 000 ZEX</1> lors de la prévente. Saisissez l'opportunité de gagner un Robot Humanoïde gratuit dans notre campagne virale !",
+        "raffleBtn": "🎯 Rejoindre le Tirage (Bientôt)",
+        "confirmPurchase": "Confirmer l'Achat"
+    }
+}

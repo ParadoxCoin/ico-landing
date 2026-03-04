@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "language": "Español",
+        "goToApp": "Ir a la Aplicación"
+    },
+    "hero": {
+        "visionBadge": "La Visión de un Padre, El Lienzo del Mundo",
+        "mainTitleLine1": "La Nueva Evolución del",
+        "mainTitleLine2": "Arte IA y Web3",
+        "description": "Transforma tus emociones en obras maestras digitales con más de 40 modelos élite de IA. Acúñalos como NFTs en OpenSea y Zora con un solo clic. Construido no solo para obtener ganancias, sino para el futuro ilimitado de la creatividad.",
+        "joinPresale": "Únete a la Preventa",
+        "tryApp": "Prueba la App",
+        "stats": {
+            "aiModels": "Modelos de IA",
+            "emotions": "Emoción Capturada",
+            "communityShare": "Participación Comunidad",
+            "status": "Estado de la Plataforma",
+            "statusLive": "En Vivo"
+        }
+    },
+    "story": {
+        "title": "Un Futuro Codificado con Amor",
+        "p1": "Toda gran innovación comienza con una chispa interior. Mientras la mayoría de los proyectos tecnológicos nacen con márgenes de beneficio en mente, la base de ZexAI descansa sobre un poder mucho más inquebrantable: <1>El amor y la esperanza ilimitados de un padre por su hija.</1>",
+        "p2": "¿Sabes lo que es para un padre con una hija enferma pasar días sin dormir? Ese cuerpo exhausto nunca permite que su mente se rinda. Porque esa espera no es por una recompensa, sino simplemente para que esa alma inocente recupere su salud.",
+        "p3": "Esa es exactamente la energía inagotable y sin expectativas de la que nació el espíritu de ZexAI. No es solo una empresa; es una <1>fábrica de arte colosal que elimina las barreras a la creatividad, la esperanza y la creación de valor.</1>",
+        "p4": "Diseñamos esta plataforma con un enfoque de \"IA y NFT\" para ofrecer a todo el mundo ese patio de recreo seguro que un padre brinda a su hijo, y para integrar a millones que nunca dejan de soñar en la economía Web3.",
+        "readWhitepaper": "Leer el Whitepaper Completo"
+    },
+    "campaign": {
+        "title": "Ecosistema ZexAI y Oportunidades",
+        "subtitle": "Una plataforma descentralizada construida sobre la transparencia, el amor y la utilidad visionaria. Genera, acuña NFT, gana y sé parte del futuro físico.",
+        "tabVision": "Ecosistema NFT",
+        "tabTokenomics": "Economía $ZEX",
+        "tabRobot": "Robot Edición Fundador 🚀"
+    },
+    "vision": {
+        "agentTitle": "Agente IA Synapse",
+        "agentDesc": "Simplemente escribe \"Esperanza\" y deja que el Agente Synapse elabore el prompt perfecto para una obra de arte impresionante. No se requiere ingeniería de prompts.",
+        "mintBadge": "INTEGRACIÓN PERFECTA",
+        "mintTitle": "Acuña Directamente en OpenSea y Zora",
+        "mintDesc": "ZexAI te permite convertirte en un artista reconocido a nivel mundial en segundos. Genera imágenes o videos con IA y acúñalos como NFTs en los mercados más grandes del mundo con un solo clic.",
+        "whyWinTitle": "Por Qué Ganan los Creadores de ZexAI:",
+        "whyWin1": "Derechos comerciales completos y libres de regalías para todas las generaciones",
+        "whyWin2": "Acuñación directa optimizada de gas desde el panel de control",
+        "whyWin3": "Descuentos en comisiones impulsados por tokens $ZEX",
+        "startCreating": "Empieza a Crear y Acuñar"
+    },
+    "tokenomics": {
+        "supplyBadge": "SUMINISTRO TOTAL: 1,000,000,000",
+        "title": "Plan de Distribución $ZEX",
+        "desc": "Un modelo de distribución justo, a largo plazo y centrado en la comunidad. Construido para la sostenibilidad, no para la especulación a corto plazo. Los tokens del equipo están completamente bloqueados por 1 año.",
+        "tiers": [
+            {
+                "name": "35% - Preventa / ICO",
+                "desc": "Fase Comunitaria 1"
+            },
+            {
+                "name": "25% - Ecosistema y Staking",
+                "desc": "Recompensas para Usuarios y Creadores"
+            },
+            {
+                "name": "15% - Liquidez CEX / DEX",
+                "desc": "Bloqueado para estabilidad"
+            },
+            {
+                "name": "10% - Marketing y Asociaciones",
+                "desc": "OpenSea, Zora, Crecimiento Global"
+            },
+            {
+                "name": "10% - Equipo y Fundadores",
+                "desc": "Bloqueo Total 1 Año (Llegamos para quedarnos)"
+            },
+            {
+                "name": "5% - Asesores",
+                "desc": "Bloqueados 6 Meses"
+            }
+        ],
+        "utilityTitle": "Utilidad y Estabilidad $ZEX",
+        "utilityDesc": "Los poseedores del token obtienen ingresos pasivos de la participación en los ingresos de la plataforma, se benefician de descuentos en la generación y participan en eventos periódicos de \"Recompra y Quema\".",
+        "burnTitle": "Deflacionario (Quema)",
+        "burnDesc": ": $ZEX se recompra del mercado utilizando los ingresos del ecosistema y se quema.",
+        "yieldTitle": "Rendimiento Real",
+        "yieldDesc": ": Los stakers obtienen una parte de los ingresos por suscripción y generación."
+    },
+    "robot": {
+        "badgeLimited": "Edición Limitada",
+        "badgeAi": "IA Integrada",
+        "title": "ZexAI Humanoid Robot (Edición Fundador)",
+        "desc": "¡Trasciende los límites del software! Adquiere un Robot Humanoide hecho a medida, 100% integrado en el ecosistema ZexAI. El primer lote está estrictamente limitado a <1>solo 80 unidades</1> y nunca volverá a producirse.",
+        "buyTitle": "Compra Directa (80 Unidades)",
+        "buyPrice": "Precio (Con Billetera)",
+        "buyLeft": "¡Solo quedan {{count}} unidades!",
+        "raffleTitle": "Gran Sorteo ICO (20 Unidades)",
+        "raffleDesc": "Gana tu boleto de sorteo comprando <1>al menos 10,000 ZEX</1> durante la preventa. ¡Aprovecha la oportunidad de ganar un Robot Humanoide gratis en nuestra campaña viral!",
+        "raffleBtn": "🎯 Unirse al Sorteo (Próximamente)",
+        "confirmPurchase": "Confirmar Compra"
+    }
+}

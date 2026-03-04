@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "language": "Deutsch",
+        "goToApp": "Zur App"
+    },
+    "hero": {
+        "visionBadge": "Die Vision eines Vaters, Die Leinwand der Welt",
+        "mainTitleLine1": "Die Neue Evolution von",
+        "mainTitleLine2": "KI und Web3-Kunst",
+        "description": "Verwandle deine Emotionen in digitale Meisterwerke mit über 40 elitären KI-Modellen. Präge sie als NFTs auf OpenSea und Zora mit einem einzigen Klick. Erbaut nicht nur für Profit, sondern für die grenzenlose Zukunft der Kreativität.",
+        "joinPresale": "Am Vorverkauf teilnehmen",
+        "tryApp": "App Ausprobieren",
+        "stats": {
+            "aiModels": "KI-Modelle",
+            "emotions": "Eingefangene Emotionen",
+            "communityShare": "Community-Anteil",
+            "status": "Plattformstatus",
+            "statusLive": "Live"
+        }
+    },
+    "story": {
+        "title": "Eine Zukunft, mit Liebe codiert",
+        "p1": "Jede große Innovation beginnt mit einem inneren Funken. Während die meisten Technologieprojekte mit Blick auf Gewinnmargen geboren werden, ruht das Fundament von ZexAI auf einer viel unerschütterlicheren Kraft: <1>Der grenzenlosen Liebe und Hoffnung eines Vaters für seine Tochter.</1>",
+        "p2": "Weißt du, wie es für einen Vater mit einer kranken Tochter ist, tagelang nicht zu schlafen? Dieser erschöpfte Körper lässt nie zu, dass sein Verstand aufgibt. Denn dieses Warten ist nicht auf eine Belohnung gerichtet, sondern einfach darauf, dass diese unschuldige Seele ihre Gesundheit wiedererlangt.",
+        "p3": "Das ist genau die unermüdliche, erwartungslose Energie, aus der der Geist von ZexAI geboren wurde. Es ist nicht nur ein Unternehmen; es ist eine <1>kolossale Kunstfabrik, die die Barrieren für Kreativität, Hoffnung und Wertschöpfung beseitigt.</1>",
+        "p4": "Wir haben diese Plattform mit Fokus auf \"KI und NFT\" entwickelt, um der ganzen Welt diesen sicheren Spielplatz zu bieten, den ein Vater seinem Kind gibt, und um Millionen, die nie aufhören zu träumen, in die Web3-Wirtschaft zu integrieren.",
+        "readWhitepaper": "Vollständiges Whitepaper lesen"
+    },
+    "campaign": {
+        "title": "ZexAI Ökosystem & Möglichkeiten",
+        "subtitle": "Eine dezentrale Plattform, die auf Transparenz, Liebe und visionärem Nutzen aufbaut. Generiere, präge NFTs, verdiene und werde Teil der physischen Zukunft.",
+        "tabVision": "NFT-Ökosystem",
+        "tabTokenomics": "$ZEX-Wirtschaft",
+        "tabRobot": "Founder's Edition Roboter 🚀"
+    },
+    "vision": {
+        "agentTitle": "Synapse KI-Agent",
+        "agentDesc": "Tippe einfach \"Hoffnung\" ein und lass den Synapse-Agenten den perfekten Prompt für ein atemberaubendes Kunstwerk erstellen. Kein Prompt-Engineering erforderlich.",
+        "mintBadge": "NAHTLOSE INTEGRATION",
+        "mintTitle": "Direkt bei OpenSea & Zora prägen",
+        "mintDesc": "ZexAI ermöglicht es dir, in Sekundenschnelle ein weltweit anerkannter Künstler zu werden. Generiere Bilder oder Videos mit KI und präge sie als NFTs auf den weltweit größten Marktplätzen mit einem einzigen Klick.",
+        "whyWinTitle": "Warum ZexAI-Schöpfer gewinnen:",
+        "whyWin1": "Volle kommerzielle, lizenzfreie Rechte für alle Generationen",
+        "whyWin2": "Direktes, gasoptimiertes Prägen vom Dashboard aus",
+        "whyWin3": "Provisionsrabatte, unterstützt durch $ZEX-Token",
+        "startCreating": "Mit Erstellen & Prägen beginnen"
+    },
+    "tokenomics": {
+        "supplyBadge": "GESAMTBESTAND: 1.000.000.000",
+        "title": "$ZEX Verteilungsplan",
+        "desc": "Ein faires, langfristiges und gemeinschaftsorientiertes Verteilungsmodell. Gebaut für Nachhaltigkeit, nicht für kurzfristige Spekulation. Team-Token sind für 1 Jahr vollständig gesperrt.",
+        "tiers": [
+            {
+                "name": "35% - Vorverkauf / ICO",
+                "desc": "Community-Phase 1"
+            },
+            {
+                "name": "25% - Ökosystem & Staking",
+                "desc": "Belohnungen für Nutzer & Schöpfer"
+            },
+            {
+                "name": "15% - CEX / DEX Liquidität",
+                "desc": "Gesperrt für Stabilität"
+            },
+            {
+                "name": "10% - Marketing & Partnerschaften",
+                "desc": "OpenSea, Zora, Globales Wachstum"
+            },
+            {
+                "name": "10% - Team & Gründer",
+                "desc": "1 Jahr volle Sperre (Wir sind gekommen, um zu bleiben)"
+            },
+            {
+                "name": "5% - Berater",
+                "desc": "6 Monate gesperrt"
+            }
+        ],
+        "utilityTitle": "$ZEX Nutzen & Stabilität",
+        "utilityDesc": "Token-Inhaber erzielen passives Einkommen aus der Umsatzbeteiligung der Plattform, profitieren von Generationsrabatten und nehmen an regelmäßigen \"Buyback & Burn\"-Events teil.",
+        "burnTitle": "Deflationär (Verbrennung)",
+        "burnDesc": ": $ZEX wird mit Einnahmen des Ökosystems vom Markt zurückgekauft und verbrannt.",
+        "yieldTitle": "Reale Rendite (Real Yield)",
+        "yieldDesc": ": Staker erhalten einen Anteil an den Abonnement- und Generationserlösen."
+    },
+    "robot": {
+        "badgeLimited": "Limitierte Auflage",
+        "badgeAi": "KI Integriert",
+        "title": "ZexAI Humanoid Robot (Founder's Edition)",
+        "desc": "Überschreite die Grenzen von Software! Besitze einen maßgefertigten humanoiden Roboter, 100% in das ZexAI-Ökosystem integriert. Die erste Charge ist streng auf <1>nur 80 Einheiten</1> limitiert und wird nie wieder produziert.",
+        "buyTitle": "Direktkauf (80 Stück)",
+        "buyPrice": "Preis (Mit Wallet)",
+        "buyLeft": "Nur noch {{count}} Stück verfügbar!",
+        "raffleTitle": "Große ICO-Verlosung (20 Stück)",
+        "raffleDesc": "Verdiene dir dein Los, indem du während des Vorverkaufs <1>mindestens 10.000 ZEX</1> kaufst. Nutze die Chance, in unserer viralen Kampagne einen kostenlosen humanoiden Roboter zu gewinnen!",
+        "raffleBtn": "🎯 An der Verlosung teilnehmen (Bald)",
+        "confirmPurchase": "Kauf Bestätigen"
+    }
+}

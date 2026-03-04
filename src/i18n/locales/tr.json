@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "language": "Türkçe",
+        "goToApp": "Uygulamaya Git"
+    },
+    "hero": {
+        "visionBadge": "Bir Babanın Vizyonu, Dünyanın Tuvali",
+        "mainTitleLine1": "Yapay Zeka ve Web3 Sanatının",
+        "mainTitleLine2": "Yeni Evrimi",
+        "description": "40'tan fazla elit yapay zeka modeliyle duygularınızı dijital başyapıtlara dönüştürün. Tek tıkla OpenSea ve Zora'da NFT olarak basın. Sadece kâr için değil, yaratıcılığın sınırsız geleceği için inşa edildi.",
+        "joinPresale": "Ön Satışa Katıl",
+        "tryApp": "Uygulamayı Dene",
+        "stats": {
+            "aiModels": "Yapay Zeka Modeli",
+            "emotions": "Yakalanan Duygu",
+            "communityShare": "Topluluk Payı",
+            "status": "Platform Durumu",
+            "statusLive": "Yayında"
+        }
+    },
+    "story": {
+        "title": "Sevgiyle Kodlanan Bir Gelecek",
+        "p1": "Her büyük yenilik içsel bir kıvılcımla başlar. Çoğu teknoloji projesi kâr marjlarıyla doğarken, ZexAI’nin temeli çok daha sarsılmaz bir güce dayanır: <1>Bir babanın kızı için beslediği sınırsız sevgi ve umut.</1>",
+        "p2": "Kızı hasta olan bir babanın günlerce uyumamasını bilir misiniz? O yorgun beden zihninin yorulmasına asla izin vermez. Çünkü o bekleyiş bir ödül için değil, sadece o masum canın sağlığına kavuşması içindir.",
+        "p3": "İşte ZexAI’nin ruhu tam da bu yorulmak bilmez, beklentisiz enerjiden doğmuştur. Sadece bir şirket değil; <1>yaratıcılığın, umudun ve değer üretmenin önündeki engelleri kaldıran</1> devasa bir sanat fabrikasıdır.",
+        "p4": "Biz bu platformu, bir babanın çocuğuna sunduğu o güvenli oyun alanını tüm dünyaya sunmak, hayal etmekten vazgeçmeyen milyonları Web3 ekonomisine dahil etmek için \"Yapay Zeka ve NFT\" odaklı tasarladık.",
+        "readWhitepaper": "Whitepaper'ın Tamamını Oku"
+    },
+    "campaign": {
+        "title": "ZexAI Ekosistemi ve Fırsatlar",
+        "subtitle": "Şeffaflık, sevgi ve vizyoner bir fayda üzerine inşa edilmiş merkeziyetsiz bir platform. Üret, NFT'ye dönüştür, kazan ve fiziksel geleceğin bir parçası ol.",
+        "tabVision": "NFT Ekosistemi",
+        "tabTokenomics": "$ZEX Ekonomisi",
+        "tabRobot": "Founder's Edition Robot 🚀"
+    },
+    "vision": {
+        "agentTitle": "Synapse AI Ajanı",
+        "agentDesc": "Sadece \"Umut\" yazın, Synapse Ajanı nefes kesici bir sanat eseri için mükemmel komutu (prompt) hazırlasın. Mühendisliğe gerek yok.",
+        "mintBadge": "KUSURSUZ ENTEGRASYON",
+        "mintTitle": "Doğrudan OpenSea ve Zora'ya Mintle",
+        "mintDesc": "ZexAI, saniyeler içinde küresel çapta tanınan bir sanatçı olmanızı sağlar. Yapay zeka ile görsel veya video üretin ve tek tıkla dünyanın en büyük pazarlarında NFT olarak basın.",
+        "whyWinTitle": "Neden ZexAI Üreticileri Kazanıyor:",
+        "whyWin1": "Tüm üretimler için telifsiz tam ticari haklar",
+        "whyWin2": "Panel üzerinden doğrudan optimize edilmiş (gas-optimized) mintleme",
+        "whyWin3": "$ZEX tokenleri ile desteklenen komisyon indirimleri",
+        "startCreating": "Üretmeye ve Mintlemeye Başla"
+    },
+    "tokenomics": {
+        "supplyBadge": "TOPLAM ARZ: 1.000.000.000",
+        "title": "$ZEX Dağıtım Planı",
+        "desc": "Adil, uzun vadeli ve topluluk odaklı bir dağıtım modeli. Kısa vadeli spekülasyonlar için değil, sürdürülebilirlik için inşa edildi. Takım tokenleri 1 yıl tam kilitlidir.",
+        "tiers": [
+            {
+                "name": "%35 - Ön Satış / ICO",
+                "desc": "Topluluk Fazı 1"
+            },
+            {
+                "name": "%25 - Ekosistem & Staking",
+                "desc": "Kullanıcılar ve Üreticiler İçin Ödüller"
+            },
+            {
+                "name": "%15 - Merkezi / Merkeziyetsiz Borsa Likiditesi",
+                "desc": "İstikrar için kilitli"
+            },
+            {
+                "name": "%10 - Pazarlama & Partnerlikler",
+                "desc": "OpenSea, Zora, Küresel Büyüme"
+            },
+            {
+                "name": "%10 - Takım ve Kurucular",
+                "desc": "1 Yıl Tam Kilit (Biz buradayız, gitmiyoruz)"
+            },
+            {
+                "name": "%5 - Danışmanlar",
+                "desc": "6 Ay Kilitli"
+            }
+        ],
+        "utilityTitle": "$ZEX Faydaları İstikrarı",
+        "utilityDesc": "Token sahipleri platform gelir paylaşımından (Revenue Share) pasif gelir elde eder, üretim indirimlerinden faydalanır ve periyodik \"Geri Alım & Yakım\" etkinliklerine katılır.",
+        "burnTitle": "Deflasyonist (Yakım)",
+        "burnDesc": ": Ekosistem gelirleriyle piyasadan $ZEX alınır ve yakılır.",
+        "yieldTitle": "Gerçek Gelir (Real Yield)",
+        "yieldDesc": ": Staking yapanlar, abonelik ve üretim gelirlerinden pay alır."
+    },
+    "robot": {
+        "badgeLimited": "Sınırlı Üretim",
+        "badgeAi": "Yapay Zeka Entegreli",
+        "title": "ZexAI İnsansı Robot (Founder's Edition)",
+        "desc": "Yazılım sınırlarını aşın! ZexAI ekosistemine %100 entegre, özel üretim İnsansı Robot'a sahip olun. İlk parti <1>yalnızca 80 adet</1> ile sınırlandırılmıştır ve bir daha üretilmeyecektir.",
+        "buyTitle": "Doğrudan Satın Al (80 Adet)",
+        "buyPrice": "Fiyat (Cüzdan İle)",
+        "buyLeft": "Sadece {{count}} adet kaldı!",
+        "raffleTitle": "Büyük ICO Çekilişi (20 Adet)",
+        "raffleDesc": "Ön satışta <1>en az 10.000 ZEX</1> alarak çekiliş biletinizi kazanın. Viral kampanyamızda bedava İnsansı Robot şansını yakalayın!",
+        "raffleBtn": "🎯 Çekilişe Katıl (Yakında)",
+        "confirmPurchase": "Satın Alımı Onayla"
+    }
+}

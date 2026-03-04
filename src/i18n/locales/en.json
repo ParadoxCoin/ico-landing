@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "language": "English",
+        "goToApp": "Go to App"
+    },
+    "hero": {
+        "visionBadge": "A Father's Vision, The World's Canvas",
+        "mainTitleLine1": "The New Evolution of",
+        "mainTitleLine2": "AI and Web3 Art",
+        "description": "Transform your emotions into digital masterpieces with over 40 elite AI models. Mint them as NFTs on OpenSea and Zora with a single click. Built not just for profit, but for the boundless future of creativity.",
+        "joinPresale": "Join Presale",
+        "tryApp": "Try the App",
+        "stats": {
+            "aiModels": "AI Models",
+            "emotions": "Captured Emotion",
+            "communityShare": "Community Share",
+            "status": "Platform Status",
+            "statusLive": "Live"
+        }
+    },
+    "story": {
+        "title": "A Future Coded with Love",
+        "p1": "Every great innovation starts with an inner spark. While most tech projects are born with profit margins in mind, ZexAI's foundation rests on a much more unshakable power: <1>A father's boundless love and hope for his daughter.</1>",
+        "p2": "Do you know what it's like for a father with a sick daughter to go days without sleep? That exhausted body never lets his mind give up. Because that wait is not for a reward, but simply for that innocent soul to regain her health.",
+        "p3": "That is exactly the tireless, expectation-free energy from which ZexAI's spirit was born. It is not just a company; it is a <1>colossal art factory that removes the barriers to creativity, hope, and value creation.</1>",
+        "p4": "We designed this platform with an \"AI and NFT\" focus to offer the entire world that safe playground a father provides his child, and to integrate millions who never stop dreaming into the Web3 economy.",
+        "readWhitepaper": "Read the Full Whitepaper"
+    },
+    "campaign": {
+        "title": "ZexAI Ecosystem & Opportunities",
+        "subtitle": "A decentralized platform built on transparency, love, and visionary utility. Generate, mint to NFT, earn, and be part of the physical future.",
+        "tabVision": "NFT Ecosystem",
+        "tabTokenomics": "$ZEX Economy",
+        "tabRobot": "Founder's Edition Robot 🚀"
+    },
+    "vision": {
+        "agentTitle": "Synapse AI Agent",
+        "agentDesc": "Just type \"Hope\" and let the Synapse Agent craft the perfect prompt for a breathtaking artwork. No prompt engineering required.",
+        "mintBadge": "SEAMLESS INTEGRATION",
+        "mintTitle": "Mint Directly to OpenSea & Zora",
+        "mintDesc": "ZexAI allows you to become a globally recognized artist in seconds. Generate images or videos with AI and mint them as NFTs on the world's largest marketplaces with a single click.",
+        "whyWinTitle": "Why ZexAI Creators Win:",
+        "whyWin1": "Full commercial, royalty-free rights for all generations",
+        "whyWin2": "Direct, gas-optimized minting from the dashboard",
+        "whyWin3": "Commission discounts powered by $ZEX tokens",
+        "startCreating": "Start Creating & Minting"
+    },
+    "tokenomics": {
+        "supplyBadge": "TOTAL SUPPLY: 1,000,000,000",
+        "title": "$ZEX Distribution Plan",
+        "desc": "A fair, long-term, and community-focused distribution model. Built for sustainability, not short-term speculation. Team tokens are fully locked for 1 year.",
+        "tiers": [
+            {
+                "name": "35% - Presale / ICO",
+                "desc": "Community Phase 1"
+            },
+            {
+                "name": "25% - Ecosystem & Staking",
+                "desc": "Rewards for Users & Creators"
+            },
+            {
+                "name": "15% - CEX / DEX Liquidity",
+                "desc": "Locked for stability"
+            },
+            {
+                "name": "10% - Marketing & Partnerships",
+                "desc": "OpenSea, Zora, Global Growth"
+            },
+            {
+                "name": "10% - Team & Founders",
+                "desc": "1 Year Full Lock (We are here to stay)"
+            },
+            {
+                "name": "5% - Advisors",
+                "desc": "6 Months Locked"
+            }
+        ],
+        "utilityTitle": "$ZEX Utility & Stability",
+        "utilityDesc": "Token holders earn passive income from the platform's Revenue Share, benefit from generation discounts, and participate in periodic \"Buyback & Burn\" events.",
+        "burnTitle": "Deflationary (Burn)",
+        "burnDesc": ": $ZEX is bought back from the market using ecosystem revenues and burned.",
+        "yieldTitle": "Real Yield",
+        "yieldDesc": ": Stakers earn a share of subscription and generation revenues."
+    },
+    "robot": {
+        "badgeLimited": "Limited Edition",
+        "badgeAi": "AI Integrated",
+        "title": "ZexAI Humanoid Robot (Founder's Edition)",
+        "desc": "Transcend the limits of software! Own a custom-built Humanoid Robot, 100% integrated into the ZexAI ecosystem. The first batch is strictly limited to <1>only 80 units</1> and will never be produced again.",
+        "buyTitle": "Direct Purchase (80 Units)",
+        "buyPrice": "Price (With Wallet)",
+        "buyLeft": "Only {{count}} units left!",
+        "raffleTitle": "Grand ICO Raffle (20 Units)",
+        "raffleDesc": "Earn your raffle ticket by purchasing <1>at least 10,000 ZEX</1> during the presale. Catch the chance to win a free Humanoid Robot in our viral campaign!",
+        "raffleBtn": "🎯 Join Raffle (Soon)",
+        "confirmPurchase": "Confirm Purchase"
+    }
+}
