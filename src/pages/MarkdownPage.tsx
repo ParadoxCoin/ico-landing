@@ -4,40 +4,41 @@ import remarkGfm from 'remark-gfm';
 import { motion } from 'framer-motion';
 import { ArrowLeft, FileText } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface MarkdownPageProps {
-    fileUrl: string;
-    title: string;
+    fileUrlTemplate: string;  // e.g. "/ZEX_TERMS_{LANG}.md"
+    titleKey: string;         // e.g. "markdown.termsTitle"
 }
 
-const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileUrl, title }) => {
+const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileUrlTemplate, titleKey }) => {
+    const { t, i18n } = useTranslation();
     const [content, setContent] = useState('');
     const location = useLocation();
 
-    // Re-fetch when the location changes (if navigating between md pages)
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to top on load
+        window.scrollTo(0, 0);
+        const lang = (i18n.language || 'en').toUpperCase();
+        const fileUrl = fileUrlTemplate.replace('{LANG}', lang);
+        const fallbackUrl = fileUrlTemplate.replace('{LANG}', 'EN');
 
-        // Fetch the markdown file
         fetch(fileUrl)
             .then(res => {
-                if (!res.ok) throw new Error("Could not load the markdown file");
+                if (!res.ok) return fetch(fallbackUrl).then(r => r.text());
                 return res.text();
             })
             .then(text => setContent(text))
             .catch(err => console.error("Error loading markdown:", err));
-    }, [fileUrl, location.pathname]);
+    }, [fileUrlTemplate, location.pathname, i18n.language]);
 
     return (
         <div className="min-h-screen bg-[#060612] text-gray-300 font-sans selection:bg-cyan-500/30 overflow-x-hidden pt-24 pb-32">
-            {/* Subtle Background Effects */}
             <div className="fixed inset-0 pointer-events-none z-0">
                 <div className="absolute top-[10%] left-[10%] w-[30%] h-[30%] bg-purple-600/10 rounded-full blur-[100px]" />
                 <div className="absolute bottom-[20%] right-[10%] w-[40%] h-[30%] bg-cyan-600/10 rounded-full blur-[120px]" />
             </div>
 
             <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Header Navigation */}
                 <div className="mb-10 flex items-center justify-between border-b border-white/10 pb-6">
                     <Link
                         to="/"
@@ -46,18 +47,17 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileUrl, title }) => {
                         <div className="p-2 rounded-full bg-white/5 group-hover:bg-white/10 transition-colors">
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
                         </div>
-                        <span className="font-medium">Ana Sayfaya Dön</span>
+                        <span className="font-medium">{t('markdown.backToHome')}</span>
                     </Link>
 
                     <div className="flex items-center gap-3 bg-white/5 px-4 py-2 border border-white/10 rounded-full">
                         <FileText className="w-5 h-5 text-cyan-400" />
                         <span className="font-bold text-gray-200 uppercase text-xs tracking-widest">
-                            {title}
+                            {t(titleKey)}
                         </span>
                     </div>
                 </div>
 
-                {/* Markdown Content Container */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.98 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -86,7 +86,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileUrl, title }) => {
                         ) : (
                             <div className="flex flex-col items-center justify-center py-20 opacity-50 space-y-4">
                                 <div className="w-10 h-10 border-4 border-cyan-500/30 border-t-cyan-500 rounded-full animate-spin" />
-                                <p className="text-sm uppercase tracking-widest text-cyan-300">İçerik Yükleniyor...</p>
+                                <p className="text-sm uppercase tracking-widest text-cyan-300">{t('markdown.loading')}</p>
                             </div>
                         )}
                     </div>

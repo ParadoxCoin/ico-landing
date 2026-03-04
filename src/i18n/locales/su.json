@@ -1,98 +1,126 @@
 {
-    "nav": {
-        "language": "Sumerian",
-        "goToApp": "An-na Ku4"
-    },
-    "hero": {
-        "visionBadge": "Ad-da Igi, Ki-en-gi Dub",
-        "mainTitleLine1": "An-na Zà-mí",
-        "mainTitleLine2": "Web3 Gibil",
-        "description": "Dim-dim šà-zu 40+ An-na model. NFT OpenSea Zora didli dù. Nu nig-gal-la, zubi gibil dim-dim.",
-        "joinPresale": "ICO Ku4",
-        "tryApp": "Dim-dim Igi",
-        "stats": {
-            "aiModels": "An-na Model",
-            "emotions": "Šà Dim-dim",
-            "communityShare": "Ug3 Gal",
-            "status": "Ki-sur-ra",
-            "statusLive": "Zálag"
-        }
-    },
-    "story": {
-        "title": "Ki-ag-ga U4-gibil",
-        "p1": "Níg-gibil zi-ga šà. Nu níg-gal-la, ZexAI ki-sur-ra gub-ba kal-ga: <1>Ad-da dumu-munus ki-ag-ga u4-gibil.</1>",
-        "p2": "Ad-da dumu-munus gig-ga u4-nu-ná igi-bar? Níg-gi-na nu, silim-ma šà-húl.",
-        "p3": "ZexAI zi-ga kal-ga nu-šub. É-gal nu; <1>É-dub dim-dim kal-ga, u4-gibil níg-gál.</1>",
-        "p4": "Ki-sur-ra \"An-na ù NFT\" dù, ad-da dumu-munus ki-ag-ga ki-en-gi, ug3 Web3 ku4.",
-        "readWhitepaper": "Dub-sar Gal Šid"
-    },
-    "campaign": {
-        "title": "ZexAI Níg-gal-la",
-        "subtitle": "Ki-sur-ra dadag, ki-ag-ga. Dim-dim, NFT dù, gál, alan gibil ku4.",
-        "tabVision": "NFT Ki-sur-ra",
-        "tabTokenomics": "$ZEX Kù-babbar",
-        "tabRobot": "Alan Gibil 🚀"
-    },
-    "vision": {
-        "agentTitle": "Synapse An-na",
-        "agentDesc": "\"U4-gibil\" sar, Synapse dim-dim mah dù. Nu dub-sar kal-ga.",
-        "mintBadge": "ZUBI MAH",
-        "mintTitle": "OpenSea ù Zora Dù",
-        "mintDesc": "ZexAI ug3 gal dim-dim. An-na alam zubi dù, NFT ki-lam gal dù.",
-        "whyWinTitle": "A-na ZexAI Dim-dim Gál:",
-        "whyWin1": "Níg-gal-la nu, kù-babbar nu",
-        "whyWin2": "Ki-sur-ra gas-nu dù",
-        "whyWin3": "$ZEX kù-babbar silim",
-        "startCreating": "Dim-dim ù Dù"
-    },
-    "tokenomics": {
-        "supplyBadge": "ŠU-NIGIN: 1,000,000,000",
-        "title": "$ZEX Níg-gal-la",
-        "desc": "Zal-zál, u4-gid, ug3 ki-sur-ra. Níg-gi-na nu. Lugal 1 mu kél.",
-        "tiers": [
-            {
-                "name": "35% - ICO / Sa10",
-                "desc": "Ug3 U4 1"
-            },
-            {
-                "name": "25% - Ki-sur-ra & Staking",
-                "desc": "Dim-dim ù Kú-kú"
-            },
-            {
-                "name": "15% - CEX / DEX Kù",
-                "desc": "Gub-ba kél"
-            },
-            {
-                "name": "10% - Ki-lam",
-                "desc": "OpenSea, Zora, Ki-en-gi"
-            },
-            {
-                "name": "10% - Lugal",
-                "desc": "1 Mu Kél (ZexAI gub-ba)"
-            },
-            {
-                "name": "5% - Šà-tam",
-                "desc": "6 Iti Kél"
-            }
-        ],
-        "utilityTitle": "$ZEX Kù-babbar",
-        "utilityDesc": "Lugal kù-babbar gál, dim-dim silim, \"Sa10 ù IzI\" ku4.",
-        "burnTitle": "IzI (Burn)",
-        "burnDesc": ": $ZEX ki-lam sa10 ù izi.",
-        "yieldTitle": "Níg-gál Kal-ga",
-        "yieldDesc": ": Staking kù-babbar dim-dim gál."
-    },
-    "robot": {
-        "badgeLimited": "Zubi Nu",
-        "badgeAi": "An-na Ku4",
-        "title": "ZexAI Alan (Lugal)",
-        "desc": "Dub-sar gibil! Alan ZexAI ku4, 100%. <1>80 alan</1> nu gibil dù.",
-        "buyTitle": "Sa10 (80 Alan)",
-        "buyPrice": "Sa10 (É-kìshib)",
-        "buyLeft": "{{count}} alan nu!",
-        "raffleTitle": "ICO Ki-lam (20 Alan)",
-        "raffleDesc": "ICO <1>10,000 ZEX</1> sa10, ki-lam ku4. Alan gibil gál!",
-        "raffleBtn": "🎯 Ki-lam Ku4 (U4)",
-        "confirmPurchase": "Sa10 Ki-gi-na"
+  "nav": {
+    "language": "Sumerian",
+    "goToApp": "An-na Ku4"
+  },
+  "hero": {
+    "visionBadge": "Ad-da Igi, Ki-en-gi Dub",
+    "mainTitleLine1": "An-na Zà-mí",
+    "mainTitleLine2": "Web3 Gibil",
+    "description": "Dim-dim šà-zu 40+ An-na model. NFT OpenSea Zora didli dù. Nu nig-gal-la, zubi gibil dim-dim.",
+    "joinPresale": "ICO Ku4",
+    "tryApp": "Dim-dim Igi",
+    "stats": {
+      "aiModels": "An-na Model",
+      "emotions": "Šà Dim-dim",
+      "communityShare": "Ug3 Gal",
+      "status": "Ki-sur-ra",
+      "statusLive": "Zálag"
     }
+  },
+  "story": {
+    "title": "Ki-ag-ga U4-gibil",
+    "p1": "Níg-gibil zi-ga šà. Nu níg-gal-la, ZexAI ki-sur-ra gub-ba kal-ga: <1>Ad-da dumu-munus ki-ag-ga u4-gibil.</1>",
+    "p2": "Ad-da dumu-munus gig-ga u4-nu-ná igi-bar? Níg-gi-na nu, silim-ma šà-húl.",
+    "p3": "ZexAI zi-ga kal-ga nu-šub. É-gal nu; <1>É-dub dim-dim kal-ga, u4-gibil níg-gál.</1>",
+    "p4": "Ki-sur-ra \"An-na ù NFT\" dù, ad-da dumu-munus ki-ag-ga ki-en-gi, ug3 Web3 ku4.",
+    "readWhitepaper": "Dub-sar Gal Šid"
+  },
+  "campaign": {
+    "title": "ZexAI Níg-gal-la",
+    "subtitle": "Ki-sur-ra dadag, ki-ag-ga. Dim-dim, NFT dù, gál, alan gibil ku4.",
+    "tabVision": "NFT Ki-sur-ra",
+    "tabTokenomics": "$ZEX Kù-babbar",
+    "tabRobot": "Alan Gibil 🚀"
+  },
+  "vision": {
+    "agentTitle": "Synapse An-na",
+    "agentDesc": "\"U4-gibil\" sar, Synapse dim-dim mah dù. Nu dub-sar kal-ga.",
+    "mintBadge": "ZUBI MAH",
+    "mintTitle": "OpenSea ù Zora Dù",
+    "mintDesc": "ZexAI ug3 gal dim-dim. An-na alam zubi dù, NFT ki-lam gal dù.",
+    "whyWinTitle": "A-na ZexAI Dim-dim Gál:",
+    "whyWin1": "Níg-gal-la nu, kù-babbar nu",
+    "whyWin2": "Ki-sur-ra gas-nu dù",
+    "whyWin3": "$ZEX kù-babbar silim",
+    "startCreating": "Dim-dim ù Dù"
+  },
+  "tokenomics": {
+    "supplyBadge": "ŠU-NIGIN: 1,000,000,000",
+    "title": "$ZEX Níg-gal-la",
+    "desc": "Zal-zál, u4-gid, ug3 ki-sur-ra. Níg-gi-na nu. Lugal 1 mu kél.",
+    "tiers": [
+      {
+        "name": "35% - ICO / Sa10",
+        "desc": "Ug3 U4 1"
+      },
+      {
+        "name": "25% - Ki-sur-ra & Staking",
+        "desc": "Dim-dim ù Kú-kú"
+      },
+      {
+        "name": "15% - CEX / DEX Kù",
+        "desc": "Gub-ba kél"
+      },
+      {
+        "name": "10% - Ki-lam",
+        "desc": "OpenSea, Zora, Ki-en-gi"
+      },
+      {
+        "name": "10% - Lugal",
+        "desc": "1 Mu Kél (ZexAI gub-ba)"
+      },
+      {
+        "name": "5% - Šà-tam",
+        "desc": "6 Iti Kél"
+      }
+    ],
+    "utilityTitle": "$ZEX Kù-babbar",
+    "utilityDesc": "Lugal kù-babbar gál, dim-dim silim, \"Sa10 ù IzI\" ku4.",
+    "burnTitle": "IzI (Burn)",
+    "burnDesc": ": $ZEX ki-lam sa10 ù izi.",
+    "yieldTitle": "Níg-gál Kal-ga",
+    "yieldDesc": ": Staking kù-babbar dim-dim gál."
+  },
+  "robot": {
+    "badgeLimited": "Zubi Nu",
+    "badgeAi": "An-na Ku4",
+    "title": "ZexAI Alan (Lugal)",
+    "desc": "Dub-sar gibil! Alan ZexAI ku4, 100%. <1>80 alan</1> nu gibil dù.",
+    "buyTitle": "Sa10 (80 Alan)",
+    "buyPrice": "Sa10 (É-kìshib)",
+    "buyLeft": "{{count}} alan nu!",
+    "raffleTitle": "ICO Ki-lam (20 Alan)",
+    "raffleDesc": "ICO <1>10,000 ZEX</1> sa10, ki-lam ku4. Alan gibil gál!",
+    "raffleBtn": "🎯 Ki-lam Ku4 (U4)",
+    "confirmPurchase": "Sa10 Ki-gi-na"
+  },
+  "faq": {
+    "title": "Dub-sar Kin-Kin",
+    "subtitle": "Kin-zu šub.",
+    "q1": "$ZEX u4-me-a ku4?",
+    "a1": "$ZEX ICO u4-gibil ku4. Dub-sar Twitter ù Discord.",
+    "q2": "Alan Lugal me-a sa10?",
+    "a2": "Alan 80 sa10, é-kìshib kéš, 250,000 $ZEX sa10.",
+    "q3": "NFT dù me-a gar?",
+    "a3": "ZexAI alam dù, OpenSea Zora ku4 diš tag.",
+    "q4": "Lugal $ZEX a-na kél?",
+    "a4": "Nu níg-gal-la, ki-sur-ra u4-gid. Lugal $ZEX 1 mu kél."
+  },
+  "footer": {
+    "copyright": "© 2026 ZexAi. Níg-gál gub.",
+    "terms": "Dub-sar",
+    "privacy": "Ki-sur-ra"
+  },
+  "whitepaper": {
+    "backToHome": "Ki-sag Ku4",
+    "officialDoc": "Dub Lugal",
+    "loading": "Igi Šid-da..."
+  },
+  "markdown": {
+    "backToHome": "Ki-sag Ku4",
+    "loading": "Dub Šid-da...",
+    "termsTitle": "Dub-sar Gar",
+    "privacyTitle": "Ki-sur-ra Dub"
+  }
 }

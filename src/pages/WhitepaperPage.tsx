@@ -4,17 +4,26 @@ import remarkGfm from 'remark-gfm';
 import { motion } from 'framer-motion';
 import { ArrowLeft, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const WhitepaperPage: React.FC = () => {
+    const { t, i18n } = useTranslation();
     const [content, setContent] = useState('');
 
     useEffect(() => {
-        // Fetch the markdown file from the public directory
-        fetch('/ZEX_WHITEPAPER_TR.md')
-            .then(res => res.text())
+        const lang = i18n.language || 'en';
+        // Try language-specific file first, fallback to EN
+        const fileUrl = `/ZEX_WHITEPAPER_${lang.toUpperCase()}.md`;
+        const fallbackUrl = '/ZEX_WHITEPAPER_EN.md';
+
+        fetch(fileUrl)
+            .then(res => {
+                if (!res.ok) return fetch(fallbackUrl).then(r => r.text());
+                return res.text();
+            })
             .then(text => setContent(text))
             .catch(err => console.error("Error loading whitepaper:", err));
-    }, []);
+    }, [i18n.language]);
 
     return (
         <div className="min-h-screen bg-[#060612] text-gray-300 font-sans selection:bg-pink-500/30 overflow-x-hidden pt-24 pb-32">
@@ -35,13 +44,13 @@ const WhitepaperPage: React.FC = () => {
                         <div className="p-2 rounded-full bg-white/5 group-hover:bg-white/10 transition-colors">
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
                         </div>
-                        <span className="font-medium">Ana Sayfaya Dön</span>
+                        <span className="font-medium">{t('whitepaper.backToHome')}</span>
                     </Link>
 
                     <div className="flex items-center gap-3">
                         <BookOpen className="w-6 h-6 text-pink-400" />
                         <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 tracking-widest uppercase text-sm">
-                            Resmi Döküman
+                            {t('whitepaper.officialDoc')}
                         </span>
                     </div>
                 </div>
@@ -73,7 +82,7 @@ const WhitepaperPage: React.FC = () => {
                         ) : (
                             <div className="flex flex-col items-center justify-center py-20 opacity-50">
                                 <div className="w-12 h-12 border-4 border-pink-500/30 border-t-pink-500 rounded-full animate-spin mb-4" />
-                                <p>Vizyon Yükleniyor...</p>
+                                <p>{t('whitepaper.loading')}</p>
                             </div>
                         )}
                     </div>

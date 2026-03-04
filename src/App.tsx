@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import { Twitter, Disc as Discord, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import WhitepaperPage from './pages/WhitepaperPage';
 import MarkdownPage from './pages/MarkdownPage';
 
@@ -14,27 +15,16 @@ import { config } from './web3config';
 
 const queryClient = new QueryClient();
 
-const faqs = [
-  {
-    question: "$ZEX Token ne zaman piyasaya sürülecek?",
-    answer: "$ZEX Ön Satış (Presale) aşaması çok yakında başlayacak. Tüm duyurular ilk olarak Twitter ve Discord kanallarımız üzerinden yapılacaktır. Lansman ve CEX/DEX listelenme tarihleri akıllı kontrat denetimleri tamamlandıktan sonra açıklanacaktır."
-  },
-  {
-    question: "Founder's Edition İnsansı Robot'u nasıl alabilirim?",
-    answer: "İlk partide sadece 80 adet üretilen robotlarımızı, cüzdanınızı bağlayarak doğrudan minimum 250.000 $ZEX token karşılığında satın alabilirsiniz. Ayrıca, ön satıştan en az 10.000 $ZEX alarak 20 adetlik çekiliş havuzuna katılma hakkı kazanırsınız. Kargo detayları, token alımından sonra açılacak özel panelden yönetilecektir."
-  },
-  {
-    question: "NFT Üretimi ve Marketplace Entegrasyonu nasıl çalışıyor?",
-    answer: "ZexAI platformunda tasarladığınız dijital sanat eserlerini, panelimiz üzerinden tek bir tuşa basarak doğrudan OpenSea ve Zora gibi dev platformlara 'mint' edebilirsiniz (basabilirsiniz). Akıllı kontratlarımız sayesinde gaz ücretleri optimize edilmiştir ve tüm telif hakları size aittir."
-  },
-  {
-    question: "Takım tokenleri neden kilitli?",
-    answer: "Biz bu projeyi kısa vadeli kâr için değil, gerçek bir değer ve kalıcı bir ekosistem yaratmak için kurduk. Bu vizyonumuzun bir kanıtı olarak takım ve kurucu tokenleri tam 1 yıl boyunca akıllı kontratlara kilitlenmiştir (Vesting). Buradayız ve geleceği birlikte inşa ediyoruz."
-  }
-];
-
 function Home() {
+  const { t } = useTranslation();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const faqs = [
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') }
+  ];
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
@@ -51,8 +41,8 @@ function Home() {
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-full bg-cyan-500/5 blur-[120px] rounded-full pointer-events-none" />
 
         <div className="text-center mb-16 relative">
-          <h2 className="text-4xl md:text-5xl font-black mb-4">Sıkça Sorulan Sorular</h2>
-          <p className="text-gray-400">Aklınızdaki soru işaretlerini giderelim.</p>
+          <h2 className="text-4xl md:text-5xl font-black mb-4">{t('faq.title')}</h2>
+          <p className="text-gray-400">{t('faq.subtitle')}</p>
         </div>
 
         <div className="space-y-4 relative">
@@ -99,12 +89,12 @@ function Home() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">
             <img src="/logo192.png" alt="ZexAi" className="w-6 h-6 grayscale opacity-70" />
-            <span className="text-gray-500 font-medium">© 2026 ZexAi. Tüm hakları saklıdır.</span>
+            <span className="text-gray-500 font-medium">{t('footer.copyright')}</span>
           </div>
           <div className="flex gap-6 text-sm text-gray-400">
             <Link to="/whitepaper" className="hover:text-white transition-colors">Whitepaper</Link>
-            <Link to="/terms" className="hover:text-white transition-colors">Şartlar</Link>
-            <Link to="/privacy" className="hover:text-white transition-colors">Gizlilik</Link>
+            <Link to="/terms" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
+            <Link to="/privacy" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
             <a href="https://twitter.com/zex_ai" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Twitter</a>
             <a href="https://discord.gg/zexai" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a>
           </div>
@@ -135,8 +125,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/whitepaper" element={<WhitepaperPage />} />
-              <Route path="/terms" element={<MarkdownPage fileUrl="/ZEX_TERMS_TR.md" title="Hizmet Şartları" />} />
-              <Route path="/privacy" element={<MarkdownPage fileUrl="/ZEX_PRIVACY_TR.md" title="Gizlilik Politikası" />} />
+              <Route path="/terms" element={<MarkdownPage fileUrlTemplate="/ZEX_TERMS_{LANG}.md" titleKey="markdown.termsTitle" />} />
+              <Route path="/privacy" element={<MarkdownPage fileUrlTemplate="/ZEX_PRIVACY_{LANG}.md" titleKey="markdown.privacyTitle" />} />
             </Routes>
           </div>
         </Router>
