@@ -19,6 +19,13 @@ const Hero: React.FC = () => {
     const [activeTab, setActiveTab] = useState<'vision' | 'tokenomics' | 'robot'>('vision');
     const [robotsSold] = useState(12);
     const [paymentMethod, setPaymentMethod] = useState<'web3' | 'cc' | 'bank'>('web3');
+    const [activeMedia, setActiveMedia] = useState(0);
+
+    const robotMedia = [
+        { type: 'image' as const, src: '/robot-hero.png', alt: 'ZexAI Humanoid Robot - Front View' },
+        { type: 'image' as const, src: '/robot-detail.png', alt: 'ZexAI Humanoid Robot - Detail' },
+        { type: 'video' as const, src: 'https://www.youtube.com/embed/GzX1qOIO1bE', alt: 'Unitree G1 Demo Video' },
+    ];
 
     return (
         <>
@@ -291,11 +298,27 @@ const Hero: React.FC = () => {
                                 className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"
                             >
                                 {/* Left Column: Robot Visual & Specs */}
-                                <div className="lg:col-span-5 space-y-6">
+                                <div className="lg:col-span-5 space-y-4">
+                                    {/* Main Media Display */}
                                     <div className="relative group">
                                         <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
-                                        <div className="relative aspect-square bg-[#050510] rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
-                                            <Bot className="w-48 h-48 text-purple-400/50 group-hover:scale-110 transition-transform duration-700" />
+                                        <div className="relative aspect-[4/3] bg-[#050510] rounded-3xl border border-white/10 overflow-hidden">
+                                            {robotMedia[activeMedia].type === 'image' ? (
+                                                <img
+                                                    src={robotMedia[activeMedia].src}
+                                                    alt={robotMedia[activeMedia].alt}
+                                                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                                                />
+                                            ) : (
+                                                <iframe
+                                                    src={robotMedia[activeMedia].src}
+                                                    title={robotMedia[activeMedia].alt}
+                                                    className="w-full h-full"
+                                                    frameBorder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowFullScreen
+                                                />
+                                            )}
                                             <div className="absolute top-4 left-4 bg-purple-500/20 border border-purple-500/50 text-purple-300 px-3 py-1 rounded-full text-xs font-bold tracking-wider backdrop-blur-md flex items-center gap-1">
                                                 <Sparkles className="w-3 h-3" /> {t('robot.badgeLimited')}
                                             </div>
@@ -303,6 +326,31 @@ const Hero: React.FC = () => {
                                                 {t('robot.badgeAi')}
                                             </div>
                                         </div>
+                                    </div>
+
+                                    {/* Thumbnail Strip */}
+                                    <div className="flex gap-2">
+                                        {robotMedia.map((media, i) => (
+                                            <button
+                                                key={i}
+                                                onClick={() => setActiveMedia(i)}
+                                                className={`relative flex-1 aspect-video rounded-xl overflow-hidden border-2 transition-all ${
+                                                    activeMedia === i
+                                                        ? 'border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.3)]'
+                                                        : 'border-white/10 opacity-60 hover:opacity-100'
+                                                }`}
+                                            >
+                                                {media.type === 'image' ? (
+                                                    <img src={media.src} alt={media.alt} className="w-full h-full object-cover" />
+                                                ) : (
+                                                    <div className="w-full h-full bg-[#050510] flex items-center justify-center">
+                                                        <div className="w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
+                                                            <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </button>
+                                        ))}
                                     </div>
 
                                     {/* Tech Specs Grid */}

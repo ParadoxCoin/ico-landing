@@ -7,7 +7,7 @@
     "visionBadge": "Bir Babanın Vizyonu, Dünyanın Tuvali",
     "mainTitleLine1": "Yapay Zeka ve Web3 Sanatının",
     "mainTitleLine2": "Yeni Evrimi",
-    "description": "40'tan fazla elit yapay zeka modeliyle duygularınızı dijital başyapıtlara dönüştürün. Tek tıkla OpenSea ve Zora'da NFT olarak basın. Sadece kâr için değil, yaratıcılığın sınırsız geleceği için inşa edildi.",
+    "description": "Çoklu yapay zeka modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştiren yeni nesil dijital üretim platformu. Fikir üretin, AI ile içerik oluşturun, dijital varlıklara dönüştürün ve küresel pazarlarda dağıtın.",
     "joinPresale": "Ön Satışa Katıl",
     "tryApp": "Uygulamayı Dene",
     "stats": {
@@ -28,22 +28,22 @@
   },
   "campaign": {
     "title": "ZexAI Ekosistemi ve Fırsatlar",
-    "subtitle": "Şeffaflık, sevgi ve vizyoner bir fayda üzerine inşa edilmiş merkeziyetsiz bir platform. Üret, NFT'ye dönüştür, kazan ve fiziksel geleceğin bir parçası ol.",
-    "tabVision": "NFT Ekosistemi",
+    "subtitle": "Yapay zeka üretim araçlarını, creator ekonomisini ve Web3 altyapısını tek bir platformda birleştiren merkeziyetsiz ekosistem. 40'tan fazla AI modeli, NFT üretimi, token ekonomisi ve fiziksel ürünler.",
+    "tabVision": "AI Üretim Platformu",
     "tabTokenomics": "$ZEX Ekonomisi",
     "tabRobot": "Founder's Edition Robot 🚀"
   },
   "vision": {
-    "agentTitle": "Synapse AI Ajanı",
-    "agentDesc": "Sadece \"Umut\" yazın, Synapse Ajanı nefes kesici bir sanat eseri için mükemmel komutu (prompt) hazırlasın. Mühendisliğe gerek yok.",
+    "agentTitle": "Çoklu Model Motoru",
+    "agentDesc": "ZexAI, 40'tan fazla yapay zeka modelini tek bir platformda sunar. Aynı prompt ile birden fazla modeli çalıştırın, sonuçları karşılaştırın ve en iyisini seçin.",
     "mintBadge": "KUSURSUZ ENTEGRASYON",
-    "mintTitle": "Doğrudan OpenSea ve Zora'ya Mintle",
-    "mintDesc": "ZexAI, saniyeler içinde küresel çapta tanınan bir sanatçı olmanızı sağlar. Yapay zeka ile görsel veya video üretin ve tek tıkla dünyanın en büyük pazarlarında NFT olarak basın.",
-    "whyWinTitle": "Neden ZexAI Üreticileri Kazanıyor:",
-    "whyWin1": "Tüm üretimler için telifsiz tam ticari haklar",
-    "whyWin2": "Panel üzerinden doğrudan optimize edilmiş (gas-optimized) mintleme",
-    "whyWin3": "$ZEX tokenleri ile desteklenen komisyon indirimleri",
-    "startCreating": "Üretmeye ve Mintlemeye Başla"
+    "mintTitle": "AI Üretim + NFT Monetizasyon",
+    "mintDesc": "Görsel, video ve ses üretin. Ürettiğiniz içerikleri tek tıkla OpenSea ve Zora'da NFT olarak basın. Kredi sistemi ile çalışan platform, referans sistemi, sosyal paylaşım ödülleri ve günlük görevlerle kredi kazanma imkânı sunar.",
+    "whyWinTitle": "Neden ZexAI Platform Farkı:",
+    "whyWin1": "40+ AI modeli ile çoklu model karşılaştırma",
+    "whyWin2": "Doğrudan OpenSea ve Zora entegrasyonu ile NFT mintleme",
+    "whyWin3": "Referans sistemi: Davet ettiğiniz kişilerin kredi alımlarından %5 kazanç",
+    "startCreating": "Platformu Keşfet"
   },
   "tokenomics": {
     "supplyBadge": "TOPLAM ARZ: 1.000.000.000",

@@ -7,7 +7,7 @@
     "visionBadge": "A Father's Vision, The World's Canvas",
     "mainTitleLine1": "The New Evolution of",
     "mainTitleLine2": "AI and Web3 Art",
-    "description": "Transform your emotions into digital masterpieces with over 40 elite AI models. Mint them as NFTs on OpenSea and Zora with a single click. Built not just for profit, but for the boundless future of creativity.",
+    "description": "A next-gen digital production platform that unifies multi-model AI, creator economy, and Web3 infrastructure in one ecosystem. Generate ideas, create with AI, compare models, transform content into digital assets, and distribute globally.",
     "joinPresale": "Join Presale",
     "tryApp": "Try the App",
     "stats": {
@@ -28,22 +28,22 @@
   },
   "campaign": {
     "title": "ZexAI Ecosystem & Opportunities",
-    "subtitle": "A decentralized platform built on transparency, love, and visionary utility. Generate, mint to NFT, earn, and be part of the physical future.",
-    "tabVision": "NFT Ecosystem",
+    "subtitle": "A decentralized ecosystem that combines AI production tools, creator economy, and Web3 infrastructure in a single platform. 40+ AI models, NFT production, token economy, and physical products.",
+    "tabVision": "AI Production Platform",
     "tabTokenomics": "$ZEX Economy",
     "tabRobot": "Founder's Edition Robot 🚀"
   },
   "vision": {
-    "agentTitle": "Synapse AI Agent",
-    "agentDesc": "Just type \"Hope\" and let the Synapse Agent craft the perfect prompt for a breathtaking artwork. No prompt engineering required.",
+    "agentTitle": "Multi-Model Engine",
+    "agentDesc": "ZexAI provides 40+ AI models in a single platform. Run the same prompt across multiple models, compare results, and choose the best output.",
     "mintBadge": "SEAMLESS INTEGRATION",
-    "mintTitle": "Mint Directly to OpenSea & Zora",
-    "mintDesc": "ZexAI allows you to become a globally recognized artist in seconds. Generate images or videos with AI and mint them as NFTs on the world's largest marketplaces with a single click.",
-    "whyWinTitle": "Why ZexAI Creators Win:",
-    "whyWin1": "Full commercial, royalty-free rights for all generations",
-    "whyWin2": "Direct, gas-optimized minting from the dashboard",
-    "whyWin3": "Commission discounts powered by $ZEX tokens",
-    "startCreating": "Start Creating & Minting"
+    "mintTitle": "AI Production + NFT Monetization",
+    "mintDesc": "Generate images, videos, and audio. Mint your creations as NFTs on OpenSea and Zora with a single click. The credit-based platform offers earning through referrals, social sharing rewards, and daily quests.",
+    "whyWinTitle": "Why ZexAI Platform Advantage:",
+    "whyWin1": "40+ AI models with multi-model comparison",
+    "whyWin2": "Direct OpenSea and Zora integration for NFT minting",
+    "whyWin3": "Referral system: Earn 5% from credit purchases of invited users",
+    "startCreating": "Explore the Platform"
   },
   "tokenomics": {
     "supplyBadge": "TOTAL SUPPLY: 1,000,000,000",
