@@ -274,7 +274,7 @@ const Hero: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="flex justify-center w-full mt-8">
-                                        <w3m-button />
+                                        <appkit-button />
                                     </div>
                                 </div>
                             </motion.div>
@@ -353,7 +353,7 @@ const Hero: React.FC = () => {
                                         </button>
                                     ) : (
                                         <div className="flex justify-center w-full">
-                                            <w3m-button />
+                                            <appkit-button />
                                         </div>
                                     )}
                                 </div>

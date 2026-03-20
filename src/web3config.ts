@@ -1,11 +1,8 @@
-import { createWeb3Modal } from '@web3modal/wagmi/react';
-import { defaultWagmiConfig } from '@web3modal/wagmi/react/config';
-
-import { cookieStorage, createStorage } from 'wagmi';
-import { mainnet, bsc, sepolia } from 'wagmi/chains';
+import { createAppKit } from '@reown/appkit/react'
+import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
+import { mainnet, bsc, sepolia } from 'wagmi/chains'
 
 // Get projectId from https://cloud.walletconnect.com
-// You can use a generic test ID or a real one. This is a generic public test one.
 export const projectId = '7618ae03fb9e1bd4fcdaeb7f1ca5c165';
 
 const metadata = {
@@ -15,27 +12,25 @@ const metadata = {
     icons: ['https://zexai.io/logo192.png']
 }
 
-const chains = [mainnet, bsc, sepolia] as const;
-export const config = defaultWagmiConfig({
-    chains,
+const networks = [mainnet, bsc, sepolia]
+
+export const wagmiAdapter = new WagmiAdapter({
     projectId,
-    metadata,
-    auth: {
-        email: true,
-        showWallets: true,
-        walletFeatures: true
-    },
-    storage: createStorage({
-        storage: cookieStorage
-    }),
-});
+    networks
+})
 
 // Create Modal
-createWeb3Modal({
-    wagmiConfig: config,
+createAppKit({
+    adapters: [wagmiAdapter],
+    networks,
     projectId,
-    enableAnalytics: false,
-    enableOnramp: true,
+    metadata,
+    features: {
+        analytics: false,
+        email: true,
+        socials: ['google', 'x', 'github', 'discord', 'apple'],
+        emailShowWallets: true,
+    },
     themeMode: 'dark',
     themeVariables: {
         '--w3m-accent': '#7C3AED',
@@ -44,4 +39,6 @@ createWeb3Modal({
         '--w3m-border-radius-master': '16px',
         '--w3m-font-family': 'Inter, sans-serif'
     }
-});
+})
+
+export const config = wagmiAdapter.wagmiConfig

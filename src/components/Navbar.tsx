@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
 
                         {/* Wallet Connect Button */}
                         <div className="hidden md:flex items-center">
-                            <w3m-button />
+                            <appkit-button />
                         </div>
 
                         {/* App Login */}
@@ -145,7 +145,7 @@ const Navbar: React.FC = () => {
                             ))}
                         </div>
                         <div className="flex justify-center w-full">
-                            <w3m-button />
+                            <appkit-button />
                         </div>
                         <a
                             href="https://app.zexai.io"

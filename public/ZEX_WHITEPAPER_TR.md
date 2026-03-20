@@ -1,91 +1,344 @@
-# ZexAI Whitepaper: Bir Babanın Vizyonu, Milyonların Geleceği
-
-## 1. Hikâyemiz: Sevgiyle Kodlanan Bir Gelecek
-
-Her büyük yenilik, içsel bir kıvılcımla başlar. Çoğu teknoloji projesi kâr marjları ve pazar analizleriyle doğarken, ZexAI’nin temeli çok daha saf ve sarsılmaz bir güce dayanır: Bir babanın, kızı için beslediği sınırsız sevgi ve umut. 
-
-Kızı hasta olan bir babanın günlerce uyumamasını bilir misiniz? Gözleri yorgunluktan kapanırken bile zihninin hiç yorulmamasını? Çünkü o bekleyiş, bir karşılık veya ödül için değil, sadece ve sadece o masum canın sağlığına kavuşması içindir. Bu, dünyadaki en saf, en güçlü ve en tükenmez motivasyondur. 
-
-İşte ZexAI’nin ruhu tam da bu yorulmak bilmez, beklentisiz ve adanmış enerjiden doğmuştur. Biz, bu projeyi sadece bir şirket inşa etmek için kurgulamadık. Biz bu platformu; yaratıcılığın, umudun ve değer üretmenin önündeki tüm engelleri kaldırmak, adeta bir babanın çocuğuna sunduğu o güvenli ve sınırsız oyun alanını tüm dünyaya, "Yapay Zeka" aracılığıyla sunmak için tasarladık.
-
-Bu proje bizim içselleştirdiğimiz, her satır koduna bir umut ektiğimiz büyük evladımızdır. Amacımız sadece para toplamak veya geçici bir heyecan yaratmak değil; kızımıza bırakabileceğimiz kadar dürüst, sağlam ve dünyanın her yerindeki yaratıcı ruhlara dokunacak kalıcı bir miras inşa etmektir.
+# ZexAI Whitepaper
+## AI Yaratıcı Ekonomisi Altyapısı
 
 ---
 
-## 2. Platform ve Çözüm: ZexAI Ne İşe Yarar?
+# 1. Yatırımcı Özeti
 
-Hayal etmek bedavadır, ancak o hayali değerli bir sanat eserine veya ürüne dönüştürmek yıllarca teknik bilgi ve pahalı yazılımlar gerektirdi. ZexAI, bu adaletsizliği ortadan kaldırır. 
+Yapay zeka içerik üretimi son yıllarda hızla büyüyen bir alan haline gelmiştir.  
+Ancak mevcut AI platformlarının çoğu tek bir araç veya tek bir model üzerine kuruludur.
 
-Biz, **"Yapay Zekayı NFT İçin Tasarladık."**
+Bir içerik üreticisi genellikle:
 
-ZexAI, karmaşık yapay zeka araçlarını (Görsel, Video, Ses ve Metin) herkesin tek tıkla kullanabileceği, duygularını sanata ve en önemlisi **ekonomik değere** dönüştürebileceği devasa bir üretim fabrikasıdır.
+• görsel üretmek için bir platform  
+• video üretmek için başka bir platform  
+• ses üretmek için farklı bir platform  
+• içerik monetizasyonu için ise tamamen ayrı bir platform kullanmak zorundadır.
 
-*   **Sınırsız NFT Üretimi:** Kullanıcılarımız, içlerindeki hikayeleri ZexAI aracılığıyla saniyeler içinde büyüleyici görsellere, hareketli sinematik videolara ve etkileyici seslendirmelere dönüştürebilir. 
-*   **OpenSea ve Zora Entegrasyonu Vizyonu:** ZexAI üzerinde üretilen bu eşsiz ve telifsiz sanat eserleri, dijital cüzdanınız (Web3) aracılığıyla sadece tek bir tuşla **OpenSea, Zora, Blur** gibi dünyanın en büyük NFT pazarlarında doğrudan satışa sunulabilir. 
-*   **Emekten Gelire:** Sanatçı olmak için fırça tutmanıza veya kod yazmanıza gerek yok. ZexAI, içinizdeki o büyük yönetmeni ve sanatçıyı özgür bırakır. Üretin, NFT olarak mint'leyin (basın) ve global pazarda vizyonunuzu satın.
+Bu parçalı yapı üretim sürecini karmaşık hale getirir ve creator ekonomisinin büyümesini sınırlar.
 
----
+ZexAI bu sorunu çözmek için tasarlanmıştır.
 
-## 3. Ekosistemin Kalbi: Neden ZexAI Benzersiz?
+Platform, çoklu yapay zeka modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir.
 
-Pazardaki diğer yapay zeka araçları donuk, karmaşık ve pahalıyken; ZexAI, kullanıcısını anlayan ve hislerine tercüman olan bir otonom ajana (Synapse) sahiptir.
+Kullanıcılar:
 
-1.  **Zex Vision:** En ince detayı bile yakalayan 40+ yapay zeka modeliyle, rüyalarınızı piksellere döker. 
-2.  **Zex Motion:** Hareketsiz anılarınıza can veren, onları 43 farklı video modeliyle bir Hollywood sahnesine çeviren güç.
-3.  **Zex Voice:** 10+ gelişmiş yapay zeka ses modeliyle duyguları tınıya dönüştürür.
-4.  **Synapse AI Ajanı:** Siz sadece "Umut" yazın, o sizin için "Güneşin doğuşunda umutla gökyüzüne bakan bir çocuk" kurgusunu hazırlasın, en iyi prompt'ları (komutları) sizin yerinize yazsın.
+fikir üretir  
+→ AI ile içerik oluşturur  
+→ farklı modelleri karşılaştırır  
+→ içeriklerini dijital varlıklara dönüştürür  
+→ küresel pazarlarda dağıtır.
 
----
-
-## 4. ZEX Token Ekonomisi (Tokenomics) ve Dağıtım Planı
-
-Gerçek dünyanın yorulmak bilmez sevgisiyle inşa edilen bu projeyi, şeffaf ve adil bir token ekonomisiyle toplumuza (yatırımcılarımıza) sunuyoruz. **$ZEX**, bu devrimin yakıtıdır.
-
-### $ZEX Token Ne İşe Yarar? (Utility)
-1.  **Platform İçi Üretim:** ZexAI ekosistemindeki tüm özellikler (Görsel ve Video üretimi) $ZEX Token ile çok daha avantajlı olarak kullanılabilir.
-2.  **NFT Minting ve Satış Ağı:** Üretilen eserlerin NFT'ye dönüştürülüp OpenSea ve Zora'ya aktarılması süreçlerinde gas ücretleri ve komisyon indirimleri için kullanılır.
-3.  **Revenue Share (Gelir Paylaşımı):** ZexAI'nin ürettiği (Abonelikler, Kredi Kartı satışları vb.) gerçek dünya gelirlerinin (Real Yield) bir bölümü, sadık ZEX yatırımcılarına ve Staking yapanlara dağıtılır. Yatırımcı, doğrudan bu fabrikanın ortağı olur.
-4.  **Buy-Back & Burn (Geri Alım ve Yakım):** Büyüyen ekosistem gelirleriyle piyasadan periyodik olarak $ZEX toplanır ve kalıcı olarak yakılır. Arz azalır, değer korunur.
-
-### Token Dağıtım Planı (Distribution - Toplam Arz: 1.000.000.000 $ZEX)
-Adil, uzun vadeli ve topluluk odaklı bir dağıtım modeli benimsedik. Amacımız vurkaç değil, kalıcı bir miras ve ekosistem sürdürülebilirliğidir.
-
-*   **%35 - Ön Satış (Presale) / ICO:** Topluluğun gücünü erken aşamada projeye dahil etmek. (Tokenlar listeleme anında %50 açık, kalanı 6 ay lineer vesting/kilit açılımı).
-*   **%25 - Ekosistem Gelişimi ve Staking Ödülleri:** Kullanıcıları platformda tutmak, Synapse Ajanını eğitmek, NFT üreticilerini ödüllendirmek ve $ZEX kilitleyenlere (staking) dağıtılacak havuz.
-*   **%15 - Likidite ve Borsa (CEX/DEX) Listelemeleri:** Sağlıklı ve pürüzsüz bir alım/satım tahtası için PancakeSwap, Uniswap veya merkezi borsalara ayrılan kilitli likidite.
-*   **%10 - Takım ve Kurucular:** Bizim projeye olan inancımızın teminatı. (İlk 1 yıl TAMAMEN KİLİTLİ (Cliff), sonrasında 24 aya yayılan yavaş açılım. Biz buradayız, gitmiyoruz).
-*   **%10 - Pazarlama, Partnerlikler ve Büyüme:** OpenSea, Zora, diğer Web3 projeleriyle ortaklıklar kurmak ve ZexAI'yi milyonlara duyurmak için ayrılan bütçe.
-*   **%5 - Danışmanlar ve Erken Arama Destekçileri:** Projeye vizyon katan stratejik ortaklar (6 ay kilitli).
+ZexAI yalnızca bir AI aracı değil, yeni nesil creator ekonomisinin altyapı platformu olmayı hedefler.
 
 ---
 
-## 5. Gelecek (Yol Haritası / Roadmap)
+# 2. Giriş
 
-Hiçbir şey bir gecede inşa edilmedi, ancak geleceği bugünden yazmaya başlıyoruz.
+Yapay zeka teknolojileri dijital içerik üretim biçimini kökten değiştirmektedir.
 
-**Faz 1: Doğuş (Q2 - 2026)**
-- ZexAI platform Beta yayını (Text-to-Image / Image-to-Video).
-- ICO / Ön Satış kampanyasının başlatılması.
-- Topluluk oluşturma (Telegram, Discord, Twitter).
+Ancak günümüzde çoğu AI platformu tek bir işlev üzerine odaklanan izole araçlar olarak çalışmaktadır.
 
-**Faz 2: Sanatın Web3'e Geçişi (Q3 - 2026)**
-- Merkeziyetsiz Borsalarda (DEX) $ZEX Token listelemesi.
-- Platform içi NFT Mintleme özelliğinin lansmanı.
-- **OpenSea ve Zora** API entegrasyonu ile tek tıkla koleksiyon oluşturma.
+İçerik üreticileri genellikle şu işlemler için farklı platformlar kullanmak zorundadır:
 
-**Faz 3: Evrensel Üretim (Q4 - 2026)**
-- Synapse V2 (Akıllı Otonom Ajan) ana sürümü.
-- Üst düzey CEX (Merkezi Borsa) listelemeleri.
-- B2B API satışları: Diğer oyun veya Metaverse projelerinin ZexAI altyapısını kullanarak kendi NFT'lerini üretmesi.
-- Staking (Gelir Paylaşımı) havuzunun aktif edilmesi.
+- görsel üretimi
+- video üretimi
+- ses üretimi
+- içerik dağıtımı
+- monetizasyon
+
+Bu parçalı yapı üretim sürecini zorlaştırmakta ve içeriklerin ekonomik değere dönüşmesini sınırlamaktadır.
+
+ZexAI bu sorunu çözmek için yapay zeka üretim araçlarını, creator ekonomisini ve Web3 altyapısını tek bir platformda birleştirir.
 
 ---
 
-## 6. Son Söz: Bizden Size...
+# 3. Problem
 
-Bu whitepaper teknik bir döküman olmanın ötesinde, size verilmiş bir sözdür.  Bir babanın, evladının başı ucunda beklerken hissettiği o karşılıksız, yorulmaz, tükenmez sevgi ve gücün taahhüdüdür.
+## Parçalı AI Araçları
 
-Biz ZexAI'yi sadece teknolojik bir araç olarak değil, insanların ruhlarındaki o sınırsız potansiyeli ortaya çıkaracak, bunu yaparken de yaratıcıya hakkını teslim edecek bir devrim olarak tasarladık. Siz de bu devrime yatırım yaparken sadece bir kod bütününe değil; tutkuya, geleceğe ve insana yatırım yapıyorsunuz.
+Mevcut AI platformları genellikle tek bir üretim alanına odaklanır:
 
-**Gelin, kendi hikayemizi birlikte yazalım.** 
+- AI görsel üretimi
+- AI video üretimi
+- AI ses üretimi
+
+Bu durum creatorların birden fazla platform kullanmasına neden olur.
+
+---
+
+## Monetizasyon Eksikliği
+
+Birçok AI platformu içerik üretimi sağlar ancak içeriklerin ekonomik değere dönüşmesi için gerekli altyapıyı sunmaz.
+
+---
+
+## Model Bağımlılığı
+
+Birçok AI platformu tek bir modele bağlıdır ve farklı AI modellerinin avantajlarını kullanma imkanı sunmaz.
+
+---
+
+# 4. ZexAI Çözümü
+
+ZexAI çoklu model mimarisi ile çalışan bir AI üretim platformudur.
+
+Platform kullanıcılarına şu imkanları sağlar:
+
+- farklı AI modellerine erişim
+- görsel, video ve ses üretimi
+- model sonuçlarını karşılaştırma
+- dijital varlık üretimi
+- token tabanlı creator ekonomisi
+
+Bu yaklaşım üretim sürecini tek bir platformda birleştirir.
+
+---
+
+# 5. Platform Mimarisi
+
+## AI Üretim Katmanı
+
+Platformun temel üretim araçları:
+
+- AI görsel üretimi
+- AI video üretimi
+- AI ses üretimi
+- prompt yardımcısı
+
+---
+
+## Çoklu Model Motoru (Multi Model Engine)
+
+ZexAI kullanıcıların farklı AI modellerini seçmesine imkan tanır.
+
+Kullanıcılar aynı prompt ile birden fazla modeli çalıştırabilir ve sonuçları karşılaştırabilir.
+
+Platform 40'tan fazla yapay zeka modelini destekleyen çoklu model mimarisi üzerine kurulmuştur.
+
+---
+
+## Yaratıcı Ekonomisi Katmanı (Creator Economy)
+
+Kullanıcılar ürettikleri içerikleri dijital varlıklara dönüştürebilir.
+
+Platform entegrasyonları:
+
+OpenSea  
+Zora
+
+Bu sayede AI içerikleri NFT olarak küresel pazarlarda satılabilir.
+
+---
+
+## Kredi Ekonomisi
+
+AI üretimi kredi sistemi ile çalışır.
+
+Kredi kazanma yolları:
+
+- abonelik planları
+- kredi satın alma
+- referans sistemi
+- sosyal paylaşım ödülleri
+- günlük görevler
+
+Abonelik kredileri ay sonunda sıfırlanmaz.
+
+---
+
+# 6. Büyüme Mekanizmaları
+
+## Referans Sistemi
+
+Referans veren kullanıcılar, davet ettikleri kişinin kredi alımlarından **%5 AI kredisi** kazanır.
+
+---
+
+## Sosyal Paylaşım Ödülleri
+
+Kullanıcılar ürettikleri içerikleri sosyal medyada paylaşarak kredi kazanabilir.
+
+---
+
+## Günlük Görevler
+
+Platform aktiviteleri kullanıcıları ödüllendirir.
+
+Örnek görevler:
+
+platforma giriş  
+görsel üretimi  
+video üretimi  
+içerik paylaşımı
+
+---
+
+## Sadakat Sistemi
+
+Creator üretim miktarına göre rozetler kazanır.
+
+Bu sistem kullanıcı bağlılığını artırmayı hedefler.
+
+---
+
+# 7. Platform Güvenliği
+
+Platform suistimalini önlemek için çeşitli mekanizmalar uygulanır.
+
+- içerik listeleme limitleri
+- ödül limitleri
+- üretim limitleri
+
+Bu mekanizmalar platform ekonomisinin sürdürülebilirliğini sağlar.
+
+---
+
+# 8. ZEX Token Ekonomisi
+
+$ZEX token, ZexAI ekosisteminin temel utility (işlevsel) tokenıdır.
+
+---
+
+## Token Kullanım Alanları
+
+- AI üretim indirimleri
+- NFT mint ücretleri
+- platform ödülleri
+- staking ödülleri
+
+---
+
+## Staking
+
+Kullanıcılar $ZEX tokenlarını stake ederek ödül kazanabilir.
+
+Erken unstake durumunda %10 ceza uygulanır ve yakılır.
+
+---
+
+## Deflasyon Mekanizmaları
+
+### İşlem Yakımı
+
+Platform işlemlerinde %0.5 yakım uygulanır.
+
+### Staking Ceza Yakımı
+
+Erken unstake cezaları yakılır.
+
+### Gelir Geri Alımı (Buyback)
+
+Platform gelirlerinin %20'si token geri alımı ve yakımı için kullanılabilir.
+
+---
+
+# 9. Token Dağılımı
+
+Toplam Arz: 1,000,000,000 ZEX
+
+- **Ön Satış / ICO — %35**  
+  Listeleme anında %50 açık, kalan %50 — 6 ay lineer vesting (kilit açılımı).
+
+- **Ekosistem & Staking Ödülleri — %25**  
+  Platform kullanımı, Synapse eğitimi, NFT üretici ödülleri ve staking havuzu için ayrılmıştır. Kullanıma göre kademeli açılım.
+
+- **Likidite — %15**  
+  DEX/CEX listeleme likidite havuzları için kilitli olarak ayrılmıştır.
+
+- **Takım & Kurucular — %10**  
+  İlk 1 yıl **tamamen kilitli** (Cliff). Sonrasında 24 ay boyunca lineer açılım. Biz buradayız, gitmiyoruz.
+
+- **Pazarlama & Ortaklıklar — %10**  
+  Kampanya ve ortaklık ihtiyaçlarına göre kademeli kullanım.
+
+- **Danışmanlar — %5**  
+  İlk 6 ay tamamen kilitli, sonrasında 6 ay lineer açılım.
+
+---
+
+# 10. Pazar Fırsatı
+
+ZexAI üç büyük teknolojik trendin kesişiminde yer alır:
+
+Yapay Zeka (AI)  
+Yaratıcı Ekonomisi (Creator Economy)  
+Web3 Dijital Sahiplik (Digital Ownership)
+
+Bu üç alanın birleşimi yeni nesil dijital ekonomiyi oluşturur.
+
+---
+
+# 11. Rekabet Karşılaştırması
+
+Mevcut AI platformları genellikle tek alana odaklanır.
+
+Pollo.ai — AI video üretimi  
+ImageArt — AI görsel üretimi  
+Abacus.ai — AI altyapı platformu
+
+ZexAI bu platformların sunduğu yetenekleri tek bir ekosistemde birleştirir.
+
+---
+
+# 12. Platform Büyüme Döngüsü (Flywheel)
+
+ZexAI büyüme modeli creator ekonomisine dayanır.
+
+Üret (Create)  
+↓  
+Paylaş (Share)  
+↓  
+Davet Et (Invite)  
+↓  
+Daha Fazla Kullanıcı  
+↓  
+Daha Fazla AI Kullanımı  
+↓  
+Platform Büyümesi
+
+---
+
+# 13. Yol Haritası
+
+## Faz 1 — Doğuş (Q2 2026)
+
+AI platform lansmanı  
+ICO / Ön satış kampanyası  
+NFT mint sistemi  
+Topluluk oluşturma (Telegram, Discord, Twitter)
+
+---
+
+## Faz 2 — Web3 Geçişi (Q3 2026)
+
+$ZEX token DEX listelemesi  
+OpenSea ve Zora API entegrasyonu  
+Creator marketplace genişlemesi
+
+---
+
+## Faz 3 — Evrensel Üretim (Q4 2026)
+
+Synapse V2 AI ajan sistemi  
+Üst düzey CEX listelemeleri  
+B2B Developer API  
+Staking (gelir paylaşımı) havuzunun aktif edilmesi  
+Ekosistem ortaklıkları
+
+---
+
+# 14. Uzun Vadeli Vizyon
+
+ZexAI, yapay zeka üretici ekonomisi için küresel bir altyapı platformu olmayı hedeflemektedir.
+
+Platform kullanıcıların fikirlerini dijital varlıklara dönüştürmesini ve küresel pazarlarda monetizasyon sağlamasını amaçlar.
+
+Uzun vadeli hedeflerimiz:
+
+- B2B API altyapısı ile oyun ve Metaverse projelerine AI üretim hizmeti sunmak  
+- Çoklu blokzincir desteği ile farklı ağlarda NFT üretim ve dağıtımı  
+- Küresel creator topluluğu oluşturarak dijital sanatçı ekonomisinin merkezine konumlanmak  
+- Yapay zeka model geliştirici ortaklıkları ile sürekli genişleyen model havuzu
+
 **Siz üretin, ZexAI dünyaya sunsun.**

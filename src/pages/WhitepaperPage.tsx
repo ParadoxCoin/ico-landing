@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import TokenDistributionChart from '../components/TokenDistributionChart';
 
 const WhitepaperPage: React.FC = () => {
     const { t, i18n } = useTranslation();
@@ -86,6 +87,9 @@ const WhitepaperPage: React.FC = () => {
                             </div>
                         )}
                     </div>
+
+                    {/* Interactive Token Distribution Chart */}
+                    <TokenDistributionChart />
                 </motion.div>
             </div>
         </div>
