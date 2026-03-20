@@ -5,7 +5,8 @@ import { useAccount } from 'wagmi';
 import { Trans, useTranslation } from 'react-i18next';
 import {
     Sparkles, ArrowRight,
-    Palette, Heart, Coins, Shield, Bot, Gift, ShoppingCart, Quote
+    Palette, Heart, Coins, Shield, Bot, Gift, ShoppingCart, Quote,
+    Ruler, Weight, Zap, Cpu, Scan as Radar, CreditCard, Landmark, Wallet, Check
 } from 'lucide-react';
 
 const TOTAL_SUPPLY = "1.000.000.000";
@@ -17,6 +18,7 @@ const Hero: React.FC = () => {
     const { t } = useTranslation();
     const [activeTab, setActiveTab] = useState<'vision' | 'tokenomics' | 'robot'>('vision');
     const [robotsSold] = useState(12);
+    const [paymentMethod, setPaymentMethod] = useState<'web3' | 'cc' | 'bank'>('web3');
 
     return (
         <>
@@ -283,79 +285,180 @@ const Hero: React.FC = () => {
                         {activeTab === 'robot' && (
                             <motion.div
                                 key="robot"
-                                initial={{ opacity: 0, x: 20 }}
-                                animate={{ opacity: 1, x: 0 }}
-                                exit={{ opacity: 0, x: -20 }}
-                                className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+                                initial={{ opacity: 0, scale: 0.95 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 1.05 }}
+                                className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"
                             >
-                                <div className="relative group">
-                                    <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
-                                    <div className="relative aspect-square bg-[#050510] rounded-2xl border border-white/10 flex items-center justify-center overflow-hidden">
-                                        <Bot className="w-48 h-48 text-purple-400/50 group-hover:scale-110 transition-transform duration-700" />
-                                        <div className="absolute top-4 left-4 bg-purple-500/20 border border-purple-500/50 text-purple-300 px-3 py-1 rounded-full text-xs font-bold tracking-wider backdrop-blur-md flex items-center gap-1">
-                                            <Sparkles className="w-3 h-3" /> {t('robot.badgeLimited')}
+                                {/* Left Column: Robot Visual & Specs */}
+                                <div className="lg:col-span-5 space-y-6">
+                                    <div className="relative group">
+                                        <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
+                                        <div className="relative aspect-square bg-[#050510] rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
+                                            <Bot className="w-48 h-48 text-purple-400/50 group-hover:scale-110 transition-transform duration-700" />
+                                            <div className="absolute top-4 left-4 bg-purple-500/20 border border-purple-500/50 text-purple-300 px-3 py-1 rounded-full text-xs font-bold tracking-wider backdrop-blur-md flex items-center gap-1">
+                                                <Sparkles className="w-3 h-3" /> {t('robot.badgeLimited')}
+                                            </div>
+                                            <div className="absolute bottom-4 right-4 bg-cyan-500/20 border border-cyan-500/50 text-cyan-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider backdrop-blur-md">
+                                                {t('robot.badgeAi')}
+                                            </div>
                                         </div>
-                                        <div className="absolute bottom-4 right-4 bg-cyan-500/20 border border-cyan-500/50 text-cyan-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider backdrop-blur-md">
-                                            {t('robot.badgeAi')}
+                                    </div>
+
+                                    {/* Tech Specs Grid */}
+                                    <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
+                                        <h4 className="text-white font-bold mb-4 flex items-center gap-2">
+                                            <Radar className="w-4 h-4 text-cyan-400" />
+                                            {t('robot.specsTitle')}
+                                        </h4>
+                                        <div className="grid grid-cols-1 gap-3">
+                                            {[
+                                                { icon: <Ruler className="w-4 h-4" />, text: t('robot.specs.height') },
+                                                { icon: <Weight className="w-4 h-4" />, text: t('robot.specs.weight') },
+                                                { icon: <Zap className="w-4 h-4" />, text: t('robot.specs.speed') },
+                                                { icon: <Bot className="w-4 h-4" />, text: t('robot.specs.dof') },
+                                                { icon: <Zap className="w-4 h-4" />, text: t('robot.specs.battery') },
+                                                { icon: <Cpu className="w-4 h-4" />, text: t('robot.specs.compute') },
+                                                { icon: <Radar className="w-4 h-4" />, text: t('robot.specs.sensors') },
+                                            ].map((spec, i) => (
+                                                <div key={i} className="flex items-center gap-3 text-sm text-gray-400 border-b border-white/5 pb-2 last:border-0 last:pb-0">
+                                                    <span className="text-cyan-400">{spec.icon}</span>
+                                                    {spec.text}
+                                                </div>
+                                            ))}
                                         </div>
                                     </div>
                                 </div>
 
-                                <div>
-                                    <h3 className="text-3xl font-bold mb-4">{t('robot.title')}</h3>
-                                    <p className="text-gray-400 mb-6 leading-relaxed">
-                                        <Trans i18nKey="robot.desc">
-                                            Transcend the limits of software! Own a custom-built Humanoid Robot, 100% integrated into the ZexAI ecosystem. The first batch is strictly limited to <strong className="text-white">only 80 units</strong> and will never be produced again.
-                                        </Trans>
-                                    </p>
+                                {/* Right Column: Purchase Form */}
+                                <div className="lg:col-span-7 space-y-6">
+                                    <div>
+                                        <h3 className="text-4xl font-black mb-4">{t('robot.title')}</h3>
+                                        <p className="text-gray-400 mb-6 leading-relaxed text-lg">
+                                            <Trans i18nKey="robot.desc">
+                                                Transcend the limits of software! Own a custom-built Humanoid Robot, 100% integrated into the ZexAI ecosystem. The first batch is strictly limited to <strong className="text-white">only 80 units</strong> and will never be produced again.
+                                            </Trans>
+                                        </p>
+                                    </div>
 
-                                    <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden mb-8">
-                                        {/* Satış Kısmı */}
-                                        <div className="p-6 border-b border-white/5">
-                                            <div className="flex items-center gap-2 mb-3">
-                                                <ShoppingCart className="w-5 h-5 text-purple-400" />
-                                                <h4 className="text-lg font-bold text-white">{t('robot.buyTitle')}</h4>
+                                    <div className="bg-[#0D0D2B] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+                                        {/* Status Header */}
+                                        <div className="p-6 bg-gradient-to-r from-purple-900/40 to-cyan-900/40 border-b border-white/10">
+                                            <div className="flex items-center justify-between mb-4">
+                                                <div className="flex items-center gap-2">
+                                                    <ShoppingCart className="w-6 h-6 text-purple-400" />
+                                                    <h4 className="text-xl font-bold text-white">{t('robot.buyTitle')}</h4>
+                                                </div>
+                                                <div className="text-right">
+                                                    <div className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+                                                        {ROBOT_PRICE_ZEX} ZEX
+                                                    </div>
+                                                    <div className="text-xs text-gray-400">≈ $12,500 USD</div>
+                                                </div>
                                             </div>
-                                            <div className="flex items-end justify-between mb-2">
-                                                <span className="text-gray-400 text-sm">{t('robot.buyPrice')}</span>
-                                                <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
-                                                    {ROBOT_PRICE_ZEX} ZEX
-                                                </span>
-                                            </div>
-                                            <div className="w-full bg-white/5 rounded-full h-1.5 mt-3 overflow-hidden">
-                                                <div
-                                                    className="bg-gradient-to-r from-purple-500 to-cyan-500 h-full rounded-full"
-                                                    style={{ width: `${(robotsSold / ROBOT_MAX_SUPPLY) * 100}%` }}
+                                            <div className="w-full bg-white/10 rounded-full h-2 overflow-hidden mb-2">
+                                                <motion.div
+                                                    initial={{ width: 0 }}
+                                                    animate={{ width: `${(robotsSold / ROBOT_MAX_SUPPLY) * 100}%` }}
+                                                    transition={{ duration: 1.5, ease: "easeOut" }}
+                                                    className="bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 h-full rounded-full"
                                                 />
                                             </div>
-                                            <p className="text-xs text-cyan-400 mt-2 text-right">{t('robot.buyLeft', { count: ROBOT_MAX_SUPPLY - robotsSold })}</p>
+                                            <div className="flex justify-between items-center text-xs font-bold mt-1">
+                                                <span className="text-gray-400">{robotsSold} / {ROBOT_MAX_SUPPLY} {t('robot.badgeLimited').toUpperCase()}</span>
+                                                <span className="text-cyan-400 animate-pulse">{t('robot.buyLeft', { count: ROBOT_MAX_SUPPLY - robotsSold })}</span>
+                                            </div>
                                         </div>
 
-                                        <div className="p-6 bg-purple-900/10">
-                                            <div className="flex items-center gap-2 mb-3">
-                                                <Gift className="w-5 h-5 text-pink-400" />
-                                                <h4 className="text-lg font-bold text-white">{t('robot.raffleTitle')}</h4>
+                                        {/* Payment Selection */}
+                                        <div className="p-6 space-y-4">
+                                            <label className="text-sm font-bold text-gray-400 uppercase tracking-widest">{t('robot.paymentMethods')}</label>
+                                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                                                {[
+                                                    { id: 'web3', icon: <Wallet className="w-5 h-5" />, label: t('robot.payWeb3') },
+                                                    { id: 'cc', icon: <CreditCard className="w-5 h-5" />, label: t('robot.payCC') },
+                                                    { id: 'bank', icon: <Landmark className="w-5 h-5" />, label: t('robot.payBank') },
+                                                ].map((method) => (
+                                                    <button
+                                                        key={method.id}
+                                                        onClick={() => setPaymentMethod(method.id as any)}
+                                                        className={`flex flex-col items-center justify-center p-4 rounded-2xl border transition-all gap-2 ${paymentMethod === method.id
+                                                            ? 'bg-purple-600/20 border-purple-500 text-white shadow-[0_0_20px_rgba(168,85,247,0.2)]'
+                                                            : 'bg-white/5 border-white/10 text-gray-400 hover:bg-white/10'
+                                                            }`}
+                                                    >
+                                                        {method.icon}
+                                                        <span className="text-xs font-semibold text-center">{method.label}</span>
+                                                        {paymentMethod === method.id && <Check className="w-3 h-3 absolute top-2 right-2 text-purple-400" />}
+                                                    </button>
+                                                ))}
                                             </div>
-                                            <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                                                <Trans i18nKey="robot.raffleDesc">
-                                                    Earn your raffle ticket by purchasing <strong className="text-white">at least 10,000 ZEX</strong> during the presale. Catch the chance to win a free Humanoid Robot in our viral campaign!
-                                                </Trans>
-                                            </p>
-                                            <button className="w-full py-3 rounded-xl border border-pink-500/50 hover:bg-pink-500/10 text-pink-300 font-bold text-sm transition-colors cursor-not-allowed opacity-70">
-                                                {t('robot.raffleBtn')}
-                                            </button>
+
+                                            {/* Dynamic Form based on Payment Method */}
+                                            <motion.div
+                                                initial={{ opacity: 0, y: 10 }}
+                                                animate={{ opacity: 1, y: 0 }}
+                                                key={paymentMethod}
+                                                className="mt-6"
+                                            >
+                                                {paymentMethod === 'web3' && (
+                                                    <div className="text-center">
+                                                        {isConnected ? (
+                                                            <button className="w-full py-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
+                                                                <ShoppingCart className="w-5 h-5" /> {t('robot.confirmPurchase')}
+                                                            </button>
+                                                        ) : (
+                                                            <div className="flex justify-center w-full">
+                                                                <appkit-button />
+                                                            </div>
+                                                        )}
+                                                    </div>
+                                                )}
+
+                                                {paymentMethod === 'cc' && (
+                                                    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center space-y-4">
+                                                        <CreditCard className="w-12 h-12 text-gray-400 mx-auto opacity-50" />
+                                                        <p className="text-sm text-gray-400">
+                                                            {t('robot.payCCDesc', { defaultValue: "Safely process your payment via Stripe secure infrastructure. All major cards accepted." })}
+                                                        </p>
+                                                        <button className="w-full py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-lg transition-all hover:scale-[1.02]">
+                                                            {t('robot.payCCBtn', { defaultValue: "Proceed to Checkout" })}
+                                                        </button>
+                                                    </div>
+                                                )}
+
+                                                {paymentMethod === 'bank' && (
+                                                    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center space-y-4">
+                                                        <Landmark className="w-12 h-12 text-gray-400 mx-auto opacity-50" />
+                                                        <p className="text-sm text-gray-400">
+                                                            {t('robot.payBankDesc', { defaultValue: "Contact our sales team for Bank Transfer or Swift instructions. Minimum order amount applies for bank transfers." })}
+                                                        </p>
+                                                        <a href="mailto:sales@zexai.io" className="block w-full py-4 rounded-xl bg-white/10 border border-white/10 text-white font-bold text-lg transition-all hover:bg-white/20">
+                                                            {t('robot.payBankBtn', { defaultValue: "Contact Sales" })}
+                                                        </a>
+                                                    </div>
+                                                )}
+                                            </motion.div>
                                         </div>
                                     </div>
 
-                                    {isConnected ? (
-                                        <button className="w-full py-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-lg transition-colors flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(168,85,247,0.3)]">
-                                            <ShoppingCart className="w-5 h-5" /> {t('robot.confirmPurchase')}
-                                        </button>
-                                    ) : (
-                                        <div className="flex justify-center w-full">
-                                            <appkit-button />
+                                    {/* Viral Raffle Section */}
+                                    <div className="bg-gradient-to-br from-pink-600/10 to-purple-600/10 border border-pink-500/20 rounded-3xl p-6 flex flex-col sm:flex-row items-center gap-6">
+                                        <div className="bg-pink-500/20 p-4 rounded-2xl">
+                                            <Gift className="w-10 h-10 text-pink-400" />
                                         </div>
-                                    )}
+                                        <div className="flex-1 text-center sm:text-left">
+                                            <h4 className="text-lg font-bold text-white mb-1">{t('robot.raffleTitle')}</h4>
+                                            <p className="text-sm text-gray-400 leading-relaxed">
+                                                <Trans i18nKey="robot.raffleDesc">
+                                                    Earn your raffle ticket by purchasing <strong className="text-white">at least 10,000 ZEX</strong> during the presale.
+                                                </Trans>
+                                            </p>
+                                        </div>
+                                        <button className="whitespace-nowrap px-6 py-3 rounded-xl border border-pink-500/50 hover:bg-pink-500/10 text-pink-300 font-bold text-sm transition-all opacity-70 cursor-not-allowed">
+                                            {t('robot.raffleBtn')}
+                                        </button>
+                                    </div>
                                 </div>
                             </motion.div>
                         )}

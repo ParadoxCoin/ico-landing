@@ -93,7 +93,25 @@
     "raffleTitle": "Büyük ICO Çekilişi (20 Adet)",
     "raffleDesc": "Ön satışta <1>en az 10.000 ZEX</1> alarak çekiliş biletinizi kazanın. Viral kampanyamızda bedava İnsansı Robot şansını yakalayın!",
     "raffleBtn": "🎯 Çekilişe Katıl (Yakında)",
-    "confirmPurchase": "Satın Alımı Onayla"
+    "confirmPurchase": "Satın Alımı Onayla",
+    "paymentMethods": "Ödeme Yöntemi Seçin",
+    "payWeb3": "Web3 (ZEX Token)",
+    "payCC": "Kredi Kartı / Banka Kartı",
+    "payBank": "Banka Havalesi / Swift",
+    "specsTitle": "Teknik Özellikler (Unitree G1)",
+    "specs": {
+      "height": "Boy: ~127cm (Katlanabilir)",
+      "weight": "Ağırlık: ~35kg",
+      "speed": "Hız: 2.0m/s (Maksimum)",
+      "dof": "Eklemler: 23-43 Serbestlik Derecesi",
+      "battery": "Batarya: 9000mAh (2-4 Saat Çalışma)",
+      "compute": "İşlemci: 8-Core CPU & NVIDIA Orin (EDU)",
+      "sensors": "Sensörler: 3D LiDAR + Derinlik Kamerası"
+    },
+    "payCCDesc": "Stripe güvenli altyapısı ile ödemenizi gerçekleştirin. Tüm kredi ve banka kartları geçerlidir.",
+    "payCCBtn": "Ödemeye Geç",
+    "payBankDesc": "Banka havalesi veya Swift bilgileri için satış ekibimizle iletişime geçin. Havale ile alımlarda limit uygulaması olabilir.",
+    "payBankBtn": "Satış Ekibiyle İletişime Geç"
   },
   "faq": {
     "title": "Sıkça Sorulan Sorular",

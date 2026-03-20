@@ -93,7 +93,25 @@
     "raffleTitle": "Grand ICO Raffle (20 Units)",
     "raffleDesc": "Earn your raffle ticket by purchasing <1>at least 10,000 ZEX</1> during the presale. Catch the chance to win a free Humanoid Robot in our viral campaign!",
     "raffleBtn": "🎯 Join Raffle (Soon)",
-    "confirmPurchase": "Confirm Purchase"
+    "confirmPurchase": "Confirm Purchase",
+    "paymentMethods": "Select Payment Method",
+    "payWeb3": "Web3 (ZEX Token)",
+    "payCC": "Credit / Debit Card",
+    "payBank": "Bank Transfer / Swift",
+    "specsTitle": "Technical Specifications (Unitree G1)",
+    "specs": {
+      "height": "Height: ~127cm (Foldable)",
+      "weight": "Weight: ~35kg",
+      "speed": "Speed: 2.0m/s (Max)",
+      "dof": "DOF: 23-43 Degrees of Freedom",
+      "battery": "Battery: 9000mAh (2-4h Runtime)",
+      "compute": "Compute: 8-Core CPU & NVIDIA Orin (EDU)",
+      "sensors": "Sensors: 3D LiDAR + Depth Camera"
+    },
+    "payCCDesc": "Safely process your payment via Stripe secure infrastructure. All major cards accepted.",
+    "payCCBtn": "Proceed to Checkout",
+    "payBankDesc": "Contact our sales team for Bank Transfer or Swift instructions. Minimum order amount applies for bank transfers.",
+    "payBankBtn": "Contact Sales"
   },
   "faq": {
     "title": "Frequently Asked Questions",
