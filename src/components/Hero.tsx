@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
 
                         <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight">
                             {t('hero.mainTitleLine1')} <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-cyan-400">
+                            <span className="text-white">
                                 {t('hero.mainTitleLine2')}
                             </span>
                         </h1>

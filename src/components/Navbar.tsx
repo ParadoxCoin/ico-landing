@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
-                    <div className="flex items-center gap-3">
+                    <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                         <div className="relative flex items-center justify-center w-10 h-10 group cursor-pointer">
                             <div className="absolute inset-1 bg-gradient-to-tr from-purple-500 to-cyan-500 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity" />
                             <img src="/logo192.png" alt="ZexAi" className="relative w-10 h-10 object-contain drop-shadow-lg" />
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
                         <span className="text-2xl font-black tracking-tighter bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
                             ZexAi
                         </span>
-                    </div>
+                    </a>
 
                     <div className="flex items-center gap-4">
                         {/* Language Switcher */}
@@ -107,6 +107,8 @@ const Navbar: React.FC = () => {
                         {/* App Login */}
                         <a
                             href="https://app.zexai.io"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="hidden md:block px-5 py-2.5 rounded-xl font-medium bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-sm text-white"
                         >
                             {t('nav.goToApp')}
@@ -150,6 +152,8 @@ const Navbar: React.FC = () => {
                         </div>
                         <a
                             href="https://app.zexai.io"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="w-full block text-center px-5 py-3 rounded-xl font-medium bg-white/5 border border-white/10 hover:bg-white/10 transition-all text-sm text-white"
                         >
                             {t('nav.goToApp')}
