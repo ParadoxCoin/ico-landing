@@ -197,7 +197,7 @@ const Hero: React.FC = () => {
                                 <div className="relative group">
                                     <div className="absolute -inset-4 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
                                     <div className="relative aspect-square bg-[#050510] rounded-2xl border border-white/10 flex flex-col items-center justify-center overflow-hidden p-8 text-center">
-                                        <Sparkles className="w-32 h-32 text-pink-400/50 mb-6" />
+                                        <img src="/logo192.png" alt="ZexAI" className="w-32 h-32 mb-6 drop-shadow-[0_0_30px_rgba(236,72,153,0.4)]" />
                                         <h4 className="text-2xl font-bold mb-2">{t('vision.agentTitle')}</h4>
                                         <p className="text-gray-400">
                                             {t('vision.agentDesc')}
