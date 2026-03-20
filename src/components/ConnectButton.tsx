@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useAccount, useDisconnect, useBalance } from 'wagmi';
 import { useAppKit } from '@reown/appkit/react';
-import { Wallet, LogOut, ChevronDown } from 'lucide-react';
+import { Wallet, LogOut, ChevronDown, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { formatUnits } from 'viem';
+import { useTranslation } from 'react-i18next';
 
 const ConnectButton: React.FC = () => {
   const { isConnected, address } = useAccount();
@@ -11,6 +12,7 @@ const ConnectButton: React.FC = () => {
   const { data: balance } = useBalance({ address });
   const { open } = useAppKit();
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   const handleDisconnect = () => {
@@ -73,15 +75,37 @@ const ConnectButton: React.FC = () => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.95 }}
             transition={{ duration: 0.15 }}
-            className="absolute right-0 mt-2 w-full min-w-[160px] bg-[#0A0A1F] border border-white/10 rounded-xl shadow-2xl overflow-hidden py-1 z-50 origin-top-right"
+            className="absolute right-0 mt-2 w-full min-w-[240px] bg-white border border-gray-100/50 rounded-2xl shadow-xl overflow-hidden z-50 origin-top-right text-gray-900"
           >
-            <button
-              onClick={handleDisconnect}
-              className="w-full text-left px-4 py-3 text-sm text-red-400 hover:bg-red-500/10 hover:text-red-300 transition-colors flex items-center gap-3 font-medium"
-            >
-              <LogOut className="w-4 h-4" />
-              Disconnect
-            </button>
+            {/* Header / App Info */}
+            <div className="px-5 py-4 border-b border-gray-100 flex items-center justify-between bg-gray-50/50">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-500 to-cyan-500 p-0.5 shadow-sm">
+                  <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
+                    <img src="/logo192.png" alt="ZexAI" className="w-6 h-6 object-contain" />
+                  </div>
+                </div>
+                <div>
+                  <div className="text-sm font-bold text-gray-900">ZexAI</div>
+                  <a href="https://zexai.io" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-500 hover:text-blue-600 font-medium flex items-center gap-1 transition-colors">
+                    zexai.io <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            {/* Disconnect Button */}
+            <div className="p-2">
+              <button
+                onClick={handleDisconnect}
+                className="w-full text-left px-4 py-2.5 text-sm text-red-600 hover:bg-red-50 transition-colors flex items-center justify-between rounded-xl font-bold"
+              >
+                <span className="flex items-center gap-2">
+                  <LogOut className="w-4 h-4" />
+                  {t('nav.disconnect', { defaultValue: 'Disconnect' })}
+                </span>
+              </button>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
