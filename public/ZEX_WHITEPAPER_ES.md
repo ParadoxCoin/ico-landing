@@ -1,72 +1,344 @@
-# ZexAI Whitepaper: La Visión de un Padre, El Futuro de Millones
-
-## 1. Nuestra Historia: Un Futuro Codificado con Amor
-
-Toda gran innovación comienza con una chispa interior. Mientras la mayoría de los proyectos tecnológicos nacen con márgenes de beneficio y análisis de mercado en mente, la base de ZexAI descansa sobre una fuerza mucho más pura e inquebrantable: El amor y la esperanza ilimitados de un padre por su hija.
-
-¿Saben lo que es para un padre con una hija enferma pasar días sin dormir? Incluso cuando sus ojos se cierran de agotamiento, su mente nunca se cansa. Porque esa vigilia no es por una recompensa, sino simplemente para que esa alma inocente recupere su salud. Esta es la motivación más pura, más poderosa e inagotable del mundo.
-
-Esa es exactamente la energía inagotable, sin expectativas y devotamente dedicada de la que nació el espíritu de ZexAI. No diseñamos este proyecto simplemente para construir una empresa. Construimos esta plataforma para eliminar todas las barreras a la creatividad, la esperanza y la creación de valor — para ofrecer al mundo entero, a través de la "Inteligencia Artificial", el patio de juegos seguro e ilimitado que un padre proporciona a su hijo.
+# ZexAI Whitepaper
+## Infraestructura para la Economía de Creadores de IA
 
 ---
 
-## 2. Plataforma y Solución: ¿Qué Hace ZexAI?
+# 1. Resumen para Inversores
 
-Soñar es gratis, pero convertir ese sueño en una valiosa obra de arte solía requerir años de conocimiento técnico y software costoso. ZexAI elimina esta injusticia.
+La generación de contenido mediante inteligencia artificial se ha convertido en un campo de rápido crecimiento en los últimos años.
+Sin embargo, la mayoría de las plataformas de IA existentes se basan en una sola herramienta o un solo modelo.
 
-Nosotros **"Diseñamos IA para NFT."**
+Un creador de contenido generalmente tiene que usar:
 
-ZexAI es una fábrica de producción masiva donde cualquiera puede usar herramientas complejas de IA (Imagen, Video, Audio y Texto) con un solo clic, transformando sus emociones en arte y, lo más importante, en **valor económico**.
+• una plataforma para generar imágenes
+• otra plataforma para video
+• una diferente para audio
+• y una plataforma completamente separada para la monetización de contenido.
 
-*   **Producción Ilimitada de NFT:** Nuestros usuarios pueden transformar las historias dentro de ellos en imágenes cautivadoras, videos cinemáticos y voces impresionantes en segundos a través de ZexAI.
-*   **Visión de Integración con OpenSea y Zora:** Estas piezas artísticas únicas y libres de regalías producidas en ZexAI pueden listarse para venta directa en los mercados NFT más grandes del mundo como **OpenSea, Zora, Blur** con un solo clic a través de su billetera digital (Web3).
-*   **Del Esfuerzo a los Ingresos:** No necesitas sostener un pincel ni escribir código para ser artista. ZexAI libera al gran director y artista que llevas dentro. Crea, acuña como NFT y vende tu visión en el mercado global.
+Esta estructura fragmentada complica el proceso de producción y limita el crecimiento de la economía de creadores.
 
----
+ZexAI está diseñado para resolver este problema.
 
-## 3. El Corazón del Ecosistema: ¿Por Qué ZexAI es Único?
+La plataforma integra múltiples modelos de IA, la economía de creadores y la infraestructura Web3 en un solo ecosistema.
 
-Mientras otras herramientas de IA en el mercado son estáticas, complejas y caras, ZexAI tiene un agente autónomo (Synapse) que entiende a su usuario y traduce sus sentimientos.
+Usuarios:
 
-1.  **Zex Vision:** Con 40+ modelos de IA que capturan hasta el detalle más fino, convierte tus sueños en píxeles.
-2.  **Zex Motion:** El poder que da vida a tus recuerdos estáticos, convirtiéndolos en una escena de Hollywood con 43 modelos de video diferentes.
-3.  **Zex Voice:** Con 10+ modelos avanzados de voz IA, transforma emociones en sonido.
-4.  **Agente IA Synapse:** Simplemente escribes "Esperanza" y él crea la narrativa "Un niño mirando al cielo con esperanza al amanecer" por ti.
+generan ideas
+→ crean contenido con IA
+→ comparan diferentes modelos
+→ transforman su contenido en activos digitales
+→ lo distribuyen en mercados globales.
 
----
-
-## 4. Economía del Token ZEX (Tokenomics) y Plan de Distribución
-
-Presentamos este proyecto a nuestra comunidad (inversores) a través de una economía de tokens transparente y justa. **$ZEX** es el combustible de esta revolución.
-
-### ¿Qué Hace el Token $ZEX? (Utilidad)
-1.  **Producción en Plataforma:** Todas las características del ecosistema ZexAI se pueden usar de manera mucho más ventajosa con Token $ZEX.
-2.  **Red de Acuñación y Venta de NFT:** Descuentos en tarifas de gas y comisiones para convertir obras producidas en NFTs.
-3.  **Revenue Share (Participación en Ingresos):** Una parte de los ingresos reales de ZexAI se distribuye a inversores leales de ZEX y stakers.
-4.  **Buy-Back & Burn:** $ZEX se recolecta periódicamente del mercado y se quema permanentemente.
-
-### Plan de Distribución de Tokens (Suministro Total: 1,000,000,000 $ZEX)
-
-*   **35% - Preventa / ICO:** Involucrar tempranamente el poder de la comunidad.
-*   **25% - Desarrollo del Ecosistema y Recompensas de Staking.**
-*   **15% - Liquidez y Listados en Exchanges (CEX/DEX).**
-*   **10% - Equipo y Fundadores:** COMPLETAMENTE BLOQUEADO por el primer año.
-*   **10% - Marketing, Asociaciones y Crecimiento.**
-*   **5% - Asesores y Partidarios Tempranos:** Bloqueados 6 meses.
+ZexAI no es solo una herramienta de IA; aspia a ser la plataforma de infraestructura para la economía de creadores de la próxima generación.
 
 ---
 
-## 5. Futuro (Hoja de Ruta)
+# 2. Introducción
 
-**Fase 1: Génesis (Q2 - 2026)** — Lanzamiento Beta, ICO, Comunidad.
-**Fase 2: El Arte se encuentra con Web3 (Q3 - 2026)** — Listado DEX, Minteo NFT, Integración OpenSea/Zora.
-**Fase 3: Producción Universal (Q4 - 2026)** — Synapse V2, Listados CEX, API B2B, Pool de Staking.
+Las tecnologías de inteligencia artificial están cambiando fundamentalmente la forma en que se produce el contenido digital.
+
+Sin embargo, hoy en día la mayoría de las plataformas de IA operan como herramientas aisladas que se centran en una sola función.
+
+Los creadores de contenido normalmente tienen que usar diferentes plataformas para:
+
+- generación de imágenes
+- generación de video
+- generación de audio
+- distribución de contenido
+- monetización
+
+Esta estructura fragmentada dificulta el proceso de producción y limita la conversión del contenido en valor económico.
+
+ZexAI resuelve este problema combinando herramientas de producción de IA, la economía de creadores y la infraestructura Web3 en una sola plataforma.
 
 ---
 
-## 6. Palabras Finales: De Nosotros Para Ustedes...
+# 3. El Problema
 
-Este whitepaper es más que un documento técnico; es una promesa hecha a ustedes.
+## Herramientas de IA Fragmentadas
 
-**Vengan, escribamos nuestra propia historia juntos.**
-**Ustedes crean, ZexAI lo presenta al mundo.**
+Las plataformas de IA existentes generalmente se centran en un solo área de producción:
+
+- generación de imágenes de IA
+- generación de video de IA
+- generación de audio de IA
+
+Esto hace que los creadores tengan que usar múltiples plataformas.
+
+---
+
+## Falta de Monetización
+
+Muchas plataformas de IA permiten la generación de contenido pero no ofrecen la infraestructura necesaria para convertir el contenido en valor económico.
+
+---
+
+## Dependencia de Modelos
+
+Muchas plataformas de IA están ligadas a un solo modelo y no ofrecen la oportunidad de aprovechar las ventajas de diferentes modelos de IA.
+
+---
+
+# 4. La Solución ZexAI
+
+ZexAI es una plataforma de producción de IA que funciona con una arquitectura de múltiples modelos.
+
+La plataforma proporciona a los usuarios:
+
+- acceso a diferentes modelos de IA
+- generación de imágenes, video y audio
+- comparación de resultados de modelos
+- producción de activos digitales
+- economía de creadores basada en tokens
+
+Este enfoque unifica el proceso de producción en una sola plataforma.
+
+---
+
+# 5. Arquitectura de la Plataforma
+
+## Capa de Producción de IA
+
+Las herramientas de producción principales de la plataforma:
+
+- generación de imágenes de IA
+- generación de video de IA
+- generación de audio de IA
+- asistente de prompts
+
+---
+
+## Motor de Múltiples Modelos (Multi-Model Engine)
+
+ZexAI permite a los usuarios elegir diferentes modelos de IA.
+
+Los usuarios pueden ejecutar múltiples modelos con el mismo prompt y comparar los resultados.
+
+La plataforma está construida sobre una arquitectura de múltiples modelos que soporta más de 40 modelos de inteligencia artificial.
+
+---
+
+## Capa de Economía de Creadores
+
+Los usuarios pueden transformar su contenido producido en activos digitales.
+
+Integraciones de la plataforma:
+
+OpenSea
+Zora
+
+De esta manera, el contenido de IA puede venderse como NFT en los mercados globales.
+
+---
+
+## Economía de Créditos
+
+La producción de IA funciona con un sistema de créditos.
+
+Formas de ganar créditos:
+
+- planes de suscripción
+- compras de créditos
+- sistema de referidos
+- recompensas por compartir en redes sociales
+- tareas diarias
+
+Los créditos de suscripción no caducan al final del mes.
+
+---
+
+# 6. Mecanismos de Crecimiento
+
+## Sistema de Referidos
+
+Los usuarios que invitan a otros ganan un **5 % de créditos de IA** de las compras de créditos del usuario invitado.
+
+---
+
+## Recompensas por Compartir en Redes Sociales
+
+Los usuarios pueden ganar créditos compartiendo su contenido producido en redes sociales.
+
+---
+
+## Tareas Diarias
+
+Las actividades en la plataforma recompensan a los usuarios.
+
+Tareas de ejemplo:
+
+iniciar sesión en la plataforma
+generación de imágenes
+generación de video
+compartir contenido
+
+---
+
+## Sistema de Lealtad
+
+Los creadores ganan insignias basadas en su volumen de producción.
+
+Este sistema tiene como objetivo aumentar la lealtad del usuario.
+
+---
+
+# 7. Seguridad de la Plataforma
+
+Se implementan varios mecanismos para prevenir el abuso de la plataforma.
+
+- límites de listado de contenido
+- límites de recompensas
+- límites de producción
+
+Estos mecanismos aseguran la sostenibilidad de la economía de la plataforma.
+
+---
+
+# 8. Economía del Token ZEX
+
+El token $ZEX es el token de utilidad principal del ecosistema ZexAI.
+
+---
+
+## Casos de Uso del Token
+
+- descuentos en producción de IA
+- tarifas de acuñación (minting) de NFT
+- recompensas de la plataforma
+- recompensas por staking
+
+---
+
+## Staking
+
+Los usuarios pueden ganar recompensas haciendo staking con sus tokens $ZEX.
+
+Se aplica una penalización del 10 % y se quema en caso de retirar el staking (unstaking) anticipadamente.
+
+---
+
+## Mecanismos Deflacionarios
+
+### Quema por Transacción
+
+Se aplica una quema del 0.5 % a las transacciones de la plataforma.
+
+### Quema por Penalización de Staking
+
+Las penalizaciones por unstaking anticipado se queman.
+
+### Recompra de Ingresos (Buyback)
+
+El 20 % de los ingresos de la plataforma se pueden usar para recompras y quema de tokens.
+
+---
+
+# 9. Distribución de Tokens
+
+Suministro Total: 1,000,000,000 ZEX
+
+- **Preventa / ICO — 35 %**
+  50 % desbloqueado al listar, el 50 % restante — 6 meses de vesting (desbloqueo) lineal.
+
+- **Ecosistema y Recompensas por Staking — 25 %**
+  Asignado para el uso de la plataforma, entrenamiento de Synapse, recompensas para creadores de NFT y pool de staking. Desbloqueo gradual según el uso.
+
+- **Liquidez — 15 %**
+  Bloqueado y asignado para pools de liquidez de listado en DEX/CEX.
+
+- **Equipo y Fundadores — 10 %**
+  **Totalmente bloqueado** durante el primer año (Cliff). Luego, desbloqueo lineal durante 24 meses. Estamos aquí, no nos vamos.
+
+- **Marketing y Alianzas — 10 %**
+  Uso gradual basado en las necesidades de campañas y alianzas.
+
+- **Asesores — 5 %**
+  Totalmente bloqueado durante los primeros 6 meses, luego 6 meses de desbloqueo lineal.
+
+---
+
+# 10. Oportunidad de Mercado
+
+ZexAI se encuentra en la intersección de tres grandes tendencias tecnológicas:
+
+Inteligencia Artificial (AI)
+Economía de Creadores
+Propiedad Digital Web3 (Digital Ownership)
+
+La combinación de estas tres áreas forma la economía digital de la próxima generación.
+
+---
+
+# 11. Comparativa Competitiva
+
+Las plataformas de IA existentes generalmente se centran en un solo área.
+
+Pollo.ai — generación de video de IA
+ImageArt — generación de imágenes de IA
+Abacus.ai — plataforma de infraestructura de IA
+
+ZexAI combina las capacidades ofrecidas por estas plataformas en un solo ecosistema.
+
+---
+
+# 12. Ciclo de Crecimiento de la Plataforma (Flywheel)
+
+El modelo de crecimiento de ZexAI se basa en la economía de creadores.
+
+Crear (Create)
+↓
+Compartir (Share)
+↓
+Invitar (Invite)
+↓
+Más Usuarios
+↓
+Más uso de IA
+↓
+Crecimiento de la plataforma
+
+---
+
+# 13. Hoja de Ruta (Roadmap)
+
+## Fase 1 — Génesis (Q2 2026)
+
+Lanzamiento de la plataforma de IA
+Campaña de ICO / Preventa
+Sistema de acuñación de NFT
+Construcción de comunidad (Telegram, Discord, Twitter)
+
+---
+
+## Fase 2 — Transición Web3 (Q3 2026)
+
+Listado del token $ZEX en DEX
+Integración de API de OpenSea y Zora
+Expansión del marketplace de creadores
+
+---
+
+## Phase 3 — Producción Universal (Q4 2026)
+
+Sistema de agentes de IA Synapse V2
+Listados en CEX de primer nivel
+API para desarrolladores B2B
+Activación del pool de Staking (participación en ingresos)
+Alianzas del ecosistema
+
+---
+
+# 14. Visión a Largo Plazo
+
+ZexAI aspira a ser una plataforma de infraestructura global para la economía de creadores de IA.
+
+La plataforma tiene como objetivo permitir a los usuarios transformar sus ideas en activos digitales y proporcionar monetización en los mercados globales.
+
+Nuestros objetivos a largo plazo:
+
+- Proporcionar servicios de producción de IA a proyectos de juegos y Metaverso con infraestructura de API B2B
+- Producción y distribución de NFT en diferentes redes con soporte multi-blockchain
+- Posicionarse en el centro de la economía de artistas digitales mediante la creación de una comunidad global de creadores
+- Pool de modelos en constante expansión con alianzas con desarrolladores de modelos de IA
+
+**Tú creas, ZexAI lo presenta al mundo.**

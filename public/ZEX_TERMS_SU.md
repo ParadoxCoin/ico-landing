@@ -1,27 +1,37 @@
-# ZexAI Dub-sar Gar (Ki-sur-ra)
+# ZexAI Dub-sar: Lugal Agreement
+## Ki-sur-ra Terms of Service
 
-**U4 Gibil:** Iti 3, Mu 2026 | **Ki-en-gi:** Gal
+**U4-gibil:** 3 Mar 2026
 
-ZexAI ki-sur-ra ku4 dub-sar gar gub-ba.
+ZexAI Platform ("Plata", "É-gal"). ZexAI web, An-na zubi, smart contract, $ZEX token presale.
 
-## 1. Ki-sur-ra ù Dub-sar
-ZexAI ug3 An-na zubi dù, alam, video, zà-mí, NFT EVM ku4 dù.
+## 1. Lugal Platform
+ZexAI, An-na assistant dù. Alam, video, 3D dù. EVM (Ethereum, Base, Zora) NFT mint. **$ZEX Token** economy, reward, revenue share.
 
-## 2. É-kìshib ù Ki-sur-ra
-- É-kìshib **Web3** (MetaMask, WalletConnect).
-- Lugal **100%** ki-sur-ra é-kìshib.
-- 18 mu gál-la.
+## 2. Lugal Wallet Security
+- **Web3 Wallet:** MetaMask, WalletConnect.
+- **Security:** Seed Phrase, Private Key **100% lugal responsibility.** ZexAI kù-babbar nu-máš.
+- **Age:** 18 mu-un-na-ru.
 
-## 3. An-na Dim-dim Níg-gál
-- An-na dim-dim **kù-babbar gál lugal ku4.**
-- ZexAI dub-sar nu-banda gál.
+## 3. An-na Alam Copyright
+- ZexAI An-na models (Synapse AI). Alam, zà-mí, video **lugal copyright.**
+- NFT mint OpenSea, Zora.
+- Illegal, violence content nu-dù.
 
-## 4. $ZEX, ICO ù Ki-gi-na
-- **Kù-babbar šà-tam nu.** Kù-babbar igi nu gub.
-- Lugal $ZEX kél ki-gi-na.
+## 4. $ZEX Token & ICO Risk
+- **Financial Advice Nu:** $ZEX, whitepaper, info investment nu. Crypto volatility risk gal.
+- **Loss Risk:** Kù-babbar loss risk gál.
+- **Vesting:** ZexAI team, advisors token vesting kél.
+- Smart contract address checking lugal responsibility.
 
-## 5. Alan Lugal
-- 100 alan: 80 sa10, 20 ki-lam.
+## 5. Founder's Edition Robot
+- 100 humanoids robot (80 sa10, 20 reward).
+- Shipping & customs buyer responsibility. $ZEX launch delivery.
 
-## 6. Ki-sur-ra Gibil
-- ZexAI ki-sur-ra gibil dub-sar gar šub.
+## 6. External Platform (OpenSea, Zora)
+OpenSea, Zora NFT listing, Gas fee, terms platform own. ZexAI network congestion nu-responsibility.
+
+## 7. Terms Change
+ZexAI terms change update.
+
+*Agreement questions, [Discord](#) support ku4.*

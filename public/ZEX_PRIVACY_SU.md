@@ -1,26 +1,35 @@
-# ZexAI Ki-sur-ra Dub
+# ZexAI Dub-sar: Ki-sur-ra Kal-ga
+## An-na Ki-sur-ra Privacy & Security
 
-**U4 Gibil:** Iti 3, Mu 2026 | **Ki-en-gi:** Gal
+**U4-gibil:** 3 Mar 2026
 
-ZexAI **ki-sur-ra ù gub-ba** Web3 šà kal-ga.
+ZexAI, Web3 **ki-sur-ra kal-ga** dù. Lugal alam dù, ki-sur-ra šu-peš-ša nu-gál.
 
-## 1. Dub Gál (Ki-sur-ra Nu)
-- **Web3 É-kìshib:** É-kìshib sag (`0x...`) gál.
-- **Ki-sur-ra Dim-dim:** Dub-sar ù alam ki-sur-ra gub.
-- **Telegram/Discord:** Ki-gi-na lugal gál.
+## 1. Lugal Níg-gál (Minimum Data)
+ZexAI Web2 (password, e-mail) nu; Web3 wallet dù.
 
-## 2. Dim-dim Ki-sur-ra
-- **Ki-sur-ra** dim-dim lugal é-kìshib gál.
-- On-chain dub-sar gál ug3.
+- **Web3 Wallet:** MetaMask, WalletConnect. `0x...` igi-gál. Seed phrase nu, kù-babbar nu.
+- **Ki-sur-ra Activity:** Prompt, NFT alam, Daily Streak cache dù.
+- **Telegram/Discord:** Reward campaign lugal permission dù.
 
-## 3. Alan Kargo Dub
-Ki-sur-ra ù dub kél, alan gál šub.
+## 2. Alam Privacy
+- **Private Mode:** Lugal alam dù, lugal gál. Public gallery nu, alam nu-igi.
+- **Blockchain Logs:** Mint, Sa10, EVM network. Open-chain records. ZexAI nu-máš.
 
-## 4. Cookies
-Web dub-sar gál. Šub ki-gi-na.
+## 3. Robot Founder's Edition Shipping
+Lugal Founder's Edition robot sa10:
+- Ki-sur-ra (address)
+- Contact information
 
-## 5. Mu Gál
-18 mu gál-la.
+Encrypt stored, delivery launch, and delete.
 
-## 6. Dub Šub ù "Gál-nu"
-Dub-sar lugal šub ki-gi-na. Blockchain dub nu-gi4.
+## 4. Cookies & Web Analytics
+Google Analytics, site performance, UI/UX. Cookie disable dù.
+
+## 5. Dumu-munus/Dumu Age
+18 mu-un-na-ru. User verification dù.
+
+## 6. Data Deletion
+Profile delete request. Blockchain transactions irreversible.
+
+*Ki-sur-ra kal-ga questions, ZexAI support ku4.*

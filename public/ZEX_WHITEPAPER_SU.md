@@ -1,70 +1,334 @@
-# ZexAI Dub-sar: Ad-da Igi, Ug3 U4-gibil
-
-## 1. Ud-sakar: Ki-ag-ga Sar-ra
-
-Níg-gibil zi-ga šà izi. An-na ZexAI ki-sur-ra gub-ba kal-ga: Ad-da dumu-munus ki-ag-ga u4-gibil sag.
-
-Ad-da dumu-munus gig-ga u4-nu-ná? Šà kal-ga nu-šub. Silim-ma dumu zi-ga. Ki-ag-ga kal-ga ki-en-gi.
-
-ZexAI zi-ga kal-ga nu-šub buru14. É-gal nu; é-dub dim-dim kal-ga, u4-gibil níg-gál. Ad-da dumu ki-ag-ga ki-sur-ra dim-dim, ug3 Web3 ku4.
+# ZexAI Dub-sar
+## An-na Ki-sur-ra Gibil Infrastructure
 
 ---
 
-## 2. Ki-sur-ra: ZexAI A-na Dù?
+# 1. Lugal Ud-sakar (Investor Summary)
 
-Dim-dim kù-babbar nu, alam gibil zubi gal-la dù. ZexAI ki-sur-ra gibil dù.
+An-na Alam dù-dù ud-da kal-ga.
+É-gal An-na diš-àm zubi dù.
 
-**"An-na NFT Dù."**
+Dub-sar dumu-munus dù-dù:
 
-ZexAI é-dub gal, An-na zubi (Alam, Video, Zà-mí, Dub-sar) diš tag dù, šà-zu alam ù **kù-babbar** gibil.
+• diš ki-sur-ra alam dù  
+• diš ki-sur-ra video dù  
+• diš ki-sur-ra zà-mí dù  
+• diš ki-sur-ra kù-babbar dù.
 
-*   **NFT Dim-dim Nu-banda:** Ud-sakar šà-zu alam gibil, video mah, zà-mí kal-ga ZexAI dù.
-*   **OpenSea ù Zora Ku4:** Alam gibil nu-kù ZexAI, **OpenSea, Zora, Blur** ki-lam gal diš tag dù.
-*   **Dim-dim Kù-babbar:** Giškim-ti nu, dub-sar nu. ZexAI šà-zu gal šub. Dù, NFT gar, ki-lam sa10.
+Ki-sur-ra šu-peš-ša dim-dim gal-la nu.
 
----
+ZexAI níg-nam dù-dù.
 
-## 3. Šà Ki-sur-ra: A-na ZexAI Gál?
+Ki-sur-ra An-na, Creator economy, Web3 níg-nam diš-àm ku4.
 
-1.  **Zex Vision:** 40+ An-na model alam dù.
-2.  **Zex Motion:** 43 video model alam zi-ga dù.
-3.  **Zex Voice:** 10+ zà-mí An-na model.
-4.  **Synapse An-na:** "U4-gibil" sar, dub-sar mah dù.
+Lugal:
 
----
+šà-zu gal  
+→ An-na alam dù  
+→ model gibil igi  
+→ alam kù-babbar ku4  
+→ ki-lam gal-la dù.
 
-## 4. ZEX Kù-babbar (Tokenomics)
-
-**$ZEX** izi ki-sur-ra gibil.
-
-### $ZEX A-na Dù?
-1.  **Ki-sur-ra Dim-dim:** $ZEX zubi gal-la dù.
-2.  **NFT Dù ù Sa10:** Gas kù-babbar silim.
-3.  **Kù-babbar Gál (Revenue Share):** ZexAI kù-babbar lugal gál.
-4.  **Sa10 ù Izi (Buy-Back & Burn):** $ZEX ki-lam sa10 ù izi.
-
-### Níg-gál (1,000,000,000 $ZEX)
-
-*   **35% - ICO / Sa10**
-*   **25% - Ki-sur-ra & Staking**
-*   **15% - CEX / DEX Kù**
-*   **10% - Lugal:** 1 Mu Kél
-*   **10% - Ki-lam**
-*   **5% - Šà-tam:** 6 Iti Kél
+ZexAI An-na nu; ki-sur-ra gibil Creator economy dù.
 
 ---
 
-## 5. U4-gibil (Roadmap)
+# 2. Ud-sakar (Introduction)
 
-**U4 1: Zi-ga (Q2 - 2026)** — Beta, ICO, Ug3.
-**U4 2: Alam Web3 (Q3 - 2026)** — DEX, NFT Dù, OpenSea/Zora.
-**U4 3: Dim-dim Gal (Q4 - 2026)** — Synapse V2, CEX, API, Staking.
+An-na zubi alam gibil u4-da dù.
+
+Ud-da An-na ki-sur-ra diš-àm zubi dù.
+
+Dub-sar níg-nam dù-dù:
+
+- alam dù
+- video dù
+- zà-mí dù
+- ki-lam gal
+- kù-babbar dù
+
+ZexAI An-na, Creator economy, Web3 ki-sur-ra diš-àm dù.
 
 ---
 
-## 6. Dub-sar Lugal
+# 3. Níg-gig (The Problem)
 
-Dub-sar nu dub-sar; ki-gi-na lugal.
+## An-na Šu-peš-ša
 
-**Ki-en-gi, ud-sakar gal sar.**
-**Dim-dim, ZexAI ki-en-gi šub.**
+An-na ud-da diš dù:
+
+- An-na alam dù
+- An-na video dù
+- An-na zà-mí dù
+
+Lugal ki-sur-ra gal-la dù.
+
+---
+
+## Kù-babbar Nu-gál
+
+An-na alam dù, kù-babbar gibil nu-dù.
+
+---
+
+## Model Kél
+
+An-na model diš-àm dù, model gibil nu-igi.
+
+---
+
+# 4. ZexAI Silim (Solution)
+
+ZexAI An-na multi-model ki-sur-ra dù.
+
+Lugal:
+
+- An-na model gibil igi
+- alam, video, zà-mí dù
+- model gibil igi
+- níg-nam kù-babbar dù
+- token Creator economy dù
+
+ZexAI níg-nam diš-àm dù.
+
+---
+
+# 5. É-gal Ki-sur-ra (Architecture)
+
+## An-na Dù Katman
+
+Ki-sur-ra zubi:
+
+- An-na alam dù
+- An-na video dù
+- An-na zà-mí dù
+- prompt dub-sar
+
+---
+
+## Multi-Model Engine
+
+ZexAI An-na model gibil dù.
+
+Lugal diš prompt An-na model gal-la dù.
+
+ZexAI 40+ An-na model dù.
+
+---
+
+## Creator Economy Katman
+
+Lugal alam dù kù-babbar ku4.
+
+Ki-sur-ra dù:
+
+OpenSea  
+Zora
+
+An-na NFT ki-lam gal-la dù.
+
+---
+
+## Kredi Economy
+
+An-na dù kredi zubi dù.
+
+Kredi gál:
+
+- Subscription dù
+- Kredi sa10
+- Referral dù
+- Social share dù
+- Daily tasks dù
+
+Kredi nu-izi.
+
+---
+
+# 6. Zi-ga (Growth)
+
+## Referral System
+
+Lugal referral dù **5% An-na kredi** gál.
+
+---
+
+## Social Share Rewards
+
+Lugal alam social media dù kredi gál.
+
+---
+
+## Daily Tasks
+
+ZexAI tasks lugal silim.
+
+Tasks:
+
+login dù  
+alam dù  
+video dù  
+share dù
+
+---
+
+## Loyalty System
+
+Lugal alam dù badge gál.
+
+---
+
+# 7. Ki-sur-ra Kal-ga (Security)
+
+ZexAI níg-gig nu-dù:
+
+- listing limit
+- reward limit
+- production limit
+
+---
+
+# 8. ZEX Kù-babbar (Tokenomics)
+
+$ZEX kù-babbar ZexAI utility token dù.
+
+---
+
+## Token Utility
+
+- An-na dù silim
+- NFT mint dù
+- platform reward
+- staking reward
+
+---
+
+## Staking
+
+Lugal $ZEX stake dù reward gál.
+
+Unstake 10% izi (burn).
+
+---
+
+## Deflationary Mechanism
+
+### Transaction Burn
+
+0.5% izi (burn) dù.
+
+### Staking Penalty Burn
+
+Unstake penalty izi (burn).
+
+### Revenue Buyback
+
+20% kù-babbar sa10 ù izi (burn).
+
+---
+
+# 9. Níg-gál (1,000,000,000 ZEX)
+
+*   **Presale / ICO — 35%**  
+    50% u4-da, 50% — 6 iti vesting.
+
+*   **Ecosystem & Staking Rewards — 25%**  
+    An-na, Synapse, NFT Creator, Staking pool.
+
+*   **Liquidity — 15%**  
+    DEX/CEX kél.
+
+*   **Lugal & Founders — 10%**  
+    **1 mu kél** (Cliff). 24 iti vesting. We are here.
+
+*   **Marketing & Partnerships — 10%**  
+    U4-gibil dù.
+
+*   **Advisor — 5%**  
+    6 iti kél, 6 iti vesting.
+
+---
+
+# 10. Ki-lam Gibil (Market Opportunity)
+
+ZexAI 3 gal zubi:
+
+An-na (AI)  
+Creator Economy  
+Web3 Digital Ownership
+
+---
+
+# 11. Competitive Comparison
+
+An-na ki-sur-ra diš dù.
+
+Pollo.ai — An-na video  
+ImageArt — An-na alam  
+Abacus.ai — An-na infrastructure
+
+ZexAI níg-nam diš-àm dù.
+
+---
+
+# 12. Flywheel (Büyüme Döngüsü)
+
+ZexAI Creator Economy dù.
+
+Create  
+↓  
+Share  
+↓  
+Invite  
+↓  
+More Users  
+↓  
+More AI Usage  
+↓  
+Platform Growth
+
+---
+
+# 13. U4-gibil (Roadmap)
+
+## U4 1 — Zi-ga (Q2 2026)
+
+An-na launch  
+ICO / Presale  
+NFT mint  
+Telegram, Discord, Twitter
+
+---
+
+## U4 2 — Web3 Gibil (Q3 2026)
+
+$ZEX DEX  
+OpenSea & Zora API  
+Creator marketplace
+
+---
+
+## U4 3 — Dim-dim Gal (Q4 2026)
+
+Synapse V2 An-na  
+CEX list  
+B2B API  
+Staking pool  
+Ecosystem partner
+
+---
+
+# 14. Vizyon (Long-Term Vision)
+
+ZexAI An-na Creator Economy ki-sur-ra gal-la dù.
+
+Lugal alam dù kù-babbar ki-lam gal-la dù.
+
+U4-gibil:
+
+- B2B API gaming & Metaverse  
+- Multi-blockchain NFT  
+- Global Creator Economy  
+- An-na model gal
+
+**Dù, ZexAI ki-lam gal-la dù.**
