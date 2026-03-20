@@ -22,6 +22,25 @@ const Hero: React.FC = () => {
     const [paymentMethod, setPaymentMethod] = useState<'web3' | 'cc' | 'bank'>('web3');
     const [activeMedia, setActiveMedia] = useState(0);
 
+    const tabs: ('vision' | 'tokenomics' | 'robot')[] = ['vision', 'tokenomics', 'robot'];
+
+    const handleDragEnd = (event: any, info: any) => {
+        const swipeThreshold = 50;
+        if (info.offset.x < -swipeThreshold) {
+            // Swiped left -> next tab
+            const currentIndex = tabs.indexOf(activeTab);
+            if (currentIndex < tabs.length - 1) {
+                setActiveTab(tabs[currentIndex + 1]);
+            }
+        } else if (info.offset.x > swipeThreshold) {
+            // Swiped right -> prev tab
+            const currentIndex = tabs.indexOf(activeTab);
+            if (currentIndex > 0) {
+                setActiveTab(tabs[currentIndex - 1]);
+            }
+        }
+    };
+
     const robotMedia = [
         { type: 'image' as const, src: '/robot-hero.png', alt: 'ZexAI Humanoid Robot - Front View' },
         { type: 'image' as const, src: '/robot-detail.png', alt: 'ZexAI Humanoid Robot - Detail' },
@@ -193,7 +212,12 @@ const Hero: React.FC = () => {
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: 20 }}
-                                className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+                                drag="x"
+                                dragConstraints={{ left: 0, right: 0 }}
+                                dragElastic={0.2}
+                                dragDirectionLock
+                                onDragEnd={handleDragEnd}
+                                className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center touch-pan-y"
                             >
                                 <div className="relative group">
                                     <div className="absolute -inset-4 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
@@ -247,7 +271,12 @@ const Hero: React.FC = () => {
                                 initial={{ opacity: 0, x: 20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 exit={{ opacity: 0, x: -20 }}
-                                className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+                                drag="x"
+                                dragConstraints={{ left: 0, right: 0 }}
+                                dragElastic={0.2}
+                                dragDirectionLock
+                                onDragEnd={handleDragEnd}
+                                className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center touch-pan-y"
                             >
                                 <div>
                                     <div className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-mono text-cyan-400 mb-4">
@@ -296,7 +325,12 @@ const Hero: React.FC = () => {
                                 initial={{ opacity: 0, scale: 0.95 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 1.05 }}
-                                className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"
+                                drag="x"
+                                dragConstraints={{ left: 0, right: 0 }}
+                                dragElastic={0.2}
+                                dragDirectionLock
+                                onDragEnd={handleDragEnd}
+                                className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start touch-pan-y"
                             >
                                 {/* Left Column: Robot Visual & Specs */}
                                 <div className="lg:col-span-5 space-y-4">
