@@ -8,6 +8,7 @@ import {
     Palette, Heart, Coins, Shield, Bot, Gift, ShoppingCart, Quote,
     Ruler, Weight, Zap, Cpu, Scan as Radar, CreditCard, Landmark, Wallet, Check
 } from 'lucide-react';
+import ConnectButton from './ConnectButton';
 
 const TOTAL_SUPPLY = "1.000.000.000";
 const ROBOT_MAX_SUPPLY = 80;
@@ -283,7 +284,7 @@ const Hero: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="flex justify-center w-full mt-8">
-                                        <appkit-button />
+                                        <ConnectButton />
                                     </div>
                                 </div>
                             </motion.div>
@@ -457,7 +458,7 @@ const Hero: React.FC = () => {
                                                             </button>
                                                         ) : (
                                                             <div className="flex justify-center w-full">
-                                                                <appkit-button />
+                                                                <ConnectButton />
                                                             </div>
                                                         )}
                                                     </div>

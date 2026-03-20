@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import ConnectButton from './ConnectButton';
 
 const languages = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
@@ -100,7 +101,7 @@ const Navbar: React.FC = () => {
 
                         {/* Wallet Connect Button */}
                         <div className="hidden md:flex items-center">
-                            <appkit-button />
+                            <ConnectButton />
                         </div>
 
                         {/* App Login */}
@@ -145,7 +146,7 @@ const Navbar: React.FC = () => {
                             ))}
                         </div>
                         <div className="flex justify-center w-full">
-                            <appkit-button />
+                            <ConnectButton />
                         </div>
                         <a
                             href="https://app.zexai.io"
