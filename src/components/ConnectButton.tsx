@@ -1,23 +1,16 @@
 import React, { useState } from 'react';
-import { useAccount, useConnect, useDisconnect, useBalance } from 'wagmi';
+import { useAccount, useDisconnect, useBalance } from 'wagmi';
+import { useAppKit } from '@reown/appkit/react';
 import { Wallet, LogOut, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { formatUnits } from 'viem';
 
 const ConnectButton: React.FC = () => {
   const { isConnected, address } = useAccount();
-  const { connect, connectors, isPending } = useConnect();
   const { disconnect } = useDisconnect();
   const { data: balance } = useBalance({ address });
+  const { open } = useAppKit();
   const [isOpen, setIsOpen] = useState(false);
-
-  // Use the injected connector (MetaMask) we configured
-  const handleConnect = () => {
-    const metaMaskConnector = connectors.find(c => c.type === 'injected' || c.id.toLowerCase().includes('metamask')) || connectors[0];
-    if (metaMaskConnector) {
-      connect({ connector: metaMaskConnector });
-    }
-  };
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   const handleDisconnect = () => {
@@ -36,19 +29,20 @@ const ConnectButton: React.FC = () => {
     return num.toFixed(3);
   };
 
+  // Hybrid Mode: When disconnected, show a button that triggers Reown's multi-wallet modal
   if (!isConnected) {
     return (
       <button
-        onClick={handleConnect}
-        disabled={isPending}
-        className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:scale-105 disabled:opacity-70 disabled:hover:scale-100"
+        onClick={() => open()}
+        className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:scale-105"
       >
         <Wallet className="w-4 h-4" />
-        {isPending ? 'Connecting...' : 'Connect Wallet'}
+        Connect Wallet
       </button>
     );
   }
 
+  // Hybrid Mode: When connected, show our beautiful custom Wagmi/MetaMask style UI
   return (
     <div className="relative">
       <button
