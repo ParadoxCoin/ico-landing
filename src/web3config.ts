@@ -1,6 +1,6 @@
 import { createAppKit } from '@reown/appkit/react'
 import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
-import { polygon, mainnet, bsc, sepolia } from 'wagmi/chains'
+import { polygon, mainnet, bsc } from 'wagmi/chains'
 
 // Get projectId from https://cloud.walletconnect.com
 export const projectId = '7618ae03fb9e1bd4fcdaeb7f1ca5c165';
@@ -12,24 +12,30 @@ const metadata = {
     icons: ['https://zexai.io/logo192.png']
 }
 
-const networks = [polygon, mainnet, bsc, sepolia]
+const networks = [polygon, mainnet, bsc]
 
 export const wagmiAdapter = new WagmiAdapter({
     projectId,
     networks
 })
 
-// Create Modal
+// Create Modal — MetaMask-first, Polygon default
 createAppKit({
     adapters: [wagmiAdapter],
     networks,
     defaultNetwork: polygon,
     projectId,
     metadata,
+    featuredWalletIds: [
+        // MetaMask
+        'c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96',
+        // Trust Wallet
+        '4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0',
+    ],
     features: {
         analytics: false,
-        email: true,
-        socials: ['google', 'x', 'github', 'discord', 'apple'],
+        email: false,
+        socials: false,
         emailShowWallets: true,
     },
     themeMode: 'dark',
