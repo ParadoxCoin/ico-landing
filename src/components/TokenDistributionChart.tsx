@@ -142,7 +142,7 @@ const renderActiveShape = (props: any) => {
                 opacity={0.4}
             />
             <text x={cx} y={cy - 14} textAnchor="middle" fill="#fff" fontSize={28} fontWeight="900">
-                {`${(percent * 100).toFixed(0)}%`}
+                {`${payload.value}%`}
             </text>
             <text x={cx} y={cy + 12} textAnchor="middle" fill="#9ca3af" fontSize={13} fontWeight="500">
                 {payload.name}
