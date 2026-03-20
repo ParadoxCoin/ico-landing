@@ -4,31 +4,31 @@
     "goToApp": "Go to App"
   },
   "hero": {
-    "visionBadge": "A Father's Vision, The World's Canvas",
-    "mainTitleLine1": "The New Evolution of",
-    "mainTitleLine2": "AI and Web3 Art",
-    "description": "A next-gen digital production platform that unifies multi-model AI, creator economy, and Web3 infrastructure in one ecosystem. Generate ideas, create with AI, compare models, transform content into digital assets, and distribute globally.",
+    "visionBadge": "AI Creator Economy Infrastructure",
+    "mainTitleLine1": "The Next-Gen Platform for",
+    "mainTitleLine2": "Multi-Model AI & Web3",
+    "description": "End the fragmented AI tooling. ZexAI unifies multi-model AI, creator economy, and Web3 infrastructure in one ecosystem. Generate ideas → Create with AI → Compare models → Transform into digital assets → Distribute globally.",
     "joinPresale": "Join Presale",
     "tryApp": "Try the App",
     "stats": {
       "aiModels": "AI Models",
-      "emotions": "Captured Emotion",
-      "communityShare": "Community Share",
+      "emotions": "Ways to Earn Credits",
+      "communityShare": "Ecosystem & Staking",
       "status": "Platform Status",
       "statusLive": "Live"
     }
   },
   "story": {
-    "title": "A Future Coded with Love",
-    "p1": "Every great innovation starts with an inner spark. While most tech projects are born with profit margins in mind, ZexAI's foundation rests on a much more unshakable power: <1>A father's boundless love and hope for his daughter.</1>",
-    "p2": "Do you know what it's like for a father with a sick daughter to go days without sleep? That exhausted body never lets his mind give up. Because that wait is not for a reward, but simply for that innocent soul to regain her health.",
-    "p3": "That is exactly the tireless, expectation-free energy from which ZexAI's spirit was born. It is not just a company; it is a <1>colossal art factory that removes the barriers to creativity, hope, and value creation.</1>",
-    "p4": "We designed this platform with an \"AI and NFT\" focus to offer the entire world that safe playground a father provides his child, and to integrate millions who never stop dreaming into the Web3 economy.",
+    "title": "Why ZexAI Exists",
+    "p1": "AI content creation is a rapidly growing field. However, most existing platforms are built on a single tool or a single model. A content creator has to use <1>separate platforms for images, video, audio, and monetization.</1>",
+    "p2": "This fragmented structure complicates the production process and limits the growth of the creator economy. ZexAI was designed to solve this problem.",
+    "p3": "The platform unifies multi-model AI, creator economy, and Web3 infrastructure in a single ecosystem. ZexAI is not just an AI tool; <1>it aims to be the infrastructure platform for the next-gen creator economy.</1>",
+    "p4": "Users generate ideas, create content with AI, compare different models, transform their content into digital assets, and distribute globally. You create, ZexAI delivers to the world.",
     "readWhitepaper": "Read the Full Whitepaper"
   },
   "campaign": {
     "title": "ZexAI Ecosystem & Opportunities",
-    "subtitle": "A decentralized ecosystem that combines AI production tools, creator economy, and Web3 infrastructure in a single platform. 40+ AI models, NFT production, token economy, and physical products.",
+    "subtitle": "A decentralized ecosystem combining AI production tools, creator economy, and Web3 infrastructure in one platform. 40+ AI models, NFT production, token economy, and physical products.",
     "tabVision": "AI Production Platform",
     "tabTokenomics": "$ZEX Economy",
     "tabRobot": "Founder's Edition Robot 🚀"
@@ -46,41 +46,41 @@
     "startCreating": "Explore the Platform"
   },
   "tokenomics": {
-    "supplyBadge": "TOTAL SUPPLY: 1,000,000,000",
-    "title": "$ZEX Distribution Plan",
-    "desc": "A fair, long-term, and community-focused distribution model. Built for sustainability, not short-term speculation. Team tokens are fully locked for 1 year.",
+    "supplyBadge": "TOTAL SUPPLY: 1,000,000,000 ZEX",
+    "title": "$ZEX Token Distribution Plan",
+    "desc": "$ZEX is the core utility token of the ZexAI ecosystem. Used for AI production discounts, NFT mint fees, platform rewards, and staking. Fair, long-term, and community-focused distribution.",
     "tiers": [
       {
-        "name": "35% - Presale / ICO",
-        "desc": "Community Phase 1"
+        "name": "35% — Presale / ICO",
+        "desc": "50% unlocked at listing, remaining 50% — 6-month linear vesting"
       },
       {
-        "name": "25% - Ecosystem & Staking",
-        "desc": "Rewards for Users & Creators"
+        "name": "25% — Ecosystem & Staking Rewards",
+        "desc": "Platform usage, NFT creator rewards, staking pool"
       },
       {
-        "name": "15% - CEX / DEX Liquidity",
-        "desc": "Locked for stability"
+        "name": "15% — Liquidity (DEX/CEX)",
+        "desc": "Locked for listing liquidity pools"
       },
       {
-        "name": "10% - Marketing & Partnerships",
-        "desc": "OpenSea, Zora, Global Growth"
+        "name": "10% — Marketing & Partnerships",
+        "desc": "Gradual release based on campaign and partnership needs"
       },
       {
-        "name": "10% - Team & Founders",
-        "desc": "1 Year Full Lock (We are here to stay)"
+        "name": "10% — Team & Founders",
+        "desc": "1 year fully locked + 24-month linear unlock"
       },
       {
-        "name": "5% - Advisors",
-        "desc": "6 Months Locked"
+        "name": "5% — Advisors",
+        "desc": "6 months locked + 6-month linear unlock"
       }
     ],
-    "utilityTitle": "$ZEX Utility & Stability",
-    "utilityDesc": "Token holders earn passive income from the platform's Revenue Share, benefit from generation discounts, and participate in periodic \"Buyback & Burn\" events.",
-    "burnTitle": "Deflationary (Burn)",
-    "burnDesc": ": $ZEX is bought back from the market using ecosystem revenues and burned.",
-    "yieldTitle": "Real Yield",
-    "yieldDesc": ": Stakers earn a share of subscription and generation revenues."
+    "utilityTitle": "$ZEX Token Utility",
+    "utilityDesc": "AI production discounts, NFT mint fees, staking rewards, and platform revenue sharing. Sustainable token economy backed by deflationary mechanisms.",
+    "burnTitle": "Deflationary Burn",
+    "burnDesc": ": 0.5% burn on transactions + 10% early unstake penalty burn + 20% of platform revenue used for buyback & burn.",
+    "yieldTitle": "Staking Yield",
+    "yieldDesc": ": Earn rewards by staking $ZEX. Early unstake incurs a 10% penalty that is burned."
   },
   "robot": {
     "badgeLimited": "Limited Edition",
@@ -115,15 +115,15 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Let us clear up your questions.",
-    "q1": "When will the $ZEX Token be launched?",
-    "a1": "The $ZEX Presale phase will begin very soon. All announcements will first be made through our Twitter and Discord channels. Launch and CEX/DEX listing dates will be announced after smart contract audits are completed.",
-    "q2": "How can I buy a Founder's Edition Humanoid Robot?",
-    "a2": "You can purchase our robots, with only 80 units in the first batch, by connecting your wallet and paying a minimum of 250,000 $ZEX tokens directly. Additionally, by purchasing at least 10,000 $ZEX during the presale, you earn the right to enter the 20-unit raffle pool. Shipping details will be managed from a dedicated panel that opens after token purchase.",
-    "q3": "How does NFT Production and Marketplace Integration work?",
-    "a3": "You can 'mint' the digital artworks you design on the ZexAI platform directly to major platforms like OpenSea and Zora with a single button click through our panel. Thanks to our smart contracts, gas fees are optimized and all copyrights belong to you.",
-    "q4": "Why are team tokens locked?",
-    "a4": "We built this project not for short-term profit, but to create real value and a lasting ecosystem. As proof of our vision, team and founder tokens are locked in smart contracts for a full 1 year (Vesting). We are here and we are building the future together."
+    "subtitle": "Everything you need to know about the ZexAI ecosystem.",
+    "q1": "What is ZexAI and what does it do?",
+    "a1": "ZexAI is a production platform powered by multi-model AI architecture. It provides access to 40+ AI models, image/video/audio generation, model comparison, digital asset creation, and a token-based creator economy. The platform unifies AI production tools, creator economy, and Web3 infrastructure in one ecosystem.",
+    "q2": "What is $ZEX Token used for?",
+    "a2": "$ZEX token is used for AI production discounts, NFT mint fees, platform rewards, and staking. It is backed by deflationary mechanisms: 0.5% burn on transactions, 10% early unstake penalty burn, and 20% of platform revenue used for buyback & burn.",
+    "q3": "How does the credit system work?",
+    "a3": "AI production runs on a credit system. Ways to earn credits: subscription plans, credit purchases, referral system (earn 5% from invited users' credit purchases), social sharing rewards, and daily quests (login, generation, sharing). Subscription credits do not expire at month end.",
+    "q4": "What is the token distribution and lock schedule?",
+    "a4": "Total supply is 1 billion ZEX. Presale 35% (50% unlocked at listing, 50% 6-month vesting), Ecosystem 25% (gradual), Liquidity 15% (locked), Marketing 10% (gradual), Team 10% (1-year full lock + 24-month linear), Advisors 5% (6-month lock + 6-month linear). Team tokens are fully locked for 1 year — we are here to stay."
   },
   "footer": {
     "copyright": "© 2026 ZexAi. All rights reserved.",

@@ -4,26 +4,26 @@
     "goToApp": "Uygulamaya Git"
   },
   "hero": {
-    "visionBadge": "Bir Babanın Vizyonu, Dünyanın Tuvali",
-    "mainTitleLine1": "Yapay Zeka ve Web3 Sanatının",
-    "mainTitleLine2": "Yeni Evrimi",
-    "description": "Çoklu yapay zeka modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştiren yeni nesil dijital üretim platformu. Fikir üretin, AI ile içerik oluşturun, dijital varlıklara dönüştürün ve küresel pazarlarda dağıtın.",
+    "visionBadge": "AI Yaratıcı Ekonomisi Altyapısı",
+    "mainTitleLine1": "Çoklu Model AI ve Web3'ün",
+    "mainTitleLine2": "Yeni Nesil Platformu",
+    "description": "Yapay zeka içerik üretiminde parçalı yapıya son. ZexAI, çoklu AI modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir. Fikir üretin → AI ile içerik oluşturun → farklı modelleri karşılaştırın → dijital varlıklara dönüştürün → küresel pazarlarda dağıtın.",
     "joinPresale": "Ön Satışa Katıl",
     "tryApp": "Uygulamayı Dene",
     "stats": {
-      "aiModels": "Yapay Zeka Modeli",
-      "emotions": "Yakalanan Duygu",
-      "communityShare": "Topluluk Payı",
+      "aiModels": "AI Modeli",
+      "emotions": "Kredi Kazanma Yolu",
+      "communityShare": "Ekosistem & Staking",
       "status": "Platform Durumu",
       "statusLive": "Yayında"
     }
   },
   "story": {
-    "title": "Sevgiyle Kodlanan Bir Gelecek",
-    "p1": "Her büyük yenilik içsel bir kıvılcımla başlar. Çoğu teknoloji projesi kâr marjlarıyla doğarken, ZexAI’nin temeli çok daha sarsılmaz bir güce dayanır: <1>Bir babanın kızı için beslediği sınırsız sevgi ve umut.</1>",
-    "p2": "Kızı hasta olan bir babanın günlerce uyumamasını bilir misiniz? O yorgun beden zihninin yorulmasına asla izin vermez. Çünkü o bekleyiş bir ödül için değil, sadece o masum canın sağlığına kavuşması içindir.",
-    "p3": "İşte ZexAI’nin ruhu tam da bu yorulmak bilmez, beklentisiz enerjiden doğmuştur. Sadece bir şirket değil; <1>yaratıcılığın, umudun ve değer üretmenin önündeki engelleri kaldıran</1> devasa bir sanat fabrikasıdır.",
-    "p4": "Biz bu platformu, bir babanın çocuğuna sunduğu o güvenli oyun alanını tüm dünyaya sunmak, hayal etmekten vazgeçmeyen milyonları Web3 ekonomisine dahil etmek için \"Yapay Zeka ve NFT\" odaklı tasarladık.",
+    "title": "ZexAI Neden Var?",
+    "p1": "Yapay zeka içerik üretimi hızla büyüyen bir alan. Ancak mevcut platformların çoğu tek bir araç veya tek bir model üzerine kurulu. Bir içerik üreticisi görsel, video, ses ve monetizasyon için <1>farklı platformlar kullanmak zorunda kalıyor.</1>",
+    "p2": "Bu parçalı yapı üretim sürecini karmaşık hale getiriyor ve creator ekonomisinin büyümesini sınırlıyor. ZexAI bu sorunu çözmek için tasarlandı.",
+    "p3": "Platform, çoklu yapay zeka modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir. ZexAI yalnızca bir AI aracı değil; <1>yeni nesil creator ekonomisinin altyapı platformu olmayı hedefler.</1>",
+    "p4": "Kullanıcılar fikir üretir, AI ile içerik oluşturur, farklı modelleri karşılaştırır, içeriklerini dijital varlıklara dönüştürür ve küresel pazarlarda dağıtır. Siz üretin, ZexAI dünyaya sunsun.",
     "readWhitepaper": "Whitepaper'ın Tamamını Oku"
   },
   "campaign": {
@@ -46,41 +46,41 @@
     "startCreating": "Platformu Keşfet"
   },
   "tokenomics": {
-    "supplyBadge": "TOPLAM ARZ: 1.000.000.000",
-    "title": "$ZEX Dağıtım Planı",
-    "desc": "Adil, uzun vadeli ve topluluk odaklı bir dağıtım modeli. Kısa vadeli spekülasyonlar için değil, sürdürülebilirlik için inşa edildi. Takım tokenleri 1 yıl tam kilitlidir.",
+    "supplyBadge": "TOPLAM ARZ: 1.000.000.000 ZEX",
+    "title": "$ZEX Token Dağılım Planı",
+    "desc": "$ZEX, ZexAI ekosisteminin temel utility (işlevsel) tokenidir. AI üretim indirimleri, NFT mint ücretleri, platform ödülleri ve staking için kullanılır. Adil, uzun vadeli ve topluluk odaklı dağıtım.",
     "tiers": [
       {
-        "name": "%35 - Ön Satış / ICO",
-        "desc": "Topluluk Fazı 1"
+        "name": "%35 — Ön Satış / ICO",
+        "desc": "Listede %50 açık, kalan %50 — 6 ay lineer vesting"
       },
       {
-        "name": "%25 - Ekosistem & Staking",
-        "desc": "Kullanıcılar ve Üreticiler İçin Ödüller"
+        "name": "%25 — Ekosistem & Staking Ödülleri",
+        "desc": "Platform kullanımı, NFT üretici ödülleri, staking havuzu"
       },
       {
-        "name": "%15 - Merkezi / Merkeziyetsiz Borsa Likiditesi",
-        "desc": "İstikrar için kilitli"
+        "name": "%15 — Likidite (DEX/CEX)",
+        "desc": "Listeleme likidite havuzları için kilitli"
       },
       {
-        "name": "%10 - Pazarlama & Partnerlikler",
-        "desc": "OpenSea, Zora, Küresel Büyüme"
+        "name": "%10 — Pazarlama & Ortaklıklar",
+        "desc": "Kampanya ve ortaklık ihtiyaçlarına göre kademeli"
       },
       {
-        "name": "%10 - Takım ve Kurucular",
-        "desc": "1 Yıl Tam Kilit (Biz buradayız, gitmiyoruz)"
+        "name": "%10 — Takım & Kurucular",
+        "desc": "1 yıl tamamen kilitli + 24 ay lineer açılım"
       },
       {
-        "name": "%5 - Danışmanlar",
-        "desc": "6 Ay Kilitli"
+        "name": "%5 — Danışmanlar",
+        "desc": "6 ay kilitli + 6 ay lineer açılım"
       }
     ],
-    "utilityTitle": "$ZEX Faydaları İstikrarı",
-    "utilityDesc": "Token sahipleri platform gelir paylaşımından (Revenue Share) pasif gelir elde eder, üretim indirimlerinden faydalanır ve periyodik \"Geri Alım & Yakım\" etkinliklerine katılır.",
-    "burnTitle": "Deflasyonist (Yakım)",
-    "burnDesc": ": Ekosistem gelirleriyle piyasadan $ZEX alınır ve yakılır.",
-    "yieldTitle": "Gerçek Gelir (Real Yield)",
-    "yieldDesc": ": Staking yapanlar, abonelik ve üretim gelirlerinden pay alır."
+    "utilityTitle": "$ZEX Token Faydaları",
+    "utilityDesc": "AI üretimde indirimler, NFT mint ücretleri, staking ödülleri ve platform gelir paylaşımı. Deflasyonist mekanizmalarla desteklenen sürdürülebilir token ekonomisi.",
+    "burnTitle": "Deflasyonist Yakım",
+    "burnDesc": ": İşlemlerde %0.5 yakım + erken unstake %10 ceza yakımı + platform gelirlerinin %20'si ile geri alım & yakım.",
+    "yieldTitle": "Staking Geliri",
+    "yieldDesc": ": $ZEX stake ederek ödül kazanın. Erken unstake durumunda %10 ceza uygulanır ve yakılır."
   },
   "robot": {
     "badgeLimited": "Sınırlı Üretim",
@@ -115,15 +115,15 @@
   },
   "faq": {
     "title": "Sıkça Sorulan Sorular",
-    "subtitle": "Aklınızdaki soru işaretlerini giderelim.",
-    "q1": "$ZEX Token ne zaman piyasaya sürülecek?",
-    "a1": "$ZEX Ön Satış (Presale) aşaması çok yakında başlayacak. Tüm duyurular ilk olarak Twitter ve Discord kanallarımız üzerinden yapılacaktır. Lansman ve CEX/DEX listelenme tarihleri akıllı kontrat denetimleri tamamlandıktan sonra açıklanacaktır.",
-    "q2": "Founder's Edition İnsansı Robot'u nasıl alabilirim?",
-    "a2": "İlk partide sadece 80 adet üretilen robotlarımızı, cüzdanınızı bağlayarak doğrudan minimum 250.000 $ZEX token karşılığında satın alabilirsiniz. Ayrıca, ön satıştan en az 10.000 $ZEX alarak 20 adetlik çekiliş havuzuna katılma hakkı kazanırsınız. Kargo detayları, token alımından sonra açılacak özel panelden yönetilecektir.",
-    "q3": "NFT Üretimi ve Marketplace Entegrasyonu nasıl çalışıyor?",
-    "a3": "ZexAI platformunda tasarladığınız dijital sanat eserlerini, panelimiz üzerinden tek bir tuşa basarak doğrudan OpenSea ve Zora gibi dev platformlara 'mint' edebilirsiniz (basabilirsiniz). Akıllı kontratlarımız sayesinde gaz ücretleri optimize edilmiştir ve tüm telif hakları size aittir.",
-    "q4": "Takım tokenleri neden kilitli?",
-    "a4": "Biz bu projeyi kısa vadeli kâr için değil, gerçek bir değer ve kalıcı bir ekosistem yaratmak için kurduk. Bu vizyonumuzun bir kanıtı olarak takım ve kurucu tokenleri tam 1 yıl boyunca akıllı kontratlara kilitlenmiştir (Vesting). Buradayız ve geleceği birlikte inşa ediyoruz."
+    "subtitle": "ZexAI ekosistemi hakkında merak edilenler.",
+    "q1": "ZexAI nedir ve ne yapar?",
+    "a1": "ZexAI, çoklu AI model mimarisi ile çalışan bir üretim platformudur. 40'tan fazla yapay zeka modeline erişim, görsel/video/ses üretimi, model karşılaştırma, dijital varlık üretimi ve token tabanlı creator ekonomisi sunar. Platform, AI üretim araçlarını, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir.",
+    "q2": "$ZEX Token hangi alanlarda kullanılıyor?",
+    "a2": "$ZEX tokeni AI üretim indirimlerinde, NFT mint ücretlerinde, platform ödüllerinde ve staking'de kullanılır. Deflasyonist mekanizmalarla desteklenir: işlemlerde %0.5 yakım, erken unstake'de %10 ceza yakımı ve platform gelirlerinin %20'si ile geri alım & yakım uygulanır.",
+    "q3": "Kredi sistemi nasıl çalışıyor?",
+    "a3": "AI üretimi kredi sistemi ile çalışır. Kredi kazanma yolları: abonelik planları, kredi satın alma, referans sistemi (davet edilen kişinin kredi alımlarından %5 kazanç), sosyal paylaşım ödülleri ve günlük görevler (giriş, üretim, paylaşım). Abonelik kredileri ay sonunda sıfırlanmaz.",
+    "q4": "Token dağılımı ve kilit süreleri nedir?",
+    "a4": "Toplam arz 1 milyar ZEX. Ön Satış %35 (listede %50 açık, %50 6 ay vesting), Ekosistem %25 (kademeli), Likidite %15 (kilitli), Pazarlama %10 (kademeli), Takım %10 (1 yıl tam kilit + 24 ay lineer), Danışman %5 (6 ay kilit + 6 ay lineer). Takım tokenleri 1 yıl tamamen kilitlidir — biz buradayız, gitmiyoruz."
   },
   "footer": {
     "copyright": "© 2026 ZexAi. Tüm hakları saklıdır.",

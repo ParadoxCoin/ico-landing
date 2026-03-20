@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
                         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                             {[
                                 { label: t('hero.stats.aiModels'), value: "40+" },
-                                { label: t('hero.stats.emotions'), value: "∞" },
+                                { label: t('hero.stats.emotions'), value: "5+" },
                                 { label: t('hero.stats.communityShare'), value: "25%" },
                                 { label: t('hero.stats.status'), value: t('hero.stats.statusLive') },
                             ].map((stat, i) => (
