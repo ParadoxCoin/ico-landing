@@ -52,14 +52,14 @@ const Hero: React.FC = () => {
                             <span>{t('hero.visionBadge')}</span>
                         </div>
 
-                        <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
                             {t('hero.mainTitleLine1')} <br />
                             <span className="text-white">
                                 {t('hero.mainTitleLine2')}
                             </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
                             {t('hero.description')}
                         </p>
 
