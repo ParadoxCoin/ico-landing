@@ -9,6 +9,7 @@ import {
     Ruler, Weight, Zap, Cpu, Scan as Radar, CreditCard, Landmark, Wallet, Check
 } from 'lucide-react';
 import ConnectButton from './ConnectButton';
+import PresaleForm from './PresaleForm';
 
 const TOTAL_SUPPLY = "1.000.000.000";
 const ROBOT_MAX_SUPPLY = 80;
@@ -83,12 +84,15 @@ const Hero: React.FC = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <a
-                                href="#presale"
+                            <button
+                                onClick={() => {
+                                    setActiveTab('tokenomics');
+                                    document.getElementById('campaign')?.scrollIntoView({ behavior: 'smooth' });
+                                }}
                                 className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white font-bold text-lg transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(168,85,247,0.4)] flex items-center justify-center gap-2"
                             >
                                 {t('hero.joinPresale')} <ArrowRight className="w-5 h-5" />
-                            </a>
+                            </button>
                             <a
                                 href="https://app.zexai.io"
                                 target="_blank"
@@ -313,7 +317,7 @@ const Hero: React.FC = () => {
                                         </div>
                                     </div>
                                     <div className="flex justify-center w-full mt-8">
-                                        <ConnectButton />
+                                        <PresaleForm />
                                     </div>
                                 </div>
                             </motion.div>
