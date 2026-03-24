@@ -1,196 +1,107 @@
 # ZexAI Whitepaper
-## AI Yaratıcı Ekonomisi Altyapısı
+## AI Yaratıcı Ekonomisi ve Robotik Zeka Altyapısı
 
 ---
 
 # 1. Yatırımcı Özeti
 
-Yapay zeka içerik üretimi son yıllarda hızla büyüyen bir alan haline gelmiştir.  
-Ancak mevcut AI platformlarının çoğu tek bir araç veya tek bir model üzerine kuruludur.
-
-Bir içerik üreticisi genellikle:
-
-• görsel üretmek için bir platform  
-• video üretmek için başka bir platform  
-• ses üretmek için farklı bir platform  
-• içerik monetizasyonu için ise tamamen ayrı bir platform kullanmak zorundadır.
-
-Bu parçalı yapı üretim sürecini karmaşık hale getirir ve creator ekonomisinin büyümesini sınırlar.
+Yapay zeka içerik üretimi ve robotik kontrol sistemleri son yıllarda hızla büyüyen iki ana teknoloji alanıdır. Ancak mevcut platformlar genellikle izole araçlar olarak çalışmakta, yazılımın gücünü fiziksel dünyaya aktarmakta yetersiz kalmaktadır.
 
 ZexAI bu sorunu çözmek için tasarlanmıştır.
 
-Platform, çoklu yapay zeka modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir.
+Platform; çoklu yapay zeka modellerini, creator ekonomisini, Web3 altyapısını ve **Robotik Zeka Katmanı'nı (Robotic Intelligence Layer)** tek bir ekosistemde birleştirir.
 
 Kullanıcılar:
-
-fikir üretir  
 → AI ile içerik oluşturur  
-→ farklı modelleri karşılaştırır  
-→ içeriklerini dijital varlıklara dönüştürür  
-→ küresel pazarlarda dağıtır.
+→ Farklı modelleri karşılaştırır  
+→ İçeriklerini NFT olarak dijital varlıklara dönüştürür  
+→ Yazılımlarını insansı robotlara entegre ederek fiziksel yetenekler inşa eder  
+→ Küresel pazarlarda hem dijital hem fiziksel katmanda dağıtır.
 
-ZexAI yalnızca bir AI aracı değil, yeni nesil creator ekonomisinin altyapı platformu olmayı hedefler.
+ZexAI yalnızca bir AI aracı değil, yeni nesil dijital ve robotik ekonominin ana altyapı platformudur.
 
 ---
 
 # 2. Giriş
 
-Yapay zeka teknolojileri dijital içerik üretim biçimini kökten değiştirmektedir.
+Yapay zeka teknolojileri sadece dijital içerik üretimini değil, fiziksel dünyadaki etkileşim biçimlerimizi de kökten değiştirmektedir.
 
-Ancak günümüzde çoğu AI platformu tek bir işlev üzerine odaklanan izole araçlar olarak çalışmaktadır.
+Ancak günümüzde çoğu AI platformu tek bir işlev üzerine odaklanan izole araçlar olarak çalışmaktadır. İçerik üreticileri ve geliştiriciler; görsel üretimi, monetizasyon ve robotik entegrasyon için farklı platformlar kullanmak zorundadır.
 
-İçerik üreticileri genellikle şu işlemler için farklı platformlar kullanmak zorundadır:
-
-- görsel üretimi
-- video üretimi
-- ses üretimi
-- içerik dağıtımı
-- monetizasyon
-
-Bu parçalı yapı üretim sürecini zorlaştırmakta ve içeriklerin ekonomik değere dönüşmesini sınırlamaktadır.
-
-ZexAI bu sorunu çözmek için yapay zeka üretim araçlarını, creator ekonomisini ve Web3 altyapısını tek bir platformda birleştirir.
+ZexAI, yapay zeka üretim araçlarını, creator ekonomisini, Web3 altyapısını ve insansı robot ekosistemini tek bir platformda birleştirerek bu parçalı yapıyı ortadan kaldırır.
 
 ---
 
 # 3. Problem
 
-## Parçalı AI Araçları
-
-Mevcut AI platformları genellikle tek bir üretim alanına odaklanır:
-
-- AI görsel üretimi
-- AI video üretimi
-- AI ses üretimi
-
-Bu durum creatorların birden fazla platform kullanmasına neden olur.
+## Parçalı AI ve Robotik Araçları
+Mevcut AI platformları genellikle tek bir alana (görsel, video vb.) odaklanır. Robotik sistemler ise genellikle kapalı devre yazılımlarla çalışır, bu da geniş çaplı bir geliştirici ekosisteminin oluşmasını engeller.
 
 ---
 
-## Monetizasyon Eksikliği
-
-Birçok AI platformu içerik üretimi sağlar ancak içeriklerin ekonomik değere dönüşmesi için gerekli altyapıyı sunmaz.
-
----
-
-## Model Bağımlılığı
-
-Birçok AI platformu tek bir modele bağlıdır ve farklı AI modellerinin avantajlarını kullanma imkanı sunmaz.
+## Monetizasyon Sınırları
+Birçok platform içerik üretimi sağlar ancak bu içeriklerin dijital mülkiyete (NFT) veya fiziksel bir yeteneğe (Robotik Skill) dönüşmesi için gerekli altyapıyı sunmaz.
 
 ---
 
-# 4. ZexAI Çözümü
+## Model ve Donanım Bağımlılığı
+Geliştiriciler genellikle tek bir modele veya belirli bir robotik donanıma bağımlı kalır, farklı AI modellerinin avantajlarını fiziksel dünyada kullanma imkanı bulamaz.
 
-ZexAI çoklu model mimarisi ile çalışan bir AI üretim platformudur.
+---
+
+# 4. ZexAI Çözümü: Bütünleşik Ekosistem
+
+ZexAI, çoklu model mimarisi ve donanım bağımsız yazılım katmanı ile çalışan bir üretim ve yönetim platformudur.
 
 Platform kullanıcılarına şu imkanları sağlar:
-
-- farklı AI modellerine erişim
-- görsel, video ve ses üretimi
-- model sonuçlarını karşılaştırma
-- dijital varlık üretimi
-- token tabanlı creator ekonomisi
-
-Bu yaklaşım üretim sürecini tek bir platformda birleştirir.
+- **Çoklu AI Erişimi:** 40'tan fazla modele aynı anda erişim ve karşılaştırma.
+- **NFT Monetizasyon:** Üretilen içeriklerin anında dijital varlığa dönüştürülmesi.
+- **Robotik Zeka Katmanı:** İnsansı robotların $ZEX altyapısı ile kontrolü ve yetenek kazanması.
+- **Token Tabanlı Ekonomi:** Üretim ve aktivasyon süreçlerinin $ZEX ile yönetilmesi.
 
 ---
 
 # 5. Platform Mimarisi
 
-## AI Üretim Katmanı
-
-Platformun temel üretim araçları:
-
-- AI görsel üretimi
-- AI video üretimi
-- AI ses üretimi
-- prompt yardımcısı
+## AI ve Robotik Üretim Katmanı
+- AI Görsel, Video ve Ses Üretimi
+- Robotik SDK ve Geliştirici Kiti
+- Prompt ve Skill Yardımcısı
 
 ---
 
 ## Çoklu Model Motoru (Multi Model Engine)
-
-ZexAI kullanıcıların farklı AI modellerini seçmesine imkan tanır.
-
-Kullanıcılar aynı prompt ile birden fazla modeli çalıştırabilir ve sonuçları karşılaştırabilir.
-
-Platform 40'tan fazla yapay zeka modelini destekleyen çoklu model mimarisi üzerine kurulmuştur.
+ZexAI kullanıcıların aynı prompt ile birden fazla AI modelini çalıştırmasına ve sonuçları robotik sistemlere veya dijital varlıklara aktarmasına imkan tanır.
 
 ---
 
-## Yaratıcı Ekonomisi Katmanı (Creator Economy)
-
-Kullanıcılar ürettikleri içerikleri dijital varlıklara dönüştürebilir.
-
-Platform entegrasyonları:
-
-OpenSea  
-Zora
-
-Bu sayede AI içerikleri NFT olarak küresel pazarlarda satılabilir.
+## Robotik Zeka Katmanı (Robotic Intelligence Layer)
+Geliştiricilerin insansı robotları doğrudan ZexAI ajan altyapısına bağlamasına olanak tanıyan donanımdan bağımsız yazılım katmanıdır. Geliştirilen yetenekler (skills), bulut tabanlı orkestrasyon ile global bir ağda yönetilir.
 
 ---
 
-## Kredi Ekonomisi
-
-AI üretimi kredi sistemi ile çalışır.
-
-Kredi kazanma yolları:
-
-- abonelik planları
-- kredi satın alma
-- referans sistemi
-- sosyal paylaşım ödülleri
-- günlük görevler
-
-Abonelik kredileri ay sonunda sıfırlanmaz.
+## Kredi ve Token Ekonomisi
+Ekosistemdeki tüm üretim, aktivasyon ve monetizasyon işlemleri $ZEX token ve kredi sistemi ile güvence altına alınır.
 
 ---
 
 # 6. Büyüme Mekanizmaları
 
-## Referans Sistemi
-
-Referans veren kullanıcılar, davet ettikleri kişinin kredi alımlarından **%5 AI kredisi** kazanır.
-
----
-
-## Sosyal Paylaşım Ödülleri
-
-Kullanıcılar ürettikleri içerikleri sosyal medyada paylaşarak kredi kazanabilir.
+## Referans ve Ortaklık Sistemi
+Referans veren kullanıcılar, davet ettikleri kişilerin kredi alımlarından ve robotik aktivasyonlarından ödül kazanır.
 
 ---
 
-## Günlük Görevler
-
-Platform aktiviteleri kullanıcıları ödüllendirir.
-
-Örnek görevler:
-
-platforma giriş  
-görsel üretimi  
-video üretimi  
-içerik paylaşımı
-
----
-
-## Sadakat Sistemi
-
-Creator üretim miktarına göre rozetler kazanır.
-
-Bu sistem kullanıcı bağlılığını artırmayı hedefler.
+## Günlük Görevler ve Sadakat
+Platform aktiviteleri (üretim, paylaşım, aktivasyon) kullanıcıları ödüllendiren dinamik bir sadakat sistemi ile korunur.
 
 ---
 
 # 7. Platform Güvenliği
 
-Platform suistimalini önlemek için çeşitli mekanizmalar uygulanır.
-
-- içerik listeleme limitleri
-- ödül limitleri
-- üretim limitleri
-
-Bu mekanizmalar platform ekonomisinin sürdürülebilirliğini sağlar.
+- Uçtan uca şifreli robotik iletişim
+- İçerik ve üretim limitleri ile ekonomik sürdürülebilirlik
+- Akıllı kontrat tabanlı varlık yönetimi
 
 ---
 
@@ -201,165 +112,108 @@ $ZEX token, ZexAI ekosisteminin temel utility (işlevsel) tokenıdır.
 ---
 
 ## Token Kullanım Alanları
-
-- AI üretim indirimleri
-- NFT mint ücretleri
-- platform ödülleri
-- staking ödülleri
-
----
-
-## Staking
-
-Kullanıcılar $ZEX tokenlarını stake ederek ödül kazanabilir.
-
-Erken unstake durumunda %10 ceza uygulanır ve yakılır.
+- **AI Üretim:** İndirimli kredi alımı ve model erişimi.
+- **NFT İşlemleri:** Mint ücretleri ve marketplace komisyonları.
+- **Robotik Aktivasyon:** Yeni donanımların ZexAI ağına güvenli kaydı ve aktivasyonu.
+- **Yetenek Pazaryeri:** Geliştiricilerin ürettiği robotik 'skill' modüllerinin satışı ve kiralanması.
+- **Staking:** Ekosistem gelirlerinden pay alma ve yönetim hakları.
 
 ---
 
-## Deflasyon Mekanizmaları
-
-### İşlem Yakımı
-
-Platform işlemlerinde %0.5 yakım uygulanır.
-
-### Staking Ceza Yakımı
-
-Erken unstake cezaları yakılır.
-
-### Gelir Geri Alımı (Buyback)
-
-Platform gelirlerinin %20'si token geri alımı ve yakımı için kullanılabilir.
+## Staking ve Deflasyon
+- **Staking Ödülleri:** $ZEX tutanlar için ekosistem büyümesine endeksli ödüller.
+- **Yakım Mekanizması:** İşlemlerde %0.5 yakım + erken çıkış cezaları.
+- **Geri Alım:** Platform gelirlerinin %20'si ile $ZEX geri alımı ve yakımı.
 
 ---
 
-# 9. Token Dağılımı
+# 9. Yol Haritası (Roadmap)
+
+## Faz 1 — Doğuş (Q2 2026)
+- AI platform lansmanı (Beta)
+- ICO / Ön satış kampanyasının başlatılması
+- NFT mint ve entegrasyon sisteminin açılması
+- Küresel topluluk kanallarının oluşturulması
+
+---
+
+## Faz 2 — Web3 ve Robotik SDK (Q3 2026)
+- $ZEX token DEX/CEX listelemeleri
+- OpenSea ve Zora tam API entegrasyonu
+- **Robotik Geliştirici Kiti (SDK) Yayını**
+- Geliştirici portalı ve teknik dökümantasyon lansmanı
+
+---
+
+## Faz 3 — Evrensel Üretim ve Teslimat (Q4 2026)
+- Synapse V2 AI ajan ve robotik orkestrasyon sistemi
+- Üst düzey CEX listelemeleri
+- **İnsansı Robot (Fiziksel) Teslimatları ve Aktivasyon Sistemi**
+- Küresel donanım partnerlikleri ve genişleme
+
+---
+
+# 10. Token Dağılımı
 
 Toplam Arz: 1,000,000,000 ZEX
 
 - **Ön Satış / ICO — %35**  
-  Listeleme anında %50 açık, kalan %50 — 6 ay lineer vesting (kilit açılımı).
+  Listeleme anında %50 açık, kalan %50 — 6 ay lineer vesting.
 
 - **Ekosistem & Staking Ödülleri — %25**  
-  Platform kullanımı, Synapse eğitimi, NFT üretici ödülleri ve staking havuzu için ayrılmıştır. Kullanıma göre kademeli açılım.
+  Platform kullanımı, NFT üretici ödülleri ve robotik geliştirici havuzu için ayrılmıştır.
 
 - **Likidite — %15**  
-  DEX/CEX listeleme likidite havuzları için kilitli olarak ayrılmıştır.
+  Borsa listelemeleri için kilitli havuz.
 
 - **Takım & Kurucular — %10**  
-  İlk 1 yıl **tamamen kilitli** (Cliff). Sonrasında 24 ay boyunca lineer açılım. Biz buradayız, gitmiyoruz.
+  1 yıl tam kilitli, ardından 24 ay lineer dağılım.
 
 - **Pazarlama & Ortaklıklar — %10**  
-  Kampanya ve ortaklık ihtiyaçlarına göre kademeli kullanım.
+  Uluslararası büyüme ve robotik partnerlikler için kademeli kullanım.
 
 - **Danışmanlar — %5**  
-  İlk 6 ay tamamen kilitli, sonrasında 6 ay lineer açılım.
+  6 ay kilitli, ardından 6 ay lineer dağılım.
 
 ---
 
-# 10. Pazar Fırsatı
+# 11. Pazar Fırsatı ve Vizyon
 
-ZexAI üç büyük teknolojik trendin kesişiminde yer alır:
-
-Yapay Zeka (AI)  
-Yaratıcı Ekonomisi (Creator Economy)  
-Web3 Dijital Sahiplik (Digital Ownership)
-
-Bu üç alanın birleşimi yeni nesil dijital ekonomiyi oluşturur.
-
----
-
-# 11. Rekabet Karşılaştırması
-
-Mevcut AI platformları genellikle tek alana odaklanır.
-
-Pollo.ai — AI video üretimi  
-ImageArt — AI görsel üretimi  
-Abacus.ai — AI altyapı platformu
-
-ZexAI bu platformların sunduğu yetenekleri tek bir ekosistemde birleştirir.
+ZexAI; Yapay Zeka, Web3 ve İnsansı Robotik trendlerinin tam merkezinde konumlanır. Bu üç alanın birleşimi, sadece dijital değil, fiziksel dünyayı da kapsayan yeni nesil global bir yaratıcı ekonomiyi oluşturacaktır.
 
 ---
 
 # 12. Platform Büyüme Döngüsü (Flywheel)
 
-ZexAI büyüme modeli creator ekonomisine dayanır.
+ZexAI büyüme modeli, dijital içerik üretimi ve robotik yetenek geliştirme arasındaki sinerjiye dayanır:
 
-Üret (Create)  
-↓  
-Paylaş (Share)  
-↓  
-Davet Et (Invite)  
-↓  
-Daha Fazla Kullanıcı  
-↓  
-Daha Fazla AI Kullanımı  
-↓  
-Platform Büyümesi
+### 12.1. Üretim (Creative & Robotic SDK)
+- AI ile görsel, video ve ses dosyaları oluşturulur.
+- Robotik ajanlar için yeni hareket ve görev modülleri inşa edilir.
 
----
+### 12.2. Varlıklaştırma Flows (NFT & Robotik Akış)
+- **NFT Akışı:** İçerikler anında NFT'ye dönüştürülerek pazar yerlerinde ekonomik değere kavuşur.
+- **Robotik Akış:** Geliştirilen zeka modülleri, fiziksel robotlara aktarılarak gerçek dünya görevlerini icra eder.
 
-# 13. Yol Haritası
-
-## Faz 1 — Doğuş (Q2 2026)
-
-AI platform lansmanı  
-ICO / Ön satış kampanyası  
-NFT mint sistemi  
-Topluluk oluşturma (Telegram, Discord, Twitter)
+### 12.3. Monetizasyon ve Ölçeklenme
+- Her üretim ve aktivasyon $ZEX ekonomisini büyütür. Daha fazla kullanıcı, daha fazla robotik yetenek ve daha güçlü bir ekosistem yaratır.
 
 ---
 
-## Faz 2 — Web3 Geçişi (Q3 2026)
+# 13. Rekabet Karşılaştırması
 
-$ZEX token DEX listelemesi  
-OpenSea ve Zora API entegrasyonu  
-Creator marketplace genişlemesi
+ZexAI; Pollo.ai (video), ImageArt (görsel) ve geleneksel robotik firmalarının ötesine geçerek; donanım, yazılım ve ekonomiyi tek bir merkeziyetsiz yapıda birleştirir.
 
 ---
 
-## Faz 3 — Evrensel Üretim (Q4 2026)
+# 14. AI Robot Geliştirici Ekosistemi Detayları
 
-Synapse V2 AI ajan sistemi  
-Üst düzey CEX listelemeleri  
-B2B Developer API  
-Staking (gelir paylaşımı) havuzunun aktif edilmesi  
-Ekosistem ortaklıkları
+Bu bölüm, projenin donanım ortağı partnerlerle (Unitree vb.) kurduğu stratejik iş birliğini ve drop-shipping modelini kapsar. Temel amaç, lojistik maliyetleri optimize ederek global bir robotik orkestrasyon ağı kurmaktır.
 
 ---
 
-# 14. AI Robot Geliştirici Ekosistemi
+# 15. Gelecek Vizyonu
 
-## 14.1. AI Robot Geliştirici Kiti Ekosistemi
-Platformumuz, akıllı ajanları gerçek dünya robotikleriyle birleştirmek üzere tasarlanmış bir AI destekli geliştirici ekosistemi olan **Robotik Zeka Katmanı'nı (Robotic Intelligence Layer)** sunar. Donanım üretmek yerine, platform, geliştiricilerin insansı robotları doğrudan AI ajan altyapımıza bağlamasına olanak tanıyan birleşik ve güvenli bir yazılım katmanı sağlamaya odaklanır.
-
-Bu model aracılığıyla, üçüncü taraf üreticilerden alınan robotlar, hafif bir geliştirici kiti ve **$ZEX token** ile desteklenen güvenli bir aktivasyon sistemi kullanılarak ekosistemimize entegre edilebilir. Bağlandıktan sonra robotlar, platformun AI ajan çerçevesine erişerek otonom navigasyon, nesne etkileşimi ve kullanıcı tanımlı iş akışları gibi akıllı görevleri yürütebilir.
-
-Geliştirici kiti şunları sağlar:
-* Birleşik robot API soyutlama katmanı
-* Güvenli ve şifreli iletişim içeren AI ajan entegrasyon araçları
-* Robotik görevler için yetenek (skill) geliştirme çerçevesi
-* Bulut tabanlı orkestrasyon ve filo bağlantısı
-* Aktivasyon ve yetenek monetizasyonu için **$ZEX token entegrasyonu**
-
----
-
-## 14.2. Donanım Dağıtım Modeli
-Robotik donanım, ortak üreticilerden doğrudan son kullanıcılara bir stoksuz satış (drop-shipping) modeliyle dağıtılır. Bu, lojistik maliyetleri ortadan kaldırırken platformun donanımdan bağımsız ve ölçeklenebilir kalmasını sağlar. Bu cihazların ZexAI ağında aktivasyonu $ZEX aracılığıyla kolaylaştırılarak donanım ve AI ekonomisi arasında kesintisiz bir bağ kurulur.
-
----
-
-# 15. Uzun Vadeli Vizyon
-
-Hedef, geliştiricilerin robotik yetenekler inşa edebileceği, paylaşabileceği ve paraya dönüştürebileceği açık bir robotik inovasyon katmanı oluşturmaktır. Zamanla platform, geliştiricilerin robotların gerçek dünya ortamlarında neler yapabileceğini genişleten modüllerle katkıda bulunabileceği küresel bir robotik yetenek pazaryerine dönüşecektir.
-
-ZexAI, yapay zeka üretici ekonomisi için küresel bir altyapı platformu olmayı hedeflemektedir. 
-
-Uzun vadeli hedeflerimiz:
-
-- B2B API altyapısı ile oyun ve Metaverse projelerine AI üretim hizmeti sunmak  
-- Çoklu blokzincir desteği ile farklı ağlarda NFT üretim ve dağıtımı  
-- Küresel creator topluluğu oluşturarak dijital sanatçı ekonomisinin merkezine konumlanmak  
-- Yapay zeka model geliştirici ortaklıkları ile sürekli genişleyen model havuzu
+ZexAI, yapay zekanın dünyadaki fiziksel ve dijital üretim biçimlerini yönettiği bir gelecekte, bu sistemin ana "işletim katmanı" olmayı hedeflemektedir.
 
 **Siz üretin, ZexAI dünyaya sunsun.**

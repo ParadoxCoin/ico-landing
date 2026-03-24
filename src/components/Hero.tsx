@@ -145,7 +145,7 @@ const Hero: React.FC = () => {
                     <div className="space-y-6">
                         <p>
                             <Trans i18nKey="story.p1">
-                                Every great innovation starts with an inner spark. While most tech projects are born with profit margins in mind, ZexAI's foundation rests on a much more unshakable power: <strong className="text-white">A father's boundless love and hope for his daughter.</strong>
+                                Our global technology vision is based on the principle that artificial intelligence should not just be a digital tool, but a "mind" that manages the physical world. Today, AI production and robotic control systems are progressing separately.
                             </Trans>
                         </p>
                         <p>
@@ -155,7 +155,7 @@ const Hero: React.FC = () => {
                     <div className="space-y-6">
                         <p>
                             <Trans i18nKey="story.p3">
-                                That is exactly the tireless, expectation-free energy from which ZexAI's spirit was born. It is not just a company; it is a <strong className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">colossal art factory that removes the barriers to creativity, hope, and value creation.</strong>
+                                Our platform serves as a bridge connecting multi-model AI architecture with physical world robots. <strong className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">ZexAI is not just a tool, but the backbone of the next generation digital and robotic economy.</strong>
                             </Trans>
                         </p>
                         <p>

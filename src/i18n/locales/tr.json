@@ -4,10 +4,10 @@
     "goToApp": "Paneli Başlat"
   },
   "hero": {
-    "visionBadge": "AI Yaratıcı Ekonomisi Altyapısı",
-    "mainTitleLine1": "Çoklu Model AI ve Web3'ün",
-    "mainTitleLine2": "Yeni Nesil Platformu",
-    "description": "Yapay zeka içerik üretiminde parçalı yapıya son. ZexAI, çoklu AI modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir. Fikir üretin → AI ile içerik oluşturun → farklı modelleri karşılaştırın → dijital varlıklara dönüştürün → küresel pazarlarda dağıtın.",
+    "visionBadge": "AI + WEB3 + ROBOTİK INTELLIGENCE",
+    "mainTitleLine1": "Yapay Zeka ve Robotik",
+    "mainTitleLine2": "Teknolojilerin Yeni Nesil Altyapısı",
+    "description": "ZexAI; çoklu AI modellerini, creator ekonomisini ve robotik zekayı tek bir ekosistemde birleştiren devasa bir altyapı. Yazılım sınırlarını aşın, dijitalden fiziksel dünyaya uzanan bir güç inşa edin.",
     "joinPresale": "Ön Satışa Katıl",
     "tryApp": "ZexAi'yi Keşfet",
     "stats": {
@@ -19,11 +19,11 @@
     }
   },
   "story": {
-    "title": "ZexAI Neden Var?",
-    "p1": "Yapay zeka içerik üretimi hızla büyüyen bir alan. Ancak mevcut platformların çoğu tek bir araç veya tek bir model üzerine kurulu. Bir içerik üreticisi görsel, video, ses ve monetizasyon için <1>farklı platformlar kullanmak zorunda kalıyor.</1>",
-    "p2": "Bu parçalı yapı üretim sürecini karmaşık hale getiriyor ve creator ekonomisinin büyümesini sınırlıyor. ZexAI bu sorunu çözmek için tasarlandı.",
-    "p3": "Platform, çoklu yapay zeka modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir. ZexAI yalnızca bir AI aracı değil; <1>yeni nesil creator ekonomisinin altyapı platformu olmayı hedefler.</1>",
-    "p4": "Kullanıcılar fikir üretir, AI ile içerik oluşturur, farklı modelleri karşılaştırır, içeriklerini dijital varlıklara dönüştürür ve küresel pazarlarda dağıtır. Siz üretin, ZexAI dünyaya sunsun.",
+    "title": "Neden ZexAI?",
+    "p1": "Küresel teknoloji vizyonumuz, yapay zekanın sadece dijital bir araç değil, fiziksel dünyayı da yöneten bir 'akıl' olması gerektiği ilkesine dayanır. Günümüzde AI üretimi ve robotik kontrol sistemleri birbirinden kopuk ilerlemektedir.",
+    "p2": "ZexAI, bu iki dünyayı birleştirerek yazılımın gücünü robotik donanımlara aktarır. Amacımız, geliştiricilere ve yaratıcılara uçtan uca bir üretim ve yönetim platformu sunarak teknolojik bariyerleri ortadan kaldırmaktır.",
+    "p3": "Platformumuz, çoklu AI model mimarisi ile fiziksel dünyadaki robotları birleştiren bir köprü görevi görür. <1>ZexAI bir araç değil, yeni nesil dijital ve robotik ekonominin ana omurgasıdır.</1>",
+    "p4": "ZexAI ile fikirlerinizi dijital varlıklara, yazılımlarınızı robotik yeteneklere dönüştürün. Siz vizyonu belirleyin, ZexAI dünyaya sunsun.",
     "readWhitepaper": "Whitepaper'ın Tamamını Oku"
   },
   "campaign": {

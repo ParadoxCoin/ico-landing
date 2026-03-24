@@ -5,186 +5,53 @@
 
 # 1. Lugal Ud-sakar (Investor Summary)
 
-An-na Alam dù-dù ud-da kal-ga.
-É-gal An-na diš-àm zubi dù.
-
-Dub-sar dumu-munus dù-dù:
-
-• diš ki-sur-ra alam dù  
-• diš ki-sur-ra video dù  
-• diš ki-sur-ra zà-mí dù  
-• diš ki-sur-ra kù-babbar dù.
-
-Ki-sur-ra šu-peš-ša dim-dim gal-la nu.
-
-ZexAI níg-nam dù-dù.
-
-Ki-sur-ra An-na, Creator economy, Web3 níg-nam diš-àm ku4.
+An-na Alam dù-dù ud-da kal-ga. É-gal An-na diš-àm zubi dù. ZexAI níg-nam dù-dù. Ki-sur-ra An-na, Creator economy, Web3, **Robot Intelligence Layer** níg-nam diš-àm ku4.
 
 Lugal:
-
-šà-zu gal  
 → An-na alam dù  
 → model gibil igi  
-→ alam kù-babbar ku4  
+→ alam NFT dù  
+→ **Robot skill dù (physical)**  
 → ki-lam gal-la dù.
 
-ZexAI An-na nu; ki-sur-ra gibil Creator economy dù.
+ZexAI An-na nu; ki-sur-ra gibil digital ù robotic economy dù.
 
 ---
 
 # 2. Ud-sakar (Introduction)
 
-An-na zubi alam gibil u4-da dù.
-
-Ud-da An-na ki-sur-ra diš-àm zubi dù.
-
-Dub-sar níg-nam dù-dù:
-
-- alam dù
-- video dù
-- zà-mí dù
-- ki-lam gal
-- kù-babbar dù
-
-ZexAI An-na, Creator economy, Web3 ki-sur-ra diš-àm dù.
+An-na zubi alam gibil u4-da dù. ZexAI An-na, Creator economy, Web3, ù humanoid robot ekosistem diš-àm dù. Fragmented structure nu-gál.
 
 ---
 
 # 3. Níg-gig (The Problem)
 
 ## An-na Šu-peš-ša
-
-An-na ud-da diš dù:
-
-- An-na alam dù
-- An-na video dù
-- An-na zà-mí dù
-
-Lugal ki-sur-ra gal-la dù.
+An-na ki-sur-ra diš dù. Robot systems closed-loop software dù, ecosystem nu-gál.
 
 ---
 
-## Kù-babbar Nu-gál
-
-An-na alam dù, kù-babbar gibil nu-dù.
-
----
-
-## Model Kél
-
-An-na model diš-àm dù, model gibil nu-igi.
+## Monetization Nu
+An-na alam dù, NFT ù Robotic Skill kù-babbar nu-dù.
 
 ---
 
 # 4. ZexAI Silim (Solution)
 
-ZexAI An-na multi-model ki-sur-ra dù.
+ZexAI An-na multi-model ù hardware-agnostic software dù.
 
-Lugal:
-
-- An-na model gibil igi
-- alam, video, zà-mí dù
-- model gibil igi
-- níg-nam kù-babbar dù
-- token Creator economy dù
-
-ZexAI níg-nam diš-àm dù.
+- **Multi-AI:** 40+ model igi.
+- **NFT Monetization:** Alam kù-babbar ku4.
+- **Robot Intelligence Layer:** Humanoid robot $ZEX activation dù.
+- **Token Economy:** $ZEX zubi dù.
 
 ---
 
 # 5. É-gal Ki-sur-ra (Architecture)
 
-## An-na Dù Katman
-
-Ki-sur-ra zubi:
-
-- An-na alam dù
-- An-na video dù
-- An-na zà-mí dù
-- prompt dub-sar
-
----
-
-## Multi-Model Engine
-
-ZexAI An-na model gibil dù.
-
-Lugal diš prompt An-na model gal-la dù.
-
-ZexAI 40+ An-na model dù.
-
----
-
-## Creator Economy Katman
-
-Lugal alam dù kù-babbar ku4.
-
-Ki-sur-ra dù:
-
-OpenSea  
-Zora
-
-An-na NFT ki-lam gal-la dù.
-
----
-
-## Kredi Economy
-
-An-na dù kredi zubi dù.
-
-Kredi gál:
-
-- Subscription dù
-- Kredi sa10
-- Referral dù
-- Social share dù
-- Daily tasks dù
-
-Kredi nu-izi.
-
----
-
-# 6. Zi-ga (Growth)
-
-## Referral System
-
-Lugal referral dù **5% An-na kredi** gál.
-
----
-
-## Social Share Rewards
-
-Lugal alam social media dù kredi gál.
-
----
-
-## Daily Tasks
-
-ZexAI tasks lugal silim.
-
-Tasks:
-
-login dù  
-alam dù  
-video dù  
-share dù
-
----
-
-## Loyalty System
-
-Lugal alam dù badge gál.
-
----
-
-# 7. Ki-sur-ra Kal-ga (Security)
-
-ZexAI níg-gig nu-dù:
-
-- listing limit
-- reward limit
-- production limit
+- An-na alam, video, zà-mí dù
+- Robot SDK ù Developer Kit
+- Prompt ù Skill dub-sar
 
 ---
 
@@ -192,157 +59,61 @@ ZexAI níg-gig nu-dù:
 
 $ZEX kù-babbar ZexAI utility token dù.
 
----
-
-## Token Utility
-
-- An-na dù silim
-- NFT mint dù
-- platform reward
-- staking reward
+- **An-na dù:** Kredi silim.
+- **NFT Mint:** Marketplace fee.
+- **Robot Activation:** Hardware activation via $ZEX.
+- **Skill Marketplace:** Robotic skill sa10 ù kù-babbar.
+- **Staking:** Reward ù governance.
 
 ---
 
-## Staking
+# 9. U4-gibil (Roadmap)
 
-Lugal $ZEX stake dù reward gál.
-
-Unstake 10% izi (burn).
-
----
-
-## Deflationary Mechanism
-
-### Transaction Burn
-
-0.5% izi (burn) dù.
-
-### Staking Penalty Burn
-
-Unstake penalty izi (burn).
-
-### Revenue Buyback
-
-20% kù-babbar sa10 ù izi (burn).
+## U4 1 — Zi-ga (Q2 2026)
+An-na launch (Beta), ICO / Presale, NFT mint, Global community.
 
 ---
 
-# 9. Níg-gál (1,000,000,000 ZEX)
-
-*   **Presale / ICO — 35%**  
-    50% u4-da, 50% — 6 iti vesting.
-
-*   **Ecosystem & Staking Rewards — 25%**  
-    An-na, Synapse, NFT Creator, Staking pool.
-
-*   **Liquidity — 15%**  
-    DEX/CEX kél.
-
-*   **Lugal & Founders — 10%**  
-    **1 mu kél** (Cliff). 24 iti vesting. We are here.
-
-*   **Marketing & Partnerships — 10%**  
-    U4-gibil dù.
-
-*   **Advisor — 5%**  
-    6 iti kél, 6 iti vesting.
+## U4 2 — Web3 & Robot SDK (Q3 2026)
+$ZEX DEX/CEX, OpenSea & Zora API, **Robot SDK Release**, Dev portal.
 
 ---
 
-# 10. Ki-lam Gibil (Market Opportunity)
-
-ZexAI 3 gal zubi:
-
-An-na (AI)  
-Creator Economy  
-Web3 Digital Ownership
+## U4 3 — Dim-dim Gal (Q4 2026)
+Synapse V2 AI & Robot orchestration, CEX list, **Robot Delivery & Activation**, Partners.
 
 ---
 
-# 11. Competitive Comparison
+# 10. Níg-gál (Token Distribution)
 
-An-na ki-sur-ra diš dù.
+1,000,000,000 ZEX
 
-Pollo.ai — An-na video  
-ImageArt — An-na alam  
-Abacus.ai — An-na infrastructure
-
-ZexAI níg-nam diš-àm dù.
+- Presale / ICO — 35%
+- Ecosystem & Staking — 25% (Robot dev incl.)
+- Liquidity — 15%
+- Lugal & Founders — 10% (1 mu kél)
+- Marketing & Partners — 10%
+- Advisor — 5%
 
 ---
 
 # 12. Flywheel (Büyüme Döngüsü)
 
-ZexAI Creator Economy dù.
+### 12.1. Create (Creative & Robotic SDK)
+An-na alam dù + Robot skill dù.
 
-Create  
-↓  
-Share  
-↓  
-Invite  
-↓  
-More Users  
-↓  
-More AI Usage  
-↓  
-Platform Growth
+### 12.2. Flows (NFT & Robot Flow)
+NFT flow + Robot flow (Physical task).
+
+### 12.3. Scaling
+$ZEX economy gal. More users, more skills, more ecosystem.
 
 ---
 
-# 13. U4-gibil (Roadmap)
-
-## U4 1 — Zi-ga (Q2 2026)
-
-An-na launch  
-ICO / Presale  
-NFT mint  
-Telegram, Discord, Twitter
+# 13. Competitive Comparison
+Pollo.ai, ImageArt nu-gal. ZexAI hardware, software, economy diš-àm dù.
 
 ---
 
-## U4 2 — Web3 Gibil (Q3 2026)
-
-$ZEX DEX  
-OpenSea & Zora API  
-Creator marketplace
-
----
-
-## U4 3 — Dim-dim Gal (Q4 2026)
-
-Synapse V2 An-na  
-CEX list  
-B2B API  
-Staking pool  
-Ecosystem partner
-
----
-
-# 14. ZexAI Alan Dub-sar
-
-## 14.1. ZexAI Alan Zubi Mah
-ZexAI Alan Zubi mah. AI agents ù robot didli dù. $ZEX kù-babbar activation ù monetization gál.
-
-* Robot API
-* AI agent tools
-* Skill framework
-* Cloud connectivity
-* $ZEX integration
-
----
-
-## 14.2. Alan Sa10
-Alan sa10, manufacturing partners. Drop-shipping model. $ZEX activation system.
-
----
-
-# 15. U4-gibil
-
-ZexAI aims to be a global infrastructure platform for the AI creator economy.
-
-- B2B API
-- NFT production
-- Creator community
-- AI model partnerships
-
+# 15. U4-gibil Vision
 **Dù, ZexAI ki-lam gal-la dù.**
