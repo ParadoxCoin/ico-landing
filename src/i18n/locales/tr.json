@@ -1,7 +1,7 @@
 {
   "nav": {
     "language": "Türkçe",
-    "goToApp": "Uygulamaya Git"
+    "goToApp": "Paneli Başlat"
   },
   "hero": {
     "visionBadge": "AI Yaratıcı Ekonomisi Altyapısı",
@@ -9,7 +9,7 @@
     "mainTitleLine2": "Yeni Nesil Platformu",
     "description": "Yapay zeka içerik üretiminde parçalı yapıya son. ZexAI, çoklu AI modellerini, creator ekonomisini ve Web3 altyapısını tek bir ekosistemde birleştirir. Fikir üretin → AI ile içerik oluşturun → farklı modelleri karşılaştırın → dijital varlıklara dönüştürün → küresel pazarlarda dağıtın.",
     "joinPresale": "Ön Satışa Katıl",
-    "tryApp": "Uygulamayı Dene",
+    "tryApp": "ZexAi'yi Keşfet",
     "stats": {
       "aiModels": "AI Modeli",
       "emotions": "Kredi Kazanma Yolu",

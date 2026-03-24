@@ -1,7 +1,7 @@
 {
   "nav": {
     "language": "English",
-    "goToApp": "Go to App"
+    "goToApp": "Launch Dashboard"
   },
   "hero": {
     "visionBadge": "AI Creator Economy Infrastructure",
@@ -9,7 +9,7 @@
     "mainTitleLine2": "Multi-Model AI & Web3",
     "description": "End the fragmented AI tooling. ZexAI unifies multi-model AI, creator economy, and Web3 infrastructure in one ecosystem. Generate ideas → Create with AI → Compare models → Transform into digital assets → Distribute globally.",
     "joinPresale": "Join Presale",
-    "tryApp": "Try the App",
+    "tryApp": "Experience ZexAi",
     "stats": {
       "aiModels": "AI Models",
       "emotions": "Ways to Earn Credits",
@@ -19,7 +19,7 @@
     }
   },
   "story": {
-    "title": "Why ZexAI Exists",
+    "title": "The ZexAi Vision",
     "p1": "AI content creation is a rapidly growing field. However, most existing platforms are built on a single tool or a single model. A content creator has to use <1>separate platforms for images, video, audio, and monetization.</1>",
     "p2": "This fragmented structure complicates the production process and limits the growth of the creator economy. ZexAI was designed to solve this problem.",
     "p3": "The platform unifies multi-model AI, creator economy, and Web3 infrastructure in a single ecosystem. ZexAI is not just an AI tool; <1>it aims to be the infrastructure platform for the next-gen creator economy.</1>",
@@ -43,7 +43,7 @@
     "whyWin1": "40+ AI models with multi-model comparison",
     "whyWin2": "Direct OpenSea and Zora integration for NFT minting",
     "whyWin3": "Referral system: Earn 5% from credit purchases of invited users",
-    "startCreating": "Explore the Platform"
+    "startCreating": "Start Creating Now"
   },
   "tokenomics": {
     "supplyBadge": "TOTAL SUPPLY: 1,000,000,000 ZEX",
