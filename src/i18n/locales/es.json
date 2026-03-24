@@ -31,7 +31,7 @@
     "subtitle": "Una plataforma descentralizada construida sobre la transparencia, el amor y la utilidad visionaria. Genera, acuña NFT, gana y sé parte del futuro físico.",
     "tabVision": "Ecosistema NFT",
     "tabTokenomics": "Economía $ZEX",
-    "tabRobot": "Robot Edición Fundador 🚀"
+    "tabRobot": "Mercado de Robótica 🚀"
   },
   "vision": {
     "agentTitle": "Agente IA Synapse",
@@ -85,8 +85,8 @@
   "robot": {
     "badgeLimited": "Edición Limitada",
     "badgeAi": "IA Integrada",
-    "title": "ZexAI Humanoid Robot (Edición Fundador)",
-    "desc": "¡Trasciende los límites del software! Adquiere un Robot Humanoide hecho a medida, 100% integrado en el ecosistema ZexAI. El primer lote está estrictamente limitado a <1>solo 80 unidades</1> y nunca volverá a producirse.",
+    "title": "Robot Humanoide ZexAI - Mercado de Robótica",
+    "desc": "¡Supera los límites del software! Sé de los primeros en acceder a tecnología de robots humanoides de alto rendimiento a través del ecosistema ZexAI. Asegura tu lugar en el futuro de la robótica.",
     "buyTitle": "Compra Directa (80 Unidades)",
     "buyPrice": "Precio (Con Billetera)",
     "buyLeft": "¡Solo quedan {{count}} unidades!",

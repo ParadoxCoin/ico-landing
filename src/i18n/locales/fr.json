@@ -31,7 +31,7 @@
     "subtitle": "Une plateforme décentralisée construite sur la transparence, l'amour et une utilité visionnaire. Générez, muntez en NFT, gagnez et faites partie de l'avenir physique.",
     "tabVision": "Écosystème NFT",
     "tabTokenomics": "Économie $ZEX",
-    "tabRobot": "Robot Édition Fondateur 🚀"
+    "tabRobot": "Place de Marché Robotique 🚀"
   },
   "vision": {
     "agentTitle": "Agent IA Synapse",
@@ -85,8 +85,8 @@
   "robot": {
     "badgeLimited": "Édition Limitée",
     "badgeAi": "IA Intégrée",
-    "title": "Robot Humanoïde ZexAI (Édition Fondateur)",
-    "desc": "Transcendez les limites des logiciels ! Possédez un robot humanoïde construit sur mesure, intégré à 100% dans l'écosystème ZexAI. Le premier lot est strictement limité à <1>seulement 80 unités</1> et ne sera plus jamais produit.",
+    "title": "Robot Humanoïde ZexAI - Place de Marché Robotique",
+    "desc": "Repoussez les limites des logiciels ! Soyez parmi les premiers à accéder à la technologie des robots humanoïdes haute performance via l'écosystème ZexAI. Sécurisez votre place dans l'avenir de la robotique.",
     "buyTitle": "Achat Direct (80 Unités)",
     "buyPrice": "Prix (Avec Portefeuille)",
     "buyLeft": "Il ne reste que {{count}} unités!",

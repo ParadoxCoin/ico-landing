@@ -31,7 +31,7 @@
     "subtitle": "建立在透明、爱和有远见的效用基础上的去中心化平台。 生成，铸造为 NFT，赚取，并成为物理未来的一部分。",
     "tabVision": "NFT 生态系统",
     "tabTokenomics": "$ZEX 经济学",
-    "tabRobot": "创始人版机器人 🚀"
+    "tabRobot": "机器人市场 🚀"
   },
   "vision": {
     "agentTitle": "Synapse AI 代理",
@@ -85,8 +85,8 @@
   "robot": {
     "badgeLimited": "限量版",
     "badgeAi": "人工智能集成",
-    "title": "ZexAI 人形机器人（创始人版）",
-    "desc": "超越软件界限！ 拥有 100% 集成到 ZexAI 生态系统中的定制人形机器人。 第一批严格限制为<1>仅 80 台</1>，且不会再生产。",
+    "title": "ZexAI 人形机器人 - 机器人市场",
+    "desc": "挑战软件极限！通过 ZexAI 生态系统率先体验高性能人形机器人技术。在未来的机器人世界中占据一席之地。",
     "buyTitle": "直接购买（80 台）",
     "buyPrice": "价格（使用钱包）",
     "buyLeft": "仅剩 {{count}} 台！",
