@@ -328,13 +328,32 @@ Ecosystem partnerships
 
 ---
 
-# 14. Long-Term Vision
+# 14. AI Robot Developer Ecosystem
 
-ZexAI aims to be a global infrastructure platform for the AI creator economy.
+## 14.1. AI Robot Developer Kit Ecosystem
+Our platform introduces an AI-powered developer ecosystem—the **Robotic Intelligence Layer**—designed to bridge intelligent agents with real-world robotics. Instead of manufacturing hardware, the platform focuses on providing a unified, secure software layer that allows developers to connect humanoid robots directly to our AI agent infrastructure.
 
-The platform aims to allow users to transform their ideas into digital assets and provide monetization in global markets.
+Through this model, robots from third-party manufacturers can be integrated into our ecosystem using a lightweight developer kit and a secure activation system powered by **$ZEX tokens**. Once connected, robots access the platform’s AI agent framework, enabling intelligent tasks such as autonomous navigation, object interaction, and user-defined workflows.
 
-Our long-term goals:
+The developer kit provides:
+* A unified robot API abstraction layer
+* AI agent integration tools with secure, encrypted communication
+* Skill development framework for robotic tasks
+* Cloud-based orchestration and fleet connectivity
+* **$ZEX token integration** for activation and skill monetization
+
+---
+
+## 14.2. Hardware Distribution Model
+Robotic hardware is distributed via a drop-shipping model directly from partner manufacturers to end users. This eliminates logistical overhead while allowing the platform to remain hardware-agnostic and scalable. Activation of these devices on the ZexAI network is facilitated through $ZEX, ensuring a seamless link between hardware and the AI economy.
+
+---
+
+# 15. Long-Term Vision
+
+The goal is to create an open robotics innovation layer where developers can build, share, and monetize robotic capabilities. Over time, the platform will evolve into a global marketplace for robotic skills, enabling developers to contribute modules that expand what robots can do in real-world environments.
+
+ZexAI aims to be a global infrastructure platform for the AI creator economy. Our long-term goals:
 
 - Provide AI production services to gaming and Metaverse projects with B2B API infrastructure
 - NFT production and distribution on different networks with multi-blockchain support

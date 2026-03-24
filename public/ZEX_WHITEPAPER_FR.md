@@ -328,15 +328,34 @@ Partenariats de l'écosystème
 
 ---
 
-# 14. Vision à Long Terme
+# 14. Écosystème de Développement Robotique IA
 
-ZexAI vise à être une plateforme d'infrastructure mondiale pour l'économie des créateurs d'IA.
+## 14.1. Écosystème de Kit de Développement Robotique IA
+Notre plateforme introduit un écosystème de développement propulsé par l'IA—la **Couche d'Intelligence Robotique (Robotic Intelligence Layer)**—conçue pour relier les agents intelligents à la robotique du monde réel. Au lieu de fabriquer du matériel, la plateforme se concentre sur la fourniture d'une couche logicielle unifiée et sécurisée qui permet aux développeurs de connecter des robots humanoïdes directement à notre infrastructure d'agents IA.
 
-La plateforme permet aux utilisateurs de transformer leurs idées en actifs numériques et d'assurer une monétisation sur les marchés mondiaux.
+Grâce à ce modèle, les robots de fabricants tiers peuvent être intégrés à notre écosystème à l'aide d'un kit de développement léger et d'un système d'activation sécurisé alimenté par des **jetons $ZEX**. Une fois connectés, les robots accèdent au cadre d'agents IA de la plateforme, permettant des tâches intelligentes telles que la navigation autonome, l'interaction avec les objets et les flux de travail définis par l'utilisateur.
 
-Nos objectifs à long terme :
+Le kit de développement fournit :
+* Une couche d'abstraction API robotique unifiée
+* Des outils d'intégration d'agents IA avec communication sécurisée et cryptée
+* Un cadre de développement de compétences pour les tâches robotiques
+* Orchestration basée sur le cloud et connectivité de flotte
+* **Intégration du jeton $ZEX** pour l'activation et la monétisation des compétences
 
-- Fournir des services de production d'IA aux projets de jeux et de Métavers avec une infrastructure d'API B2B
+---
+
+## 14.2. Modèle de Distribution de Matériel
+Le matériel robotique est distribué via un modèle de drop-shipping directement des partenaires fabricants aux utilisateurs finaux. Cela élimine les frais logistiques tout en permettant à la plateforme de rester indépendante du matériel et évolutive. L'activation de ces appareils sur le réseau ZexAI est facilitée par $ZEX, assurant un lien transparent entre le matériel et l'économie de l'IA.
+
+---
+
+# 15. Vision à Long Terme
+
+L'objectif est de créer une couche d'innovation robotique ouverte où les développeurs peuvent construire, partager et monétiser des capacités robotiques. Au fil du temps, la plateforme évoluera vers un marché mondial pour les compétences robotiques.
+
+ZexAI aspire à être une plateforme d'infrastructure mondiale pour l'économie des créateurs IA. Nos objectifs à long terme :
+
+- Fournir des services de production IA aux projets de jeux et de Métavers avec une infrastructure d'API B2B
 - Production et distribution de NFT sur différents réseaux avec un support multi-blockchain
 - Se positionner au centre de l'économie des artistes numériques en créant une communauté mondiale de créateurs
 - Pool de modèles en constante expansion avec des partenariats avec des développeurs de modèles d'IA

@@ -31,7 +31,7 @@
     "subtitle": "A decentralized ecosystem combining AI production tools, creator economy, and Web3 infrastructure in one platform. 40+ AI models, NFT production, token economy, and physical products.",
     "tabVision": "AI Production Platform",
     "tabTokenomics": "$ZEX Economy",
-    "tabRobot": "Robotics Marketplace 🚀"
+    "tabRobot": "Robot Ecosystem 🚀"
   },
   "vision": {
     "agentTitle": "Multi-Model Engine",
@@ -85,8 +85,8 @@
   "robot": {
     "badgeLimited": "Limited Edition",
     "badgeAi": "AI Integrated",
-    "title": "ZexAI Humanoid Robot - Robotics Marketplace",
-    "desc": "Push the boundaries of software! Be among the first to access high-performance humanoid robot technology through the ZexAI ecosystem. Secure your place in the future of robotics.",
+    "title": "ZexAI Robot Developer Ecosystem",
+    "desc": "Our platform introduces a new generation of AI-powered robotics development through the ZexAI Robotic Intelligence Layer. Connect humanoid robots and intelligent agents through a unified software platform, powered by $ZEX tokens for activation and skill-based monetization.",
     "buyTitle": "Direct Purchase (80 Units)",
     "buyPrice": "Price (With Wallet)",
     "buyLeft": "Only {{count}} units left!",

@@ -318,17 +318,31 @@ Ecosystem partner
 
 ---
 
-# 14. Vizyon (Long-Term Vision)
+# 14. ZexAI Alan Dub-sar
 
-ZexAI An-na Creator Economy ki-sur-ra gal-la dù.
+## 14.1. ZexAI Alan Zubi Mah
+ZexAI Alan Zubi mah. AI agents ù robot didli dù. $ZEX kù-babbar activation ù monetization gál.
 
-Lugal alam dù kù-babbar ki-lam gal-la dù.
+* Robot API
+* AI agent tools
+* Skill framework
+* Cloud connectivity
+* $ZEX integration
 
-U4-gibil:
+---
 
-- B2B API gaming & Metaverse  
-- Multi-blockchain NFT  
-- Global Creator Economy  
-- An-na model gal
+## 14.2. Alan Sa10
+Alan sa10, manufacturing partners. Drop-shipping model. $ZEX activation system.
+
+---
+
+# 15. U4-gibil
+
+ZexAI aims to be a global infrastructure platform for the AI creator economy.
+
+- B2B API
+- NFT production
+- Creator community
+- AI model partnerships
 
 **Dù, ZexAI ki-lam gal-la dù.**
