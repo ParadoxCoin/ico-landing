@@ -36,7 +36,7 @@ const ConnectButton: React.FC = () => {
     return (
       <button
         onClick={() => open()}
-        className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:scale-105"
+        className="px-4 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-500 text-white font-bold text-sm transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(20,184,166,0.3)] hover:scale-105"
       >
         <Wallet className="w-4 h-4" />
         Connect Wallet
@@ -60,7 +60,7 @@ const ConnectButton: React.FC = () => {
 
         {/* Address Badge with gradient orb */}
         <div className="flex items-center gap-2 pl-1 sm:pl-0">
-          <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-purple-500 to-cyan-500 shadow-md flex-shrink-0" />
+          <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-teal-500 to-cyan-500 shadow-md flex-shrink-0" />
           <span className="font-mono text-sm font-medium text-gray-200">
              {formatAddress(address)}
           </span>
@@ -80,7 +80,7 @@ const ConnectButton: React.FC = () => {
             {/* Header / App Info */}
             <div className="px-5 py-4 border-b border-gray-100 flex items-center justify-between bg-gray-50/50">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-500 to-cyan-500 p-0.5 shadow-sm">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-teal-500 to-cyan-500 p-0.5 shadow-sm">
                   <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
                     <img src="/logo192.png" alt="ZexAI" className="w-6 h-6 object-contain" />
                   </div>

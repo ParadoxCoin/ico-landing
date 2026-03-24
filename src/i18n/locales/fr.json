@@ -4,26 +4,26 @@
     "goToApp": "Aller à l'Application"
   },
   "hero": {
-    "visionBadge": "La Vision d'un Père, La Toile du Monde",
-    "mainTitleLine1": "La Nouvelle Évolution de",
-    "mainTitleLine2": "l'Art IA et Web3",
-    "description": "Transformez vos émotions en chefs-d'œuvre numériques avec plus de 40 modèles d'IA d'élite. Muntez-les en NFT sur OpenSea et Zora en un seul clic. Construit non seulement pour le profit, mais pour l'avenir illimité de la créativité.",
+    "visionBadge": "IA + WEB3 + INTELLIGENCE ROBOTIQUE",
+    "mainTitleLine1": "IA et Robotique",
+    "mainTitleLine2": "Infrastructure de Nouvelle Génération",
+    "description": "ZexAI unifie l'IA multi-modèle, l'économie des créateurs et l'intelligence robotique dans un seul écosystème. Dépassez les limites du logiciel et construisez une force s'étendant du numérique au physique.",
     "joinPresale": "Rejoindre la Prévente",
-    "tryApp": "Essayer l'App",
+    "tryApp": "Explorer ZexAi",
     "stats": {
       "aiModels": "Modèles d'IA",
-      "emotions": "Émotions Capturées",
-      "communityShare": "Part de la Communauté",
+      "emotions": "Moyens de Gagner des Crédits",
+      "communityShare": "Écosystème & Staking",
       "status": "État de la Plateforme",
       "statusLive": "En Ligne"
     }
   },
   "story": {
-    "title": "Un Avenir Codé avec Amour",
-    "p1": "Chaque grande innovation commence par une étincelle intérieure. Alors que la plupart des projets technologiques naissent avec des marges bénéficiaires en tête, la fondation de ZexAI repose sur un pouvoir beaucoup plus inébranlable : <1>L'amour sans limites et l'espoir d'un père pour sa fille.</1>",
-    "p2": "Savez-vous ce que c'est pour un père dont la fille est malade de passer des jours sans dormir ? Ce corps épuisé ne permet jamais à son esprit d'abandonner. Parce que cette attente n'est pas pour une récompense, mais simplement pour que cette âme innocente retrouve la santé.",
-    "p3": "C'est exactement cette énergie inépuisable et sans attente dont est né l'esprit de ZexAI. Ce n'est pas seulement une entreprise ; c'est une <1>usine d'art colossale qui lève les barrières à la créativité, à l'espoir et à la création de valeur.</1>",
-    "p4": "Nous avons conçu cette plateforme avec une approche \"IA et NFT\" pour offrir au monde entier ce terrain de jeu sûr qu'un père offre à son enfant, et pour intégrer des millions de personnes qui n'arrêtent jamais de rêver dans l'économie Web3.",
+    "title": "Pourquoi ZexAI ?",
+    "p1": "Notre vision technologique mondiale repose sur le principe que l'intelligence artificielle ne devrait pas être qu'un outil numérique, mais un 'esprit' qui gère le monde physique. Aujourd'hui, la production IA et les systèmes de contrôle robotique progressent séparément.",
+    "p2": "ZexAI relie ces deux mondes en transférant la puissance du logiciel au matériel robotique. Notre objectif est de fournir aux développeurs et aux créateurs une plateforme de production et de gestion de bout en bout.",
+    "p3": "Notre plateforme sert de pont reliant l'architecture IA multi-modèle aux robots du monde physique. <1>ZexAI n'est pas seulement un outil, mais l'épine dorsale de la prochaine génération d'économie numérique et robotique.</1>",
+    "p4": "Avec ZexAI, transformez vos idées en actifs numériques et vos logiciels en compétences robotiques. Vous définissez la vision, ZexAI la livre au monde.",
     "readWhitepaper": "Lire le Livre Blanc Complet"
   },
   "campaign": {

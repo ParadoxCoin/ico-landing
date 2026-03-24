@@ -4,12 +4,12 @@
     "goToApp": "Launch Dashboard"
   },
   "hero": {
-    "visionBadge": "AI Creator Economy Infrastructure",
-    "mainTitleLine1": "The Next-Gen Platform for",
-    "mainTitleLine2": "Multi-Model AI & Web3",
-    "description": "End the fragmented AI tooling. ZexAI unifies multi-model AI, creator economy, and Web3 infrastructure in one ecosystem. Generate ideas → Create with AI → Compare models → Transform into digital assets → Distribute globally.",
+    "visionBadge": "AI + WEB3 + ROBOTIC INTELLIGENCE",
+    "mainTitleLine1": "AI and Robotics",
+    "mainTitleLine2": "Next-Gen Infrastructure",
+    "description": "ZexAI unifies multi-model AI, creator economy, and robotic intelligence in a single ecosystem. Push beyond software boundaries and build a force spanning from digital to physical worlds.",
     "joinPresale": "Join Presale",
-    "tryApp": "Experience ZexAi",
+    "tryApp": "Explore ZexAi",
     "stats": {
       "aiModels": "AI Models",
       "emotions": "Ways to Earn Credits",
@@ -19,11 +19,11 @@
     }
   },
   "story": {
-    "title": "The ZexAi Vision",
-    "p1": "AI content creation is a rapidly growing field. However, most existing platforms are built on a single tool or a single model. A content creator has to use <1>separate platforms for images, video, audio, and monetization.</1>",
-    "p2": "This fragmented structure complicates the production process and limits the growth of the creator economy. ZexAI was designed to solve this problem.",
-    "p3": "The platform unifies multi-model AI, creator economy, and Web3 infrastructure in a single ecosystem. ZexAI is not just an AI tool; <1>it aims to be the infrastructure platform for the next-gen creator economy.</1>",
-    "p4": "Users generate ideas, create content with AI, compare different models, transform their content into digital assets, and distribute globally. You create, ZexAI delivers to the world.",
+    "title": "Why ZexAI?",
+    "p1": "Our global technology vision is based on the principle that artificial intelligence should not just be a digital tool, but a 'mind' that manages the physical world. Today, AI production and robotic control systems are progressing separately.",
+    "p2": "ZexAI bridges these two worlds by transferring the power of software to robotic hardware. Our goal is to provide developers and creators with an end-to-end production and management platform, eliminating technological barriers.",
+    "p3": "Our platform serves as a bridge connecting multi-model AI architecture with physical world robots. <1>ZexAI is not just a tool, but the backbone of the next generation digital and robotic economy.</1>",
+    "p4": "With ZexAI, transform your ideas into digital assets and your software into robotic skills. You set the vision, ZexAI delivers to the world.",
     "readWhitepaper": "Read the Full Whitepaper"
   },
   "campaign": {

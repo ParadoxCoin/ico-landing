@@ -97,7 +97,7 @@ export const PresaleForm: React.FC = () => {
 
     return (
         <div className="bg-[#0A0A1F] border border-white/10 rounded-3xl p-6 relative overflow-hidden shadow-2xl">
-            <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-purple-500 to-cyan-500" />
+            <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-teal-500 to-cyan-500" />
 
             {!isConnected ? (
                 <div className="flex flex-col items-center justify-center p-8 text-center space-y-6">
@@ -138,7 +138,7 @@ export const PresaleForm: React.FC = () => {
                         <button
                             onClick={() => setActiveTab('buy')}
                             className={`flex-1 py-2.5 rounded-lg text-sm font-bold transition-all ${
-                                activeTab === 'buy' ? 'bg-gradient-to-r from-purple-600 to-cyan-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'
+                                activeTab === 'buy' ? 'bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'
                             }`}
                         >
                             ZEX SATIN AL
@@ -173,7 +173,7 @@ export const PresaleForm: React.FC = () => {
                                 <ArrowRight className="text-gray-500 w-5 h-5 rotate-90" />
                             </div>
 
-                            <div className="p-4 bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-cyan-500/30 rounded-2xl">
+                            <div className="p-4 bg-gradient-to-r from-teal-500/10 to-cyan-500/10 border border-cyan-500/30 rounded-2xl">
                                 <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Alınacak ZEX (Max)</label>
                                 <div className="flex items-center">
                                     <input 
@@ -182,7 +182,7 @@ export const PresaleForm: React.FC = () => {
                                         readOnly
                                         className="w-full bg-transparent border-none text-3xl font-black text-white focus:outline-none"
                                     />
-                                    <span className="text-lg font-bold text-purple-400">ZEX</span>
+                                    <span className="text-lg font-bold text-teal-400">ZEX</span>
                                 </div>
                                 <div className="mt-2 text-xs text-cyan-300 font-medium">1 POL = {activeRate} ZEX Oranından Hesaplandı</div>
                             </div>
@@ -190,7 +190,7 @@ export const PresaleForm: React.FC = () => {
                             <button 
                                 onClick={handleBuy}
                                 disabled={isPending || isTxConfirming || !isPresaleActive || !polAmount}
-                                className="w-full mt-4 py-4 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 disabled:opacity-50 text-white rounded-xl font-bold text-lg shadow-xl shadow-purple-500/20 transition-all flex justify-center items-center gap-2"
+                                className="w-full mt-4 py-4 bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 disabled:opacity-50 text-white rounded-xl font-bold text-lg shadow-xl shadow-teal-500/20 transition-all flex justify-center items-center gap-2"
                             >
                                 {(isPending || isTxConfirming) ? <Activity className="w-6 h-6 animate-spin" /> : 'Satın Alma İşlemini Onayla'}
                             </button>

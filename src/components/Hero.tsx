@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
     const [paymentMethod, setPaymentMethod] = useState<'web3' | 'cc' | 'bank'>('web3');
     const [activeMedia, setActiveMedia] = useState(0);
 
-    const tabs: ('vision' | 'tokenomics' | 'robot')[] = ['vision', 'tokenomics', 'robot'];
+    const tabs: ('vision' | 'tokenomics' | 'robot')[] = ['vision', 'robot', 'tokenomics'];
 
     const handleDragEnd = (event: any, info: any) => {
         const swipeThreshold = 50;
@@ -55,9 +55,9 @@ const Hero: React.FC = () => {
                 {/* Background Elements */}
                 <div className="absolute inset-0 bg-[#060612]">
                     <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay" />
-                    <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-600/20 rounded-full blur-[120px]" />
+                    <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-teal-600/20 rounded-full blur-[120px]" />
                     <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-cyan-600/20 rounded-full blur-[150px]" />
-                    <div className="absolute top-[40%] left-[60%] w-[30%] h-[30%] bg-pink-600/10 rounded-full blur-[100px] animate-pulse" />
+                    <div className="absolute top-[40%] left-[60%] w-[30%] h-[30%] bg-emerald-600/10 rounded-full blur-[100px] animate-pulse" />
                 </div>
 
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center z-10">
@@ -67,8 +67,8 @@ const Hero: React.FC = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         className="max-w-4xl"
                     >
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-pink-500/30 text-pink-300 text-sm font-medium mb-8">
-                            <Heart className="w-4 h-4 text-pink-400" />
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-emerald-500/30 text-emerald-300 text-sm font-medium mb-8">
+                            <Heart className="w-4 h-4 text-emerald-400" />
                             <span>{t('hero.visionBadge')}</span>
                         </div>
 
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
                                     setActiveTab('tokenomics');
                                     document.getElementById('campaign')?.scrollIntoView({ behavior: 'smooth' });
                                 }}
-                                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white font-bold text-lg transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(168,85,247,0.4)] flex items-center justify-center gap-2"
+                                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 text-white font-bold text-lg transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(168,85,247,0.4)] flex items-center justify-center gap-2"
                             >
                                 {t('hero.joinPresale')} <ArrowRight className="w-5 h-5" />
                             </button>
@@ -122,7 +122,7 @@ const Hero: React.FC = () => {
                                     <div className="text-3xl md:text-4xl font-black bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent mb-2">
                                         {stat.value}
                                     </div>
-                                    <div className="text-sm font-medium text-purple-300 uppercase tracking-widest">
+                                    <div className="text-sm font-medium text-teal-300 uppercase tracking-widest">
                                         {stat.label}
                                     </div>
                                 </div>
@@ -134,10 +134,10 @@ const Hero: React.FC = () => {
 
             {/* The Story / Whitepaper Narrative Section */}
             <section className="py-24 px-4 mx-auto max-w-6xl sm:px-6 lg:px-8 relative overflow-hidden">
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-full bg-pink-500/5 blur-[150px] rounded-full pointer-events-none" />
+                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-full bg-emerald-500/5 blur-[150px] rounded-full pointer-events-none" />
 
                 <div className="relative text-center mb-16">
-                    <Quote className="w-12 h-12 text-pink-500/50 mx-auto mb-6" />
+                    <Quote className="w-12 h-12 text-emerald-500/50 mx-auto mb-6" />
                     <h2 className="text-3xl md:text-4xl font-black mb-6">{t('story.title')}</h2>
                 </div>
 
@@ -155,7 +155,7 @@ const Hero: React.FC = () => {
                     <div className="space-y-6">
                         <p>
                             <Trans i18nKey="story.p3">
-                                Our platform serves as a bridge connecting multi-model AI architecture with physical world robots. <strong className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">ZexAI is not just a tool, but the backbone of the next generation digital and robotic economy.</strong>
+                                Our platform serves as a bridge connecting multi-model AI architecture with physical world robots. <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">ZexAI is not just a tool, but the backbone of the next generation digital and robotic economy.</strong>
                             </Trans>
                         </p>
                         <p>
@@ -165,7 +165,7 @@ const Hero: React.FC = () => {
                 </div>
 
                 <div className="mt-12 text-center">
-                    <Link to="/whitepaper" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 border border-pink-500/30 text-pink-300 hover:bg-pink-500/10 transition-colors font-medium">
+                    <Link to="/whitepaper" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/10 transition-colors font-medium">
                         {t('story.readWhitepaper')} <ArrowRight className="w-4 h-4" />
                     </Link>
                 </div>
@@ -186,9 +186,15 @@ const Hero: React.FC = () => {
                     <div className="bg-white/5 border border-white/10 p-1 rounded-xl flex flex-wrap text-sm">
                         <button
                             onClick={() => setActiveTab('vision')}
-                            className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'vision' ? 'bg-pink-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+                            className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'vision' ? 'bg-emerald-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
                         >
                             <Palette className="w-4 h-4 mr-2" /> {t('campaign.tabVision')}
+                        </button>
+                        <button
+                            onClick={() => setActiveTab('robot')}
+                            className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'robot' ? 'bg-teal-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+                        >
+                            <Bot className="w-4 h-4 mr-2" /> {t('campaign.tabRobot')}
                         </button>
                         <button
                             onClick={() => setActiveTab('tokenomics')}
@@ -196,18 +202,12 @@ const Hero: React.FC = () => {
                         >
                             <Coins className="w-4 h-4 mr-2" /> {t('campaign.tabTokenomics')}
                         </button>
-                        <button
-                            onClick={() => setActiveTab('robot')}
-                            className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'robot' ? 'bg-purple-600 text-white shadow-lg' : 'text-gray-400 text-purple-300 hover:text-purple-200'}`}
-                        >
-                            <Bot className="w-4 h-4 mr-2" /> {t('campaign.tabRobot')}
-                        </button>
                     </div>
                 </div>
 
                 <div className="bg-[#0A0A1F] border border-white/10 rounded-3xl p-8 lg:p-12 relative overflow-hidden shadow-2xl">
                     {/* Background Effects inside Card */}
-                    <div className="absolute top-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[100px]" />
+                    <div className="absolute top-0 right-0 w-96 h-96 bg-teal-500/10 rounded-full blur-[100px]" />
 
                     <AnimatePresence mode="wait">
                         {activeTab === 'vision' && (
@@ -224,7 +224,7 @@ const Hero: React.FC = () => {
                                 className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center touch-pan-y"
                             >
                                 <div className="relative group">
-                                    <div className="absolute -inset-4 bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
+                                    <div className="absolute -inset-4 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
                                     <div className="relative aspect-square bg-[#050510] rounded-2xl border border-white/10 flex flex-col items-center justify-center overflow-hidden p-8 text-center">
                                         <img src="/logo192.png" alt="ZexAI" className="w-32 h-32 mb-6 drop-shadow-[0_0_30px_rgba(236,72,153,0.4)]" />
                                         <h4 className="text-2xl font-bold mb-2">{t('vision.agentTitle')}</h4>
@@ -261,7 +261,7 @@ const Hero: React.FC = () => {
                                         </ul>
                                     </div>
 
-                                    <button className="w-full py-4 rounded-xl bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white font-bold text-lg transition-colors flex items-center justify-center gap-2">
+                                    <button className="w-full py-4 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-lg transition-colors flex items-center justify-center gap-2">
                                         <Palette className="w-5 h-5" /> {t('vision.startCreating')}
                                     </button>
                                 </div>
@@ -302,7 +302,7 @@ const Hero: React.FC = () => {
                                 </div>
 
                                 <div className="bg-[#050510] border border-white/10 rounded-2xl p-8 text-center relative">
-                                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-purple-500 to-cyan-500" />
+                                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-teal-500 to-cyan-500" />
                                     <Shield className="w-16 h-16 text-cyan-400 mx-auto mb-6" />
                                     <h4 className="text-2xl font-bold mb-2">{t('tokenomics.utilityTitle')}</h4>
                                     <p className="text-gray-400 mb-8 text-sm">
@@ -310,10 +310,10 @@ const Hero: React.FC = () => {
                                     </p>
                                     <div className="space-y-3 mb-8 text-left">
                                         <div className="bg-white/5 border border-white/10 p-3 rounded-lg text-sm text-gray-300">
-                                            🔥 <span className="text-white font-semibold">{t('tokenomics.burnTitle')}</span>{t('tokenomics.burnDesc')}
+                                            ğŸ”¥ <span className="text-white font-semibold">{t('tokenomics.burnTitle')}</span>{t('tokenomics.burnDesc')}
                                         </div>
                                         <div className="bg-white/5 border border-white/10 p-3 rounded-lg text-sm text-gray-300">
-                                            💰 <span className="text-white font-semibold">{t('tokenomics.yieldTitle')}</span>{t('tokenomics.yieldDesc')}
+                                            ğŸ’° <span className="text-white font-semibold">{t('tokenomics.yieldTitle')}</span>{t('tokenomics.yieldDesc')}
                                         </div>
                                     </div>
                                     <div className="flex justify-center w-full mt-8">
@@ -340,7 +340,7 @@ const Hero: React.FC = () => {
                                 <div className="lg:col-span-5 space-y-4">
                                     {/* Main Media Display */}
                                     <div className="relative group">
-                                        <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
+                                        <div className="absolute -inset-4 bg-gradient-to-r from-teal-600 to-cyan-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
                                         <div className="relative aspect-[4/3] bg-[#050510] rounded-3xl border border-white/10 overflow-hidden">
                                             {robotMedia[activeMedia].type === 'image' ? (
                                                 <img
@@ -358,7 +358,7 @@ const Hero: React.FC = () => {
                                                     allowFullScreen
                                                 />
                                             )}
-                                            <div className="absolute top-4 left-4 bg-purple-500/20 border border-purple-500/50 text-purple-300 px-3 py-1 rounded-full text-xs font-bold tracking-wider backdrop-blur-md flex items-center gap-1">
+                                            <div className="absolute top-4 left-4 bg-teal-500/20 border border-teal-500/50 text-teal-300 px-3 py-1 rounded-full text-xs font-bold tracking-wider backdrop-blur-md flex items-center gap-1">
                                                 <Sparkles className="w-3 h-3" /> {t('robot.badgeLimited')}
                                             </div>
                                             <div className="absolute bottom-4 right-4 bg-cyan-500/20 border border-cyan-500/50 text-cyan-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider backdrop-blur-md">
@@ -375,7 +375,7 @@ const Hero: React.FC = () => {
                                                 onClick={() => setActiveMedia(i)}
                                                 className={`relative flex-1 aspect-video rounded-xl overflow-hidden border-2 transition-all ${
                                                     activeMedia === i
-                                                        ? 'border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.3)]'
+                                                        ? 'border-teal-500 shadow-[0_0_15px_rgba(168,85,247,0.3)]'
                                                         : 'border-white/10 opacity-60 hover:opacity-100'
                                                 }`}
                                             >
@@ -430,17 +430,17 @@ const Hero: React.FC = () => {
 
                                     <div className="bg-[#0D0D2B] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
                                         {/* Status Header */}
-                                        <div className="p-6 bg-gradient-to-r from-purple-900/40 to-cyan-900/40 border-b border-white/10">
+                                        <div className="p-6 bg-gradient-to-r from-teal-900/40 to-cyan-900/40 border-b border-white/10">
                                             <div className="flex items-center justify-between mb-4">
                                                 <div className="flex items-center gap-2">
-                                                    <ShoppingCart className="w-6 h-6 text-purple-400" />
+                                                    <ShoppingCart className="w-6 h-6 text-teal-400" />
                                                     <h4 className="text-xl font-bold text-white">{t('robot.buyTitle')}</h4>
                                                 </div>
                                                 <div className="text-right">
-                                                    <div className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+                                                    <div className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400">
                                                         {ROBOT_PRICE_ZEX} ZEX
                                                     </div>
-                                                    <div className="text-xs text-gray-400">≈ $12,500 USD</div>
+                                                    <div className="text-xs text-gray-400">â‰ˆ $12,500 USD</div>
                                                 </div>
                                             </div>
                                             <div className="w-full bg-white/10 rounded-full h-2 overflow-hidden mb-2">
@@ -448,7 +448,7 @@ const Hero: React.FC = () => {
                                                     initial={{ width: 0 }}
                                                     animate={{ width: `${(robotsSold / ROBOT_MAX_SUPPLY) * 100}%` }}
                                                     transition={{ duration: 1.5, ease: "easeOut" }}
-                                                    className="bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500 h-full rounded-full"
+                                                    className="bg-gradient-to-r from-teal-500 via-emerald-500 to-cyan-500 h-full rounded-full"
                                                 />
                                             </div>
                                             <div className="flex justify-between items-center text-xs font-bold mt-1">
@@ -470,13 +470,13 @@ const Hero: React.FC = () => {
                                                         key={method.id}
                                                         onClick={() => setPaymentMethod(method.id as any)}
                                                         className={`flex flex-col items-center justify-center p-4 rounded-2xl border transition-all gap-2 ${paymentMethod === method.id
-                                                            ? 'bg-purple-600/20 border-purple-500 text-white shadow-[0_0_20px_rgba(168,85,247,0.2)]'
+                                                            ? 'bg-teal-600/20 border-teal-500 text-white shadow-[0_0_20px_rgba(168,85,247,0.2)]'
                                                             : 'bg-white/5 border-white/10 text-gray-400 hover:bg-white/10'
                                                             }`}
                                                     >
                                                         {method.icon}
                                                         <span className="text-xs font-semibold text-center">{method.label}</span>
-                                                        {paymentMethod === method.id && <Check className="w-3 h-3 absolute top-2 right-2 text-purple-400" />}
+                                                        {paymentMethod === method.id && <Check className="w-3 h-3 absolute top-2 right-2 text-teal-400" />}
                                                     </button>
                                                 ))}
                                             </div>
@@ -491,7 +491,7 @@ const Hero: React.FC = () => {
                                                 {paymentMethod === 'web3' && (
                                                     <div className="text-center">
                                                         {isConnected ? (
-                                                            <button className="w-full py-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
+                                                            <button className="w-full py-4 rounded-xl bg-teal-600 hover:bg-teal-500 text-white font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
                                                                 <ShoppingCart className="w-5 h-5" /> {t('robot.confirmPurchase')}
                                                             </button>
                                                         ) : (
@@ -530,9 +530,9 @@ const Hero: React.FC = () => {
                                     </div>
 
                                     {/* Viral Raffle Section */}
-                                    <div className="bg-gradient-to-br from-pink-600/10 to-purple-600/10 border border-pink-500/20 rounded-3xl p-6 flex flex-col sm:flex-row items-center gap-6">
-                                        <div className="bg-pink-500/20 p-4 rounded-2xl">
-                                            <Gift className="w-10 h-10 text-pink-400" />
+                                    <div className="bg-gradient-to-br from-emerald-600/10 to-teal-600/10 border border-emerald-500/20 rounded-3xl p-6 flex flex-col sm:flex-row items-center gap-6">
+                                        <div className="bg-emerald-500/20 p-4 rounded-2xl">
+                                            <Gift className="w-10 h-10 text-emerald-400" />
                                         </div>
                                         <div className="flex-1 text-center sm:text-left">
                                             <h4 className="text-lg font-bold text-white mb-1">{t('robot.raffleTitle')}</h4>
@@ -542,7 +542,7 @@ const Hero: React.FC = () => {
                                                 </Trans>
                                             </p>
                                         </div>
-                                        <button className="whitespace-nowrap px-6 py-3 rounded-xl border border-pink-500/50 hover:bg-pink-500/10 text-pink-300 font-bold text-sm transition-all opacity-70 cursor-not-allowed">
+                                        <button className="whitespace-nowrap px-6 py-3 rounded-xl border border-emerald-500/50 hover:bg-emerald-500/10 text-emerald-300 font-bold text-sm transition-all opacity-70 cursor-not-allowed">
                                             {t('robot.raffleBtn')}
                                         </button>
                                     </div>
@@ -557,3 +557,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+

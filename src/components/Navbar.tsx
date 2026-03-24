@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
                 <div className="flex items-center justify-between h-20">
                     <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                         <div className="relative flex items-center justify-center w-10 h-10 group cursor-pointer">
-                            <div className="absolute inset-1 bg-gradient-to-tr from-purple-500 to-cyan-500 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity" />
+                            <div className="absolute inset-1 bg-gradient-to-tr from-teal-500 to-cyan-500 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity" />
                             <img src="/logo192.png" alt="ZexAi" className="relative w-10 h-10 object-contain drop-shadow-lg" />
                         </div>
                         <span className="text-2xl font-black tracking-tighter bg-gradient-to-br from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
                                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                                 className="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5 text-sm font-medium text-gray-300 hover:text-white"
                             >
-                                <Globe className="w-4 h-4 text-purple-400" />
+                                <Globe className="w-4 h-4 text-teal-400" />
                                 <span>{currentLang.flag} {currentLang.name}</span>
                                 <ChevronDown className={`w-3 h-3 transition-transform ${langMenuOpen ? 'rotate-180' : ''}`} />
                             </button>
@@ -141,7 +141,7 @@ const Navbar: React.FC = () => {
                                 <button
                                     key={lang.code}
                                     onClick={() => changeLanguage(lang.code)}
-                                    className={`px-3 py-2 rounded-lg text-sm text-center border transition-colors ${i18n.language === lang.code ? 'bg-purple-500/20 border-purple-500/50 text-purple-200' : 'bg-white/5 border-white/10 text-gray-400 hover:text-white'}`}
+                                    className={`px-3 py-2 rounded-lg text-sm text-center border transition-colors ${i18n.language === lang.code ? 'bg-teal-500/20 border-teal-500/50 text-teal-200' : 'bg-white/5 border-white/10 text-gray-400 hover:text-white'}`}
                                 >
                                     {lang.flag} {lang.name}
                                 </button>

@@ -34,7 +34,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileUrlTemplate, titleKey }
     return (
         <div className="min-h-screen bg-[#060612] text-gray-300 font-sans selection:bg-cyan-500/30 overflow-x-hidden pt-24 pb-32">
             <div className="fixed inset-0 pointer-events-none z-0">
-                <div className="absolute top-[10%] left-[10%] w-[30%] h-[30%] bg-purple-600/10 rounded-full blur-[100px]" />
+                <div className="absolute top-[10%] left-[10%] w-[30%] h-[30%] bg-teal-600/10 rounded-full blur-[100px]" />
                 <div className="absolute bottom-[20%] right-[10%] w-[40%] h-[30%] bg-cyan-600/10 rounded-full blur-[120px]" />
             </div>
 
@@ -64,13 +64,13 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileUrlTemplate, titleKey }
                     transition={{ duration: 0.5 }}
                     className="bg-[#0A0A1F]/60 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl relative"
                 >
-                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-t-3xl opacity-50" />
+                    <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-t-3xl opacity-50" />
 
                     <div className="prose prose-invert prose-lg max-w-none
                         prose-headings:text-white prose-headings:tracking-tight
                         prose-h1:text-3xl md:prose-h1:text-4xl prose-h1:mb-6 prose-h1:font-black
                         prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:font-bold prose-h2:text-cyan-300
-                        prose-h3:text-xl md:prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-purple-300
+                        prose-h3:text-xl md:prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-teal-300
                         prose-p:text-gray-400 prose-p:leading-relaxed prose-p:mb-5
                         prose-strong:text-white prose-strong:font-bold
                         prose-ul:list-disc prose-ul:pl-6 prose-ul:mb-6

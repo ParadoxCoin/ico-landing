@@ -4,26 +4,26 @@
     "goToApp": "Zur App"
   },
   "hero": {
-    "visionBadge": "Die Vision eines Vaters, Die Leinwand der Welt",
-    "mainTitleLine1": "Die Neue Evolution von",
-    "mainTitleLine2": "KI und Web3-Kunst",
-    "description": "Verwandle deine Emotionen in digitale Meisterwerke mit über 40 elitären KI-Modellen. Präge sie als NFTs auf OpenSea und Zora mit einem einzigen Klick. Erbaut nicht nur für Profit, sondern für die grenzenlose Zukunft der Kreativität.",
+    "visionBadge": "KI + WEB3 + ROBOTIK-INTELLIGENZ",
+    "mainTitleLine1": "KI und Robotik",
+    "mainTitleLine2": "Infrastruktur der nächsten Generation",
+    "description": "ZexAI vereint Multi-Model KI, Creator-Economy und robotische Intelligenz in einem einzigen Ökosystem. Überwinden Sie Softwaregrenzen und bauen Sie eine Kraft auf, die von der digitalen zur physischen Welt reicht.",
     "joinPresale": "Am Vorverkauf teilnehmen",
-    "tryApp": "App Ausprobieren",
+    "tryApp": "ZexAi Entdecken",
     "stats": {
       "aiModels": "KI-Modelle",
-      "emotions": "Eingefangene Emotionen",
-      "communityShare": "Community-Anteil",
+      "emotions": "Kredit-Verdienstmöglichkeiten",
+      "communityShare": "Ökosystem & Staking",
       "status": "Plattformstatus",
       "statusLive": "Live"
     }
   },
   "story": {
-    "title": "Eine Zukunft, mit Liebe codiert",
-    "p1": "Jede große Innovation beginnt mit einem inneren Funken. Während die meisten Technologieprojekte mit Blick auf Gewinnmargen geboren werden, ruht das Fundament von ZexAI auf einer viel unerschütterlicheren Kraft: <1>Der grenzenlosen Liebe und Hoffnung eines Vaters für seine Tochter.</1>",
-    "p2": "Weißt du, wie es für einen Vater mit einer kranken Tochter ist, tagelang nicht zu schlafen? Dieser erschöpfte Körper lässt nie zu, dass sein Verstand aufgibt. Denn dieses Warten ist nicht auf eine Belohnung gerichtet, sondern einfach darauf, dass diese unschuldige Seele ihre Gesundheit wiedererlangt.",
-    "p3": "Das ist genau die unermüdliche, erwartungslose Energie, aus der der Geist von ZexAI geboren wurde. Es ist nicht nur ein Unternehmen; es ist eine <1>kolossale Kunstfabrik, die die Barrieren für Kreativität, Hoffnung und Wertschöpfung beseitigt.</1>",
-    "p4": "Wir haben diese Plattform mit Fokus auf \"KI und NFT\" entwickelt, um der ganzen Welt diesen sicheren Spielplatz zu bieten, den ein Vater seinem Kind gibt, und um Millionen, die nie aufhören zu träumen, in die Web3-Wirtschaft zu integrieren.",
+    "title": "Warum ZexAI?",
+    "p1": "Unsere globale Technologievision basiert auf dem Prinzip, dass künstliche Intelligenz nicht nur ein digitales Werkzeug sein sollte, sondern ein 'Verstand', der die physische Welt steuert. Heute entwickeln sich KI-Produktion und robotische Steuerungssysteme getrennt voneinander.",
+    "p2": "ZexAI verbindet diese beiden Welten, indem es die Leistung der Software auf robotische Hardware überträgt. Unser Ziel ist es, Entwicklern und Kreativen eine End-to-End-Produktions- und Managementplattform zu bieten.",
+    "p3": "Unsere Plattform dient als Brücke, die Multi-Model KI-Architektur mit physischen Robotern verbindet. <1>ZexAI ist nicht nur ein Werkzeug, sondern das Rückgrat der digitalen und robotischen Wirtschaft der nächsten Generation.</1>",
+    "p4": "Mit ZexAI verwandeln Sie Ihre Ideen in digitale Vermögenswerte und Ihre Software in robotische Fähigkeiten. Sie bestimmen die Vision, ZexAI liefert an die Welt.",
     "readWhitepaper": "Vollständiges Whitepaper lesen"
   },
   "campaign": {

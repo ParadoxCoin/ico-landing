@@ -109,7 +109,7 @@ function App() {
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
         <Router>
-          <div className="min-h-screen bg-[#060612] text-white selection:bg-purple-500/30 overflow-hidden font-sans">
+          <div className="min-h-screen bg-[#060612] text-white selection:bg-teal-500/30 overflow-hidden font-sans">
             <Navbar />
 
             {/* Floating Social Media Icons */}
