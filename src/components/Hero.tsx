@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
     const { isConnected } = useAccount();
     const { t } = useTranslation();
     const [activeTab, setActiveTab] = useState<'vision' | 'tokenomics' | 'robot'>('vision');
-    const [robotsSold] = useState(12);
+    const [robotsSold] = useState(0);
     const [paymentMethod, setPaymentMethod] = useState<'web3' | 'cc' | 'bank'>('web3');
     const [activeMedia, setActiveMedia] = useState(0);
 
