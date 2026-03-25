@@ -292,12 +292,13 @@ const Hero: React.FC = () => {
                                     </p>
 
                                     <ul className="space-y-4 mb-8">
-                                        {(t('tokenomics.tiers', { returnObjects: true }) as any[]).map((item, idx) => (
+                                        {Array.isArray(t('tokenomics.tiers', { returnObjects: true })) 
+                                            ? (t('tokenomics.tiers', { returnObjects: true }) as any[]).map((item, idx) => (
                                             <li key={idx} className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/5 border-l-4 border-l-cyan-500">
                                                 <span className="font-semibold text-white">{item.name}</span>
                                                 <span className="text-gray-400 text-sm hidden sm:inline-block">{item.desc}</span>
                                             </li>
-                                        ))}
+                                        )) : null}
                                     </ul>
                                 </div>
 
