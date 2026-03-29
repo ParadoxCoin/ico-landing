@@ -36,7 +36,7 @@ const TickerBar: React.FC = () => {
     },
     { 
       icon: <Flame className="w-3.5 h-3.5 text-orange-400" />, 
-      text: t('tickerStats.burned', { count: stats.burned }) as string 
+      text: t('tickerStats.burned', { count: Math.floor(stats.burned).toLocaleString() }) as string 
     },
     { 
       icon: <Bot className="w-3.5 h-3.5 text-teal-400" />, 
