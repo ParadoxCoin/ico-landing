@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Sparkles, Eye, Info, Layers } from 'lucide-react';
+import { Eye, Info, Layers } from 'lucide-react';
 
 const NFT_IMAGES = [
   '/nfts/h1.png',
@@ -73,11 +73,7 @@ const HologramCard = ({ nft }: { nft: NFTData }) => {
             <span className="text-[10px] text-white/50">ER-721</span>
           </div>
         </div>
-        <h3 className="text-white font-bold text-lg mb-1">{nft.title}</h3>
-        <div className="flex items-center gap-2 text-teal-400 text-[11px] font-mono">
-          <Sparkles className="w-3 h-3" />
-          <span>MINTING_ACCESS: GRANTED</span>
-        </div>
+        <h3 className="text-white font-bold text-lg mb-1 uppercase tracking-tight">{nft.title}</h3>
       </div>
       
       {/* Visual Effects */}
