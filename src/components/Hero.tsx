@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useAccount } from 'wagmi';
@@ -6,26 +6,41 @@ import { Trans, useTranslation } from 'react-i18next';
 import {
     Sparkles, ArrowRight,
     Palette, Heart, Coins, Shield, Bot, Gift, ShoppingCart, Quote,
-    Ruler, Weight, Zap, Cpu, Scan as Radar, CreditCard, Landmark, Wallet, Check
+    Ruler, Weight, Zap, Cpu, Scan as Radar, CreditCard, Landmark, Wallet, Check, Box
 } from 'lucide-react';
 import ConnectButton from './ConnectButton';
 import PresaleForm from './PresaleForm';
+import { RobotCanvas } from './RobotCanvas';
+import NeuralSync from './NeuralSync';
 
-const TOTAL_SUPPLY = "1.000.000.000";
 const ROBOT_MAX_SUPPLY = 80;
 const ROBOT_PRICE_ZEX = "250.000";
 
 const Hero: React.FC = () => {
     const { isConnected } = useAccount();
     const { t } = useTranslation();
-    const [activeTab, setActiveTab] = useState<'vision' | 'tokenomics' | 'robot'>('vision');
+    const [activeTab, setActiveTab] = useState<'vision' | 'tokenomics' | 'robot' | 'sdk'>('vision');
+    const [isAutoPlaying, setIsAutoPlaying] = useState(true);
     const [robotsSold] = useState(0);
     const [paymentMethod, setPaymentMethod] = useState<'web3' | 'cc' | 'bank'>('web3');
     const [activeMedia, setActiveMedia] = useState(0);
 
-    const tabs: ('vision' | 'tokenomics' | 'robot')[] = ['vision', 'robot', 'tokenomics'];
+    const tabs: ('vision' | 'tokenomics' | 'robot' | 'sdk')[] = ['vision', 'robot', 'sdk', 'tokenomics'];
 
-    const handleDragEnd = (event: any, info: any) => {
+    useEffect(() => {
+        if (!isAutoPlaying) return;
+        const interval = setInterval(() => {
+            setActiveTab(prev => {
+                const tz = ['vision', 'robot', 'sdk', 'tokenomics'] as const;
+                const currentIndex = tz.indexOf(prev as any);
+                return tz[(currentIndex + 1) % tz.length] as any;
+            });
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [isAutoPlaying]);
+
+    const handleDragEnd = (_event: any, info: any) => {
+        setIsAutoPlaying(false);
         const swipeThreshold = 50;
         if (info.offset.x < -swipeThreshold) {
             // Swiped left -> next tab
@@ -43,6 +58,7 @@ const Hero: React.FC = () => {
     };
 
     const robotMedia = [
+        { type: '3d' as const, src: '3d', alt: 'ZexAI 3D AI Core' },
         { type: 'image' as const, src: '/robot-hero.png', alt: 'ZexAI Humanoid Robot - Front View' },
         { type: 'image' as const, src: '/robot-detail.png', alt: 'ZexAI Humanoid Robot - Detail' },
         { type: 'video' as const, src: 'https://www.youtube.com/embed/GzX1qOIO1bE', alt: 'Unitree G1 Demo Video' },
@@ -107,7 +123,8 @@ const Hero: React.FC = () => {
                     {/* Platform Stats */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
                         transition={{ delay: 0.3, duration: 0.8 }}
                         className="mt-20 w-full max-w-5xl rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur-3xl overflow-hidden p-8"
                     >
@@ -118,17 +135,25 @@ const Hero: React.FC = () => {
                                 { label: t('hero.stats.communityShare'), value: "25%" },
                                 { label: t('hero.stats.status'), value: t('hero.stats.statusLive') },
                             ].map((stat, i) => (
-                                <div key={i} className="text-center">
-                                    <div className="text-3xl md:text-4xl font-black bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent mb-2">
+                                <motion.div
+                                    key={i}
+                                    className="text-center"
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: 0.4 + i * 0.15, duration: 0.6 }}
+                                >
+                                    <div className="text-3xl md:text-4xl font-black bg-gradient-to-b from-white to-gray-500 bg-clip-text text-transparent mb-2 stat-glow">
                                         {stat.value}
                                     </div>
                                     <div className="text-sm font-medium text-teal-300 uppercase tracking-widest">
                                         {stat.label}
                                     </div>
-                                </div>
+                                </motion.div>
                             ))}
                         </div>
                     </motion.div>
+
                 </div>
             </section>
 
@@ -136,12 +161,24 @@ const Hero: React.FC = () => {
             <section className="py-24 px-4 mx-auto max-w-6xl sm:px-6 lg:px-8 relative overflow-hidden">
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-full bg-emerald-500/5 blur-[150px] rounded-full pointer-events-none" />
 
-                <div className="relative text-center mb-16">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: '-100px' }}
+                    transition={{ duration: 0.6 }}
+                    className="relative text-center mb-16"
+                >
                     <Quote className="w-12 h-12 text-emerald-500/50 mx-auto mb-6" />
                     <h2 className="text-3xl md:text-4xl font-black mb-6">{t('story.title')}</h2>
-                </div>
+                </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-gray-400 text-lg leading-relaxed relative">
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: '-50px' }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    className="grid grid-cols-1 md:grid-cols-2 gap-12 text-gray-400 text-lg leading-relaxed relative"
+                >
                     <div className="space-y-6">
                         <p>
                             <Trans i18nKey="story.p1">
@@ -162,13 +199,19 @@ const Hero: React.FC = () => {
                             {t('story.p4')}
                         </p>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="mt-12 text-center">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.3 }}
+                    className="mt-12 text-center"
+                >
                     <Link to="/whitepaper" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 border border-emerald-500/30 text-emerald-300 hover:bg-emerald-500/10 transition-colors font-medium">
                         {t('story.readWhitepaper')} <ArrowRight className="w-4 h-4" />
                     </Link>
-                </div>
+                </motion.div>
             </section>
 
             {/* Campaign Section: Vision, Tokenomics & Physical Robot */}
@@ -185,19 +228,25 @@ const Hero: React.FC = () => {
                 <div className="flex justify-center mb-8 flex-wrap gap-2">
                     <div className="bg-white/5 border border-white/10 p-1 rounded-xl flex flex-wrap text-sm">
                         <button
-                            onClick={() => setActiveTab('vision')}
+                            onClick={() => { setActiveTab('vision'); setIsAutoPlaying(false); }}
                             className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'vision' ? 'bg-emerald-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
                         >
                             <Palette className="w-4 h-4 mr-2" /> {t('campaign.tabVision')}
                         </button>
                         <button
-                            onClick={() => setActiveTab('robot')}
+                            onClick={() => { setActiveTab('robot'); setIsAutoPlaying(false); }}
                             className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'robot' ? 'bg-teal-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
                         >
                             <Bot className="w-4 h-4 mr-2" /> {t('campaign.tabRobot')}
                         </button>
                         <button
-                            onClick={() => setActiveTab('tokenomics')}
+                            onClick={() => { setActiveTab('sdk'); setIsAutoPlaying(false); }}
+                            className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'sdk' ? 'bg-indigo-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
+                        >
+                            <Cpu className="w-4 h-4 mr-2" /> {t('campaign.tabSdk')}
+                        </button>
+                        <button
+                            onClick={() => { setActiveTab('tokenomics'); setIsAutoPlaying(false); }}
                             className={`px-4 sm:px-6 py-2.5 rounded-lg transition-all font-medium flex items-center ${activeTab === 'tokenomics' ? 'bg-cyan-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}
                         >
                             <Coins className="w-4 h-4 mr-2" /> {t('campaign.tabTokenomics')}
@@ -268,6 +317,75 @@ const Hero: React.FC = () => {
                             </motion.div>
                         )}
 
+                        {activeTab === 'sdk' && (
+                            <motion.div
+                                key="sdk"
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                exit={{ opacity: 0, x: 20 }}
+                                drag="x"
+                                dragConstraints={{ left: 0, right: 0 }}
+                                dragElastic={0.2}
+                                dragDirectionLock
+                                onDragEnd={handleDragEnd}
+                                className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center touch-pan-y"
+                            >
+                                <div className="space-y-6">
+                                    <div className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-mono text-indigo-400 mb-4">
+                                        {t('sdk.badge')}
+                                    </div>
+                                    <h3 className="text-3xl lg:text-4xl font-black mb-4">{t('sdk.title')}</h3>
+                                    <p className="text-gray-400 leading-relaxed text-lg">
+                                        {t('sdk.desc')}
+                                    </p>
+                                    
+                                    <div className="bg-indigo-500/10 border border-indigo-500/30 rounded-2xl p-6 mb-8 mt-4 shadow-inner">
+                                        <h4 className="text-lg font-semibold mb-3 text-white flex items-center gap-2">
+                                            <ShoppingCart className="w-5 h-5 text-indigo-400"/> {t('sdk.marketTitle')}
+                                        </h4>
+                                        <p className="text-sm text-gray-300 leading-relaxed">
+                                            {t('sdk.marketDesc')}
+                                        </p>
+                                    </div>
+                                    
+                                    <Link to="/docs" className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold text-lg transition-colors flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(79,70,229,0.3)]">
+                                        {t('sdk.docsBtn')} <ArrowRight className="w-5 h-5" />
+                                    </Link>
+                                </div>
+                                
+                                <div className="relative group lg:ml-8 perspective-1000">
+                                    <div className="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
+                                    <div className="relative bg-[#050510] rounded-2xl border border-white/10 overflow-hidden transform transition-all duration-500 group-hover:rotate-y-2 group-hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]">
+                                        <div className="flex items-center px-4 py-3 bg-white/5 border-b border-white/10">
+                                            <div className="flex space-x-2">
+                                                <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                                                <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                                                <div className="w-3 h-3 rounded-full bg-green-500/80" />
+                                            </div>
+                                            <div className="mx-auto text-xs text-gray-500 font-mono">zexai-sdk-deploy.ts</div>
+                                        </div>
+                                        <div className="p-6 overflow-x-auto text-[13px] md:text-sm font-mono leading-relaxed bg-[#020208]">
+<pre className="text-gray-300">
+<span className="text-purple-400">import</span> {'{'} ZexClient {'}'} <span className="text-purple-400">from</span> <span className="text-green-300">'@zexai/sdk'</span>;{'\n\n'}
+<span className="text-gray-500">// 1. Initialize the SDK with Web3 Provider</span>{'\n'}
+<span className="text-purple-400">const</span> zex = <span className="text-purple-400">new</span> ZexClient({'{'}{'\n'}
+{'  '}apiKey: process.env.ZEX_KEY,{'\n'}
+{'  '}network: <span className="text-green-300">'polygon-mainnet'</span>{'\n'}
+{'}'});{'\n\n'}
+<span className="text-gray-500">// 2. Purchase AI Security Module using $ZEX</span>{'\n'}
+<span className="text-purple-400">await</span> zex.robotMarket.installModule({'{'}{'\n'}
+{'  '}robotId: <span className="text-green-300">'unitree-g1-0x4f...'</span>,{'\n'}
+{'  '}moduleId: <span className="text-green-300">'sec-patrol-v2'</span>,{'\n'}
+{'  '}payWith: <span className="text-green-300">'$ZEX'</span>,{'\n'}
+{'  '}maxFee: <span className="text-orange-400">500</span>{'\n'}
+{'}'});
+</pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </motion.div>
+                        )}
+
                         {activeTab === 'tokenomics' && (
                             <motion.div
                                 key="tokenomics"
@@ -311,10 +429,13 @@ const Hero: React.FC = () => {
                                     </p>
                                     <div className="space-y-3 mb-8 text-left">
                                         <div className="bg-white/5 border border-white/10 p-3 rounded-lg text-sm text-gray-300">
-                                            ğŸ”¥ <span className="text-white font-semibold">{t('tokenomics.burnTitle')}</span>{t('tokenomics.burnDesc')}
+                                            🔥 <span className="text-white font-semibold">{t('tokenomics.burnTitle')}</span>{t('tokenomics.burnDesc')}
                                         </div>
                                         <div className="bg-white/5 border border-white/10 p-3 rounded-lg text-sm text-gray-300">
-                                            ğŸ’° <span className="text-white font-semibold">{t('tokenomics.yieldTitle')}</span>{t('tokenomics.yieldDesc')}
+                                            💰 <span className="text-white font-semibold">{t('tokenomics.yieldTitle')}</span>{t('tokenomics.yieldDesc')}
+                                        </div>
+                                        <div className="bg-white/5 border border-white/10 p-3 rounded-lg text-sm text-gray-300">
+                                            🤖 <span className="text-white font-semibold">{t('tokenomics.robotTitle')}</span>{t('tokenomics.robotDesc')}
                                         </div>
                                     </div>
                                     <div className="flex justify-center w-full mt-8">
@@ -343,7 +464,11 @@ const Hero: React.FC = () => {
                                     <div className="relative group">
                                         <div className="absolute -inset-4 bg-gradient-to-r from-teal-600 to-cyan-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
                                         <div className="relative aspect-[4/3] bg-[#050510] rounded-3xl border border-white/10 overflow-hidden">
-                                            {robotMedia[activeMedia].type === 'image' ? (
+                                            {robotMedia[activeMedia].type === '3d' ? (
+                                                <div className="absolute inset-0 cursor-move">
+                                                    <RobotCanvas />
+                                                </div>
+                                            ) : robotMedia[activeMedia].type === 'image' ? (
                                                 <img
                                                     src={robotMedia[activeMedia].src}
                                                     alt={robotMedia[activeMedia].alt}
@@ -380,7 +505,12 @@ const Hero: React.FC = () => {
                                                         : 'border-white/10 opacity-60 hover:opacity-100'
                                                 }`}
                                             >
-                                                {media.type === 'image' ? (
+                                                {media.type === '3d' ? (
+                                                    <div className="w-full h-full bg-[#050510] flex flex-col items-center justify-center border border-teal-500/20 group-hover:border-teal-400">
+                                                        <Box className="w-6 h-6 text-teal-400 mb-1" />
+                                                        <span className="text-[10px] text-teal-400 font-bold">3D CORE</span>
+                                                    </div>
+                                                ) : media.type === 'image' ? (
                                                     <img src={media.src} alt={media.alt} className="w-full h-full object-cover" />
                                                 ) : (
                                                     <div className="w-full h-full bg-[#050510] flex items-center justify-center">
@@ -429,7 +559,12 @@ const Hero: React.FC = () => {
                                         </p>
                                     </div>
 
-                                    <div className="bg-[#0D0D2B] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+                                    <div className="bg-[#0D0D2B] border border-white/10 rounded-3xl overflow-hidden shadow-2xl relative">
+                                        {/* Neural Sync Floating Status - Top Right Desktop */}
+                                        <div className="absolute top-6 right-6 hidden lg:block z-20">
+                                            <NeuralSync />
+                                        </div>
+
                                         {/* Status Header */}
                                         <div className="p-6 bg-gradient-to-r from-teal-900/40 to-cyan-900/40 border-b border-white/10">
                                             <div className="flex items-center justify-between mb-4">

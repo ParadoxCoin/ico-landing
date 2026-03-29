@@ -187,16 +187,45 @@ ZexAI steht im Zentrum der Trends KI, Web3 und humanoide Robotik. Die Kombinatio
 
 Das ZexAI-Wachstumsmodell basiert auf der Synergie zwischen digitaler Inhaltsproduktion und robotischer Fähigkeitsentwicklung:
 
-### 12.1. Produktion (Creative & Robotic SDK)
-- Erstellung von Bild-, Video- und Audiodateien mittels KI.
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+  <!-- Adım 1 -->
+  <div className="bg-white/5 border border-emerald-500/20 p-6 rounded-2xl hover:bg-emerald-500/5 hover:border-emerald-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm">1</span>
+        Produktion (Creative & Robotic SDK)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - Erstellung von Bild-, Video- und Audiodateien mittels KI.
 - Entwicklung neuer Bewegungs- und Aufgabenmodule für robotische Agenten.
+    </div>
+  </div>
 
-### 12.2. Assetisierungs-Flows (NFT & Robotik-Akış)
-- **NFT-Flow:** Inhalte werden sofort in NFTs umgewandelt und erhalten auf Marktplätzen wirtschaftlichen Wert.
+  <!-- Adım 2 -->
+  <div className="bg-white/5 border border-teal-500/20 p-6 rounded-2xl hover:bg-teal-500/5 hover:border-teal-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-3xl group-hover:bg-teal-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-500/20 text-teal-400 flex items-center justify-center text-sm">2</span>
+        Assetisierungs-Flows (NFT & Robotik-Akış)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - **NFT-Flow:** Inhalte werden sofort in NFTs umgewandelt und erhalten auf Marktplätzen wirtschaftlichen Wert.
 - **Robotik-Flow:** Entwickelte Intelligenzmodule werden auf physische Roboter übertragen, um reale Aufgaben auszuführen.
+    </div>
+  </div>
 
-### 12.3. Monetarisierung und Skalierung
-- Jede Produktion und Aktivierung lässt die $ZEX-Wirtschaft wachsen. Es entstehen mehr Benutzer, mehr robotische Fähigkeiten und ein stärkeres Ökosystem.
+  <!-- Adım 3 -->
+  <div className="bg-white/5 border border-cyan-500/20 p-6 rounded-2xl hover:bg-cyan-500/5 hover:border-cyan-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm">3</span>
+        Monetarisierung und Skalierung
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - Jede Produktion und Aktivierung lässt die $ZEX-Wirtschaft wachsen. Es entstehen mehr Benutzer, mehr robotische Fähigkeiten und ein stärkeres Ökosystem.
+    </div>
+  </div>
+</div>
 
 ---
 

@@ -187,16 +187,45 @@ ZexAI se sitúa en el centro de las tendencias de IA, Web3 y Robótica Humanoide
 
 El modelo de crecimiento de ZexAI se basa en la sinergia entre la producción de contenido digital y el desarrollo de habilidades robóticas:
 
-### 12.1. Producción (Creative & Robotic SDK)
-- Creación de archivos de imagen, video y audio con IA.
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+  <!-- Adım 1 -->
+  <div className="bg-white/5 border border-emerald-500/20 p-6 rounded-2xl hover:bg-emerald-500/5 hover:border-emerald-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm">1</span>
+        Producción (Creative & Robotic SDK)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - Creación de archivos de imagen, video y audio con IA.
 - Construcción de nuevos módulos de movimiento y tareas para agentes robóticos.
+    </div>
+  </div>
 
-### 12.2. Flujos de Activación (Flujo NFT y Flujo Robótico)
-- **Flujo NFT:** El contenido se convierte instantáneamente en NFT, adquiriendo valor económico en los mercados.
+  <!-- Adım 2 -->
+  <div className="bg-white/5 border border-teal-500/20 p-6 rounded-2xl hover:bg-teal-500/5 hover:border-teal-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-3xl group-hover:bg-teal-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-500/20 text-teal-400 flex items-center justify-center text-sm">2</span>
+        Flujos de Activación (Flujo NFT y Flujo Robótico)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - **Flujo NFT:** El contenido se convierte instantáneamente en NFT, adquiriendo valor económico en los mercados.
 - **Flujo Robótico:** Los módulos de inteligencia desarrollados se transfieren a robots físicos para realizar tareas del mundo real.
+    </div>
+  </div>
 
-### 12.3. Monetización y Escalado
-- Cada producción y activación hace crecer la economía $ZEX. Crea más usuarios, más habilidades robóticas y un ecosistema más fuerte.
+  <!-- Adım 3 -->
+  <div className="bg-white/5 border border-cyan-500/20 p-6 rounded-2xl hover:bg-cyan-500/5 hover:border-cyan-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm">3</span>
+        Monetización y Escalado
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - Cada producción y activación hace crecer la economía $ZEX. Crea más usuarios, más habilidades robóticas y un ecosistema más fuerte.
+    </div>
+  </div>
+</div>
 
 ---
 

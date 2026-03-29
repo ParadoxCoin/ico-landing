@@ -187,16 +187,45 @@ ZexAI 处于 AI、Web3 和人形机器人三大趋势的中心。这三个领域
 
 ZexAI 的增长模型基于数字内容生产与机器人技能开发之间的协同效应：
 
-### 12.1. 生产 (Creative & Robotic SDK)
-- 利用 AI 创建视觉、视频和音频文件。
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+  <!-- Adım 1 -->
+  <div className="bg-white/5 border border-emerald-500/20 p-6 rounded-2xl hover:bg-emerald-500/5 hover:border-emerald-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm">1</span>
+        生产 (Creative & Robotic SDK)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - 利用 AI 创建视觉、视频和音频文件。
 - 为机器人代理构建全新的运动与任务模块。
+    </div>
+  </div>
 
-### 12.2. 资产化流程 (NFT 流与机器人流)
-- **NFT 流：** 内容瞬间转换为 NFT，在市场中获得经济价值。
+  <!-- Adım 2 -->
+  <div className="bg-white/5 border border-teal-500/20 p-6 rounded-2xl hover:bg-teal-500/5 hover:border-teal-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-3xl group-hover:bg-teal-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-500/20 text-teal-400 flex items-center justify-center text-sm">2</span>
+        资产化流程 (NFT 流与机器人流)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - **NFT 流：** 内容瞬间转换为 NFT，在市场中获得经济价值。
 - **机器人流：** 开发的智能模块传输至物理机器人，执行现实世界任务。
+    </div>
+  </div>
 
-### 12.3. 变现与扩张
-- 每一次生产与激活都推动 $ZEX 经济增长，吸引更多用户，创造更多技能，构建更强大的生态系统。
+  <!-- Adım 3 -->
+  <div className="bg-white/5 border border-cyan-500/20 p-6 rounded-2xl hover:bg-cyan-500/5 hover:border-cyan-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm">3</span>
+        变现与扩张
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      - 每一次生产与激活都推动 $ZEX 经济增长，吸引更多用户，创造更多技能，构建更强大的生态系统。
+    </div>
+  </div>
+</div>
 
 ---
 

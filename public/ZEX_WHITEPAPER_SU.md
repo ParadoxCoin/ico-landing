@@ -99,14 +99,43 @@ Synapse V2 AI & Robot orchestration, CEX list, **Robot Delivery & Activation**, 
 
 # 12. Flywheel (Büyüme Döngüsü)
 
-### 12.1. Create (Creative & Robotic SDK)
-An-na alam dù + Robot skill dù.
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+  <!-- Adım 1 -->
+  <div className="bg-white/5 border border-emerald-500/20 p-6 rounded-2xl hover:bg-emerald-500/5 hover:border-emerald-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm">1</span>
+        Create (Creative & Robotic SDK)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      An-na alam dù + Robot skill dù.
+    </div>
+  </div>
 
-### 12.2. Flows (NFT & Robot Flow)
-NFT flow + Robot flow (Physical task).
+  <!-- Adım 2 -->
+  <div className="bg-white/5 border border-teal-500/20 p-6 rounded-2xl hover:bg-teal-500/5 hover:border-teal-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-3xl group-hover:bg-teal-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-500/20 text-teal-400 flex items-center justify-center text-sm">2</span>
+        Flows (NFT & Robot Flow)
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      NFT flow + Robot flow (Physical task).
+    </div>
+  </div>
 
-### 12.3. Scaling
-$ZEX economy gal. More users, more skills, more ecosystem.
+  <!-- Adım 3 -->
+  <div className="bg-white/5 border border-cyan-500/20 p-6 rounded-2xl hover:bg-cyan-500/5 hover:border-cyan-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
+    <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-all" />
+    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm">3</span>
+        Scaling
+    </h3>
+    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
+      $ZEX economy gal. More users, more skills, more ecosystem.
+    </div>
+  </div>
+</div>
 
 ---
 

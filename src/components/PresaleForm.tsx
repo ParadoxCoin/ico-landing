@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAccount, useBalance, useReadContract, useWriteContract, useWaitForTransactionReceipt, useSendTransaction } from 'wagmi';
 import { parseEther, formatEther } from 'viem';
-import { ArrowRight, Activity, Wallet, ShieldCheck, RefreshCw } from 'lucide-react';
+import { ArrowRight, Activity, Wallet, ShieldCheck, RefreshCw, Shield } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import ConnectButton from './ConnectButton';
 
@@ -28,11 +28,19 @@ export const PresaleForm: React.FC = () => {
     const { t } = useTranslation();
     const { isConnected, address } = useAccount();
     const { data: ethBalance } = useBalance({ address });
-    const { data: zexBalanceData } = useReadContract({
+    const { data: zexBalanceData, refetch: refetchZexBalance } = useReadContract({
         address: TOKEN_ADDRESS as any,
         abi: ERC20_ABI,
         functionName: 'balanceOf',
         args: [address],
+        query: { enabled: !!address }
+    });
+
+    const { data: zexAllowanceData, refetch: refetchAllowance } = useReadContract({
+        address: TOKEN_ADDRESS as any,
+        abi: ERC20_ABI,
+        functionName: 'allowance',
+        args: [address, PRESALE_ADDRESS],
         query: { enabled: !!address }
     });
     
@@ -54,16 +62,28 @@ export const PresaleForm: React.FC = () => {
     const { writeContract, data: txHash, isPending } = useWriteContract();
     const { isLoading: isTxConfirming, isSuccess: isTxSuccess } = useWaitForTransactionReceipt({ hash: txHash });
 
+    const { writeContract: writeApprove, data: approveTxHash, isPending: isApprovePending } = useWriteContract();
+    const { isLoading: isApproveConfirming, isSuccess: isApproveSuccess } = useWaitForTransactionReceipt({ hash: approveTxHash });
+
     const totalSold = totalSoldData ? Number(formatEther(totalSoldData as bigint)) : 0;
     const isPrivateSale = totalSold < 10000000;
     const activeRate = isPrivateSale ? 333 : 200; // ZEX per POL
+    const zexAllowance = zexAllowanceData ? Number(formatEther(zexAllowanceData as bigint)) : 0;
 
     useEffect(() => {
         if (isTxSuccess) {
             setPolAmount('');
             setRefundAmount('');
+            if (refetchZexBalance) refetchZexBalance();
+            if (refetchAllowance) refetchAllowance();
         }
-    }, [isTxSuccess]);
+    }, [isTxSuccess, refetchZexBalance, refetchAllowance]);
+
+    useEffect(() => {
+        if (isApproveSuccess) {
+            if (refetchAllowance) refetchAllowance();
+        }
+    }, [isApproveSuccess, refetchAllowance]);
 
     const handleBuy = async () => {
         if (!polAmount || Number(polAmount) <= 0) return;
@@ -77,17 +97,21 @@ export const PresaleForm: React.FC = () => {
 
     const handleRefund = async () => {
         if (!refundAmount || Number(refundAmount) <= 0) return;
-        
-        // In a real dApp we'd check/handle ERC20 approval here before calling refund
-        // Assuming user executes approval first or we do batch tx.
-        // For simplicity, requesting refund directly (will fail if not approved)
-        // A production ready wrapper would call `approve` then `refund`.
-        alert("Not: Refund yapmadan önce MetaMask üzerinden Kontrata Harcama İzni (Approve) vermeniz gerekebilir!");
         writeContract({
             address: PRESALE_ADDRESS as any,
             abi: PRESALE_ABI,
             functionName: 'refund',
             args: [parseEther(refundAmount)]
+        });
+    };
+
+    const handleApprove = async () => {
+        if (!refundAmount || Number(refundAmount) <= 0) return;
+        writeApprove({
+            address: TOKEN_ADDRESS as any,
+            abi: ERC20_ABI,
+            functionName: 'approve',
+            args: [PRESALE_ADDRESS as any, parseEther(refundAmount)]
         });
     };
 
@@ -226,13 +250,23 @@ export const PresaleForm: React.FC = () => {
                                 ⚠️ İade mekanizması sizi piyasa riskinden korur. İade edilen ZEX miktarının <strong className="text-red-400">%15'i ağ tarafından kalıcı olarak yakılır (Burn)</strong>, kalan değer üzerinden ödediğiniz POL cüzdanınıza anında aktarılır.
                             </div>
 
-                            <button 
-                                onClick={handleRefund}
-                                disabled={isPending || isTxConfirming || !refundAmount || Number(refundAmount) > myPurchasedZex}
-                                className="w-full py-4 bg-red-600 hover:bg-red-500 disabled:opacity-50 text-white rounded-xl font-bold text-lg shadow-xl shadow-red-500/20 transition-all flex justify-center items-center gap-2"
-                            >
-                                {(isPending || isTxConfirming) ? <Activity className="w-6 h-6 animate-spin" /> : 'İadeyi Onayla & Kapat'}
-                            </button>
+                            {Number(refundAmount) > zexAllowance ? (
+                                <button 
+                                    onClick={handleApprove}
+                                    disabled={isApprovePending || isApproveConfirming || !refundAmount || Number(refundAmount) > myPurchasedZex}
+                                    className="w-full py-4 bg-orange-600 hover:bg-orange-500 disabled:opacity-50 text-white rounded-xl font-bold text-lg shadow-xl shadow-orange-500/20 transition-all flex justify-center items-center gap-2"
+                                >
+                                    {(isApprovePending || isApproveConfirming) ? <Activity className="w-6 h-6 animate-spin" /> : 'Harcama İzni Ver (Approve)'}
+                                </button>
+                            ) : (
+                                <button 
+                                    onClick={handleRefund}
+                                    disabled={isPending || isTxConfirming || !refundAmount || Number(refundAmount) > myPurchasedZex}
+                                    className="w-full py-4 bg-red-600 hover:bg-red-500 disabled:opacity-50 text-white rounded-xl font-bold text-lg shadow-xl shadow-red-500/20 transition-all flex justify-center items-center gap-2"
+                                >
+                                    {(isPending || isTxConfirming) ? <Activity className="w-6 h-6 animate-spin" /> : 'İadeyi Onayla & Kapat'}
+                                </button>
+                            )}
                         </div>
                     )}
                 </div>

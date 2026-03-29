@@ -1,126 +1,67 @@
 {
-  "nav": {
-    "language": "中文",
-    "goToApp": "转到应用"
-  },
+  "nav": { "language": "中文", "goToApp": "启动控制台" },
   "hero": {
     "visionBadge": "AI + WEB3 + 机器人智能",
     "mainTitleLine1": "人工智能与机器人",
-    "mainTitleLine2": "新一代基础架构",
-    "description": "ZexAI 将多模型 AI、创作者经济和机器人智能统一到一个生态系统中。突破软件限制，构建从数字到物理世界的跨维力量。",
-    "joinPresale": "加入预售",
+    "mainTitleLine2": "下一代基础设施",
+    "description": "ZexAI 在单一生态系统中统一了多模型 AI、创作者经济和机器人智能。",
+    "joinPresale": "参加预售",
     "tryApp": "探索 ZexAi",
-    "stats": {
-      "aiModels": "AI 模型",
-      "emotions": "积分获取方式",
-      "communityShare": "生态系统与质押",
-      "status": "平台状态",
-      "statusLive": "在线"
-    }
+    "stats": { "aiModels": "AI 模型", "emotions": "获取积分", "communityShare": "生态系统与质押", "status": "平台状态", "statusLive": "上线" }
   },
-  "story": {
-    "title": "为什么选择 ZexAI？",
-    "p1": "我们的全球技术愿景基于一个核心原则：人工智能不应仅是一个数字工具，而应是管理物理世界的‘智脑’。当前，AI 内容生产与机器人控制系统正在独立发展。",
-    "p2": "ZexAI 通过将软件的力量传输到机器人硬件，打通这两个世界。我们的目标是为开发者和创作者提供端到端的生产和管理平台，消除技术壁垒。",
-    "p3": "我们的平台充当连接多模型 AI 架构与物理世界机器人的桥梁。<1>ZexAI 不仅仅是一个工具，更是下一代数字和机器人经济的核心基础设施。</1>",
-    "p4": "使用 ZexAI，将您的创意转化为数字资产，将您的软件转化为机器人技能。您确定愿景，ZexAI 交付给全世界。",
-    "readWhitepaper": "阅读完整白皮书"
-  },
-  "campaign": {
-    "title": "ZexAI 生态系统与机遇",
-    "subtitle": "建立在透明、爱和有远见的效用基础上的去中心化平台。 生成，铸造为 NFT，赚取，并成为物理未来的一部分。",
-    "tabVision": "NFT 生态系统",
-    "tabTokenomics": "$ZEX 经济学",
-    "tabRobot": "机器人生态系统 🚀"
-  },
-  "vision": {
-    "agentTitle": "Synapse AI 代理",
-    "agentDesc": "只需输入“希望”，让 Synapse 代理为令人叹为观止的艺术品制作完美的提示。 无需提示工程。",
-    "mintBadge": "无缝集成",
-    "mintTitle": "直接铸造到 OpenSea 和 Zora",
-    "mintDesc": "ZexAI 让您在几秒钟内成为全球知名的艺术家。使用 AI 生成图像或视频，然后一键将它们作为 NFT 铸造在世界上最大的市场上。",
-    "whyWinTitle": "为什么 ZexAI 创作者会赢：",
-    "whyWin1": "所有世代的完全商业免版税权利",
-    "whyWin2": "直接从仪表板进行优化的天然气铸造",
-    "whyWin3": "由 $ZEX 代币支持的佣金折扣",
-    "startCreating": "开始创建并铸造"
-  },
+  "story": { "title": "为什么选择 ZexAI？", "p1": "全球愿景。", "p2": "软件与硬件的桥梁。", "p3": "数字骨干。", "p4": "转化创意。", "readWhitepaper": "阅读白皮书" },
+  "campaign": { "title": "ZexAI 生态系统", "subtitle": "去中心化平台。", "tabVision": "AI 平台", "tabTokenomics": "$ZEX 经济", "tabRobot": "机器人 🚀", "tabSdk": "SDK 🌐" },
+  "vision": { "agentTitle": "多模型引擎", "agentDesc": "40+ 模型。", "mintBadge": "无缝集成", "mintTitle": "AI 生产 + NFT 变现", "mintDesc": "在 OpenSea 上分发。", "whyWinTitle": "优势：", "whyWin1": "商业权利", "whyWin2": "直接铸造", "whyWin3": "折扣", "startCreating": "开始创建" },
   "tokenomics": {
-    "supplyBadge": "总供应量：1,000,000,000",
-    "title": "$ZEX 分配计划",
-    "desc": "一个公平、长期、以社区为中心的分配模式。 专为可持续性而建，而非短期投机。 团队代币完全锁定 1 年。",
+    "supplyBadge": "总量：1.000.000.000",
+    "title": "$ZEX 代币分发计划",
+    "desc": "公平的模型。",
     "tiers": [
-      {
-        "name": "35% - 预售 / ICO",
-        "desc": "社区阶段 1"
-      },
-      {
-        "name": "25% - 生态系统与质押",
-        "desc": "用户和创作者奖励"
-      },
-      {
-        "name": "15% - CEX / DEX 流动性",
-        "desc": "锁定以保持稳定"
-      },
-      {
-        "name": "10% - 营销与合作伙伴",
-        "desc": "OpenSea, Zora, 全球增长"
-      },
-      {
-        "name": "10% - 团队与创始人",
-        "desc": "完全锁定 1 年（我们致力于长期发展）"
-      },
-      {
-        "name": "5% - 顾问",
-        "desc": "锁定 6 个月"
-      }
+      { "name": "35% — 预售", "desc": "第一阶段" },
+      { "name": "25% — 生态奖励", "desc": "奖励" },
+      { "name": "15% — 流动性", "desc": "锁定" },
+      { "name": "10% — 营销", "desc": "增长" },
+      { "name": "10% — 团队", "desc": "1年锁定" },
+      { "name": "5% — 顾问", "desc": "6个月" }
     ],
-    "utilityTitle": "$ZEX 的效用与稳定性",
-    "utilityDesc": "代币持有者可从平台的收入分成中获得被动收入，享受生成折扣，并参与定期的“回购和销毁”活动。",
-    "burnTitle": "通货紧缩（燃烧）",
-    "burnDesc": ": $ZEX 使用生态系统收入从市场上回购并燃烧掉。",
-    "yieldTitle": "实际收益",
-    "yieldDesc": ": 抵押者可获得订阅和生成收入的份额。"
+    "utilityTitle": "$ZEX 用途",
+    "utilityDesc": "被动收入。",
+    "burnTitle": "通缩销毁",
+    "burnDesc": ": 回购并销毁。",
+    "yieldTitle": "真实收益",
+    "yieldDesc": ": 质押奖励。",
+    "robotTitle": "机器人生态系统",
+    "robotDesc": ": 使用 $ZEX 购买。"
   },
-  "robot": {
-    "badgeLimited": "限量版",
-    "badgeAi": "人工智能集成",
-    "title": "ZexAI 机器人开发者生态系统",
-    "desc": "我们的平台通过 ZexAI 机器人智能层引入了新一代人工智能驱动的机器人开发。通过统一的软件平台连接人形机器人和智能代理，并由 $ZEX 代币支持激活和基于技能的货币化。",
-    "buyTitle": "直接购买（80 台）",
-    "buyPrice": "价格（使用钱包）",
-    "buyLeft": "仅剩 {{count}} 台！",
-    "raffleTitle": "盛大 ICO 抽奖（20 台）",
-    "raffleDesc": "在预售期间购买<1>至少 10,000 ZEX</1>即可获得抽奖券。 抓住在我们病毒式传播活动中赢得免费人形机器人的机会！",
-    "raffleBtn": "🎯 参与抽奖（即将推出）",
-    "confirmPurchase": "确认购买"
+  "robot": { "badgeLimited": "限量版", "badgeAi": "集成 AI", "title": "ZexAI 机器人开发者生态", "desc": "智能层。", "buyTitle": "直接购买 (80)", "buyPrice": "价格", "buyLeft": "仅剩 {{count}}！", "raffleTitle": "ICO 抽奖 (20)", "raffleDesc": "最少 10.000 ZEX。", "raffleBtn": "🎯 加入抽奖", "confirmPurchase": "确认购买" },
+  "faq": { "title": "常见问题", "subtitle": "解决您的疑问。", "q1": "$ZEX 何时发布？", "a1": "即将开始。", "q2": "机器人？", "a2": "使用 $ZEX 支付。" },
+  "footer": { "copyright": "© 2026 ZexAi.", "terms": "条款", "privacy": "隐私" },
+  "whitepaper": { "backToHome": "返回首页", "officialDoc": "文档", "loading": "加载中..." },
+  "markdown": { "backToHome": "返回首页", "loading": "内容加载中..." },
+  "sdk": { "badge": "开发者", "title": "SDK 与市场", "desc": "机器人未来。", "marketTitle": "市场", "marketDesc": "硬件与大脑。", "docsBtn": "阅读文档" },
+  "neuralSync": {
+    "badge": "神经同步",
+    "load": "系统负载",
+    "core": "核心",
+    "storage": "存储",
+    "safe": "安全",
+    "connected": "已连接",
+    "booting": "正在启动...",
+    "logs": ["节点_42", "质押活跃", "机器人连接", "引擎就绪"]
   },
-  "faq": {
-    "title": "常见问题",
-    "subtitle": "让我们解答您的疑问。",
-    "q1": "$ZEX 代币何时推出？",
-    "a1": "$ZEX 预售阶段将很快开始。所有公告将首先通过我们的 Twitter 和 Discord 频道发布。",
-    "q2": "如何购买创始人版人形机器人？",
-    "a2": "您可以通过连接钱包并直接支付至少 250,000 $ZEX 代币来购买我们的机器人（首批仅 80 台）。",
-    "q3": "NFT 生产和市场集成如何运作？",
-    "a3": "您可以通过我们的面板一键将在 ZexAI 平台上设计的数字艺术作品直接铸造到 OpenSea 和 Zora 等主要平台。",
-    "q4": "为什么团队代币被锁定？",
-    "a4": "我们建设这个项目不是为了短期利润，而是为了创造真正的价值和持久的生态系统。团队代币被完全锁定 1 年（Vesting）。"
+  "galleryItems": [
+    { "title": "Neural #01", "rarity": "传奇" },
+    { "title": "Evolution #04", "rarity": "史诗" }
+  ],
+  "tickerStats": { "price": "$ZEX: ${{price}}", "burned": "已销毁: {{count}}", "robots": "销售: {{sold}}/{{total}}", "presale": "预售" },
+  "grok": {
+    "name": "Grok", "poweredBy": "GROK", "welcome": "你好！", "placeholder": "提问...",
+    "syncing": "同步中...", "visionTitle": "愿景", "status": "OK",
+    "intents": { "robot": "80 台。", "buyback": "销毁活跃。" },
+    "logs": { "connecting": "连接...", "syncing": "同步...", "initializing": "初始化...", "matching": "匹配...", "granted": "允许" },
+    "vision": { "phase": "阶段 4", "neural": "100%", "economy": "活跃" }
   },
-  "footer": {
-    "copyright": "© 2026 ZexAi. 保留所有权利。",
-    "terms": "条款",
-    "privacy": "隐私"
-  },
-  "whitepaper": {
-    "backToHome": "返回首页",
-    "officialDoc": "官方文档",
-    "loading": "加载愿景中..."
-  },
-  "markdown": {
-    "backToHome": "返回首页",
-    "loading": "加载内容中...",
-    "termsTitle": "服务条款",
-    "privacyTitle": "隐私政策"
-  }
+  "grokFacts": ["事实 1", "事实 2"],
+  "calc": { "badge": "收益", "title": "质押", "desc": "最大化资产。", "labelAmount": "金额", "labelPeriod": "期限", "months": "月", "estimatedEarn": "预测收益", "totalReturn": "总余额", "stakeBtn": "立即质押" },
+  "gallery": { "badge": "NFT", "title": "展示厅", "subtitle": "立即铸造。" }
 }

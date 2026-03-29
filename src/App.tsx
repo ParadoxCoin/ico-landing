@@ -1,12 +1,21 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
 import { Twitter, Disc as Discord, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import WhitepaperPage from './pages/WhitepaperPage';
 import MarkdownPage from './pages/MarkdownPage';
+import DocsPage from './pages/DocsPage';
+import { GrokAssistant } from './components/GrokAssistant';
+import TickerBar from './components/TickerBar';
+import ParticleNetwork from './components/ParticleNetwork';
+import Roadmap from './components/Roadmap';
+import TeamSection from './components/TeamSection';
+import StakingCalculator from './components/StakingCalculator';
+import NFTGallery from './components/NFTGallery';
 
 // Web3 Imports
 import { WagmiProvider } from 'wagmi';
@@ -23,7 +32,13 @@ function Home() {
     { question: t('faq.q1'), answer: t('faq.a1') },
     { question: t('faq.q2'), answer: t('faq.a2') },
     { question: t('faq.q3'), answer: t('faq.a3') },
-    { question: t('faq.q4'), answer: t('faq.a4') }
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
+    { question: t('faq.q6'), answer: t('faq.a6') },
+    { question: t('faq.q7'), answer: t('faq.a7') },
+    { question: t('faq.q8'), answer: t('faq.a8') },
+    { question: t('faq.q9'), answer: t('faq.a9') },
+    { question: t('faq.q10'), answer: t('faq.a10') }
   ];
 
   const toggleFaq = (index: number) => {
@@ -34,6 +49,7 @@ function Home() {
     <>
       <main>
         <Hero />
+        <NFTGallery />
       </main>
 
       {/* FAQ Section */}
@@ -84,6 +100,10 @@ function Home() {
         </div>
       </section>
 
+      <Roadmap />
+      <StakingCalculator />
+      <TeamSection />
+
       {/* Footer */}
       <footer className="border-t border-white/10 bg-[#050510] py-8 mt-10 relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
@@ -95,7 +115,7 @@ function Home() {
             <Link to="/whitepaper" className="hover:text-white transition-colors">Whitepaper</Link>
             <Link to="/terms" className="hover:text-white transition-colors">{t('footer.terms')}</Link>
             <Link to="/privacy" className="hover:text-white transition-colors">{t('footer.privacy')}</Link>
-            <a href="https://twitter.com/zex_ai" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Twitter</a>
+            <a href="https://x.com/ZexAi_io" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Twitter</a>
             <a href="https://discord.gg/zexai" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a>
           </div>
         </div>
@@ -106,32 +126,39 @@ function Home() {
 
 function App() {
   return (
-    <WagmiProvider config={config}>
-      <QueryClientProvider client={queryClient}>
-        <Router>
-          <div className="min-h-screen bg-[#060612] text-white selection:bg-teal-500/30 overflow-hidden font-sans">
-            <Navbar />
+    <ErrorBoundary>
+      <WagmiProvider config={config}>
+        <QueryClientProvider client={queryClient}>
+          <Router>
+            <div className="min-h-screen text-white selection:bg-teal-500/30 overflow-hidden font-sans relative pt-8">
+              <TickerBar />
+              <ParticleNetwork />
+              <div className="premium-bg" />
+              <GrokAssistant />
+              <Navbar />
 
-            {/* Floating Social Media Icons */}
-            <div className="fixed left-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-50">
-              <a href="https://twitter.com/zex_ai" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-[#1DA1F2] hover:bg-white/10 hover:scale-110 transition-all shadow-lg backdrop-blur-sm group">
-                <Twitter className="w-5 h-5 group-hover:-rotate-12 transition-transform" />
-              </a>
-              <a href="https://discord.gg/zexai" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-[#5865F2] hover:bg-white/10 hover:scale-110 transition-all shadow-lg backdrop-blur-sm group">
-                <Discord className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-              </a>
+              {/* Floating Social Media Icons */}
+              <div className="fixed left-4 top-1/2 -translate-y-1/2 flex flex-col gap-4 z-50">
+                <a href="https://x.com/ZexAi_io" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-[#1DA1F2] hover:bg-white/10 hover:scale-110 transition-all shadow-lg backdrop-blur-sm group">
+                  <Twitter className="w-5 h-5 group-hover:-rotate-12 transition-transform" />
+                </a>
+                <a href="https://discord.gg/zexai" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-[#5865F2] hover:bg-white/10 hover:scale-110 transition-all shadow-lg backdrop-blur-sm group">
+                  <Discord className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+                </a>
+              </div>
+
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/docs" element={<DocsPage />} />
+                <Route path="/whitepaper" element={<WhitepaperPage />} />
+                <Route path="/terms" element={<MarkdownPage fileUrlTemplate="/ZEX_TERMS_{LANG}.md" titleKey="markdown.termsTitle" />} />
+                <Route path="/privacy" element={<MarkdownPage fileUrlTemplate="/ZEX_PRIVACY_{LANG}.md" titleKey="markdown.privacyTitle" />} />
+              </Routes>
             </div>
-
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/whitepaper" element={<WhitepaperPage />} />
-              <Route path="/terms" element={<MarkdownPage fileUrlTemplate="/ZEX_TERMS_{LANG}.md" titleKey="markdown.termsTitle" />} />
-              <Route path="/privacy" element={<MarkdownPage fileUrlTemplate="/ZEX_PRIVACY_{LANG}.md" titleKey="markdown.privacyTitle" />} />
-            </Routes>
-          </div>
-        </Router>
-      </QueryClientProvider>
-    </WagmiProvider>
+          </Router>
+        </QueryClientProvider>
+      </WagmiProvider>
+    </ErrorBoundary>
   );
 }
 
