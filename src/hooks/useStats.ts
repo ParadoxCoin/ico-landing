@@ -73,7 +73,7 @@ export const useStats = () => {
   return {
     price,
     burned,
-    robotSales: robotSales || 42,
+    robotSales: robotSales, // Removed the placeholder (42) for total transparency
     totalRobots: 80,
     holders: 1250 + Math.floor(totalZexSold / 5000), // Dynamic holders estimation based on sales
     marketCap: price * (totalSupplyData ? Number(formatEther(totalSupplyData as bigint)) : 1000000000),
