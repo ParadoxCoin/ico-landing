@@ -598,9 +598,9 @@ const Hero: React.FC = () => {
                                             <label className="text-sm font-bold text-gray-400 uppercase tracking-widest">{t('robot.paymentMethods')}</label>
                                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                                                 {[
-                                                    { id: 'web3', icon: <Wallet className="w-5 h-5" />, label: t('robot.payWeb3') },
-                                                    { id: 'cc', icon: <CreditCard className="w-5 h-5" />, label: t('robot.payCC') },
-                                                    { id: 'bank', icon: <Landmark className="w-5 h-5" />, label: t('robot.payBank') },
+                                                    { id: 'web3', icon: <Wallet className="w-5 h-5" />, label: "ZEX Token (Polygon)" },
+                                                    { id: 'cc', icon: <CreditCard className="w-5 h-5" />, label: "Kart (LemonSqueezy)" },
+                                                    { id: 'bank', icon: <Landmark className="w-5 h-5" />, label: "Binance Pay / Crypto" },
                                                 ].map((method) => (
                                                     <button
                                                         key={method.id}
@@ -642,22 +642,22 @@ const Hero: React.FC = () => {
                                                     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center space-y-4">
                                                         <CreditCard className="w-12 h-12 text-gray-400 mx-auto opacity-50" />
                                                         <p className="text-sm text-gray-400">
-                                                            {t('robot.payCCDesc', { defaultValue: "Safely process your payment via Stripe secure infrastructure. All major cards accepted." })}
+                                                            Ödemenizi LemonSqueezy güvenli altyapısı ile gerçekleştirin. Kredi ve banka kartları geçerlidir.
                                                         </p>
-                                                        <button className="w-full py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-lg transition-all hover:scale-[1.02]">
-                                                            {t('robot.payCCBtn', { defaultValue: "Proceed to Checkout" })}
+                                                        <button className="w-full py-4 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-600 text-white font-bold text-lg transition-all hover:scale-[1.02]">
+                                                            Şimdi Satın Al
                                                         </button>
                                                     </div>
                                                 )}
 
                                                 {paymentMethod === 'bank' && (
                                                     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center space-y-4">
-                                                        <Landmark className="w-12 h-12 text-gray-400 mx-auto opacity-50" />
+                                                        <Box className="w-12 h-12 text-teal-400 mx-auto opacity-50" />
                                                         <p className="text-sm text-gray-400">
-                                                            {t('robot.payBankDesc', { defaultValue: "Contact our sales team for Bank Transfer or Swift instructions. Minimum order amount applies for bank transfers." })}
+                                                            Binance Pay veya NOWPayments ile kripto ödemesi yapın. %5 indirimden yararlanın.
                                                         </p>
-                                                        <a href="mailto:sales@zexai.io" className="block w-full py-4 rounded-xl bg-white/10 border border-white/10 text-white font-bold text-lg transition-all hover:bg-white/20">
-                                                            {t('robot.payBankBtn', { defaultValue: "Contact Sales" })}
+                                                        <a href="https://app.zexai.io/pricing" className="block w-full py-4 rounded-xl bg-white/10 border border-white/10 text-white font-bold text-lg transition-all hover:bg-white/20">
+                                                            Kripto ile Öde
                                                         </a>
                                                     </div>
                                                 )}

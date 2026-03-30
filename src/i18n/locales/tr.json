@@ -98,9 +98,9 @@
     "raffleBtn": "🎯 Çekilişe Katıl (Yakında)",
     "confirmPurchase": "Satın Alımı Onayla",
     "paymentMethods": "Ödeme Yöntemi Seçin",
-    "payWeb3": "Web3 (ZEX Token)",
-    "payCC": "Kredi Kartı / Banka Kartı",
-    "payBank": "Banka Havalesi / Swift",
+    "payWeb3": "ZEX Token (Polygon)",
+    "payCC": "Kredi Kartı (LemonSqueezy)",
+    "payBank": "Binance Pay / NOWPayments",
     "specsTitle": "Teknik Özellikler (Unitree G1)",
     "specs": {
       "height": "Boy: ~127cm (Katlanabilir)",
@@ -111,10 +111,10 @@
       "compute": "İşlemci: 8-Core CPU & NVIDIA Orin (EDU)",
       "sensors": "Sensörler: 3D LiDAR + Derinlik Kamerası"
     },
-    "payCCDesc": "Stripe güvenli altyapısı ile ödemenizi gerçekleştirin. Tüm kredi ve banka kartları geçerlidir.",
+    "payCCDesc": "Ödemenizi LemonSqueezy güvenli altyapısı ile gerçekleştirin. Tüm kredi ve banka kartları geçerlidir.",
     "payCCBtn": "Ödemeye Geç",
-    "payBankDesc": "Banka havalesi veya Swift bilgileri için satış ekibimizle iletişime geçin. Havale ile alımlarda limit uygulaması olabilir.",
-    "payBankBtn": "Satış Ekibiyle İletişime Geç"
+    "payBankDesc": "Binance Pay veya NOWPayments ile kripto ödemesi yapın. %5 ek indirim kazanın.",
+    "payBankBtn": "Kripto ile Öde"
   },
   "faq": {
     "title": "Sıkça Sorulan Sorular",
