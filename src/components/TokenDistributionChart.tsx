@@ -44,7 +44,7 @@ const TOKEN_DATA = [
 
 const LABELS: Record<string, Record<string, { name: string; vesting: string }>> = {
     en: {
-        presale: { name: 'Presale / ICO', vesting: '50% unlocked at listing, remaining 50% — 6 month linear vesting' },
+        presale: { name: 'Presale / ICO', vesting: '10% at TGE, 6-month linear vesting' },
         ecosystem: { name: 'Ecosystem & Staking', vesting: 'Gradual unlock based on platform usage' },
         liquidity: { name: 'Liquidity', vesting: 'Locked for DEX/CEX liquidity pools' },
         team: { name: 'Team & Founders', vesting: '1 year full cliff, then 24-month linear unlock' },
@@ -52,7 +52,7 @@ const LABELS: Record<string, Record<string, { name: string; vesting: string }>> 
         advisors: { name: 'Advisors', vesting: '6 months fully locked, then 6-month linear unlock' },
     },
     tr: {
-        presale: { name: 'Ön Satış / ICO', vesting: 'Listeleme anında %50 açık, kalan %50 — 6 ay lineer vesting' },
+        presale: { name: 'Ön Satış / ICO', vesting: 'TGE\'de %10 açık, kalan kısım 6 ay lineer açılım' },
         ecosystem: { name: 'Ekosistem & Staking', vesting: 'Kullanıma göre kademeli açılım' },
         liquidity: { name: 'Likidite', vesting: 'DEX/CEX listeleme havuzları için kilitli' },
         team: { name: 'Takım & Kurucular', vesting: '1 yıl tamamen kilitli (Cliff), sonra 24 ay lineer açılım' },
@@ -60,7 +60,7 @@ const LABELS: Record<string, Record<string, { name: string; vesting: string }>> 
         advisors: { name: 'Danışmanlar', vesting: '6 ay kilitli, sonra 6 ay lineer açılım' },
     },
     de: {
-        presale: { name: 'Vorverkauf / ICO', vesting: '50% bei Listing freigeschaltet, Rest — 6 Monate lineares Vesting' },
+        presale: { name: 'Vorverkauf / ICO', vesting: '10% bei TGE, 6 Monate lineares Vesting' },
         ecosystem: { name: 'Ökosystem & Staking', vesting: 'Schrittweise Freischaltung basierend auf Plattformnutzung' },
         liquidity: { name: 'Liquidität', vesting: 'Gesperrt für DEX/CEX-Liquiditätspools' },
         team: { name: 'Team & Gründer', vesting: '1 Jahr vollständige Sperre, dann 24-monatige lineare Freischaltung' },
@@ -68,7 +68,7 @@ const LABELS: Record<string, Record<string, { name: string; vesting: string }>> 
         advisors: { name: 'Berater', vesting: '6 Monate vollständig gesperrt, dann 6-monatige lineare Freischaltung' },
     },
     es: {
-        presale: { name: 'Preventa / ICO', vesting: '50% desbloqueado al listar, resto — 6 meses de vesting lineal' },
+        presale: { name: 'Preventa / ICO', vesting: '10% en TGE, 6 meses de vesting lineal' },
         ecosystem: { name: 'Ecosistema & Staking', vesting: 'Desbloqueo gradual según uso de la plataforma' },
         liquidity: { name: 'Liquidez', vesting: 'Bloqueado para pools de liquidez DEX/CEX' },
         team: { name: 'Equipo & Fundadores', vesting: '1 año de bloqueo completo, luego 24 meses de desbloqueo lineal' },
@@ -76,7 +76,7 @@ const LABELS: Record<string, Record<string, { name: string; vesting: string }>> 
         advisors: { name: 'Asesores', vesting: '6 meses bloqueados, luego 6 meses de desbloqueo lineal' },
     },
     fr: {
-        presale: { name: 'Prévente / ICO', vesting: '50% débloqué à la cotation, reste — 6 mois de vesting linéaire' },
+        presale: { name: 'Prévente / ICO', vesting: '10% au TGE, 6 mois de vesting linéaire' },
         ecosystem: { name: 'Écosystème & Staking', vesting: 'Déblocage progressif selon l\'utilisation' },
         liquidity: { name: 'Liquidité', vesting: 'Verrouillé pour les pools de liquidité DEX/CEX' },
         team: { name: 'Équipe & Fondateurs', vesting: '1 an de verrouillage complet, puis 24 mois de déblocage linéaire' },
@@ -84,7 +84,7 @@ const LABELS: Record<string, Record<string, { name: string; vesting: string }>> 
         advisors: { name: 'Conseillers', vesting: '6 mois verrouillés, puis 6 mois de déblocage linéaire' },
     },
     zh: {
-        presale: { name: '预售 / ICO', vesting: '上市时解锁50%，剩余50% — 6个月线性释放' },
+        presale: { name: '预售 / ICO', vesting: 'TGE时解锁10%，6个月线性释放' },
         ecosystem: { name: '生态系统 & 质押', vesting: '根据平台使用逐步解锁' },
         liquidity: { name: '流动性', vesting: '锁定用于DEX/CEX流动性池' },
         team: { name: '团队 & 创始人', vesting: '1年完全锁定，之后24个月线性解锁' },
@@ -92,7 +92,7 @@ const LABELS: Record<string, Record<string, { name: string; vesting: string }>> 
         advisors: { name: '顾问', vesting: '6个月完全锁定，之后6个月线性解锁' },
     },
     su: {
-        presale: { name: 'Presale / ICO', vesting: '50% unlocked at listing, remaining 50% — 6 month linear vesting' },
+        presale: { name: 'Presale / ICO', vesting: '10% at TGE, 6-month linear vesting' },
         ecosystem: { name: 'Ecosystem & Staking', vesting: 'Gradual unlock based on platform usage' },
         liquidity: { name: 'Liquidity', vesting: 'Locked for DEX/CEX liquidity pools' },
         team: { name: 'Team & Founders', vesting: '1 year full cliff, then 24-month linear unlock' },
