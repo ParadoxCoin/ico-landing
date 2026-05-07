@@ -158,7 +158,7 @@ Le token $ZEX est le principal token utilitaire de l'écosystème ZexAI.
 Offre Totale : 1,000,000,000 ZEX
 
 - **Prévente / ICO — 35 %**  
-  50 % débloqués à la cotation, les 50 % restants — 6 mois de vesting linéaire.
+  Anti-Dump Vesting : 10 % TGE, 6 mois linéaire. Les jetons invendus sont définitivement brûlés.
 
 - **Écosystème & Récompenses de Staking — 25 %**  
   Alloués pour l'utilisation de la plateforme, les récompenses pour les créateurs de NFT et le pool de développeurs robotiques.

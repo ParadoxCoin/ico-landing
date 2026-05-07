@@ -17,7 +17,7 @@
     "title": "Plan de Distribution $ZEX",
     "desc": "Modèle équitable.",
     "tiers": [
-      { "name": "35% — Prévente", "desc": "Phase 1" },
+      { "name": "35% — Prévente", "desc": "Anti-Dump: 10% TGE, 6 mois linéaire." },
       { "name": "25% — Écosystème", "desc": "Récompenses" },
       { "name": "15% — Liquidité", "desc": "Verrouillé" },
       { "name": "10% — Marketing", "desc": "Croissance" },

@@ -51,7 +51,7 @@
     "title": "$ZEX Verteilungsplan",
     "desc": "Ein faires, langfristiges Verteilungsmodell.",
     "tiers": [
-      { "name": "35% - Vorverkauf / ICO", "desc": "Phase 1" },
+      { "name": "35% - Vorverkauf / ICO", "desc": "Anti-Dump: 10% bei TGE entsperrt, der Rest linear über 6 Monate." },
       { "name": "25% - Ökosystem & Staking", "desc": "Rewards" },
       { "name": "15% - CEX / DEX Liquidität", "desc": "Gesperrt" },
       { "name": "10% - Marketing", "desc": "Wachstum" },

@@ -17,7 +17,7 @@
     "title": "Distribución $ZEX",
     "desc": "Modelo justo.",
     "tiers": [
-      { "name": "35% — Preventa", "desc": "Fase 1" },
+      { "name": "35% — Preventa", "desc": "Anti-Dump: 10% en TGE, resto lineal en 6 meses." },
       { "name": "25% — Ecosistema", "desc": "Recompensas" },
       { "name": "15% — Liquidez", "desc": "Bloqueado" },
       { "name": "10% — Marketing", "desc": "Crecimiento" },
