@@ -1,248 +1,104 @@
-# ZexAI Whitepaper
-## Économie des Créateurs d'IA et Infrastructure d'Intelligence Robotique
+# ZexAI : Hub Autonome de Création Web3 & IA
+**Livre Blanc Technique v2.0**
+
+## 1. Résumé
+ZexAI est un écosystème SaaS multi-IA de qualité institutionnelle qui unifie la structure décentralisée du Web3, la puissance générative de l'Intelligence Artificielle et la technologie robotique Unitree dans un seul système autonome. Ce projet ne vise pas à vendre une vision ou à créer de la spéculation à court terme ("pump"), mais à construire directement l'avenir autonome du Web3 et de l'IA. En intégrant plus de 40 modèles d'IA de premier plan (Tier-1), la plateforme fournit une infrastructure intégrée où les utilisateurs peuvent instantanément monétiser leurs créations via des NFT. Grâce à son économie de jetons déflationniste ($ZEX), son modèle durable de partage des revenus et sa sécurité stricte de liquidité, ZexAI offre aux investisseurs à long terme un produit entièrement opérationnel qui privilégie la stabilité et une protection solide des investisseurs.
+
+## 2. Architecture de la Plateforme & Écosystème
+L'infrastructure de ZexAI couvre un large spectre, de la génération de contenu (texte, image, vidéo, audio) à l'intégration matérielle autonome.
+
+### 2.1. Infrastructure SaaS Multi-IA
+Le système regroupe plus de 40 modèles d'IA générative standard de l'industrie (Tier-1) au sein d'une interface unique. Les utilisateurs peuvent générer des visuels haute fidélité, des vidéos cinématiques et du contenu audio professionnel directement via ZexAI.
+*   **Monétisation NFT Instantanée :** Les actifs numériques générés sur la plateforme peuvent être instantanément convertis en NFT, permettant aux créateurs de monétiser de manière transparente leur travail sur le marché mondial.
+
+### 2.2. Intégration de la Robotique Unitree (Autonomie Physique)
+La vision de ZexAI dépasse le cadre numérique. L'écosystème est conçu pour s'intégrer aux équipements robotiques de **Unitree**, permettant à l'IA de commander des unités robotiques physiques, matérialisant ainsi un véritable avenir autonome.
 
 ---
 
-# 1. Résumé pour les Investisseurs
+## 3. Stratégie de Prévente & de Lancement du Jeton $ZEX
+Un "Modèle Hybride" a été conçu pour offrir aux premiers investisseurs une opportunité d'entrée sécurisée, flexible et équitable, en donnant la priorité à la protection des investisseurs sans compromettre la stabilité du système.
 
-La génération de contenu par IA et les systèmes de contrôle robotique sont deux domaines technologiques majeurs en pleine croissance. Cependant, la plupart des plateformes existantes fonctionnent comme des outils isolés, ne parvenant pas à transférer pleinement la puissance du logiciel dans le monde physique.
+### 3.1. Stratégie de Prix Équitable
+Afin de garantir un avantage équitable et distinct pour notre communauté, le prix de prévente est unifié sous un seul niveau :
+*   **Prix de la Prévente :** 0,0012 $
 
-ZexAI est conçu pour résoudre ce problème.
+### 3.2. Modèle de Lancement Hybride & Politique de Remboursement
+*   **Lancement Officiel via Gempad :** Assure une crédibilité maximale et une visibilité mondiale.
+*   **Accès à la Plateforme ZexAI :** Un canal d'accès supplémentaire offrant des fonctionnalités avancées directement via notre plateforme native.
+*   **Option de Remboursement (Plateforme ZexAI Uniquement) :** Disponible pour une fenêtre de temps limitée exclusivement pour les acheteurs sur la plateforme ZexAI. Si un investisseur souhaite retirer ses fonds, une **pénalité de 15 % est déduite des jetons (qui est entièrement brûlée)**, et les fonds restants sont remboursés.
 
-La plateforme intègre de multiples modèles d'IA, l'économie des créateurs, l'infrastructure Web3 et la **Couche d'Intelligence Robotique (Robotic Intelligence Layer)** dans un seul écosystème.
+### 3.3. Sécurité de la Liquidité (DEX)
+Pour équilibrer sécurité et flexibilité :
+*   **Plus de 70 % de la liquidité collectée sera bloquée pour une durée de 12 mois** (avec option de prolongation).
+*   La liquidité restante est stratégiquement allouée pour la tenue de marché, la stabilisation des prix et les futures transitions vers les CEX.
 
-Utilisateurs :
-→ Créent du contenu avec l'IA  
-→ Comparent différents modèles  
-→ Transforment le contenu en actifs numériques (NFT)  
-→ Intègrent des logiciels dans des robots humanoïdes pour construire des compétences physiques  
-→ Distribuent sur les couches numériques et physiques dans les marchés mondiaux.
-
-ZexAI n'est pas seulement un outil d'IA ; c'est la plateforme d'infrastructure primaire pour l'économie numérique et robotique de la prochaine génération.
-
----
-
-# 2. Introduction
-
-Les technologies d'intelligence artificielle changent fondamentalement non seulement la production de contenu numérique, mais aussi nos formes d'interaction dans le monde physique.
-
-Aujourd'hui, la plupart des plateformes d'IA fonctionnent comme des outils isolés se concentrant sur une seule fonction. Les créateurs de contenu et les développeurs doivent utiliser différentes plateformes pour la génération d'images, la monétisation et l'intégration robotique.
-
-ZexAI élimine cette structure fragmentée en combinant les outils de production d'IA, l'économie des créateurs, l'infrastructure Web3 et l'écosystème des robots humanoïdes en une seule plateforme.
+### 3.4. Système de Parrainage Double
+*   **Ventes de Jetons :** Gagnez une commission de 5 % sur les achats effectués via votre lien de parrainage. Les récompenses sont distribuées à hauteur de 50 % lors de la cotation, et 50 % après 1 mois.
+*   **Plateforme SaaS Multi-IA :** Gagnez 5 % de crédits de plateforme sur les abonnements et les achats de crédits. Ces crédits n'expirent pas et sont utilisables à tout moment.
 
 ---
 
-# 3. Le Problème
+## 4. Tokenomics & Allocation du Jeton $ZEX
+L'approvisionnement total et les mesures d'allocation sont méticuleusement conçus pour la santé à long terme du réseau.
 
-## Outils d'IA et Robotiques Fragmentés
-Les plateformes d'IA existantes se concentrent généralement sur un seul domaine (image, vidéo, etc.). Les systèmes robotiques travaillent généralement avec des logiciels en circuit fermé, ce qui empêche la formation d'un écosystème de développeurs à grande échelle.
+### 4.1. Répartition de l'Allocation
+*   **35% - Prévente / ICO**
+*   **25% - Écosystème & Staking**
+*   **15% - Liquidité**
+*   **10% - Équipe & Fondateurs**
+*   **10% - Marketing & Partenariats**
+*   **5% - Conseillers**
 
----
-
-## Limites de Monétisation
-De nombreuses plateformes permettent la génération de contenu mais n'offrent pas l'infrastructure nécessaire pour transformer ce contenu en propriété numérique (NFT) ou en compétence physique (Robotic Skill).
-
----
-
-## Dépendance aux Modèles et au Matériel
-Les développeurs sont souvent dépendants d'un seul modèle ou d'un matériel robotique spécifique, manquant l'opportunité d'utiliser les avantages de différents modèles d'IA dans le monde physique.
-
----
-
-# 4. La Solution ZexAI : Écosystème Unifié
-
-ZexAI est une plateforme de production et de gestion fonctionnant avec une architecture multi-modèles et une couche logicielle indépendante du matériel.
-
-La plateforme offre aux utilisateurs :
-- **Accès Multi-IA :** Accès simultané et comparaison pour plus de 40 modèles.
-- **Monétisation NFT :** Transformation instantanée du contenu produit en actifs numériques.
-- **Robotic Intelligence Layer :** Contrôle et acquisition de compétences pour les robots humanoïdes via l'infrastructure $ZEX.
-- **Économie Basée sur les Tokens :** Gestion des processus de production et d'activation en utilisant $ZEX.
+### 4.2. Protection Anti-Dump & Structure de Vesting
+Pour protéger les investisseurs de la volatilité soudaine du marché, des calendriers stricts de libération sont appliqués :
+*   **Prévente / ICO :** 10 % sont débloqués lors de l'événement de génération de jetons (TGE). Les jetons restants sont distribués linéairement sur 6 mois.
+*   **Liquidité :** Plus de 70 % des jetons LP bloqués pendant 12 mois.
+*   **Équipe & Fondateurs :** 12 mois de blocage complet (cliff), suivis d'une libération linéaire sur 24 mois.
+*   **Conseillers :** 6 mois de blocage complet, suivis d'une libération linéaire sur 6 mois.
+*   **Écosystème & Staking :** Émission contrôlée pour garantir des incitations à long terme.
+*   **Marketing & Partenariats :** Libération stratégique et contrôlée.
 
 ---
 
-# 5. Architecture de la Plateforme
-
-## Couche de Production d'IA et Robotique
-- Génération d'images, de vidéos et d'audio par IA
-- SDK robotique et Kit de développement
-- Assistant de prompts et de compétences
-
----
-
-## Moteur Multi-Modèles
-ZexAI permet aux utilisateurs d'exécuter plusieurs modèles d'IA avec le même prompt et de transférer les résultats vers des systèmes robotiques ou des actifs numériques.
+## 5. Mécanismes Déflationnistes & Capture de Valeur
+L'écosystème $ZEX utilise des mécanismes déflationnistes agressifs pour réduire de manière permanente l'offre et capturer de la valeur.
+*   **Jetons Non Vendus :** Tous les jetons restants non vendus pendant les phases de prévente sont **brûlés définitivement**.
+*   **Retrait de la Prévente :** La pénalité de 15 % appliquée aux demandes de remboursement est **entièrement brûlée**.
+*   **Utilisation du Réseau :** Une **destruction de 0,5 % des jetons** se produit sur chaque transaction intra-plateforme et processus de création de NFT IA.
 
 ---
 
-## Robotic Intelligence Layer (Couche d'Intelligence Robotique)
-Une couche logicielle indépendante du matériel permettant aux développeurs de connecter des robots humanoïdes directement à l'infrastructure d'agents ZexAI. Les compétences développées sont gérées via une orchestration globale basée sur le cloud.
+## 6. Modèle de Staking Durable
+Le staking de ZEX est conçu pour une participation à long terme, reposant sur une génération de revenus durables plutôt que sur une simple émission de jetons.
+
+### 6.1. Sources de Récompense
+*   Récompenses basées sur l'émission (provenant de l'allocation pour l'Écosystème).
+*   Partage des revenus de la plateforme (provenant des opérations SaaS Multi-IA).
+
+### 6.2. Distribution des Revenus
+Les revenus fiduciaires/crypto générés par la plateforme sont distribués de manière à renforcer la valeur du jeton :
+*   **20% → Rachat & Destruction (Buyback & Burn)**
+*   **10% → Récompenses de Staking**
+*   **70% → Croissance & Opérations**
+
+### 6.3. Boosts de Blocage (Simple & Clair)
+Un engagement plus long équivaut à des récompenses plus élevées :
+*   **Pas de blocage** → multiplicateur de 1.00x
+*   **Blocage de 3 mois** → multiplicateur de 1.15x
+*   **Blocage de 6 mois** → multiplicateur de 1.30x
+*   **Blocage de 12 mois** → multiplicateur de 1.50x
+
+### 6.4. Pénalité de Sortie Anticipée
+Pour encourager la détention à long terme, un retrait anticipé du staking déclenche une **pénalité de 10 %**. Ce montant de pénalité est définitivement **brûlé**.
 
 ---
 
-## Économie des Crédits et des Tokens
-Toutes les transactions de production, d'activation et de monétisation dans l'écosystème sont sécurisées par le token $ZEX et le système de crédits.
+## 7. Liens Officiels
+*   🌐 **Site Web :** [https://zexai.io](https://zexai.io)
+*   🧠 **Plateforme :** [https://app.zexai.io](https://app.zexai.io)
+*   📢 **Annonces :** [https://t.me/ZexAi_Announcements](https://t.me/ZexAi_Announcements)
+*   💬 **Communauté :** [https://t.me/ZexAi_Community](https://t.me/ZexAi_Community)
+*   🐦 **X (Twitter) :** [https://x.com/ZexAi_io](https://x.com/ZexAi_io)
 
----
-
-# 6. Mécanismes de Croissance
-
-## Système de Parrainage et de Partenariat
-Les utilisateurs qui invitent d'autres personnes gagnent des récompenses sur les achats de crédits et les activations robotiques des utilisateurs invités.
-
----
-
-## Tâches Quotidiennes et Fidélité
-Les activités sur la plateforme (production, partage, activation) sont récompensées par un système de fidélité dynamique.
-
----
-
-# 7. Sécurité de la Plateforme
-
-- Communication robotique cryptée de bout en bout
-- Durabilité économique via des limites de contenu et de production
-- Gestion d'actifs basée sur des smart contracts
-
----
-
-# 8. Économie du Token ZEX
-
-Le token $ZEX est le principal token utilitaire de l'écosystème ZexAI.
-
----
-
-## Cas d'Utilisation du Token
-- **Production d'IA :** Achat de crédits à prix réduit et accès aux modèles.
-- **Transactions NFT :** Frais de frappe et commissions sur le marketplace.
-- **Activation Robotique :** Enregistrement et activation sécurisés de nouveaux matériels sur le réseau ZexAI.
-- **Marketplace de Compétences :** Vente et location de modules de 'compétences' robotiques développés par les créateurs.
-- **Staking :** Partage des revenus de l'écosystème et droits de gouvernance.
-
----
-
-## Staking et Déflation
-- **Récompenses de Staking :** Récompenses pour les détenteurs de $ZEX indexées sur la croissance de l'écosystème.
-- **Mécanisme de Burn :** 0,5 % de burn sur les transactions + pénalités de sortie anticipée.
-- **Rachat :** 20 % des revenus de la plateforme utilisés pour le rachat et le burn de $ZEX.
-
----
-
-# 9. Feuille de Route (Roadmap)
-
-## Phase 1 — Genèse (Q2 2026)
-- Lancement de la plateforme IA (Bêta)
-- Initiation de la campagne d'ICO / Prévente
-- Ouverture du système de frappe et d'intégration de NFT
-- Création de canaux communautaires mondiaux
-
----
-
-## Phase 2 — Web3 et SDK Robotique (Q3 2026)
-- Cotations du token $ZEX sur DEX/CEX
-- Intégration complète de l'API OpenSea et Zora
-- **Sortie du Kit de Développement Robotique (SDK)**
-- Lancement du portail développeur et de la documentation technique
-
----
-
-## Phase 3 — Production Universelle et Livraison (Q4 2026)
-- Système d'agents d'IA Synapse V2 et d'orchestration robotique
-- Cotations sur des CEX de premier niveau
-- **Livraisons de Robots Humanoïdes (Physiques) et Système d'Activation**
-- Partenariats matériels mondiaux et expansion
-
----
-
-# 10. Distribution des Tokens
-
-Offre Totale : 1,000,000,000 ZEX
-
-- **Prévente / ICO — 35 %**  
-  Anti-Dump Vesting : 10 % TGE, 6 mois linéaire. Les jetons invendus sont définitivement brûlés.
-
-- **Écosystème & Récompenses de Staking — 25 %**  
-  Alloués pour l'utilisation de la plateforme, les récompenses pour les créateurs de NFT et le pool de développeurs robotiques.
-
-- **Liquidité — 15 %**  
-  Pool verrouillé pour les cotations en bourse.
-
-- **Équipe & Fondateurs — 10 %**  
-  Verrouillage complet d'un an, suivi d'une distribution linéaire sur 24 mois.
-
-- **Marketing & Partenariats — 10 %**  
-  Utilisation progressive pour la croissance internationale et les partenariats robotiques.
-
-- **Conseillers — 5 %**  
-  6 mois de verrouillage, suivi de 6 mois de distribution linéaire.
-
----
-
-# 11. Opportunité de Marché et Vision
-
-ZexAI se situe au centre des tendances de l'IA, du Web3 et de la robotique humanoïde. La combinaison de ces trois domaines formera une nouvelle économie créative mondiale couvrant les mondes numérique et physique.
-
----
-
-# 12. Cycle de Croissance de la Plateforme (Flywheel)
-
-Le modèle de croissance de ZexAI est basé sur la synergie entre la production de contenu numérique et le développement de compétences robotiques :
-
-<div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
-  <!-- Adım 1 -->
-  <div className="bg-white/5 border border-emerald-500/20 p-6 rounded-2xl hover:bg-emerald-500/5 hover:border-emerald-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
-    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all" />
-    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm">1</span>
-        Production (Creative & Robotic SDK)
-    </h3>
-    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
-      - Création de fichiers image, vidéo et audio avec l'IA.
-- Construction de nouveaux modules de mouvement et de tâches pour les agents robotiques.
-    </div>
-  </div>
-
-  <!-- Adım 2 -->
-  <div className="bg-white/5 border border-teal-500/20 p-6 rounded-2xl hover:bg-teal-500/5 hover:border-teal-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
-    <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-3xl group-hover:bg-teal-500/20 transition-all" />
-    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-500/20 text-teal-400 flex items-center justify-center text-sm">2</span>
-        Flux d'Assetisarion (Flux NFT & Flux Robotique)
-    </h3>
-    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
-      - **Flux NFT :** Le contenu est instantanément converti en NFT, acquérant une valeur économique sur les places de marché.
-- **Flux Robotique :** Les modules d'intelligence développés sont transférés vers des robots physiques pour effectuer des tâches du monde réel.
-    </div>
-  </div>
-
-  <!-- Adım 3 -->
-  <div className="bg-white/5 border border-cyan-500/20 p-6 rounded-2xl hover:bg-cyan-500/5 hover:border-cyan-500/40 transition-all flex flex-col h-full group relative overflow-hidden">
-    <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-all" />
-    <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
-        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-sm">3</span>
-        Monétisation et Échelle
-    </h3>
-    <div className="text-gray-400 text-sm leading-relaxed prose-sm prose-p:my-2 prose-ul:my-2">
-      - Chaque production et activation fait croître l'économie $ZEX. Elle crée plus d'utilisateurs, plus de compétences robotiques et un écosystème plus fort.
-    </div>
-  </div>
-</div>
-
----
-
-# 13. Comparaison Concurrentielle
-
-ZexAI va au-delà de Pollo.ai (vidéo), ImageArt (image) et des entreprises de robotique traditionnelles en combinant matériel, logiciel et économie dans une seule structure décentralisée.
-
----
-
-# 14. Détails sur l'Écosystème de Développement Robotique IA
-
-Cette section couvre la coopération stratégique établie avec les partenaires matériels (Unitree, etc.) et le modèle de drop-shipping. L'objectif principal est d'optimiser les coûts logistiques et de construire un réseau mondial d'orchestration robotique.
-
----
-
-# 15. Vision Future
-
-ZexAI aspire à être la principale "couche opérationnelle" dans un futur où l'intelligence artificielle gère les formes de production physiques et numériques.
-
-**Vous créez, ZexAI le présente au monde.**
+**Nous construisons. Pas de hype.**
