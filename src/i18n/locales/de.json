@@ -51,7 +51,7 @@
     "title": "$ZEX Verteilungsplan",
     "desc": "Ein faires, langfristiges Verteilungsmodell.",
     "tiers": [
-      { "name": "35% - Vorverkauf / ICO", "desc": "Anti-Dump: 10% bei TGE entsperrt, der Rest linear über 6 Monate." },
+      { "name": "35% - Vorverkauf / ICO", "desc": "Phase 1" },
       { "name": "25% - Ökosystem & Staking", "desc": "Rewards" },
       { "name": "15% - CEX / DEX Liquidität", "desc": "Gesperrt" },
       { "name": "10% - Marketing", "desc": "Wachstum" },
@@ -72,7 +72,7 @@
     "badgeAi": "KI Integriert",
     "title": "ZexAI Roboter-Entwickler-Ökosystem",
     "desc": "ZexAI Robotic Intelligence Layer.",
-    "buyTitle": "Direktkauf (50 Stück)",
+    "buyTitle": "Direktkauf (80 Stück)",
     "buyPrice": "Preis (Mit Wallet)",
     "buyLeft": "Nur noch {{count}} Stück!",
     "raffleTitle": "Büyük ICO Çekilişi (20 Adet)",
@@ -119,7 +119,7 @@
   "grok": {
     "name": "Grok", "poweredBy": "GROK", "welcome": "Hallo!", "placeholder": "Fragen...",
     "syncing": "Sync...", "visionTitle": "Vision", "status": "OK",
-    "intents": { "robot": "50 Units.", "buyback": "Burn active." },
+    "intents": { "robot": "80 Units.", "buyback": "Burn active." },
     "logs": { "connecting": "CONN...", "syncing": "SYNC...", "initializing": "INIT...", "matching": "MATCH...", "granted": "OK" },
     "vision": { "phase": "Phase 4", "neural": "100%", "economy": "Active" }
   },

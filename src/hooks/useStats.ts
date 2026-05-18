@@ -80,13 +80,14 @@ export const useStats = () => {
   const supplyBurned = Math.max(0, 1000000000 - currentTotalSupply);
   const totalBurned = supplyBurned + deadBurned;
   
-  const currentPriceUSD = 0.0012;
+  const currentPriceUSD = currentPriceData ? Number(currentPriceData) / 1000 : 0.009; 
   const price = currentPriceUSD;
 
   // Robot Sales logic: Calculate from founder wallet balance
-  // Assuming 1 Robot is ~13,500 USD. If they buy at 0.0012 USD = ~11,250,000 ZEX per robot.
+  // Assuming 1 Robot is ~12,500 USD. If they buy at 0.009 USD = ~1,388,888 ZEX per robot.
+  // We use an average of 1,250,000 ZEX per robot as a baseline to divide the founder's wallet balance.
   const founderBalance = founderBalanceData ? Number(formatEther(founderBalanceData as bigint)) : 0;
-  const estimatedRobotsFromBalance = Math.floor(founderBalance / 11250000);
+  const estimatedRobotsFromBalance = Math.floor(founderBalance / 1250000);
   
   // Fallback to minimal organic calculation to ensure it never looks totally empty if founder moves funds
   const robotSales = Math.max(estimatedRobotsFromBalance, 2); 
@@ -95,7 +96,7 @@ export const useStats = () => {
     price,
     burned: totalBurned > 0 ? totalBurned : 1245000, 
     robotSales: robotSales,
-    totalRobots: 50,
+    totalRobots: 80,
     holders: 1250 + Math.floor(totalZexSold / 5000), 
     marketCap: price * currentTotalSupply,
     apr6m: 12,

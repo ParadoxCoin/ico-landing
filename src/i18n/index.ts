@@ -8,6 +8,8 @@ import es from './locales/es.json';
 import fr from './locales/fr.json';
 import su from './locales/su.json';
 import zh from './locales/zh.json';
+import ru from './locales/ru.json';
+import ar from './locales/ar.json';
 
 i18n
     .use(initReactI18next)
@@ -19,7 +21,9 @@ i18n
             es: { translation: es },
             fr: { translation: fr },
             su: { translation: su },
-            zh: { translation: zh }
+            zh: { translation: zh },
+            ru: { translation: ru },
+            ar: { translation: ar }
         },
         lng: 'en', // Set English as default
         fallbackLng: 'en',

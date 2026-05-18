@@ -12,7 +12,7 @@ Sistem, 40'tan fazla endüstri standardı (Tier-1) üretici yapay zeka modelini 
 *   **Anında NFT Dönüştürme:** Platformda üretilen dijital varlıklar anında NFT'ye dönüştürülebilir ve üreticilerin çalışmalarını küresel pazarda sorunsuz bir şekilde paraya dönüştürmelerini sağlar.
 
 ### 2.2. Unitree Robotik Entegrasyonu (Fiziksel Otonomi)
-ZexAI'nin vizyonu dijital dünyanın ötesine uzanır. Ekosistem, **Unitree** robotik donanımları ile entegre olacak şekilde tasarlanmıştır. Bu sayede yapay zekanın fiziksel robotik birimleri yönetmesini sağlayarak gerçek otonom geleceği hayata geçirir.
+ZexAI'nin vizyonu dijital dünyayla sınırlı kalmaz. Ekosistem, **Unitree** robotik donanımları ile entegre olacak şekilde tasarlanmıştır. Bu sayede yapay zekanın fiziksel robotik birimleri yönetmesini sağlayarak gerçek otonom geleceği hayata geçirir.
 
 ---
 

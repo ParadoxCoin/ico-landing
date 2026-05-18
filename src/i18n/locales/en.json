@@ -54,7 +54,7 @@
     "tiers": [
       {
         "name": "35% — Presale / ICO",
-        "desc": "Anti-Dump (Vesting): 10% unlocked at TGE, remaining 6-month linear vesting. All unsold tokens will be permanently burned."
+        "desc": "No vesting. Fully unlocked at listing."
       },
       {
         "name": "25% — Ecosystem & Staking Rewards",
@@ -78,11 +78,11 @@
       }
     ],
     "utilityTitle": "$ZEX Token Utility",
-    "utilityDesc": "AI production discounts, NFT mint fees, staking rewards, referral earnings, and platform revenue sharing.",
-    "burnTitle": "Deflationary Mechanics",
-    "burnDesc": ": All unsold tokens are permanently burned. 15% penalty on presale withdrawals, 0.5% burn on transactions & AI NFT minting, and 10% penalty on early unstaking (all burned).",
-    "yieldTitle": "Staking & Revenue Share",
-    "yieldDesc": ": 20% of platform revenue goes to Buyback & Burn, 10% to Staking Rewards. Lock Boosts apply based on duration (1.15x to 1.50x multipliers).",
+    "utilityDesc": "AI production discounts, NFT mint fees, staking rewards, and platform revenue sharing. Sustainable token economy backed by deflationary mechanisms.",
+    "burnTitle": "Deflationary Burn",
+    "burnDesc": ": 0.5% burn on transactions + 10% early unstake penalty burn + 20% of platform revenue used for buyback & burn.",
+    "yieldTitle": "Staking Yield",
+    "yieldDesc": ": Earn rewards by staking $ZEX. Early unstake incurs a 10% penalty that is burned.",
     "robotTitle": "Robot Ecosystem",
     "robotDesc": ": Use $ZEX to purchase limited edition humanoid robots and deploy customized autonomous AI behavior modules."
   },
@@ -91,7 +91,7 @@
     "badgeAi": "AI Integrated",
     "title": "ZexAI Robot Developer Ecosystem",
     "desc": "Our platform introduces a new generation of AI-powered robotics development through the ZexAI Robotic Intelligence Layer. Connect humanoid robots and intelligent agents through a unified software platform, powered by $ZEX tokens for activation and skill-based monetization.",
-    "buyTitle": "Direct Purchase (50 Units)",
+    "buyTitle": "Direct Purchase (80 Units)",
     "buyPrice": "Price (With Wallet)",
     "buyLeft": "Only {{count}} units left!",
     "raffleTitle": "Grand ICO Raffle (20 Units)",
@@ -137,7 +137,7 @@
     "q8": "Can I get a refund if I change my mind during the Presale?",
     "a8": "Yes, ZexAI offers a secure Refund (Buyback) mechanism. If you choose to refund your purchased $ZEX, a 15% network penalty is incurred (which is permanently burned to protect the ecosystem), and the remaining value in POL is instantly returned to your wallet.",
     "q9": "Can I actually purchase a physical humanoid robot with $ZEX?",
-    "a9": "Yes! The ZexAI ecosystem seamlessly bridges software and hardware. During our initial release, a strictly limited batch of 50 humanoid robots is available for direct purchase using $ZEX tokens through our Web3 portal.",
+    "a9": "Yes! The ZexAI ecosystem seamlessly bridges software and hardware. During our initial release, a strictly limited batch of 80 humanoid robots is available for direct purchase using $ZEX tokens through our Web3 portal.",
     "q10": "What is the long-term vision for the Robot Marketplace?",
     "a10": "Our vision extends beyond simply selling hardware. The ZexAI Marketplace will become an ecosystem where developers can sell custom AI behavior modules (e.g., Security, Assistant, Entertainment). You can purchase these 'digital brains' with $ZEX and instantly deploy them to your physical robot via our secure cloud SDK."
   },
@@ -166,13 +166,8 @@
     "docsBtn": "Read Documentation"
   },
   "roadmap": {
-    "title": "Roadmap 2026",
+    "title": "Roadmap 2026-2027",
     "subtitle": "Our journey from vision to reality.",
-    "q1Date": "June 1, 2026",
-    "q2Date": "Q3 2026",
-    "q3Date": "Q4 2026",
-    "q4Date": "H1 2027",
-    "q5Date": "H2 2027+",
     "q1Title": "Foundation & Launch",
     "q1i1": "Multi-model AI platform launch (40+ models)",
     "q1i2": "NFT minting integration (OpenSea & Zora)",
@@ -180,25 +175,27 @@
     "q1i4": "ZexAI Assistant (Grok) deployment",
     "q2Title": "Token & Community",
     "q2i1": "$ZEX Token presale on Polygon",
-    "q2i2": "Deflationary burn mechanisms activation",
-    "q2i3": "Community governance voting",
-    "q2i4": "First DEX listing (e.g. QuickSwap)",
+    "q2i2": "Staking & burn mechanisms activation",
+    "q2i3": "Community governance voting (DAO Phase 1)",
+    "q2i4": "First DEX listing (QuickSwap)",
     "q3Title": "Robot Ecosystem",
-    "q3i1": "Staking & revenue share activation",
-    "q3i2": "Humanoid robot first batch delivery",
-    "q3i3": "CEX listings (Tier 2)",
-    "q3i4": "Advanced autonomous AI assistant updates",
+    "q3i1": "Humanoid robot first batch delivery (80 units)",
+    "q3i2": "Robot SDK & behavior module marketplace",
+    "q3i3": "Developer API & documentation",
+    "q3i4": "CEX listings (Tier 2)",
     "q4Title": "Global Expansion",
-    "q4i1": "Robot SDK and developer API documentation",
-    "q4i2": "Robot behavior module marketplace launch",
-    "q4i3": "Enterprise partnerships & B2B integrations",
+    "q4i1": "Robot behavior module marketplace launch",
+    "q4i2": "Enterprise partnerships & B2B integrations",
+    "q4i3": "Mobile app release (iOS & Android)",
     "q4i4": "CEX listings (Tier 1)",
-    "q5Title": "The Vision",
-    "q5i1": "Autonomous AI agent network",
-    "q5i2": "Cross-chain bridge (Ethereum, Solana)",
-    "q5i3": "Full DAO governance transition",
-    "q5i4": "Next-gen robot hardware (Gen 2)"
+    "q4i5": "Autonomous Hardware & Unitree Integration (H1 2027)"
   },
+  "q5Title": "The Vision",
+  "q5i1": "Autonomous AI agent network",
+  "q5i2": "Cross-chain bridge (Ethereum, Solana)",
+  "q5i3": "Full DAO governance transition",
+  "q5i4": "Next-gen robot hardware (Gen 2)"
+},
   "neuralSync": {
     "badge": "Neural Sync",
     "load": "System Load",
@@ -242,7 +239,7 @@
     "visionTitle": "ZexAI Visionary Projection",
     "status": "SYSTEM STATUS: OPTIMAL / VISION MODE: ON",
     "intents": {
-      "robot": "Only 50 Unitree G1 humanoid robots will be produced. Get yours with $ZEX.",
+      "robot": "Only 80 Unitree G1 humanoid robots will be produced. Get yours with $ZEX.",
       "buyback": "Our Buy-Back & Burn mechanism protects $ZEX value systematically."
     },
     "logs": {
@@ -277,9 +274,6 @@
     "labelAmount": "Staking Amount",
     "labelPeriod": "Staking Period",
     "months": "Months",
-    "boost3m": "3 Months Boost",
-    "boost6m": "6 Months Boost",
-    "boost12m": "12 Months Boost",
     "estimatedEarn": "Estimated Earnings",
     "totalReturn": "Total Balance",
     "stakeBtn": "Approve & Stake Now"

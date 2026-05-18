@@ -57,7 +57,7 @@ Um Anleger vor plötzlicher Marktvolatilität zu schützen, werden strenge Vesti
 *   **Team & Gründer:** 12 Monate vollständige Sperre (Cliff), gefolgt von einer 24-monatigen linearen Freischaltung.
 *   **Berater:** 6 Monate vollständige Sperre, gefolgt von einer 6-monatigen linearen Freischaltung.
 *   **Ökosystem & Staking:** Kontrollierte Emission zur Gewährleistung langfristiger Anreize.
-*   **Marketing & Partnerschaften:** Strategische und kontrollierte Freigabe.
+*   **Marketing & Partnerships:** Strategische und kontrollierte Freigabe.
 
 ---
 

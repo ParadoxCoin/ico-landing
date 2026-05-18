@@ -16,7 +16,7 @@ const Roadmap: React.FC = () => {
 
   const milestones: MilestoneItem[] = [
     {
-      quarter: t('roadmap.q1Date', { defaultValue: 'June 1, 2026' }),
+      quarter: 'Q2 2026',
       title: t('roadmap.q1Title', { defaultValue: 'Foundation & Launch' }),
       items: [
         t('roadmap.q1i1', { defaultValue: 'Multi-model AI platform launch (40+ models)' }),
@@ -28,7 +28,7 @@ const Roadmap: React.FC = () => {
       icon: <Rocket className="w-5 h-5" />,
     },
     {
-      quarter: t('roadmap.q2Date', { defaultValue: 'Q3 2026' }),
+      quarter: 'Q3 2026',
       title: t('roadmap.q2Title', { defaultValue: 'Token & Community' }),
       items: [
         t('roadmap.q2i1', { defaultValue: '$ZEX Token presale on Polygon' }),
@@ -40,7 +40,7 @@ const Roadmap: React.FC = () => {
       icon: <Users className="w-5 h-5" />,
     },
     {
-      quarter: t('roadmap.q3Date', { defaultValue: 'Q4 2026' }),
+      quarter: 'Q4 2026',
       title: t('roadmap.q3Title', { defaultValue: 'Robot Ecosystem' }),
       items: [
         t('roadmap.q3i1', { defaultValue: 'Humanoid robot first batch delivery (80 units)' }),
@@ -52,19 +52,20 @@ const Roadmap: React.FC = () => {
       icon: <Bot className="w-5 h-5" />,
     },
     {
-      quarter: t('roadmap.q4Date', { defaultValue: 'H1 2027' }),
+      quarter: 'H1 2027',
       title: t('roadmap.q4Title', { defaultValue: 'Global Expansion' }),
       items: [
         t('roadmap.q4i1', { defaultValue: 'Robot behavior module marketplace launch' }),
         t('roadmap.q4i2', { defaultValue: 'Enterprise partnerships & B2B integrations' }),
         t('roadmap.q4i3', { defaultValue: 'Mobile app release (iOS & Android)' }),
         t('roadmap.q4i4', { defaultValue: 'CEX listings (Tier 1)' }),
+        t('roadmap.q4i5', { defaultValue: 'Autonomous Hardware & Unitree Integration (H1 2027)' }),
       ],
       status: 'upcoming',
       icon: <Globe className="w-5 h-5" />,
     },
     {
-      quarter: t('roadmap.q5Date', { defaultValue: 'H2 2027+' }),
+      quarter: '2027+',
       title: t('roadmap.q5Title', { defaultValue: 'The Vision' }),
       items: [
         t('roadmap.q5i1', { defaultValue: 'Autonomous AI agent network' }),

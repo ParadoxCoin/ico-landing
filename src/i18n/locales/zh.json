@@ -17,7 +17,7 @@
     "title": "$ZEX 代币分发计划",
     "desc": "公平的模型。",
     "tiers": [
-      { "name": "35% — 预售", "desc": "防倾销: 10% TGE, 6个月线性解锁。" },
+      { "name": "35% — 预售", "desc": "第一阶段" },
       { "name": "25% — 生态奖励", "desc": "奖励" },
       { "name": "15% — 流动性", "desc": "锁定" },
       { "name": "10% — 营销", "desc": "增长" },
@@ -33,7 +33,7 @@
     "robotTitle": "机器人生态系统",
     "robotDesc": ": 使用 $ZEX 购买。"
   },
-  "robot": { "badgeLimited": "限量版", "badgeAi": "集成 AI", "title": "ZexAI 机器人开发者生态", "desc": "智能层。", "buyTitle": "直接购买 (50)", "buyPrice": "价格", "buyLeft": "仅剩 {{count}}！", "raffleTitle": "ICO 抽奖 (20)", "raffleDesc": "最少 10.000 ZEX。", "raffleBtn": "🎯 加入抽奖", "confirmPurchase": "确认购买" },
+  "robot": { "badgeLimited": "限量版", "badgeAi": "集成 AI", "title": "ZexAI 机器人开发者生态", "desc": "智能层。", "buyTitle": "直接购买 (80)", "buyPrice": "价格", "buyLeft": "仅剩 {{count}}！", "raffleTitle": "ICO 抽奖 (20)", "raffleDesc": "最少 10.000 ZEX。", "raffleBtn": "🎯 加入抽奖", "confirmPurchase": "确认购买" },
   "faq": { "title": "常见问题", "subtitle": "解决您的疑问。", "q1": "$ZEX 何时发布？", "a1": "即将开始。", "q2": "机器人？", "a2": "使用 $ZEX 支付。" },
   "footer": { "copyright": "© 2026 ZexAi.", "terms": "条款", "privacy": "隐私" },
   "whitepaper": { "backToHome": "返回首页", "officialDoc": "文档", "loading": "加载中..." },
@@ -57,7 +57,7 @@
   "grok": {
     "name": "Grok", "poweredBy": "GROK", "welcome": "你好！", "placeholder": "提问...",
     "syncing": "同步中...", "visionTitle": "愿景", "status": "OK",
-    "intents": { "robot": "50 台。", "buyback": "销毁活跃。" },
+    "intents": { "robot": "80 台。", "buyback": "销毁活跃。" },
     "logs": { "connecting": "连接...", "syncing": "同步...", "initializing": "初始化...", "matching": "匹配...", "granted": "允许" },
     "vision": { "phase": "阶段 4", "neural": "100%", "economy": "活跃" }
   },

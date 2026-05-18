@@ -12,19 +12,19 @@ const StakingCalculator: React.FC = () => {
   const [roi, setRoi] = useState(0);
   const [total, setTotal] = useState(0);
 
-  // Base APY 20% with multipliers
-  const RATES: Record<number, number> = {
-    3: 23,   // 20 * 1.15
-    6: 26,   // 20 * 1.30
-    12: 30   // 20 * 1.50
-  };
+  // ROI Rates pulled from the stats engine
+  const RATES: Record<number, number> = useMemo(() => ({
+    6: stats.apr6m,
+    12: stats.apr12m,
+    24: stats.apr24m
+  }), [stats.apr6m, stats.apr12m, stats.apr24m]);
 
   useEffect(() => {
     const rate = RATES[months] || 0;
     const earned = (amount * rate * (months / 12)) / 100;
-    setRoi(Math.round(earned));
-    setTotal(Math.round(amount + earned));
-  }, [amount, months]);
+    setRoi(earned);
+    setTotal(amount + earned);
+  }, [amount, months, RATES]);
 
   return (
     <section className="py-24 px-4 mx-auto max-w-6xl sm:px-6 lg:px-8 relative z-10">
@@ -70,16 +70,16 @@ const StakingCalculator: React.FC = () => {
              className="grid grid-cols-3 gap-4"
           >
             <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
-              <div className="text-emerald-400 font-bold text-xl">1.15x</div>
-              <div className="text-[10px] text-gray-500 uppercase">{t('calc.boost3m', { defaultValue: '3 Months Boost' })}</div>
+              <div className="text-emerald-400 font-bold text-xl">12%</div>
+              <div className="text-[10px] text-gray-500 uppercase">APY (Yearly)</div>
             </div>
             <div className="p-4 bg-white/5 border border-white/10 rounded-2xl ring-2 ring-cyan-500/30">
-              <div className="text-cyan-400 font-bold text-xl">1.30x</div>
-              <div className="text-[10px] text-gray-500 uppercase">{t('calc.boost6m', { defaultValue: '6 Months Boost' })}</div>
+              <div className="text-cyan-400 font-bold text-xl">25%</div>
+              <div className="text-[10px] text-gray-500 uppercase">APY (Yearly)</div>
             </div>
             <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
-              <div className="text-indigo-400 font-bold text-xl">1.50x</div>
-              <div className="text-[10px] text-gray-500 uppercase">{t('calc.boost12m', { defaultValue: '12 Months Boost' })}</div>
+              <div className="text-indigo-400 font-bold text-xl">55%</div>
+              <div className="text-[10px] text-gray-500 uppercase">APY (Yearly)</div>
             </div>
           </motion.div>
         </div>
@@ -122,7 +122,7 @@ const StakingCalculator: React.FC = () => {
                 {t('calc.labelPeriod', { defaultValue: 'Staking Period' })}
               </label>
               <div className="grid grid-cols-3 gap-3">
-                {[3, 6, 12].map((m) => (
+                {[6, 12, 24].map((m) => (
                   <button
                     key={m}
                     onClick={() => setMonths(m)}

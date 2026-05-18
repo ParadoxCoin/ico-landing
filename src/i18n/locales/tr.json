@@ -54,7 +54,7 @@
     "tiers": [
       {
         "name": "%35 — Ön Satış / ICO",
-        "desc": "Anti-Dump (Vesting): TGE'de %10 açık, kalan kısım 6 ay lineer açılım. Satılmayan tüm tokenlar kalıcı olarak yakılır."
+        "desc": "Vesting yoktur. Listeleme anında %100 açık."
       },
       {
         "name": "%25 — Ekosistem & Staking Ödülleri",
@@ -78,11 +78,11 @@
       }
     ],
     "utilityTitle": "$ZEX Token Faydaları",
-    "utilityDesc": "AI üretimde indirimler, NFT mint ücretleri, staking ödülleri, referans kazançları ve platform gelir paylaşımı.",
-    "burnTitle": "Deflasyonist Mekanizmalar",
-    "burnDesc": ": Satılmayan tokenlar kalıcı yakılır. Ön satış iadelerinde %15, işlemler ve AI NFT basımında %0.5, erken kilit bozmada %10 ceza kesilir ve tamamı yakılır.",
-    "yieldTitle": "Staking ve Gelir Paylaşımı",
-    "yieldDesc": ": Platform gelirlerinin %20'si Yakım'a, %10'u Staking'e ayrılır. Kilit süresine bağlı olarak 1.15x ile 1.50x arası getiri çarpanı (Lock Boost) uygulanır.",
+    "utilityDesc": "AI üretimde indirimler, NFT mint ücretleri, staking ödülleri ve platform gelir paylaşımı. Deflasyonist mekanizmalarla desteklenen sürdürülebilir token ekonomisi.",
+    "burnTitle": "Deflasyonist Yakım",
+    "burnDesc": ": İşlemlerde %0.5 yakım + erken unstake %10 ceza yakımı + platform gelirlerinin %20'si ile geri alım & yakım.",
+    "yieldTitle": "Staking Geliri",
+    "yieldDesc": ": $ZEX stake ederek ödül kazanın. Erken unstake durumunda %10 ceza uygulanır ve yakılır.",
     "robotTitle": "Robot Ekosistemi",
     "robotDesc": ": $ZEX token kullanarak fiziksel robotlar satın alabilir ve donanımlara özel otonom AI davranış modülleri yükleyebilirsiniz."
   },
@@ -91,7 +91,7 @@
     "badgeAi": "Yapay Zeka Entegreli",
     "title": "ZexAI Robot Geliştirici Ekosistemi",
     "desc": "ZexAI Robotik Zeka Katmanı ile yeni nesil yapay zeka destekli robotik geliştirme dönemini başlatıyoruz. İnsansı robotları ve akıllı ajanları birleştiren, $ZEX token ile desteklenen güvenli aktivasyon ve yetenek monetizasyonu sunan birleşik bir yazılım platformu.",
-    "buyTitle": "Doğrudan Satın Al (50 Adet)",
+    "buyTitle": "Doğrudan Satın Al (80 Adet)",
     "buyPrice": "Fiyat (Cüzdan İle)",
     "buyLeft": "Sadece {{count}} adet kaldı!",
     "raffleTitle": "Büyük ICO Çekilişi (20 Adet)",
@@ -137,7 +137,7 @@
     "q8": "Ön satış sürecinde fikrimi değiştirirsem iade alabilir miyim?",
     "a8": "Evet, ZexAI güvenli bir İade (Buyback) mekanizması sunar. Satın aldığınız $ZEX'i iade etmek isterseniz, ağ üzerinden %15'lik bir kesinti uygulanır (bu miktar ekosistemi korumak için kalıcı olarak yakılır) ve kalan değer doğrudan POL olarak cüzdanınıza anında aktarılır.",
     "q9": "Gerçekten $ZEX token ile fiziksel bir insansı robot satın alabilir miyim?",
-    "a9": "Evet! ZexAI ekosistemi yazılım ve donanımı kusursuzca birbirine bağlar. İlk sürümümüzde, Web3 portalımız üzerinden doğrudan $ZEX token ile satın alınabilen 50 adetlik sınırlı bir insansı robot (Humanoid) serisi satışa sunulmuştur.",
+    "a9": "Evet! ZexAI ekosistemi yazılım ve donanımı kusursuzca birbirine bağlar. İlk sürümümüzde, Web3 portalımız üzerinden doğrudan $ZEX token ile satın alınabilen 80 adetlik sınırlı bir insansı robot (Humanoid) serisi satışa sunulmuştur.",
     "q10": "Robot Pazaryeri'nin uzun vadeli vizyonu nedir?",
     "a10": "Vizyonumuz sadece donanım satmanın ötesine geçiyor. ZexAI Robot Market, geliştiricilerin özelleştirilmiş AI davranış modüllerini (örneğin; Güvenlik, Karşılama, Eğlence Asistanı) satabileceği bir altyapı olacak. Bu 'dijital beyinleri' $ZEX ile satın alıp saniyeler içinde fiziksel robotunuza yükleyebileceksiniz."
   },
@@ -166,13 +166,8 @@
     "docsBtn": "Dokümantasyonu Oku"
   },
   "roadmap": {
-    "title": "Yol Haritası 2026",
+    "title": "Yol Haritası 2026-2027",
     "subtitle": "Vizyondan gerçeğe uzanan yolculuğumuz.",
-    "q1Date": "1 Haziran 2026",
-    "q2Date": "Q3 2026",
-    "q3Date": "Q4 2026",
-    "q4Date": "H1 2027 (İlk Yarı)",
-    "q5Date": "H2 2027+ (İkinci Yarı)",
     "q1Title": "Temel ve Başlangıç",
     "q1i1": "Çoklu model AI platformu lansmanı (40+ model)",
     "q1i2": "NFT basım entegrasyonu (OpenSea & Zora)",
@@ -180,25 +175,27 @@
     "q1i4": "ZexAI Asistanı (Grok) dağıtımı",
     "q2Title": "Token ve Topluluk",
     "q2i1": "Polygon üzerinde $ZEX Token ön satışı",
-    "q2i2": "Deflasyonist yakım (burn) mekanizmalarının aktivasyonu",
-    "q2i3": "Topluluk yönetişimi",
-    "q2i4": "İlk DEX listelemesi (Örn: QuickSwap)",
+    "q2i2": "Staking ve yakım mekanizmalarının aktivasyonu",
+    "q2i3": "Topluluk yönetişimi (DAO Aşama 1)",
+    "q2i4": "İl DEX listelemesi (QuickSwap)",
     "q3Title": "Robot Ekosistemi",
-    "q3i1": "Staking ve gelir paylaşımı aktivasyonu",
-    "q3i2": "İlk grup insansı robot teslimatı",
-    "q3i3": "CEX listelemeleri (Tier 2)",
-    "q3i4": "Gelişmiş otonom AI asistanı güncellemeleri",
+    "q3i1": "İl grup insansı robot teslimatı (80 adet)",
+    "q3i2": "Robot SDK ve davranış modülü pazaryeri",
+    "q3i3": "Geliştirici API ve dökümantasyon",
+    "q3i4": "CEX listelemeleri (Tier 2)",
     "q4Title": "Küresel Genişleme",
-    "q4i1": "Robot SDK ve geliştirici API dokümantasyonu",
-    "q4i2": "Robot davranış modülü pazaryeri lansmanı",
-    "q4i3": "Kurumsal ortaklıklar ve B2B entegrasyonları",
+    "q4i1": "Robot davranış modülü pazaryeri lansmanı",
+    "q4i2": "Kurumsal ortaklıklar ve B2B entegrasyonları",
+    "q4i3": "Mobil uygulama yayını (iOS & Android)",
     "q4i4": "CEX listelemeleri (Tier 1)",
-    "q5Title": "Gelecek Vizyonu",
-    "q5i1": "Otonom AI ajan ağı",
-    "q5i2": "Cross-chain köprüsü (Ethereum, Solana)",
-    "q5i3": "Tam DAO yönetişimine geçiş",
-    "q5i4": "Yeni nesil robot donanımı (Gen 2)"
+    "q4i5": "Otonom Donanım ve Unitree Entegrasyonu (H1 2027)"
   },
+  "q5Title": "Gelecek Vizyonu",
+  "q5i1": "Otonom AI ajan ağı",
+  "q5i2": "Cross-chain köprüsü (Ethereum, Solana)",
+  "q5i3": "Tam DAO yönetişimine geçiş",
+  "q5i4": "Yeni nesil robot donanımı (Gen 2)"
+},
   "team": {
     "title": "ZexAI'ın Arkasındaki Zihinler",
     "subtitle": "İnsan vizyonu ve yapay zekanın geleceği birlikte inşa ettiği bir sentez.",
@@ -216,7 +213,7 @@
   "ticker": {
     "live": "YAYINDA",
     "burned": "Toplam Yakılan: 0 ZEX",
-    "robots": "Robot Satış: 0/50",
+    "robots": "Robot Satış: 0/80",
     "countdown": "Ön Satış"
   },
   "calc": {
@@ -226,9 +223,6 @@
     "labelAmount": "Staking Miktarı",
     "labelPeriod": "Staking Süresi",
     "months": "Ay",
-    "boost3m": "3 Ay Çarpanı",
-    "boost6m": "6 Ay Çarpanı",
-    "boost12m": "12 Ay Çarpanı",
     "estimatedEarn": "Tahmini Kazanç",
     "totalReturn": "Toplam Bakiye",
     "stakeBtn": "Onayla ve Hemen Stake Et"
@@ -281,7 +275,7 @@
     "visionTitle": "ZexAI Vizyoner Projeksiyonu",
     "status": "SİSTEM DURUMU: OPTİMAL / VİZYON MODU: AÇIK",
     "intents": {
-      "robot": "Sadece 50 adet üretilecek olan Unitree G1 robotlarımız sizi bekliyor. $ZEX ile sahip olabilirsiniz.",
+      "robot": "Sadece 80 adet üretilecek olan Unitree G1 robotlarımız sizi bekliyor. $ZEX ile sahip olabilirsiniz.",
       "buyback": "Geri Alım (Buy-Back) mekanizmamız ile $ZEX değerini koruyoruz."
     },
     "logs": {

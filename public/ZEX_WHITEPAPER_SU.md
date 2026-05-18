@@ -88,7 +88,7 @@ Synapse V2 AI & Robot orchestration, CEX list, **Robot Delivery & Activation**, 
 
 1,000,000,000 ZEX
 
-- Presale / ICO — 35% (Anti-Dump: 10% TGE, 6 bulan linier. Unsold burned.)
+- Presale / ICO — 35%
 - Ecosystem & Staking — 25% (Robot dev incl.)
 - Liquidity — 15%
 - Lugal & Founders — 10% (1 mu kél)
