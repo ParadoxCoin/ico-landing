@@ -50,6 +50,6 @@ export default async function handler(req: Request) {
 
   } catch (error: any) {
     console.error('[Record Referral] Error:', error);
-    return new Response(JSON.stringify({ error: error.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
+    return new Response(JSON.stringify({ error: 'Internal Server Error' }), { status: 500, headers: { 'Content-Type': 'application/json' } });
   }
 }

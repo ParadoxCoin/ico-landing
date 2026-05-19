@@ -77,8 +77,14 @@ const WhitepaperPage: React.FC = () => {
                         prose-blockquote:border-l-4 prose-blockquote:border-emerald-500 prose-blockquote:bg-emerald-500/5 prose-blockquote:px-6 prose-blockquote:py-4 prose-blockquote:rounded-r-xl prose-blockquote:my-8 prose-blockquote:italic prose-blockquote:text-gray-300
                     ">
                         {content ? (
-                            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
-                                {content}
+                            <ReactMarkdown 
+                                remarkPlugins={[remarkGfm]} 
+                                rehypePlugins={[rehypeRaw]}
+                            >
+                                {/* SECURITY HARDENING: Strip out any potential <script> tags or malicious event handlers before rendering */}
+                                {content
+                                    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+                                    .replace(/on\w+\s*=\s*(['"])(.*?)\1/gi, '')}
                             </ReactMarkdown>
                         ) : (
                             <div className="flex flex-col items-center justify-center py-20 opacity-50">

@@ -12,8 +12,12 @@ export const config = {
  */
 export default async function handler(req: Request) {
   // CORS headers for frontend
+  const origin = req.headers.get('origin') || '';
+  const allowedOrigins = ['https://zexai.io', 'https://app.zexai.io', 'http://localhost:5173', 'http://localhost:3000'];
+  const safeOrigin = allowedOrigins.includes(origin) ? origin : 'https://zexai.io';
+
   const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': safeOrigin,
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Content-Type': 'application/json',
@@ -158,7 +162,7 @@ export default async function handler(req: Request) {
     });
   } catch (error: any) {
     console.error('[NOWPayments] Edge function error:', error);
-    return new Response(JSON.stringify({ error: error.message || 'Internal server error' }), {
+    return new Response(JSON.stringify({ error: 'Internal Server Error' }), {
       status: 500,
       headers: corsHeaders,
     });

@@ -93,7 +93,7 @@ export default async function handler(req: Request) {
     });
   } catch (error: any) {
     console.error("Resend endpoint error:", error);
-    return new Response(JSON.stringify({ error: error.message }), {
+    return new Response(JSON.stringify({ error: 'Internal Server Error' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     });

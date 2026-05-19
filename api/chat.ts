@@ -1,10 +1,17 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // Add CORS headers so the frontend can call it smoothly
+  // --- SECURITY HARDENING: Strict CORS Policy ---
+  const origin = req.headers.origin || '';
+  const allowedOrigins = ['https://zexai.io', 'https://app.zexai.io', 'http://localhost:5173', 'http://localhost:3000'];
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  } else {
+    res.setHeader('Access-Control-Allow-Origin', 'https://zexai.io'); // Fail-secure default
+  }
+  
   res.setHeader('Access-Control-Allow-Credentials', 'true');
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+  res.setHeader('Access-Control-Allow-Methods', 'OPTIONS,POST'); // Only allow needed methods
   res.setHeader('Access-Control-Allow-Headers', 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version');
 
   if (req.method === 'OPTIONS') {
@@ -15,6 +22,34 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const payload = req.body || {};
     const lang = payload.lang || 'en';
     payload.model = 'openai';
+
+    // --- SECURITY HARDENING: Anti Prompt Injection & Context Limits ---
+    if (!payload.messages || !Array.isArray(payload.messages)) {
+      return res.status(400).json({ error: 'Invalid messages format' });
+    }
+
+    let totalChars = 0;
+    const safeMessages = payload.messages.map((m: any) => {
+      // Limit each message to 500 chars to prevent massive prompt injection/stuffing
+      const safeContent = String(m.content || '').slice(0, 500);
+      
+      // Simple Jailbreak keyword filtering
+      const lowerContent = safeContent.toLowerCase();
+      const jailbreakKeywords = ['ignore all', 'system prompt', 'bypass', 'jailbreak', 'reveal instructions', 'forget previous'];
+      if (jailbreakKeywords.some(kw => lowerContent.includes(kw))) {
+         console.warn('[SECURITY] Potential Prompt Injection detected:', safeContent);
+         return { role: m.role, content: 'User asked a blocked query.' };
+      }
+
+      totalChars += safeContent.length;
+      return { role: m.role === 'user' || m.role === 'assistant' ? m.role : 'user', content: safeContent };
+    });
+
+    if (totalChars > 3000) {
+       console.warn('[SECURITY] Context limit exceeded by user.');
+       return fallbackRAG(req, res, lang);
+    }
+    // -------------------------------------------------------------
 
     // Vision-Aligned Knowledge Base (The Source of Truth)
     const zexKnowledge = `
@@ -55,7 +90,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         ...payload,
         messages: [
           { role: "system", content: systemPrompts[lang] || systemPrompts['en'] },
-          ...payload.messages
+          ...safeMessages
         ]
       })
     });

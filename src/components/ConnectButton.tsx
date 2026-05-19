@@ -18,6 +18,17 @@ const ConnectButton: React.FC = () => {
   const handleDisconnect = () => {
     disconnect();
     setIsOpen(false);
+    // SECURITY HARDENING: Clear wallet session cache keys to prevent session hijack / state leaks
+    try {
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith('wagmi') || key.startsWith('appkit') || key.startsWith('wc@2')) {
+          localStorage.removeItem(key);
+        }
+      });
+      sessionStorage.clear();
+    } catch (e) {
+      console.error("Failed to clear wallet session:", e);
+    }
   };
 
   const formatAddress = (addr?: string) => {

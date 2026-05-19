@@ -5,7 +5,9 @@ export const config = {
 const ZEX_TOKEN_ADDRESS = '0x28De651aCA0f8584FA2E072cE7c1F4EE774a8B4a' as const;
 const ZEX_PRICE_USD = 0.009;
 const POLYGON_CHAIN_ID = 137;
-const POLYGON_RPC = 'https://polygon-rpc.com';
+// --- SECURITY HARDENING: Private RPC Support ---
+// Fallback to public only if private RPC is not provided to prevent rate limits and manipulation
+const POLYGON_RPC = process.env.POLYGON_RPC_URL || process.env.VITE_POLYGON_RPC || 'https://polygon-rpc.com';
 
 // ERC20 transfer ABI
 const ERC20_ABI = [
@@ -44,6 +46,7 @@ export default async function handler(req: Request) {
       const computedSig = Array.from(new Uint8Array(sig)).map(b => b.toString(16).padStart(2, '0')).join('');
       if (computedSig !== receivedSignature) {
         console.error('[IPN] Signature mismatch!');
+        await triggerSIEMAlert('IPN Signature Verification Failure', `A request with an invalid signature was received on the NOWPayments IPN webhook. This could indicate a signature spoofing or parameter injection attempt.`, 'danger');
         return new Response(JSON.stringify({ error: 'Invalid signature' }), { status: 403, headers: { 'Content-Type': 'application/json' } });
       }
     }
@@ -57,6 +60,40 @@ export default async function handler(req: Request) {
 
     // Auto-distribute ZEX when payment is completed
     if (isCompleted && order_id) {
+      // --- SECURITY HARDENING: Idempotency / Double-Spend Check ---
+      const supabaseUrl = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+      const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY;
+      
+      if (supabaseUrl && supabaseKey) {
+        try {
+          // Check if payment_id already exists
+          const checkRes = await fetch(`${supabaseUrl}/rest/v1/processed_payments?payment_id=eq.${payment_id}`, {
+            headers: { 'apikey': supabaseKey, 'Authorization': `Bearer ${supabaseKey}` }
+          });
+          const existing = await checkRes.json();
+          if (existing && existing.length > 0) {
+            console.warn(`[IPN SECURITY] Payment ${payment_id} already processed! Preventing double-spend.`);
+            await triggerSIEMAlert('Double-Spend Attempt Blocked (Idempotent IPN)', `A duplicate NOWPayments webhook was detected and blocked successfully.\n- **Payment ID:** ${payment_id}\n- **Order ID:** ${order_id}`, 'warning');
+            return new Response(JSON.stringify({ success: true, message: 'Already processed (Idempotent)' }), { status: 200, headers: { 'Content-Type': 'application/json' } });
+          }
+
+          // Insert payment_id as processed
+          await fetch(`${supabaseUrl}/rest/v1/processed_payments`, {
+            method: 'POST',
+            headers: { 'apikey': supabaseKey, 'Authorization': `Bearer ${supabaseKey}`, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+            body: JSON.stringify({ payment_id, order_id, status: payment_status })
+          });
+          console.log(`[IPN] Payment ${payment_id} marked as processed.`);
+        } catch (dbErr: any) {
+          console.error('[IPN] Idempotency DB check failed:', dbErr.message);
+          // Depending on paranoia level, you might want to fail closed here:
+          // return new Response(JSON.stringify({ error: 'DB check failed' }), { status: 500 });
+        }
+      } else {
+         console.warn('[IPN SECURITY] SUPABASE env vars missing! Double-spend protection is INACTIVE.');
+      }
+      // -------------------------------------------------------------
+
       const buyerWallet = extractWallet(order_id);
       if (buyerWallet) {
         const zexAmount = Math.floor(Number(price_amount) / ZEX_PRICE_USD);
@@ -81,8 +118,8 @@ export default async function handler(req: Request) {
       headers: { 'Content-Type': 'application/json' },
     });
   } catch (error: any) {
-    console.error('[IPN] Error:', error);
-    return new Response(JSON.stringify({ error: error.message }), { status: 500, headers: { 'Content-Type': 'application/json' } });
+    console.error('[IPN] Error:', error); // Logged internally
+    return new Response(JSON.stringify({ error: 'Internal Server Error' }), { status: 500, headers: { 'Content-Type': 'application/json' } });
   }
 }
 
@@ -138,12 +175,45 @@ async function sendZexTokens(to: string, amount: number): Promise<string> {
 
 async function notifyAdmin(body: any, isCompleted: boolean, txHash: string, transferError: string) {
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  if (!RESEND_API_KEY) return;
-
+  const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
+  
   const { payment_id, payment_status, price_amount, price_currency, pay_amount, pay_currency, order_id, actually_paid } = body;
   const wallet = extractWallet(order_id || '');
   const zex = Math.floor(Number(price_amount) / ZEX_PRICE_USD);
   const emoji = isCompleted ? (txHash ? '✅' : '⚠️') : '⏳';
+
+  // 1. Send Instant SIEM/Alert Webhook to Discord (if configured)
+  if (DISCORD_WEBHOOK) {
+    try {
+      const color = isCompleted ? (txHash ? 3066993 : 15158332) : 3447003; // green, red, blue
+      await fetch(DISCORD_WEBHOOK, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          embeds: [{
+            title: `${emoji} ZEX Presale Event: ${payment_status.toUpperCase()}`,
+            color: color,
+            fields: [
+              { name: 'Payment ID', value: payment_id || 'N/A', inline: true },
+              { name: 'Amount', value: `$${price_amount} ${price_currency}`, inline: true },
+              { name: 'Paid Cur.', value: `${actually_paid || pay_amount} ${pay_currency}`, inline: true },
+              { name: 'Buyer Wallet', value: wallet || 'N/A' },
+              { name: 'Tokens', value: `${zex.toLocaleString()} ZEX`, inline: true },
+              { name: 'TX Hash', value: txHash ? `[View on Polygonscan](https://polygonscan.com/tx/${txHash})` : 'N/A' },
+              { name: 'Error', value: transferError || 'None' }
+            ],
+            footer: { text: 'ZexAI Security Monitoring System' },
+            timestamp: new Date().toISOString()
+          }]
+        })
+      });
+    } catch (e) {
+      console.error('[SIEM] Discord Webhook error:', e);
+    }
+  }
+
+  // 2. Send Resend Email (Fallback/Audit)
+  if (!RESEND_API_KEY) return;
 
   fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -168,6 +238,30 @@ async function notifyAdmin(body: any, isCompleted: boolean, txHash: string, tran
       `,
     }),
   }).catch(console.error);
+}
+
+// Unified SIEM / Intrusion Notification Helper
+async function triggerSIEMAlert(alertTitle: string, description: string, severity: 'warning' | 'danger') {
+  const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
+  if (!DISCORD_WEBHOOK) return;
+  try {
+    const color = severity === 'danger' ? 15158332 : 16705372; // Red vs Gold
+    await fetch(DISCORD_WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        embeds: [{
+          title: `🚨 SYSTEM SECURITY ALERT: ${alertTitle}`,
+          description: description,
+          color: color,
+          footer: { text: 'ZexAI Intrusion & Security Alerting System' },
+          timestamp: new Date().toISOString()
+        }]
+      })
+    });
+  } catch (e) {
+    console.error('[SIEM Alert] Discord dispatch failed:', e);
+  }
 }
 
 function sortObject(obj: any): any {
