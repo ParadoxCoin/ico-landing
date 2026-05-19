@@ -71,15 +71,15 @@ const StakingCalculator: React.FC = () => {
           >
             <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
               <div className="text-emerald-400 font-bold text-xl">12%</div>
-              <div className="text-[10px] text-gray-500 uppercase">APY (Yearly)</div>
+              <div className="text-[10px] text-gray-500 uppercase">{t('calc.yearly', { defaultValue: 'APY (Yearly)' })}</div>
             </div>
             <div className="p-4 bg-white/5 border border-white/10 rounded-2xl ring-2 ring-cyan-500/30">
               <div className="text-cyan-400 font-bold text-xl">25%</div>
-              <div className="text-[10px] text-gray-500 uppercase">APY (Yearly)</div>
+              <div className="text-[10px] text-gray-500 uppercase">{t('calc.yearly', { defaultValue: 'APY (Yearly)' })}</div>
             </div>
             <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
               <div className="text-indigo-400 font-bold text-xl">55%</div>
-              <div className="text-[10px] text-gray-500 uppercase">APY (Yearly)</div>
+              <div className="text-[10px] text-gray-500 uppercase">{t('calc.yearly', { defaultValue: 'APY (Yearly)' })}</div>
             </div>
           </motion.div>
         </div>
@@ -155,11 +155,11 @@ const StakingCalculator: React.FC = () => {
             </div>
 
             <button disabled={true} className="w-full py-5 rounded-2xl bg-gray-800 text-gray-500 font-black tracking-widest uppercase text-sm shadow-xl flex items-center justify-center gap-2 cursor-not-allowed">
-              Coming Soon
+              {t('calc.comingSoon', { defaultValue: 'Coming Soon' })}
             </button>
             
             <p className="text-[10px] text-gray-600 text-center uppercase tracking-tighter">
-              * Rates are estimated and subject to protocol governance
+              {t('calc.disclaimer', { defaultValue: '* Rates are estimated and subject to protocol governance' })}
             </p>
           </div>
         </motion.div>

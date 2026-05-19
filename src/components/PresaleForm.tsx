@@ -179,7 +179,7 @@ export const PresaleForm: React.FC = () => {
             {/* Payment Success Banner */}
             {npSuccess && (
                 <div className="mb-4 p-3 bg-green-500/20 border border-green-500/50 rounded-xl text-green-300 text-sm text-center font-medium animate-pulse">
-                    ✅ Payment successful! Your ZEX tokens will be sent to your wallet shortly.
+                    {t('presale.paymentSuccess', { defaultValue: '✅ Payment successful! Your ZEX tokens will be sent to your wallet shortly.' })}
                 </div>
             )}
 
@@ -187,14 +187,14 @@ export const PresaleForm: React.FC = () => {
                 <div className="flex flex-col items-center justify-center p-8 text-center space-y-6">
                     <Shield className="w-16 h-16 text-cyan-400 opacity-80" />
                     <div>
-                        <h4 className="text-2xl font-bold text-white mb-2">ZEX Presale Portal</h4>
+                        <h4 className="text-2xl font-bold text-white mb-2">{t('presale.portalTitle', { defaultValue: 'ZEX Presale Portal' })}</h4>
                         <p className="text-gray-400 text-sm max-w-sm mx-auto">
-                            Connect your wallet on the Polygon network to access the Presale panel, or select a different coin below.
+                            {t('presale.portalDesc', { defaultValue: 'Connect your wallet on the Polygon network to access the Presale panel, or select a different coin below.' })}
                         </p>
                     </div>
                     <ConnectButton />
                     <div className="w-full border-t border-white/10 pt-4">
-                        <p className="text-xs text-gray-500 mb-3">Or buy with other coins without connecting a wallet:</p>
+                        <p className="text-xs text-gray-500 mb-3">{t('presale.orBuyWith', { defaultValue: 'Or buy with other coins without connecting a wallet:' })}</p>
                         <div className="flex flex-wrap justify-center gap-2">
                             {COINS.filter(c => !c.isNative).slice(0, 4).map(coin => (
                                 <button key={coin.id} onClick={() => setSelectedCoin(coin)}
@@ -213,13 +213,13 @@ export const PresaleForm: React.FC = () => {
                         <div className="flex items-center gap-2 flex-wrap">
                             {isPresaleActive ? (
                                 <span className="flex items-center gap-1.5 px-3 py-1 bg-green-500/20 border border-green-500/50 text-green-300 rounded-full text-xs font-bold uppercase">
-                                    <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" /> Active
+                                    <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" /> {t('presale.active', { defaultValue: 'Active' })}
                                 </span>
                             ) : (
-                                <span className="flex items-center gap-1.5 px-3 py-1 bg-red-500/20 border border-red-500/50 text-red-300 rounded-full text-xs font-bold uppercase">Paused</span>
+                                <span className="flex items-center gap-1.5 px-3 py-1 bg-red-500/20 border border-red-500/50 text-red-300 rounded-full text-xs font-bold uppercase">{t('presale.paused', { defaultValue: 'Paused' })}</span>
                             )}
                             <span className="px-3 py-1 bg-white/10 border border-white/10 text-white rounded-full text-xs font-bold uppercase">
-                                {isPrivateSale ? 'Phase 1: Private' : 'Phase 2: Public'}
+                                {isPrivateSale ? t('presale.phase1', { defaultValue: 'Phase 1: Private' }) : t('presale.phase2', { defaultValue: 'Phase 2: Public' })}
                             </span>
                         </div>
                         {isConnected && (
@@ -233,15 +233,15 @@ export const PresaleForm: React.FC = () => {
                     <div className="flex flex-wrap p-1 bg-white/5 rounded-xl border border-white/10 gap-1">
                         <button onClick={() => setActiveTab('buy')}
                             className={`flex-1 py-2.5 px-2 min-w-[80px] rounded-lg text-xs sm:text-sm font-bold transition-all ${activeTab === 'buy' ? 'bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-lg' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}>
-                            BUY ZEX
+                            {t('presale.tabBuy', { defaultValue: 'BUY ZEX' })}
                         </button>
                         <button onClick={() => setActiveTab('referral')}
                             className={`flex-1 py-2.5 px-2 min-w-[80px] rounded-lg text-xs sm:text-sm font-bold transition-all ${activeTab === 'referral' ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-lg' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}>
-                            REFERRAL
+                            {t('presale.tabReferral', { defaultValue: 'REFERRAL' })}
                         </button>
                         <button onClick={() => setActiveTab('refund')}
                             className={`flex-1 py-2.5 px-2 min-w-[80px] rounded-lg text-xs sm:text-sm font-bold transition-all ${activeTab === 'refund' ? 'bg-red-500/20 border border-red-500/50 text-red-300 shadow-lg' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}>
-                            REFUND
+                            {t('presale.tabRefund', { defaultValue: 'REFUND' })}
                         </button>
                     </div>
 
@@ -249,7 +249,7 @@ export const PresaleForm: React.FC = () => {
                         <div className="space-y-4">
                             {/* Coin Selector */}
                             <div>
-                                <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Payment Method</label>
+                                <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">{t('presale.paymentMethod', { defaultValue: 'Payment Method' })}</label>
                                 <div className="relative">
                                     <button onClick={() => setShowCoinMenu(!showCoinMenu)}
                                         className="w-full flex items-center justify-between p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all">
@@ -295,7 +295,7 @@ export const PresaleForm: React.FC = () => {
                             {isNativePol && (
                                 <>
                                     <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
-                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Amount to Pay (POL)</label>
+                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">{t('presale.amountToPay', { defaultValue: 'Amount to Pay (POL)' })}</label>
                                         <div className="flex items-center">
                                             <input type="number" value={polAmount} onChange={e => setPolAmount(e.target.value)} placeholder="0.0"
                                                 className="w-full bg-transparent border-none text-3xl font-black text-white focus:outline-none" />
@@ -304,7 +304,7 @@ export const PresaleForm: React.FC = () => {
                                     </div>
                                     <div className="flex items-center justify-center p-1"><ArrowRight className="text-gray-500 w-5 h-5 rotate-90" /></div>
                                     <div className="p-4 bg-gradient-to-r from-teal-500/10 to-cyan-500/10 border border-cyan-500/30 rounded-2xl">
-                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Expected ZEX (Max)</label>
+                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">{t('presale.expectedZex', { defaultValue: 'Expected ZEX (Max)' })}</label>
                                         <div className="flex items-center">
                                             <input type="text" value={expectedZex.toLocaleString()} readOnly className="w-full bg-transparent border-none text-3xl font-black text-white focus:outline-none" />
                                             <span className="text-lg font-bold text-teal-400">ZEX</span>
@@ -312,11 +312,11 @@ export const PresaleForm: React.FC = () => {
                                         <div className="mt-2 text-xs text-cyan-300 font-medium">1 POL = {activeRate} ZEX</div>
                                     </div>
                                     {!isConnected ? (
-                                        <div className="flex flex-col items-center gap-3"><p className="text-xs text-gray-400">Connect wallet to buy with POL.</p><ConnectButton /></div>
+                                        <div className="flex flex-col items-center gap-3"><p className="text-xs text-gray-400">{t('presale.connectToBuy', { defaultValue: 'Connect wallet to buy with POL.' })}</p><ConnectButton /></div>
                                     ) : (
                                         <button disabled={true}
                                             className="w-full py-4 bg-gray-800 text-gray-500 rounded-xl font-bold text-lg shadow-xl cursor-not-allowed transition-all flex justify-center items-center gap-2">
-                                            Coming Soon
+                                            {t('presale.comingSoonBtn', { defaultValue: 'Coming Soon' })}
                                         </button>
                                     )}
                                 </>
@@ -326,7 +326,7 @@ export const PresaleForm: React.FC = () => {
                             {!isNativePol && (
                                 <>
                                     <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
-                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Amount to Spend (USD)</label>
+                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">{t('presale.amountToSpendUsd', { defaultValue: 'Amount to Spend (USD)' })}</label>
                                         <div className="flex items-center">
                                             <span className="text-2xl font-black text-gray-500 mr-2">$</span>
                                             <input type="number" value={usdAmount} onChange={e => setUsdAmount(e.target.value)} placeholder="100"
@@ -344,7 +344,7 @@ export const PresaleForm: React.FC = () => {
                                     </div>
                                     <div className="flex items-center justify-center p-1"><ArrowRight className="text-gray-500 w-5 h-5 rotate-90" /></div>
                                     <div className="p-4 bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/30 rounded-2xl">
-                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Expected ZEX (Est.)</label>
+                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">{t('presale.expectedZexEst', { defaultValue: 'Expected ZEX (Est.)' })}</label>
                                         <div className="flex items-center">
                                             <input type="text" value={expectedZexFromUsd.toLocaleString()} readOnly className="w-full bg-transparent border-none text-3xl font-black text-white focus:outline-none" />
                                             <span className="text-lg font-bold text-teal-400">ZEX</span>
@@ -355,25 +355,25 @@ export const PresaleForm: React.FC = () => {
                                     </div>
                                     {/* Buyer Wallet Address */}
                                     <div className="p-4 bg-white/5 border border-white/10 rounded-2xl">
-                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">Receiving Polygon Wallet Address</label>
+                                        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block">{t('presale.receivingAddress', { defaultValue: 'Receiving Polygon Wallet Address' })}</label>
                                         <input type="text" value={buyerWallet} onChange={e => setBuyerWallet(e.target.value.trim())}
                                             placeholder="0x..."
                                             className={`w-full bg-transparent border-none text-sm font-mono text-white focus:outline-none ${buyerWallet && !isValidWallet(buyerWallet) ? 'text-red-400' : ''}`} />
                                         {buyerWallet && !isValidWallet(buyerWallet) && (
-                                            <p className="text-[10px] text-red-400 mt-1">Invalid address — Must start with 0x and be 42 characters</p>
+                                            <p className="text-[10px] text-red-400 mt-1">{t('presale.invalidAddress', { defaultValue: 'Invalid address — Must start with 0x and be 42 characters' })}</p>
                                         )}
                                         {buyerWallet && isValidWallet(buyerWallet) && (
-                                            <p className="text-[10px] text-green-400 mt-1">✓ Valid Polygon address</p>
+                                            <p className="text-[10px] text-green-400 mt-1">{t('presale.validAddress', { defaultValue: '✓ Valid Polygon address' })}</p>
                                         )}
                                     </div>
                                     <div className="p-3 bg-purple-500/10 border border-purple-500/30 rounded-xl text-xs text-purple-200 leading-relaxed">
                                         <Zap className="w-3.5 h-3.5 inline mr-1 text-purple-400" />
-                                        After payment confirmation, your ZEX tokens will be <strong>automatically sent</strong> to the wallet address above.
+                                        {t('presale.afterPaymentDesc', { defaultValue: 'After payment confirmation, your ZEX tokens will be automatically sent to the wallet address above.' })}
                                     </div>
                                     {npError && <div className="p-2 bg-red-500/20 border border-red-500/50 rounded-lg text-xs text-red-300 text-center">{npError}</div>}
                                     <button disabled={true}
                                         className="w-full py-4 bg-gray-800 text-gray-500 rounded-xl font-bold text-lg shadow-xl cursor-not-allowed transition-all flex justify-center items-center gap-2">
-                                        Coming Soon
+                                        {t('presale.comingSoonBtn', { defaultValue: 'Coming Soon' })}
                                     </button>
                                 </>
                             )}
@@ -383,7 +383,7 @@ export const PresaleForm: React.FC = () => {
                     {activeTab === 'refund' && (
                         <div className="space-y-4">
                             <div className="p-4 bg-red-500/10 border border-red-500/30 rounded-2xl">
-                                <label className="text-xs font-bold text-red-300 uppercase tracking-widest block mb-2">ZEX to Refund</label>
+                                <label className="text-xs font-bold text-red-300 uppercase tracking-widest block mb-2">{t('presale.refundAmount', { defaultValue: 'ZEX to Refund' })}</label>
                                 <div className="flex items-center">
                                     <input type="number" value={refundAmount} onChange={e => setRefundAmount(e.target.value)} placeholder="0.0"
                                         className="w-full bg-transparent border-none text-3xl font-black text-white focus:outline-none" />
@@ -391,7 +391,7 @@ export const PresaleForm: React.FC = () => {
                                 </div>
                             </div>
                             <div className="p-3 bg-red-500/20 border border-red-500/50 rounded-xl mb-4 text-xs text-red-200 leading-relaxed font-medium">
-                                ⚠️ <strong className="text-red-400">15% of the refunded ZEX will be Burned</strong>, the remaining value will be transferred to your POL wallet.
+                                {t('presale.refundWarning', { defaultValue: '⚠️ 15% of the refunded ZEX will be Burned, the remaining value will be transferred to your POL wallet.' })}
                             </div>
                         </div>
                     )}
@@ -404,10 +404,10 @@ export const PresaleForm: React.FC = () => {
                                     <div className="p-2 bg-emerald-500/20 rounded-xl">
                                         <Users className="w-5 h-5 text-emerald-400" />
                                     </div>
-                                    <h3 className="text-lg font-bold text-white tracking-tight">Refer & Earn 5%</h3>
+                                    <h3 className="text-lg font-bold text-white tracking-tight">{t('presale.referTitle', { defaultValue: 'Refer & Earn 5%' })}</h3>
                                 </div>
                                 <p className="text-xs text-gray-300 mb-5 leading-relaxed relative z-10">
-                                    Invite friends and receive a <strong className="text-emerald-400">5% ZEX airdrop</strong> from their purchases! (Automated weekly distribution)
+                                    {t('presale.referDesc', { defaultValue: 'Invite friends and receive a 5% ZEX airdrop from their purchases! (Automated weekly distribution)' })}
                                 </p>
                                 
                                 {isConnected && address ? (
@@ -416,17 +416,17 @@ export const PresaleForm: React.FC = () => {
                                         <div className="grid grid-cols-2 gap-3">
                                             <div className="bg-black/40 border border-emerald-500/20 rounded-xl p-3 text-center">
                                                 <div className="text-xl font-black text-white">0</div>
-                                                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-1">Invited</div>
+                                                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-1">{t('presale.invited', { defaultValue: 'Invited' })}</div>
                                             </div>
                                             <div className="bg-black/40 border border-emerald-500/20 rounded-xl p-3 text-center relative">
-                                                <div className="absolute -top-2.5 -right-2 bg-yellow-500/20 text-yellow-300 border border-yellow-500/50 text-[9px] font-bold px-2 py-0.5 rounded-full shadow-lg whitespace-nowrap animate-pulse">+50 Bounty</div>
+                                                <div className="absolute -top-2.5 -right-2 bg-yellow-500/20 text-yellow-300 border border-yellow-500/50 text-[9px] font-bold px-2 py-0.5 rounded-full shadow-lg whitespace-nowrap animate-pulse animate-duration-1000">+50 Bounty</div>
                                                 <div className="text-xl font-black text-emerald-400">50</div>
-                                                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-1">ZEX Earned</div>
+                                                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-1">{t('presale.earned', { defaultValue: 'ZEX Earned' })}</div>
                                             </div>
                                         </div>
 
                                         <div className="space-y-2">
-                                            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Your Referral Link</label>
+                                            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{t('presale.referLink', { defaultValue: 'Your Referral Link' })}</label>
                                             <div className="flex items-center gap-2 bg-[#050510] border border-white/10 p-1.5 rounded-xl">
                                                 <div className="flex-1 px-3 py-2 bg-white/5 rounded-lg text-xs text-gray-300 font-mono truncate select-all">
                                                     https://zexai.io/?ref={address?.substring(0, 6)}...{address?.substring(address.length - 4)}
@@ -434,7 +434,7 @@ export const PresaleForm: React.FC = () => {
                                                 <button 
                                                     onClick={() => {
                                                         navigator.clipboard.writeText(`https://zexai.io/?ref=${address}`);
-                                                        alert("Referral link copied!");
+                                                        alert(t('presale.referLinkCopied', { defaultValue: 'Referral link copied!' }));
                                                     }}
                                                     className="p-2.5 bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-400 rounded-lg transition-colors border border-emerald-500/30"
                                                     title="Copy"
@@ -443,11 +443,11 @@ export const PresaleForm: React.FC = () => {
                                                 </button>
                                             </div>
                                         </div>
-                                        <p className="text-[10px] text-emerald-500/70 text-center font-medium">Earnings are automatically airdropped to your wallet every <strong className="text-emerald-400">Sunday</strong>.</p>
+                                        <p className="text-[10px] text-emerald-500/70 text-center font-medium">{t('presale.airdropSunday', { defaultValue: 'Earnings are automatically airdropped to your wallet every Sunday.' })}</p>
                                     </div>
                                 ) : (
                                     <button className="w-full py-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-gray-300 font-medium transition-colors flex items-center justify-center gap-2 text-sm relative z-10">
-                                        <LinkIcon className="w-4 h-4" /> Connect wallet to view your link
+                                        <LinkIcon className="w-4 h-4" /> {t('presale.connectToRefer', { defaultValue: 'Connect wallet to view your link' })}
                                     </button>
                                 )}
                             </div>

@@ -639,13 +639,13 @@ const Hero: React.FC = () => {
                                                 {/* Delivery Info Form - Required for all methods */}
                                                 <div className="bg-white/5 border border-white/10 rounded-2xl p-6 space-y-4">
                                                     <h4 className="text-sm font-bold text-gray-300 mb-4 flex items-center gap-2">
-                                                        <Box className="w-4 h-4 text-teal-400" /> Shipping & Delivery Information
+                                                        <Box className="w-4 h-4 text-teal-400" /> {t('robot.shippingTitle', { defaultValue: 'Shipping & Delivery Information' })}
                                                     </h4>
                                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                                        <input type="text" placeholder="Full Name" value={deliveryInfo.name} onChange={e => setDeliveryInfo({...deliveryInfo, name: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500" />
-                                                        <input type="email" placeholder="Email Address" value={deliveryInfo.email} onChange={e => setDeliveryInfo({...deliveryInfo, email: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500" />
-                                                        <input type="tel" placeholder="Phone Number" value={deliveryInfo.phone} onChange={e => setDeliveryInfo({...deliveryInfo, phone: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500 sm:col-span-2" />
-                                                        <textarea placeholder="Full Shipping Address" value={deliveryInfo.address} onChange={e => setDeliveryInfo({...deliveryInfo, address: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500 sm:col-span-2 min-h-[80px]" />
+                                                        <input type="text" placeholder={t('robot.shippingName', { defaultValue: 'Full Name' })} value={deliveryInfo.name} onChange={e => setDeliveryInfo({...deliveryInfo, name: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500" />
+                                                        <input type="email" placeholder={t('robot.shippingEmail', { defaultValue: 'Email Address' })} value={deliveryInfo.email} onChange={e => setDeliveryInfo({...deliveryInfo, email: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500" />
+                                                        <input type="tel" placeholder={t('robot.shippingPhone', { defaultValue: 'Phone Number' })} value={deliveryInfo.phone} onChange={e => setDeliveryInfo({...deliveryInfo, phone: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500 sm:col-span-2" />
+                                                        <textarea placeholder={t('robot.shippingAddress', { defaultValue: 'Full Shipping Address' })} value={deliveryInfo.address} onChange={e => setDeliveryInfo({...deliveryInfo, address: e.target.value})} className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-teal-500 sm:col-span-2 min-h-[80px]" />
                                                     </div>
                                                 </div>
 
@@ -656,9 +656,9 @@ const Hero: React.FC = () => {
                                                             className="w-full py-4 rounded-xl text-white font-bold text-lg transition-all flex items-center justify-center gap-2 bg-[#050510] border border-white/5 opacity-80 cursor-not-allowed shadow-[0_0_15px_rgba(255,255,255,0.03)]"
                                                         >
                                                             <ShoppingCart className="w-5 h-5 text-gray-500" /> 
-                                                            <span className="text-gray-400 tracking-wider">PHASE 2: UNLOCKING SOON</span>
+                                                            <span className="text-gray-400 tracking-wider">{t('robot.phase2Unlock', { defaultValue: 'PHASE 2: UNLOCKING SOON' })}</span>
                                                         </button>
-                                                        <p className="text-[11px] text-teal-500/70 mt-3 font-medium tracking-wide">Hardware allocation is strictly reserved for Phase 2 participants.</p>
+                                                        <p className="text-[11px] text-teal-500/70 mt-3 font-medium tracking-wide">{t('robot.phase2Desc', { defaultValue: 'Hardware allocation is strictly reserved for Phase 2 participants.' })}</p>
                                                     </div>
                                                 )}
 
@@ -666,10 +666,10 @@ const Hero: React.FC = () => {
                                                     <div className="bg-[#050510] border border-white/5 rounded-2xl p-6 text-center space-y-4">
                                                         <CreditCard className="w-12 h-12 text-gray-600 mx-auto opacity-50" />
                                                         <p className="text-sm text-gray-500 leading-relaxed">
-                                                            Seamless fiat integration via LemonSqueezy. Global credit & debit cards accepted.
+                                                            {t('robot.ccDescShort', { defaultValue: 'Seamless fiat integration via LemonSqueezy. Global credit & debit cards accepted.' })}
                                                         </p>
                                                         <button disabled className="w-full py-4 rounded-xl bg-[#030308] text-gray-500 font-bold text-sm tracking-widest transition-all cursor-not-allowed border border-white/5">
-                                                            PHASE 2 EXCLUSIVE
+                                                            {t('robot.phase2Exclusive', { defaultValue: 'PHASE 2 EXCLUSIVE' })}
                                                         </button>
                                                     </div>
                                                 )}
@@ -678,10 +678,10 @@ const Hero: React.FC = () => {
                                                     <div className="bg-[#050510] border border-white/5 rounded-2xl p-6 text-center space-y-4">
                                                         <Box className="w-12 h-12 text-teal-600 mx-auto opacity-50" />
                                                         <p className="text-sm text-gray-500 leading-relaxed">
-                                                            Process secure crypto transactions via Binance Pay or NOWPayments.
+                                                            {t('robot.bankDescShort', { defaultValue: 'Process secure crypto transactions via Binance Pay or NOWPayments.' })}
                                                         </p>
                                                         <button disabled className="w-full py-4 rounded-xl bg-[#030308] text-gray-500 font-bold text-sm tracking-widest transition-all cursor-not-allowed border border-white/5">
-                                                            PHASE 2 EXCLUSIVE
+                                                            {t('robot.phase2Exclusive', { defaultValue: 'PHASE 2 EXCLUSIVE' })}
                                                         </button>
                                                     </div>
                                                 )}

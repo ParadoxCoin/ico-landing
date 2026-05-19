@@ -115,7 +115,17 @@
     "payCCDesc": "Ödemenizi LemonSqueezy güvenli altyapısı ile gerçekleştirin. Tüm kredi ve banka kartları geçerlidir.",
     "payCCBtn": "Ödemeye Geç",
     "payBankDesc": "Binance Pay veya NOWPayments ile kripto ödemesi yapın. %5 ek indirim kazanın.",
-    "payBankBtn": "Kripto ile Öde"
+    "payBankBtn": "Kripto ile Öde",
+    "shippingTitle": "Kargo & Teslimat Bilgileri",
+    "shippingName": "Ad Soyad",
+    "shippingEmail": "E-posta Adresi",
+    "shippingPhone": "Telefon Numarası",
+    "shippingAddress": "Tam Teslimat Adresi",
+    "phase2Unlock": "FAZ 2: YAKINDA AÇILACAK",
+    "phase2Desc": "Donanım tahsisi kesinlikle Faz 2 katılımcılarına özeldir.",
+    "phase2Exclusive": "FAZ 2 ÖZEL",
+    "ccDescShort": "LemonSqueezy aracılığıyla sorunsuz ödeme. Tüm kredi ve banka kartları kabul edilir.",
+    "bankDescShort": "Binance Pay veya NOWPayments ile güvenli kripto işlemleri yapın."
   },
   "faq": {
     "title": "Sıkça Sorulan Sorular",
@@ -224,7 +234,10 @@
     "months": "Ay",
     "estimatedEarn": "Tahmini Kazanç",
     "totalReturn": "Toplam Bakiye",
-    "stakeBtn": "Onayla ve Hemen Stake Et"
+    "stakeBtn": "Onayla ve Hemen Stake Et",
+    "yearly": "APY (Yıllık)",
+    "comingSoon": "Yakında",
+    "disclaimer": "* Oranlar tahmindir ve protokol yönetişimine tabidir"
   },
   "gallery": {
     "badge": "Yeni Nesil Dijital Varlıklar",
@@ -301,5 +314,38 @@
     "Toplam 1 Milyar arzın %35'i ön satışa ayrılmıştır.",
     "Takım payı 1 yıl kilitlidir. Uzun vadeli vizyona sahibiz.",
     "Yol haritamız 2026 Q4'e kadar küresel genişlemede net bir plana sahiptir."
-  ]
+  ],
+  "presale": {
+    "portalTitle": "ZEX Ön Satış Portalı",
+    "portalDesc": "Ön Satış paneline erişmek için Polygon ağındaki cüzdanınızı bağlayın veya aşağıdan farklı bir coin seçin.",
+    "orBuyWith": "Veya cüzdan bağlamadan diğer coinlerle satın alın:",
+    "active": "Aktif",
+    "paused": "Durduruldu",
+    "phase1": "Aşama 1: Özel",
+    "phase2": "Aşama 2: Halka Açık",
+    "tabBuy": "ZEX SATIN AL",
+    "tabReferral": "REFERANS",
+    "tabRefund": "İADE",
+    "paymentMethod": "Ödeme Yöntemi",
+    "amountToPay": "Ödenecek Tutar (POL)",
+    "expectedZex": "Beklenen ZEX (Maks)",
+    "expectedZexEst": "Beklenen ZEX (Tahmini)",
+    "connectToBuy": "POL ile satın almak için cüzdanınızı bağlayın.",
+    "amountToSpendUsd": "Harcayacağınız Tutar (USD)",
+    "receivingAddress": "ZEX Alacak Polygon Cüzdan Adresi",
+    "invalidAddress": "Geçersiz adres — 0x ile başlamalı ve 42 karakter olmalıdır",
+    "validAddress": "✓ Geçerli Polygon adresi",
+    "afterPaymentDesc": "Ödeme onaylandıktan sonra ZEX tokenleriniz yukarıdaki cüzdan adresine otomatik olarak gönderilecektir.",
+    "referTitle": "Referans Ol & %5 Kazan",
+    "referDesc": "Arkadaşlarınızı davet edin ve satın alımlarından %5 ZEX airdrop kazanın! (Haftalık otomatik dağıtım)",
+    "invited": "Davet Edilen",
+    "earned": "Kazanılan ZEX",
+    "referLink": "Referans Linkiniz",
+    "referLinkCopied": "Referans linki kopyalandı!",
+    "airdropSunday": "Kazançlar her Pazar günü otomatik olarak cüzdanınıza airdrop edilir.",
+    "connectToRefer": "Linkinizi görmek için cüzdanınızı bağlayın",
+    "refundAmount": "İade Edilecek ZEX",
+    "refundWarning": "⚠️ İade edilen ZEX'in %15'i yakılacaktır, kalan değer POL cüzdanınıza aktarılacaktır.",
+    "comingSoonBtn": "Yakında"
+  }
 }

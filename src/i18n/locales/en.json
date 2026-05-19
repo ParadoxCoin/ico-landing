@@ -115,7 +115,17 @@
     "payCCDesc": "Safely process your payment via LemonSqueezy secure infrastructure. All major credit and debit cards accepted.",
     "payCCBtn": "Proceed to Checkout",
     "payBankDesc": "Pay with crypto via Binance Pay or NOWPayments. Get an extra 5% discount on your purchase.",
-    "payBankBtn": "Pay with Crypto"
+    "payBankBtn": "Pay with Crypto",
+    "shippingTitle": "Shipping & Delivery Information",
+    "shippingName": "Full Name",
+    "shippingEmail": "Email Address",
+    "shippingPhone": "Phone Number",
+    "shippingAddress": "Full Shipping Address",
+    "phase2Unlock": "PHASE 2: UNLOCKING SOON",
+    "phase2Desc": "Hardware allocation is strictly reserved for Phase 2 participants.",
+    "phase2Exclusive": "PHASE 2 EXCLUSIVE",
+    "ccDescShort": "Seamless fiat integration via LemonSqueezy. Global credit & debit cards accepted.",
+    "bankDescShort": "Process secure crypto transactions via Binance Pay or NOWPayments."
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -275,11 +285,47 @@
     "months": "Months",
     "estimatedEarn": "Estimated Earnings",
     "totalReturn": "Total Balance",
-    "stakeBtn": "Approve & Stake Now"
+    "stakeBtn": "Approve & Stake Now",
+    "yearly": "APY (Yearly)",
+    "comingSoon": "Coming Soon",
+    "disclaimer": "* Rates are estimated and subject to protocol governance"
   },
   "gallery": {
     "badge": "Next-Gen Digital Assets",
     "title": "AI Hologram Showcase",
     "subtitle": "Directly mint our corporate AI assets onto OpenSea and Zora. Each card is a unique fragment of the ZexAI neural network."
+  },
+  "presale": {
+    "portalTitle": "ZEX Presale Portal",
+    "portalDesc": "Connect your wallet on the Polygon network to access the Presale panel, or select a different coin below.",
+    "orBuyWith": "Or buy with other coins without connecting a wallet:",
+    "active": "Active",
+    "paused": "Paused",
+    "phase1": "Phase 1: Private",
+    "phase2": "Phase 2: Public",
+    "tabBuy": "BUY ZEX",
+    "tabReferral": "REFERRAL",
+    "tabRefund": "REFUND",
+    "paymentMethod": "Payment Method",
+    "amountToPay": "Amount to Pay (POL)",
+    "expectedZex": "Expected ZEX (Max)",
+    "expectedZexEst": "Expected ZEX (Est.)",
+    "connectToBuy": "Connect wallet to buy with POL.",
+    "amountToSpendUsd": "Amount to Spend (USD)",
+    "receivingAddress": "Receiving Polygon Wallet Address",
+    "invalidAddress": "Invalid address — Must start with 0x and be 42 characters",
+    "validAddress": "✓ Valid Polygon address",
+    "afterPaymentDesc": "After payment confirmation, your ZEX tokens will be automatically sent to the wallet address above.",
+    "referTitle": "Refer & Earn 5%",
+    "referDesc": "Invite friends and receive a 5% ZEX airdrop from their purchases! (Automated weekly distribution)",
+    "invited": "Invited",
+    "earned": "ZEX Earned",
+    "referLink": "Your Referral Link",
+    "referLinkCopied": "Referral link copied!",
+    "airdropSunday": "Earnings are automatically airdropped to your wallet every Sunday.",
+    "connectToRefer": "Connect wallet to view your link",
+    "refundAmount": "ZEX to Refund",
+    "refundWarning": "⚠️ 15% of the refunded ZEX will be Burned, the remaining value will be transferred to your POL wallet.",
+    "comingSoonBtn": "Coming Soon"
   }
 }
