@@ -188,14 +188,13 @@
     "q4i2": "Enterprise partnerships & B2B integrations",
     "q4i3": "Mobile app release (iOS & Android)",
     "q4i4": "CEX listings (Tier 1)",
-    "q4i5": "Autonomous Hardware & Unitree Integration (H1 2027)"
+    "q4i5": "Autonomous Hardware & Unitree Integration (H1 2027)",
+    "q5Title": "The Vision",
+    "q5i1": "Autonomous AI agent network",
+    "q5i2": "Cross-chain bridge (Ethereum, Solana)",
+    "q5i3": "Full DAO governance transition",
+    "q5i4": "Next-gen robot hardware (Gen 2)"
   },
-  "q5Title": "The Vision",
-  "q5i1": "Autonomous AI agent network",
-  "q5i2": "Cross-chain bridge (Ethereum, Solana)",
-  "q5i3": "Full DAO governance transition",
-  "q5i4": "Next-gen robot hardware (Gen 2)"
-},
   "neuralSync": {
     "badge": "Neural Sync",
     "load": "System Load",
