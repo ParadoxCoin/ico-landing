@@ -2,7 +2,7 @@
 **Livre Blanc Technique v2.0**
 
 ## 1. Résumé
-ZexAI is an écosystème SaaS multi-IA de qualité institutionnelle qui unifie la structure décentralisée du Web3, la puissance générative de l'Intelligence Artificielle et la technologie robotique Unitree dans un seul système autonome. Ce projet ne vise pas à vendre une vision ou à créer de la spéculation à court terme ("pump"), mais à construire directement l'avenir autonome du Web3 et de l'IA. En intégrant plus de 40 modèles d'IA de premier plan (Tier-1), la plateforme fournit une infrastructure intégrée où les utilisateurs peuvent instantanément monétiser leurs créations via des NFT. Grâce à son économie de jetons déflationniste ($ZEX), son modèle durable de partage des revenus et sa sécurité stricte de liquidité, ZexAI offre aux investisseurs à long terme un produit entièrement opérationnel qui privilégie la stabilité et une protection solide des investisseurs.
+ZexAI est un écosystème SaaS multi-IA de qualité institutionnelle qui unifie la structure décentralisée du Web3, la puissance générative de l'Intelligence Artificielle et la technologie robotique Unitree dans un seul système autonome. Ce projet ne vise pas à vendre une vision ou à créer de la spéculation à court terme ("pump"), mais à construire directement l'avenir autonome du Web3 et de l'IA. En intégrant plus de 40 modèles d'IA de premier plan (Tier-1), la plateforme fournit une infrastructure intégrée où les utilisateurs peuvent instantanément monétiser leurs créations via des NFT. Grâce à son économie de jetons déflationniste ($ZEX), son modèle durable de partage des revenus et sa sécurité stricte de liquidité, ZexAI offre aux investisseurs à long terme un produit entièrement opérationnel qui privilégie la stabilité et une protection solide des investisseurs.
 
 ## 2. Architecture de la Plateforme & Écosystème
 L'infrastructure de ZexAI couvre un large spectre, de la génération de contenu (texte, image, vidéo, audio) à l'intégration matérielle autonome.
@@ -26,7 +26,7 @@ Afin de garantir un avantage équitable et distinct pour notre communauté, le p
 ### 3.2. Modèle de Lancement Hybride & Politique de Remboursement
 *   **Lancement Officiel via Gempad :** Assure une crédibilité maximale et une visibilité mondiale.
 *   **Accès à la Plateforme ZexAI :** Un canal d'accès supplémentaire offrant des fonctionnalités avancées directement via notre plateforme native.
-*   **Option de Remboursement (Plateforme ZexAI Uniquement) :** Available pour une fenêtre de temps limitée exclusivement pour les acheteurs sur la plateforme ZexAI. Si un investisseur souhaite retirer ses fonds, une **pénalité de 15 % est déduite des jetons (qui est entièrement brûlée)**, et les fonds restants sont remboursés.
+*   **Option de Remboursement (Plateforme ZexAI Uniquement) :** Disponible pour une fenêtre de temps limitée exclusivement pour les acheteurs sur la plateforme ZexAI. Si un investisseur souhaite retirer ses fonds, une **pénalité de 15 % est déduite des jetons (qui est entièrement brûlée)**, et les fonds restants sont remboursés.
 
 ### 3.3. Sécurité de la Liquidité (DEX)
 Pour équilibrer sécurité et flexibilité :

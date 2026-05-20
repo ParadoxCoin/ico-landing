@@ -33,7 +33,7 @@ const COINS = [
   { id: 'eth', ticker: 'eth', name: 'ETH', network: 'Ethereum', color: '#627EEA', isNative: false },
 ];
 
-const ZEX_PRICE_USD = 0.009; // Private sale price
+const ZEX_PRICE_USD = 0.0012; // Presale price
 
 export const PresaleForm: React.FC = () => {
     const { t } = useTranslation();
@@ -68,8 +68,8 @@ export const PresaleForm: React.FC = () => {
     const { writeContract: writeApprove, data: approveTxHash, isPending: isApprovePending } = useWriteContract();
     const { isLoading: isApproveConfirming, isSuccess: isApproveSuccess } = useWaitForTransactionReceipt({ hash: approveTxHash });
 
-    const isPrivateSale = currentPriceData ? Number(currentPriceData) === 9 : true;
-    const activeRate = isPrivateSale ? 333 : 200;
+    const isPrivateSale = false;
+    const activeRate = 333;
     const zexAllowance = zexAllowanceData ? Number(formatEther(zexAllowanceData as bigint)) : 0;
 
     const recordReferral = async (eventType: 'welcome_bounty' | 'purchase_commission', amount: number) => {
@@ -218,8 +218,8 @@ export const PresaleForm: React.FC = () => {
                             ) : (
                                 <span className="flex items-center gap-1.5 px-3 py-1 bg-red-500/20 border border-red-500/50 text-red-300 rounded-full text-xs font-bold uppercase">{t('presale.paused', { defaultValue: 'Paused' })}</span>
                             )}
-                            <span className="px-3 py-1 bg-white/10 border border-white/10 text-white rounded-full text-xs font-bold uppercase">
-                                {isPrivateSale ? t('presale.phase1', { defaultValue: 'Phase 1: Private' }) : t('presale.phase2', { defaultValue: 'Phase 2: Public' })}
+                            <span className="px-3 py-1 bg-emerald-500/20 border border-emerald-500/30 text-emerald-300 rounded-full text-xs font-bold uppercase shadow-[0_0_15px_rgba(16,185,129,0.1)]">
+                                1 ZEX = $0.0012
                             </span>
                         </div>
                         {isConnected && (

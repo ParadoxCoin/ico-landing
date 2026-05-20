@@ -21,7 +21,7 @@ const ROBOT_MAX_SUPPLY = 50; // Reduced from 80 to 50 for Hyper-Exclusivity FOMO
 const PRESALE_ADDRESS = "0x3B1029B045D635447EFF6973e95156d9a1285480";
 const TOKEN_ADDRESS = "0x28De651aCA0f8584FA2E072cE7c1F4EE774a8B4a";
 const ROBOT_WALLET = "0xEFBDe0B0B3eA2d5C13103E396Ada1958e4A580e3";
-const ROBOT_PRICE_USD = 12500;
+const ROBOT_PRICE_USD = 13500;
 
 const PRESALE_ABI = [{ "inputs": [], "name": "getCurrentPrice", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "stateMutability": "view", "type": "function" }];
 const ERC20_ABI = [{ "inputs": [{ "internalType": "address", "name": "to", "type": "address" }, { "internalType": "uint256", "name": "amount", "type": "uint256" }], "name": "transfer", "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }], "stateMutability": "nonpayable", "type": "function" }];
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
         functionName: 'getCurrentPrice',
     });
 
-    const currentPriceUSD = currentPriceData ? Number(currentPriceData) / 1000 : 0.009; 
+    const currentPriceUSD = 0.0012; 
     const rawZexRequired = Math.floor(ROBOT_PRICE_USD / currentPriceUSD);
     const discountedZex = Math.floor(rawZexRequired * 0.9);
 
@@ -581,10 +581,11 @@ const Hero: React.FC = () => {
                                                 </div>
                                                 <div className="text-right">
                                                     <div className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400">
-                                                        $12,500 USD
+                                                        $13,500 USD
                                                     </div>
                                                     <div className="text-sm font-medium text-gray-400 flex items-center justify-end gap-2 mt-1">
-                                                        <span>≈ {discountedZex.toLocaleString()} ZEX</span>
+                                                        <span className="line-through text-gray-500">{rawZexRequired.toLocaleString()} ZEX</span>
+                                                        <span className="text-emerald-400 font-bold">≈ {discountedZex.toLocaleString()} ZEX</span>
                                                         <span className="text-xs bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded-full border border-emerald-500/30">
                                                             %10 İndirim
                                                         </span>

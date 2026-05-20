@@ -3,7 +3,7 @@ export const config = {
 };
 
 const ZEX_TOKEN_ADDRESS = '0x28De651aCA0f8584FA2E072cE7c1F4EE774a8B4a' as const;
-const ZEX_PRICE_USD = 0.009;
+const ZEX_PRICE_USD = 0.0012;
 const POLYGON_CHAIN_ID = 137;
 // --- SECURITY HARDENING: Private RPC Support ---
 // Fallback to public only if private RPC is not provided to prevent rate limits and manipulation
