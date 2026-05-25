@@ -119,7 +119,15 @@ const Hero: React.FC = () => {
             <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
                 {/* Background Elements */}
                 <div className="absolute inset-0 bg-[#060612]">
-                    <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay" />
+                    {/* Grain/noise texture — inline SVG data URI (no external dependency) */}
+                    <div
+                      className="absolute inset-0 opacity-20 mix-blend-overlay pointer-events-none"
+                      style={{
+                        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+                        backgroundRepeat: 'repeat',
+                        backgroundSize: '200px 200px',
+                      }}
+                    />
                     <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-teal-600/20 rounded-full blur-[120px]" />
                     <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-cyan-600/20 rounded-full blur-[150px]" />
                     <div className="absolute top-[40%] left-[60%] w-[30%] h-[30%] bg-emerald-600/10 rounded-full blur-[100px] animate-pulse" />
